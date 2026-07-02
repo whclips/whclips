@@ -308,8 +308,16 @@ form.contact-form{ display:flex; flex-direction:column; gap:1.5rem; }
 }
 .btn-submit:hover{ opacity:.88; }
 .form-success{
-  padding:2rem; border:1px solid var(--border); background:var(--bg-alt);
+  padding:2.5rem; border:1px solid var(--border); background:var(--bg-alt);
+}
+.form-success h3{
+  font-size:1.25rem; font-weight:700; color:#fff; margin-bottom:.75rem; letter-spacing:-0.02em;
+}
+.form-success p{
   font-size:.9375rem; color:var(--text-dim-55); line-height:1.625;
+}
+.form-error{
+  font-size:.8125rem; color:#f87171; line-height:1.5;
 }
 
 .careers-list{ display:flex; flex-direction:column; gap:0; }
