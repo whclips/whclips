@@ -1,4 +1,4 @@
-## helping industrial businesses harness data and technology to run smarter, safer, and more competitively. We are here to build capability that outlasts any single project  👋
+## helping industrial businesses harness data and technology to run smarter, safer, and more competitively. We are here to build capability that outlasts any single project 
 
 <!--
 **whclips/whclips** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
