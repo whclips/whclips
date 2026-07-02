@@ -39,13 +39,12 @@
     <div class="container page-body-inner">
 
       <!-- 
-        IMPORTANT: replace YOUR_FORM_ID below with the Formspree form ID
-        for applications. You can reuse your existing contact form ID, or
-        create a second Formspree form (recommended, so applications and
-        general enquiries land in separate inboxes/dashboards).
-        File uploads require enctype="multipart/form-data" below — already set.
+        IMPORTANT — three things to fill in:
+        1. YOUR_FORM_ID below → your Formspree application form ID
+        2. YOUR_CLOUD_NAME in the script below → your Cloudinary cloud name
+        3. YOUR_UPLOAD_PRESET in the script below → your unsigned upload preset name
       -->
-      <form class="contact-form" id="applyForm" action="https://formspree.io/f/mdarpwde" method="POST" enctype="multipart/form-data">
+      <form class="contact-form" id="applyForm" action="https://formspree.io/f/mdarpwde" method="POST">
         <div class="form-row">
           <label for="name">Full name</label>
           <input type="text" id="name" name="name" required>
@@ -71,6 +70,7 @@
           <input type="file" id="cv" name="cv" accept="application/pdf" required>
         </div>
         <input type="hidden" name="_replyto" value="">
+        <input type="hidden" name="cv_link" id="cvLinkField" value="">
         <div id="formError" class="form-error" hidden>Something went wrong sending your application — please try again, or email us directly.</div>
         <button type="submit" class="btn-submit" id="submitBtn">Submit application</button>
       </form>
@@ -117,21 +117,59 @@
 </footer>
 
 <script>
+  // ---- Fill these in ----
+  const CLOUDINARY_CLOUD_NAME = 'imwhaonu';
+  const CLOUDINARY_UPLOAD_PRESET = 'wh_clips_cvs';
+  // ------------------------
+
   const form = document.getElementById('applyForm');
   const successState = document.getElementById('successState');
   const formError = document.getElementById('formError');
   const submitBtn = document.getElementById('submitBtn');
+  const cvInput = document.getElementById('cv');
+  const cvLinkField = document.getElementById('cvLinkField');
 
   form.addEventListener('submit', async function (e) {
     e.preventDefault();
     formError.hidden = true;
+
+    const file = cvInput.files[0];
+    if (!file) {
+      formError.textContent = 'Please attach your CV as a PDF.';
+      formError.hidden = false;
+      return;
+    }
+    if (file.size > 10 * 1024 * 1024) {
+      formError.textContent = 'That file is over 10MB — please upload a smaller PDF.';
+      formError.hidden = false;
+      return;
+    }
+
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Submitting…';
 
     try {
+      // Step 1: upload the CV to Cloudinary, get back a public link
+      submitBtn.textContent = 'Uploading CV…';
+      const cloudForm = new FormData();
+      cloudForm.append('file', file);
+      cloudForm.append('upload_preset', CLOUDINARY_UPLOAD_PRESET);
+
+      const uploadRes = await fetch(
+        `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/raw/upload`,
+        { method: 'POST', body: cloudForm }
+      );
+      if (!uploadRes.ok) throw new Error('CV upload failed');
+      const uploadData = await uploadRes.json();
+      cvLinkField.value = uploadData.secure_url;
+
+      // Step 2: send the rest of the details + CV link to Formspree
+      submitBtn.textContent = 'Submitting application…';
+      const appFormData = new FormData(form);
+      appFormData.delete('cv'); // don't need to send the raw file to Formspree
+
       const response = await fetch(form.action, {
         method: 'POST',
-        body: new FormData(form),
+        body: appFormData,
         headers: { 'Accept': 'application/json' }
       });
 
@@ -142,6 +180,7 @@
         throw new Error('Form submission failed');
       }
     } catch (err) {
+      formError.textContent = 'Something went wrong sending your application — please try again, or email us directly.';
       formError.hidden = false;
       submitBtn.disabled = false;
       submitBtn.textContent = 'Submit application';
