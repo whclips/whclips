@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — WH Clips</title>
+<meta name="description" content="Get in touch with WH Clips about industrial automation, AI, and data integration for your operation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo">WH<span>C</span></a>
+      <nav class="main-nav">
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="index.html#industries" class="nav-link">Industries</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="contact.html" class="btn-contact">Contact</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Get in touch</p>
+      <h1>Let's talk about your operation.</h1>
+      <p>Tell us a bit about your site, your systems, and what's not working the way it should. We'll get back to you within one business day.</p>
+    </div>
+  </section>
+
+  <section class="page-body">
+    <div class="container page-body-inner">
+
+      <!-- 
+        IMPORTANT: replace YOUR_FORM_ID below with the ID Formspree
+        gave you, e.g. https://formspree.io/f/abcd1234
+      -->
+      <form class="contact-form" action="https://formspree.io/f/xwvdwrek" method="POST">
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="message">What can we help with?</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <!-- Sends replies straight to the sender's inbox when you hit reply in Formspree -->
+        <input type="hidden" name="_replyto" value="">
+        <button type="submit" class="btn-submit">Send message</button>
+      </form>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="footer-logo">WH<span>C</span></span>
+        <a href="https://www.linkedin.com/company/wh-clips" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Contact</h4>
+        <p>South Africa</p>
+        <p>whclips.co.za</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigation</h4>
+        <nav class="footer-nav">
+          <a href="index.html#about">About Us</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#industries">Industries</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <p class="copyright">© 2026 WH Clips.<br>All rights reserved.</p>
+        <p class="footer-tagline">Industrial automation, AI &amp; data integration for mining and manufacturing.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

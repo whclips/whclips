@@ -12,280 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --bg: #000000;
-    --bg-alt: #050505;
-    --border: #1a1a1a;
-    --text: #ffffff;
-    --text-dim-90: rgba(255,255,255,.9);
-    --text-dim-55: rgba(255,255,255,.55);
-    --text-dim-45: rgba(255,255,255,.45);
-    --text-dim-40: rgba(255,255,255,.40);
-    --text-dim-35: rgba(255,255,255,.35);
-    --text-dim-30: rgba(255,255,255,.30);
-    --text-dim-25: rgba(255,255,255,.25);
-    --text-dim-20: rgba(255,255,255,.20);
-    --text-dim-15: rgba(255,255,255,.15);
-    --accent: #6366f1;
-    --font: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
-  }
-  *,*::before,*::after{ box-sizing:border-box; margin:0; padding:0; }
-  html{ scroll-behavior:smooth; }
-  body{
-    background:var(--bg);
-    color:var(--text);
-    font-family:var(--font);
-    line-height:1.5;
-    -webkit-font-smoothing:antialiased;
-  }
-  img,video{ max-width:100%; display:block; }
-  a{ color:inherit; text-decoration:none; }
-  ul{ list-style:none; }
-  .container{ width:100%; max-width:1152px; margin:0 auto; padding:0 1.5rem; }
-  @media (min-width:768px){ .container{ padding:0 3rem; } }
-
-  /* Header */
-  header{
-    position:sticky; top:0; z-index:50;
-    background:rgba(0,0,0,.85);
-    backdrop-filter:blur(12px);
-    border-bottom:1px solid var(--border);
-  }
-  .header-inner{ display:flex; height:4rem; align-items:center; justify-content:space-between; }
-  .logo{ font-size:1.125rem; font-weight:700; letter-spacing:-0.02em; color:#fff; }
-  .logo span{ color:var(--accent); }
-  nav.main-nav{ display:none; align-items:center; gap:2rem; }
-  @media (min-width:768px){ nav.main-nav{ display:flex; } }
-  .nav-link{
-    font-size:.75rem; font-family:var(--font); font-weight:500;
-    letter-spacing:.12em; color:var(--text-dim-40); text-transform:uppercase;
-    transition:color .15s;
-  }
-  .nav-link:hover{ color:#fff; }
-  .btn-contact{
-    font-size:.875rem; font-weight:600; letter-spacing:.12em;
-    color:#fff; background:var(--accent); padding:.5rem 1.25rem;
-    transition:opacity .15s; text-transform:uppercase; font-size:.75rem;
-  }
-  .btn-contact:hover{ opacity:.85; }
-  .menu-btn{ display:inline-flex; background:none; border:0; color:var(--text-dim-45); cursor:pointer; padding:.5rem; }
-  @media (min-width:768px){ .menu-btn{ display:none; } }
-
-  /* Hero */
-  .hero{
-    position:relative; width:100%; min-height:100vh;
-    display:flex; flex-direction:column; justify-content:flex-end;
-    padding-bottom:6rem; overflow:hidden;
-  }
-  .hero video, .hero .hero-fallback{
-    position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;
-  }
-  .hero .hero-fallback{
-    background:
-      radial-gradient(circle at 20% 20%, rgba(99,102,241,.20), transparent 45%),
-      radial-gradient(circle at 80% 70%, rgba(99,102,241,.12), transparent 50%),
-      #050505;
-  }
-  .hero .scrim{
-    position:absolute; inset:0; z-index:1;
-    background:linear-gradient(rgba(0,0,0,.45) 0%, rgba(0,0,0,.72) 60%, rgba(0,0,0,.95) 100%);
-  }
-  .hero-content{ position:relative; z-index:2; }
-  .eyebrow{
-    font-size:.75rem; font-weight:500; letter-spacing:.2em; color:var(--accent);
-    margin-bottom:2rem; text-transform:uppercase;
-  }
-  .hero h1{
-    font-weight:800; line-height:.95; letter-spacing:-0.03em;
-    font-size:clamp(3rem, 9vw, 9rem); margin-bottom:2.5rem;
-  }
-  .hero h1 span{ display:block; }
-  .hero h1 .accent{ color:var(--accent); }
-  .hero-sub-row{
-    display:flex; flex-direction:column; gap:2rem;
-  }
-  @media (min-width:768px){ .hero-sub-row{ flex-direction:row; align-items:flex-end; } }
-  .hero-sub{ font-size:1rem; max-width:28rem; line-height:1.625; color:var(--text-dim-55); }
-  @media (min-width:768px){ .hero-sub{ font-size:1.125rem; } }
-  .btn-outline{
-    display:inline-flex; align-items:center; gap:.5rem;
-    font-size:.875rem; font-weight:600; color:#fff;
-    padding:.75rem 1.5rem; flex-shrink:0;
-    border:1px solid rgba(255,255,255,.25); background:transparent;
-    transition:background .15s, border-color .15s;
-    white-space:nowrap;
-  }
-  .btn-outline:hover{ background:rgba(255,255,255,.08); }
-  .scroll-tag{
-    position:absolute; bottom:2rem; right:2rem; z-index:2;
-    font-size:.75rem; letter-spacing:.15em; color:var(--text-dim-25);
-    writing-mode:vertical-rl;
-  }
-
-  /* Ticker */
-  .ticker-wrap{
-    overflow:hidden; padding:1rem 0;
-    border-top:1px solid var(--border); border-bottom:1px solid var(--border);
-    background:var(--bg);
-  }
-  .ticker-track{
-    display:flex; width:max-content;
-    animation:ticker 28s linear infinite;
-  }
-  .ticker-track:hover{ animation-play-state:paused; }
-  @keyframes ticker{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
-  .ticker-item{
-    font-size:.75rem; font-weight:500; letter-spacing:.15em;
-    padding:0 2rem; flex-shrink:0; color:var(--text-dim-20);
-    text-transform:uppercase; white-space:nowrap;
-  }
-  .ticker-item .dot{ margin-left:2rem; color:var(--accent); }
-
-  /* Section shell */
-  section{ padding:8rem 1.5rem; }
-  @media (min-width:768px){ section{ padding:8rem 3rem; } }
-  .section-head{ display:flex; align-items:center; gap:1rem; margin-bottom:4rem; }
-  .section-num{ font-size:.75rem; letter-spacing:.15em; color:var(--accent); flex-shrink:0; }
-  .section-rule{ height:1px; flex:1; background:var(--border); }
-  .section-label{ font-size:.75rem; letter-spacing:.15em; color:var(--text-dim-20); text-transform:uppercase; flex-shrink:0; }
-
-  /* Approach */
-  #approach{ background:var(--bg); }
-  .approach-row{
-    display:flex; flex-direction:column; gap:1.5rem; padding:3rem 0;
-    border-bottom:1px solid var(--border); cursor:default;
-  }
-  @media (min-width:768px){ .approach-row{ flex-direction:row; gap:4rem; } }
-  .approach-row:hover .approach-num{ color:var(--accent); opacity:1; }
-  .approach-num-wrap{ flex-shrink:0; }
-  @media (min-width:768px){ .approach-num-wrap{ width:4rem; } }
-  .approach-num{
-    font-size:2.25rem; font-weight:700; font-family:var(--font);
-    color:rgba(255,255,255,.08); transition:color .2s;
-  }
-  .approach-body{ flex:1; display:flex; flex-direction:column; gap:1.5rem; }
-  @media (min-width:768px){ .approach-body{ flex-direction:row; gap:4rem; } }
-  .approach-title{
-    font-size:1.25rem; font-weight:700; color:#fff;
-    letter-spacing:-0.02em; flex-shrink:0;
-  }
-  @media (min-width:768px){ .approach-title{ font-size:1.5rem; width:14rem; } }
-  .approach-text{ font-size:.875rem; line-height:1.625; color:var(--text-dim-45); }
-  @media (min-width:768px){ .approach-text{ max-width:36rem; } }
-
-  .result-row{
-    margin-top:4rem; display:flex; flex-direction:column; gap:2rem;
-  }
-  @media (min-width:768px){ .result-row{ flex-direction:row; align-items:center; gap:4rem; } }
-  .result-row h3{
-    font-size:1.5rem; font-weight:700; color:#fff; margin-bottom:1rem;
-    letter-spacing:-0.02em;
-  }
-  @media (min-width:768px){ .result-row h3{ font-size:1.875rem; } }
-  .result-row p{ font-size:.875rem; line-height:1.625; color:var(--text-dim-45); max-width:32rem; }
-  .link-arrow{
-    display:inline-flex; align-items:center; gap:.5rem;
-    font-size:.875rem; font-weight:600; color:var(--accent); flex-shrink:0;
-    transition:opacity .15s;
-  }
-  .link-arrow:hover{ opacity:.8; }
-
-  /* Services */
-  #services{ background:var(--bg-alt); }
-  .services-grid{
-    display:grid; grid-template-columns:1fr; gap:1px; background:var(--border);
-  }
-  @media (min-width:768px){ .services-grid{ grid-template-columns:repeat(2,1fr); } }
-  @media (min-width:1024px){ .services-grid{ grid-template-columns:repeat(3,1fr); } }
-  .service-card{
-    display:flex; flex-direction:column; padding:2rem;
-    background:var(--bg-alt); border:1px solid transparent; transition:border-color .15s;
-  }
-  .service-card:hover{ border-color:rgba(99,102,241,.5); }
-  .service-card h3{ font-size:1.125rem; font-weight:700; color:#fff; margin-bottom:.5rem; letter-spacing:-0.01em; }
-  .service-tagline{ font-size:.75rem; margin-bottom:1.5rem; line-height:1.625; color:var(--text-dim-30); font-style:italic; }
-  .service-list{ display:flex; flex-direction:column; gap:.75rem; flex:1; }
-  .service-list li{ display:flex; align-items:center; gap:.75rem; font-size:.875rem; color:var(--text-dim-40); }
-  .service-list .dot{ width:.25rem; height:.25rem; border-radius:9999px; background:var(--accent); flex-shrink:0; }
-  .card-learn{
-    margin-top:2rem; display:inline-flex; align-items:center; gap:.25rem;
-    font-size:.75rem; font-weight:500; letter-spacing:.15em; color:var(--text-dim-25);
-    text-transform:uppercase; transition:color .15s; align-self:flex-start;
-  }
-  .service-card:hover .card-learn{ color:var(--text-dim-55); }
-
-  /* Industries */
-  #industries{ background:var(--bg); }
-  .tags{ display:flex; flex-wrap:wrap; gap:.5rem; }
-  .tag{
-    font-size:.875rem; padding:.5rem 1rem; font-weight:500; transition:all .15s;
-    border:1px solid var(--border); color:var(--text-dim-40); background:transparent;
-  }
-  .tag.active{ background:var(--accent); color:#fff; border-color:var(--accent); }
-  .industries-note{ margin-top:2.5rem; font-size:.875rem; color:var(--text-dim-30); }
-  .industries-note a{ color:var(--accent); transition:opacity .15s; }
-  .industries-note a:hover{ opacity:.8; }
-
-  /* About */
-  #about{ background:var(--bg-alt); }
-  .about-grid{ display:grid; grid-template-columns:1fr; gap:5rem; }
-  @media (min-width:768px){ .about-grid{ grid-template-columns:1fr 1fr; } }
-  .about-grid h3{ font-size:1.5rem; font-weight:700; color:#fff; margin-bottom:1.5rem; letter-spacing:-0.02em; }
-  @media (min-width:768px){ .about-grid h3{ font-size:1.875rem; } }
-  .about-grid p{ font-size:.875rem; line-height:1.625; color:var(--text-dim-45); margin-bottom:2rem; }
-  .careers-line{ font-size:.875rem; color:var(--text-dim-30); }
-  .careers-line a{ color:var(--accent); }
-  .values-intro{ font-size:.75rem; margin-bottom:2rem; color:var(--text-dim-30); }
-  .value-row{
-    display:flex; align-items:center; gap:1.25rem; padding:1rem 0;
-    border-bottom:1px solid var(--border);
-  }
-  .value-row:last-child{ border-bottom:0; }
-  .value-num{ font-size:.75rem; font-variant-numeric:tabular-nums; color:var(--accent); }
-  .value-name{ font-size:.875rem; font-weight:500; color:#fff; }
-
-  /* CTA */
-  .cta{ background:var(--bg); border-top:1px solid var(--border); padding:10rem 1.5rem; }
-  @media (min-width:768px){ .cta{ padding:10rem 3rem; } }
-  .cta-inner{
-    display:flex; flex-direction:column; gap:2.5rem;
-  }
-  @media (min-width:768px){ .cta-inner{ flex-direction:row; align-items:flex-end; justify-content:space-between; } }
-  .cta h2{
-    font-weight:800; line-height:.95; letter-spacing:-0.03em;
-    font-size:clamp(2.5rem, 7vw, 7rem);
-  }
-  .cta h2 span{ display:block; }
-  .cta h2 .accent{ color:var(--accent); }
-  .btn-solid{
-    display:inline-flex; align-items:center; gap:.5rem;
-    font-size:.875rem; font-weight:600; color:#fff;
-    padding:1rem 2rem; flex-shrink:0;
-    background:var(--accent); border:1px solid var(--accent);
-    transition:opacity .15s; white-space:nowrap;
-  }
-  .btn-solid:hover{ opacity:.88; }
-
-  /* Footer */
-  footer{ background:var(--bg); border-top:1px solid var(--border); }
-  .footer-inner{ padding:4rem 1.5rem; }
-  @media (min-width:768px){ .footer-inner{ padding:4rem 3rem; } }
-  .footer-grid{ display:grid; grid-template-columns:1fr; gap:3rem; max-width:1152px; margin:0 auto; }
-  @media (min-width:768px){ .footer-grid{ grid-template-columns:repeat(4,1fr); } }
-  .footer-col{ display:flex; flex-direction:column; gap:1.25rem; }
-  .footer-logo{ font-size:1.125rem; font-weight:700; color:#fff; letter-spacing:-0.02em; }
-  .footer-logo span{ color:var(--accent); }
-  .social-link{ width:fit-content; color:var(--text-dim-25); transition:color .15s; }
-  .social-link:hover{ color:#fff; }
-  .footer-heading{ font-size:.75rem; letter-spacing:.15em; color:var(--text-dim-25); text-transform:uppercase; margin-bottom:.5rem; }
-  .footer-col p, .footer-col a{ font-size:.875rem; color:var(--text-dim-35); }
-  .footer-nav{ display:flex; flex-direction:column; gap:.75rem; }
-  .footer-nav a{ transition:color .15s; }
-  .footer-nav a:hover{ color:#fff; }
-  .copyright{ font-size:.75rem; color:var(--text-dim-20); }
-  .footer-tagline{ font-size:.75rem; line-height:1.625; color:var(--text-dim-15); }
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -297,7 +24,7 @@
         <a href="#services" class="nav-link">Services</a>
         <a href="#industries" class="nav-link">Industries</a>
         <a href="#about" class="nav-link">About</a>
-        <a href="/contact" class="btn-contact">Contact</a>
+        <a href="contact.html" class="btn-contact">Contact</a>
       </nav>
       <button class="menu-btn" aria-label="Toggle menu">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
@@ -324,7 +51,7 @@
       </h1>
       <div class="hero-sub-row">
         <p class="hero-sub">WH Clips delivers industrial automation, AI, and data integration solutions that modernize your operations and drive lasting results.</p>
-        <a href="/contact" class="btn-outline">Get Started
+        <a href="contact.html" class="btn-outline">Get Started
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
         </a>
       </div>
@@ -375,7 +102,7 @@
           <h3>The Result: Infrastructure You Can Trust</h3>
           <p>By pairing rigorous data engineering with a real understanding of your operations, we turn raw edge data into a foundation for decisions — one that keeps working long after the first deployment.</p>
         </div>
-        <a href="/contact" class="link-arrow">Get Started →
+        <a href="contact.html" class="link-arrow">Get Started →
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
         </a>
       </div>
@@ -459,7 +186,7 @@
         <span class="tag">Financial Services / Corporate</span>
       </div>
 
-      <p class="industries-note">Don't see your industry? <a href="/contact">Contact Us →</a></p>
+      <p class="industries-note">Don't see your industry? <a href="contact.html">Contact Us →</a></p>
     </div>
   </section>
 
@@ -476,7 +203,7 @@
         <div>
           <h3>Our Mission</h3>
           <p>To grow African talent and strengthen local economies. We do this by helping industrial businesses harness data and technology to run smarter, safer, and more competitively. We are here to build capability that outlasts any single project.</p>
-          <p class="careers-line">Interested in joining our team? <a href="/careers">Careers →</a></p>
+          <p class="careers-line">Interested in joining our team? <a href="careers.html">Careers →</a></p>
         </div>
         <div>
           <h3>Core Values</h3>
@@ -500,7 +227,7 @@
         <span>Ready for</span>
         <span class="accent">Transformation?</span>
       </h2>
-      <a href="/contact" class="btn-solid">Let's Go!
+      <a href="contact.html" class="btn-solid">Let's Go!
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
       </a>
     </div>
@@ -527,7 +254,7 @@
           <a href="#about">About Us</a>
           <a href="#services">Services</a>
           <a href="#industries">Industries</a>
-          <a href="/contact">Contact</a>
+          <a href="contact.html">Contact</a>
         </nav>
       </div>
       <div class="footer-col">
