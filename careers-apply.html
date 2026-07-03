@@ -12,17 +12,20 @@
 </head>
 <body>
 
-  
 <header>
   <div class="container">
     <div class="header-inner">
       <a href="index.html" class="logo">WH<span>C</span></a>
-      <nav class="main-nav">
+      <nav class="main-nav" id="mainNav">
         <a href="index.html#services" class="nav-link">Services</a>
         <a href="index.html#industries" class="nav-link">Industries</a>
         <a href="index.html#about" class="nav-link">About</a>
         <a href="contact.html" class="btn-contact">Contact</a>
       </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+        <svg class="icon-close" hidden width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
     </div>
   </div>
 </header>
@@ -188,6 +191,8 @@
     }
   });
 </script>
+
+<script src="nav.js"></script>
 
 </body>
 </html>
