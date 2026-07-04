@@ -290,7 +290,7 @@
   .footer-grid{ display:grid; grid-template-columns:1fr; gap:3rem; max-width:1152px; margin:0 auto; }
   @media (min-width:768px){ .footer-grid{ grid-template-columns:repeat(4,1fr); } }
   .footer-col{ display:flex; flex-direction:column; gap:1.25rem; }
-  .footer-logo{ font-size:1.125rem; font-weight:700; color:#fff; letter-spacing:-0.02em; }
+  .footer-logo{ font-size:1.125rem; font-weight:700; color:#fff; letter-spacing:-0.02em; display:flex; align-items:center; gap:.5rem; }
   .footer-logo span{ color:var(--accent); }
   .footer-logo-img{ height:2.5rem; width:auto; display:block; }
   .social-link{ width:fit-content; color:var(--text-dim-25); transition:color .15s; }
