@@ -38,8 +38,9 @@
     border-bottom:1px solid var(--border);
   }
   .header-inner{ display:flex; height:4rem; align-items:center; justify-content:space-between; }
-  .logo{ font-size:1.125rem; font-weight:700; letter-spacing:-0.02em; color:#fff; }
+  .logo{ font-size:1.125rem; font-weight:700; letter-spacing:-0.02em; color:#fff; display:flex; align-items:center; }
   .logo span{ color:var(--accent); }
+  .logo-img{ height:2.25rem; width:auto; display:block; }
   nav.main-nav{ display:none; align-items:center; gap:2rem; }
   @media (min-width:768px){ nav.main-nav{ display:flex; } }
   .nav-link{
@@ -289,6 +290,7 @@
   .footer-col{ display:flex; flex-direction:column; gap:1.25rem; }
   .footer-logo{ font-size:1.125rem; font-weight:700; color:#fff; letter-spacing:-0.02em; }
   .footer-logo span{ color:var(--accent); }
+  .footer-logo-img{ height:2.5rem; width:auto; display:block; }
   .social-link{ width:fit-content; color:var(--text-dim-25); transition:color .15s; }
   .social-link:hover{ color:#fff; }
   .footer-heading{ font-size:.75rem; letter-spacing:.15em; color:var(--text-dim-25); text-transform:uppercase; margin-bottom:.5rem; }

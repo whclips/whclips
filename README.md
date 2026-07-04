@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="WH Clips logo" width="160">
+</p>
+
 ## helping industrial businesses harness data and technology to run smarter, safer, and more competitively. We are here to build capability that outlasts any single project 
 
 <!--
