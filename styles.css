@@ -159,8 +159,8 @@
   .ticker-item .dot{ margin-left:2rem; color:var(--accent); }
 
   /* Section shell */
-  section{ padding:8rem 1.5rem; }
-  @media (min-width:768px){ section{ padding:8rem 3rem; } }
+  section{ padding:4.5rem 1.5rem; }
+  @media (min-width:768px){ section{ padding:5rem 3rem; } }
   .section-head{ display:flex; align-items:center; gap:1rem; margin-bottom:4rem; }
   .section-num{ font-size:.75rem; letter-spacing:.15em; color:var(--accent); flex-shrink:0; }
   .section-rule{ height:1px; flex:1; background:var(--border); }
