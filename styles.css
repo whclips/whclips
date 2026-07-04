@@ -93,9 +93,10 @@
     padding-bottom:6rem; overflow:hidden;
   }
   .hero video, .hero .hero-fallback{
-    position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;
+    position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
   }
-  .hero video{ filter:brightness(3.2) contrast(1.1) saturate(1.1); }
+  .hero video{ z-index:1; filter:brightness(3.2) contrast(1.1) saturate(1.1); }
+  .hero .hero-fallback{ z-index:0; }
   .hero .hero-fallback{
     background:
       radial-gradient(circle at 20% 20%, rgba(99,102,241,.20), transparent 45%),
