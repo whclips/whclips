@@ -239,6 +239,7 @@
     border:1px solid var(--border); color:var(--text-dim-40); background:transparent;
   }
   .tag.active{ background:var(--accent); color:#fff; border-color:var(--accent); }
+  .tag:hover{ background:rgba(99,102,241,.8); color:#fff; border-color:var(--accent); }
   .industries-note{ margin-top:2.5rem; font-size:.875rem; color:var(--text-dim-30); }
   .industries-note a{ color:var(--accent); transition:opacity .15s; }
   .industries-note a:hover{ opacity:.8; }
