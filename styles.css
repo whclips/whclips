@@ -297,6 +297,8 @@
   .social-link:hover{ color:#fff; }
   .footer-heading{ font-size:.75rem; letter-spacing:.15em; color:var(--text-dim-25); text-transform:uppercase; margin-bottom:.5rem; }
   .footer-col p, .footer-col a{ font-size:.875rem; color:var(--text-dim-35); }
+  .footer-email{ transition:color .15s; cursor:pointer; }
+  .footer-email:hover{ color:#fff; }
   .footer-nav{ display:flex; flex-direction:column; gap:.75rem; }
   .footer-nav a{ transition:color .15s; }
   .footer-nav a:hover{ color:#fff; }
