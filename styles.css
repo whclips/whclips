@@ -38,7 +38,7 @@
     border-bottom:1px solid var(--border);
   }
   .header-inner{ display:flex; height:4rem; align-items:center; justify-content:space-between; }
-  .logo{ font-size:1.125rem; font-weight:700; letter-spacing:-0.02em; color:#fff; display:flex; align-items:center; }
+  .logo{ font-size:1.125rem; font-weight:700; letter-spacing:-0.02em; color:#fff; display:flex; align-items:center; gap:.5rem; }
   .logo span{ color:var(--accent); }
   .logo-img{ height:2.25rem; width:auto; display:block; }
   nav.main-nav{ display:none; align-items:center; gap:2rem; }
