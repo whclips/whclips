@@ -3,10 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#3B5568">
 <title>Optimum Colliery — MES/SCADA and CMMS Dashboard</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/3.44.0/tabler-icons.min.css">
 <style>
   :root{
+    color-scheme: light;
     --surface-0:#F6F3EA; --surface-1:#ffffff; --surface-2:#ECE7D8;
     --text-primary:#3B5568; --text-secondary:#64798A; --text-muted:#93A3AF;
     --border:#DAD5C4; --border-strong:#C2BCA6; --border-accent:#F2A93B;
@@ -15,17 +18,6 @@
     --text-warning:#633806; --bg-warning:#faeeda; --fill-warning:#ba7517;
     --text-danger:#791f1f; --bg-danger:#fcebeb; --fill-danger:#e24b4a;
     --radius:8px; --font-sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-  }
-  @media (prefers-color-scheme: dark){
-    :root{
-      --surface-0:#1A1A1A; --surface-1:#242B30; --surface-2:#2C363D;
-      --text-primary:#E7ECEF; --text-secondary:#AAB9C2; --text-muted:#8A99A3;
-      --border:#3A444B; --border-strong:#4A555D; --border-accent:#F2A93B;
-      --text-accent:#F2C97A; --bg-accent:#3A2E12; --fill-accent:#F2A93B;
-      --text-success:#c0dd97; --bg-success:#27500a; --fill-success:#639922;
-      --text-warning:#fac775; --bg-warning:#633806; --fill-warning:#ba7517;
-      --text-danger:#f09595; --bg-danger:#501313; --fill-danger:#e24b4a;
-    }
   }
   *{box-sizing:border-box;}
   body{margin:0;padding:24px;background:var(--surface-0);color:var(--text-primary);font-family:var(--font-sans);}
