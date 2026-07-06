@@ -355,6 +355,14 @@ form.contact-form{ display:flex; flex-direction:column; gap:1.5rem; }
   font-size:.8125rem; color:#f87171; line-height:1.5;
 }
 
+.demo-gate{ margin-top:1rem; }
+.gate-form{ display:flex; flex-direction:column; gap:1.25rem; max-width:22rem; margin-top:1rem; }
+.gate-form[hidden]{ display:none; }
+.gate-form-intro{ font-size:.875rem; color:var(--text-dim-45); line-height:1.625; }
+.gate-success{ margin-top:1rem; font-size:.875rem; color:var(--text-dim-55); }
+.gate-success a{ color:var(--accent); }
+.gate-success a:hover{ opacity:.8; }
+
 .careers-list{ display:flex; flex-direction:column; gap:0; }
 .career-item{ padding:1.75rem 0; border-bottom:1px solid var(--border); }
 .career-item:last-child{ border-bottom:0; }

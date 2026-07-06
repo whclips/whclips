@@ -56,9 +56,42 @@
           <p class="meta">Liberty Coal · MES / SCADA / CMMS</p>
           <h3>Optimum Colliery — MES/SCADA &amp; CMMS Dashboard</h3>
           <p>A pit-to-rail operations platform built for Optimum Colliery, unifying mining, wash plant, stockyard, and rail data into a single live operating picture — production KPIs, equipment health, alarms, and maintenance work orders in one view, with a CMMS layer tying it all together.</p>
-          <a href="artifacts/optimum-colliery-mes-scada-dashboard.html" class="link-arrow" target="_blank" rel="noopener noreferrer">View Live Demo
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
-          </a>
+
+          <div class="demo-gate" id="demoGate">
+            <button type="button" class="link-arrow" id="gateRequestBtn">Request Demo Access
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+            </button>
+
+            <form class="gate-form" id="gateRequestForm" hidden>
+              <p class="gate-form-intro">Tell us a little about yourself and we'll email you a one-time access code.</p>
+              <div class="form-row">
+                <label for="gateName">Full name</label>
+                <input type="text" id="gateName" name="name" required>
+              </div>
+              <div class="form-row">
+                <label for="gateEmail">Email</label>
+                <input type="email" id="gateEmail" name="email" required>
+              </div>
+              <div class="form-row">
+                <label for="gateCompany">Company</label>
+                <input type="text" id="gateCompany" name="company">
+              </div>
+              <div id="gateRequestError" class="form-error" hidden></div>
+              <button type="submit" class="btn-submit" id="gateRequestSubmit">Send my access code</button>
+            </form>
+
+            <form class="gate-form" id="gateCodeForm" hidden>
+              <p class="gate-form-intro">Check your email for a 6-digit access code and enter it below.</p>
+              <div class="form-row">
+                <label for="gateCode">Access code</label>
+                <input type="text" id="gateCode" name="code" inputmode="numeric" maxlength="6" required>
+              </div>
+              <div id="gateCodeError" class="form-error" hidden></div>
+              <button type="submit" class="btn-submit" id="gateCodeSubmit">Verify &amp; view demo</button>
+            </form>
+
+            <p class="gate-success" id="gateSuccess" hidden>Access granted — the demo opened in a new tab. Didn't see it? <a href="#" id="gateReopenLink">Open it again</a>.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -98,6 +131,95 @@
 </footer>
 
 <script src="nav.js"></script>
+<script>
+  const GATE_API = "https://whclips-access-gate.green-mouse-5a6e.workers.dev";
+
+  const requestBtn = document.getElementById("gateRequestBtn");
+  const requestForm = document.getElementById("gateRequestForm");
+  const requestError = document.getElementById("gateRequestError");
+  const requestSubmit = document.getElementById("gateRequestSubmit");
+
+  const codeForm = document.getElementById("gateCodeForm");
+  const codeError = document.getElementById("gateCodeError");
+  const codeSubmit = document.getElementById("gateCodeSubmit");
+
+  const successMsg = document.getElementById("gateSuccess");
+  const reopenLink = document.getElementById("gateReopenLink");
+
+  let submittedEmail = "";
+  let accessToken = "";
+
+  requestBtn.addEventListener("click", function () {
+    requestBtn.hidden = true;
+    requestForm.hidden = false;
+  });
+
+  requestForm.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    requestError.hidden = true;
+    requestSubmit.disabled = true;
+    requestSubmit.textContent = "Sending…";
+
+    const name = document.getElementById("gateName").value.trim();
+    const email = document.getElementById("gateEmail").value.trim();
+    const company = document.getElementById("gateCompany").value.trim();
+
+    try {
+      const res = await fetch(`${GATE_API}/api/request-access`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, company }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Something went wrong.");
+
+      submittedEmail = email;
+      requestForm.hidden = true;
+      codeForm.hidden = false;
+    } catch (err) {
+      requestError.textContent = err.message;
+      requestError.hidden = false;
+    } finally {
+      requestSubmit.disabled = false;
+      requestSubmit.textContent = "Send my access code";
+    }
+  });
+
+  codeForm.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    codeError.hidden = true;
+    codeSubmit.disabled = true;
+    codeSubmit.textContent = "Verifying…";
+
+    const code = document.getElementById("gateCode").value.trim();
+
+    try {
+      const res = await fetch(`${GATE_API}/api/verify-code`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: submittedEmail, code }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Something went wrong.");
+
+      accessToken = data.token;
+      codeForm.hidden = true;
+      successMsg.hidden = false;
+      window.open(`${GATE_API}/demo?token=${accessToken}`, "_blank");
+    } catch (err) {
+      codeError.textContent = err.message;
+      codeError.hidden = false;
+    } finally {
+      codeSubmit.disabled = false;
+      codeSubmit.textContent = "Verify & view demo";
+    }
+  });
+
+  reopenLink.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.open(`${GATE_API}/demo?token=${accessToken}`, "_blank");
+  });
+</script>
 
 </body>
 </html>
