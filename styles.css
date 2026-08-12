@@ -209,6 +209,7 @@
     transition:opacity .15s;
   }
   .link-arrow:hover{ opacity:.8; }
+  .link-arrow[hidden]{ display:none; }
 
   /* Services */
   #services{ background:var(--bg-alt); }
