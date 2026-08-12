@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://whclips.co.za/sitemap.xml
