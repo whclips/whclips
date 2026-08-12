@@ -124,6 +124,7 @@
   @media (min-width:768px){ .hero-sub-row{ flex-direction:row; align-items:flex-end; } }
   .hero-sub{ font-size:1rem; max-width:28rem; line-height:1.625; color:var(--text-dim-55); }
   @media (min-width:768px){ .hero-sub{ font-size:1.125rem; } }
+  .hero-cta-row{ display:flex; align-items:center; gap:2rem; flex-wrap:wrap; }
   .btn-outline{
     display:inline-flex; align-items:center; gap:.5rem;
     font-size:.875rem; font-weight:600; color:#fff;
