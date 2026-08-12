@@ -266,6 +266,18 @@
     .teaser-text{ flex:1 1 auto; }
   }
 
+  /* HPE Partner teaser */
+  #hpe-partner-teaser{ padding:0 0 2.5rem; }
+  .hpe-badge{
+    display:inline-flex; align-items:center; gap:.625rem; flex-shrink:0; white-space:nowrap;
+  }
+  .hpe-logo{ height:1.25rem; width:auto; }
+  .hpe-badge span{
+    font-size:.75rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--text-dim-55);
+  }
+  .hpe-disclaimer{ margin-top:1rem; font-size:.6875rem; line-height:1.5; color:var(--text-dim-30); }
+
   /* About */
   #about{ background:var(--bg-alt); }
   .about-grid{ display:grid; grid-template-columns:1fr; gap:5rem; }
