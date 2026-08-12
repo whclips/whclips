@@ -247,6 +247,25 @@
   .industries-note a{ color:var(--accent); transition:opacity .15s; }
   .industries-note a:hover{ opacity:.8; }
 
+  /* Recent Work teaser */
+  #recent-work-teaser{ padding:2.5rem 0; }
+  .teaser-card{
+    display:flex; align-items:center; gap:1.5rem; flex-wrap:wrap;
+    padding:1.5rem 2rem; border:1px solid var(--border); border-radius:.5rem;
+    background:var(--bg-alt);
+    transition:border-color .2s, box-shadow .2s;
+  }
+  .teaser-card.teaser-relevant{
+    border-color:var(--accent);
+    box-shadow:0 0 0 1px var(--accent), 0 0 28px rgba(99,102,241,.25);
+  }
+  .teaser-logo{ height:1.75rem; width:auto; flex-shrink:0; }
+  .teaser-text{ flex:1 1 20rem; font-size:.9375rem; line-height:1.5; color:var(--text-dim-90); margin:0; }
+  @media (max-width:640px){
+    .teaser-card{ flex-direction:column; align-items:flex-start; }
+    .teaser-text{ flex:1 1 auto; }
+  }
+
   /* About */
   #about{ background:var(--bg-alt); }
   .about-grid{ display:grid; grid-template-columns:1fr; gap:5rem; }

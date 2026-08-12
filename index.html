@@ -230,7 +230,7 @@
       </div>
 
       <div class="tags">
-        <span class="tag">Mining Operations</span>
+        <span class="tag" data-industry="mining">Mining Operations</span>
         <span class="tag">Manufacturing / Process</span>
         <span class="tag">Energy</span>
         <span class="tag">Oil &amp; Gas</span>
@@ -242,11 +242,24 @@
     </div>
   </section>
 
+  <!-- Recent Work teaser -->
+  <section id="recent-work-teaser">
+    <div class="container">
+      <div class="teaser-card">
+        <img src="assets/liberty-coal-logo.png" alt="Liberty Coal" class="teaser-logo">
+        <p class="teaser-text">One live operating picture for a pit-to-rail coal operation — production, equipment health, and maintenance in a single view.</p>
+        <a href="clips.html" class="link-arrow">Recent Work
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- About -->
   <section id="about">
     <div class="container">
       <div class="section-head">
-        <span class="section-num">04</span>
+        <span class="section-num">05</span>
         <span class="section-rule"></span>
         <span class="section-label">About Us</span>
       </div>
@@ -332,6 +345,14 @@
     track.innerHTML = html;
   }
   renderTicker();
+
+  // Highlight the Recent Work teaser when hovering the industry tag it's relevant to
+  const miningTag = document.querySelector('.tag[data-industry="mining"]');
+  const teaserCard = document.querySelector('.teaser-card');
+  if (miningTag && teaserCard) {
+    miningTag.addEventListener('mouseenter', () => teaserCard.classList.add('teaser-relevant'));
+    miningTag.addEventListener('mouseleave', () => teaserCard.classList.remove('teaser-relevant'));
+  }
 </script>
 <script src="nav.js"></script>
 
