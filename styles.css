@@ -49,12 +49,13 @@
     transition:color .15s;
   }
   .nav-link:hover{ color:#fff; }
+  .main-nav > a.nav-link[href="clips.html"]{ color:var(--accent); }
   .btn-contact{
     font-size:.875rem; font-weight:600; letter-spacing:.12em;
-    color:#fff; background:var(--accent); padding:.5rem 1.25rem;
+    color:#fff; background:transparent; padding:.5rem 0;
     transition:opacity .15s; text-transform:uppercase; font-size:.75rem;
   }
-  .btn-contact:hover{ opacity:.85; }
+  .btn-contact:hover{ opacity:.7; }
   .menu-btn{ display:inline-flex; background:none; border:0; color:var(--text-dim-45); cursor:pointer; padding:.5rem; }
   @media (min-width:768px){ .menu-btn{ display:none; } }
 
@@ -374,6 +375,7 @@ form.contact-form{ display:flex; flex-direction:column; gap:1.5rem; }
 
 .clips-list{ display:flex; flex-direction:column; gap:0; }
 .clip-item{ padding:1.75rem 0; border-bottom:1px solid var(--border); }
+.clip-logo{ height:2rem; width:auto; border-radius:.25rem; margin-bottom:1rem; display:block; }
 .clip-item:last-child{ border-bottom:0; }
 .clip-item h3{ font-size:1.125rem; font-weight:700; color:#fff; margin-bottom:.375rem; }
 .clip-item .meta{ font-size:.75rem; letter-spacing:.1em; color:var(--accent); text-transform:uppercase; margin-bottom:.75rem; }
