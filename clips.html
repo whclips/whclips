@@ -94,6 +94,54 @@
             <p class="gate-success" id="gateSuccess" hidden>Access granted — the demo opened in a new tab. Didn't see it? <a href="#" id="gateReopenLink">Open it again</a>.</p>
           </div>
         </div>
+
+        <div class="clip-item">
+          <div class="hpe-badge">
+            <img src="assets/hpe-logo.svg" alt="HPE" class="hpe-logo">
+            <span>Partner</span>
+          </div>
+          <p class="meta">HPE · Morpheus VM Essentials</p>
+          <h3>HPE Morpheus VM Essentials in action</h3>
+          <p>Running HPE Morpheus VM Essentials alongside your existing VMware, cut virtualization licensing costs without a forced migration — the same functionality, licensed per-socket instead of per-core. A free HPE CloudPhysics assessment shows the real savings before you commit to anything.</p>
+
+          <div class="demo-gate" id="morpheusGate">
+            <button type="button" class="link-arrow" id="morpheusRequestBtn">Watch the video
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+            </button>
+
+            <form class="gate-form" id="morpheusRequestForm" hidden>
+              <p class="gate-form-intro">Tell us a little about yourself and we'll email you a one-time access code for the HPE Morpheus VM Essentials video.</p>
+              <div class="form-row">
+                <label for="morpheusName">Full name</label>
+                <input type="text" id="morpheusName" name="name" required>
+              </div>
+              <div class="form-row">
+                <label for="morpheusEmail">Email</label>
+                <input type="email" id="morpheusEmail" name="email" required>
+              </div>
+              <div class="form-row">
+                <label for="morpheusCompany">Company</label>
+                <input type="text" id="morpheusCompany" name="company">
+              </div>
+              <div id="morpheusRequestError" class="form-error" hidden></div>
+              <button type="submit" class="btn-submit" id="morpheusRequestSubmit">Send my access code</button>
+            </form>
+
+            <form class="gate-form" id="morpheusCodeForm" hidden>
+              <p class="gate-form-intro">Check your email for a 6-digit access code and enter it below.</p>
+              <div class="form-row">
+                <label for="morpheusCode">Access code</label>
+                <input type="text" id="morpheusCode" name="code" inputmode="numeric" maxlength="6" required>
+              </div>
+              <div id="morpheusCodeError" class="form-error" hidden></div>
+              <button type="submit" class="btn-submit" id="morpheusCodeSubmit">Verify &amp; watch video</button>
+            </form>
+
+            <p class="gate-success" id="morpheusSuccess" hidden>Access granted — the video opened in a new tab. Didn't see it? <a href="#" id="morpheusReopenLink">Open it again</a>.</p>
+          </div>
+
+          <p class="hpe-disclaimer">The information contained herein is subject to change without notice. The only warranties for HPE products and services are set forth in the express warranty statements accompanying such products and services. Nothing herein should be construed as constituting an additional warranty.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -219,6 +267,93 @@
   reopenLink.addEventListener("click", function (e) {
     e.preventDefault();
     window.open(`${GATE_API}/demo?token=${accessToken}`, "_blank");
+  });
+
+  // HPE Morpheus video access gate (same flow, separate ids, separate Worker route)
+  const morpheusRequestBtn = document.getElementById("morpheusRequestBtn");
+  const morpheusRequestForm = document.getElementById("morpheusRequestForm");
+  const morpheusRequestError = document.getElementById("morpheusRequestError");
+  const morpheusRequestSubmit = document.getElementById("morpheusRequestSubmit");
+
+  const morpheusCodeForm = document.getElementById("morpheusCodeForm");
+  const morpheusCodeError = document.getElementById("morpheusCodeError");
+  const morpheusCodeSubmit = document.getElementById("morpheusCodeSubmit");
+
+  const morpheusSuccess = document.getElementById("morpheusSuccess");
+  const morpheusReopenLink = document.getElementById("morpheusReopenLink");
+
+  let morpheusSubmittedEmail = "";
+  let morpheusAccessToken = "";
+
+  morpheusRequestBtn.addEventListener("click", function () {
+    morpheusRequestBtn.hidden = true;
+    morpheusRequestForm.hidden = false;
+  });
+
+  morpheusRequestForm.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    morpheusRequestError.hidden = true;
+    morpheusRequestSubmit.disabled = true;
+    morpheusRequestSubmit.textContent = "Sending…";
+
+    const name = document.getElementById("morpheusName").value.trim();
+    const email = document.getElementById("morpheusEmail").value.trim();
+    const company = document.getElementById("morpheusCompany").value.trim();
+
+    try {
+      const res = await fetch(`${GATE_API}/api/request-access`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, company, context: "the HPE Morpheus VM Essentials video" }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Something went wrong.");
+
+      morpheusSubmittedEmail = email;
+      morpheusRequestForm.hidden = true;
+      morpheusCodeForm.hidden = false;
+    } catch (err) {
+      morpheusRequestError.textContent = err.message;
+      morpheusRequestError.hidden = false;
+    } finally {
+      morpheusRequestSubmit.disabled = false;
+      morpheusRequestSubmit.textContent = "Send my access code";
+    }
+  });
+
+  morpheusCodeForm.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    morpheusCodeError.hidden = true;
+    morpheusCodeSubmit.disabled = true;
+    morpheusCodeSubmit.textContent = "Verifying…";
+
+    const code = document.getElementById("morpheusCode").value.trim();
+
+    try {
+      const res = await fetch(`${GATE_API}/api/verify-code`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: morpheusSubmittedEmail, code }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Something went wrong.");
+
+      morpheusAccessToken = data.token;
+      morpheusCodeForm.hidden = true;
+      morpheusSuccess.hidden = false;
+      window.open(`${GATE_API}/morpheus-video?token=${morpheusAccessToken}`, "_blank");
+    } catch (err) {
+      morpheusCodeError.textContent = err.message;
+      morpheusCodeError.hidden = false;
+    } finally {
+      morpheusCodeSubmit.disabled = false;
+      morpheusCodeSubmit.textContent = "Verify & watch video";
+    }
+  });
+
+  morpheusReopenLink.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.open(`${GATE_API}/morpheus-video?token=${morpheusAccessToken}`, "_blank");
   });
 </script>
 
