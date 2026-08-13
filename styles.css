@@ -168,7 +168,7 @@
   .section-head{ display:flex; align-items:center; gap:1rem; margin-bottom:4rem; }
   .section-num{ font-size:.875rem; letter-spacing:.1em; color:var(--accent); flex-shrink:0; }
   .section-rule{ height:1px; flex:1; background:var(--border); }
-  .section-label{ font-size:.875rem; letter-spacing:.1em; color:var(--text-dim-20); text-transform:uppercase; flex-shrink:0; }
+  .section-label{ font-size:.875rem; letter-spacing:.1em; color:var(--text-dim-55); text-transform:uppercase; flex-shrink:0; }
 
   /* Approach */
   #approach{ background:var(--bg); }
