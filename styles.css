@@ -157,7 +157,7 @@
   @keyframes ticker{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
   .ticker-item{
     font-size:.875rem; font-weight:500; letter-spacing:.1em;
-    padding:0 2rem; flex-shrink:0; color:var(--text-dim-55);
+    padding:0 2rem; flex-shrink:0; color:var(--text-dim-40);
     text-transform:uppercase; white-space:nowrap;
   }
   .ticker-item .dot{ margin-left:2rem; color:var(--accent); }
