@@ -156,8 +156,8 @@
   .ticker-track:hover{ animation-play-state:paused; }
   @keyframes ticker{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
   .ticker-item{
-    font-size:.75rem; font-weight:500; letter-spacing:.15em;
-    padding:0 2rem; flex-shrink:0; color:var(--text-dim-20);
+    font-size:.875rem; font-weight:500; letter-spacing:.1em;
+    padding:0 2rem; flex-shrink:0; color:var(--text-dim-55);
     text-transform:uppercase; white-space:nowrap;
   }
   .ticker-item .dot{ margin-left:2rem; color:var(--accent); }
