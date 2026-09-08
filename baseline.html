@@ -117,7 +117,11 @@
     background:rgba(0,0,0,.85); backdrop-filter:blur(12px);
     border-bottom:1px solid var(--sc-border);
   }
-  .site-chrome .container{ width:100%; max-width:1152px; margin:0 auto; padding:0 1.5rem; }
+  /* max-width:none keeps this header full-width, matching styles.css's
+     `header .container{max-width:none}` on the rest of the site. If the site
+     header changes there, mirror it here — this copy is deliberately scoped
+     and does not inherit from styles.css. */
+  .site-chrome .container{ width:100%; max-width:none; margin:0 auto; padding:0 1.5rem; }
   @media (min-width:768px){ .site-chrome .container{ padding:0 3rem; } }
   .site-chrome .header-inner{ display:flex; height:4rem; align-items:center; justify-content:space-between; position:relative; }
   .site-chrome .logo{ font-size:1.125rem; font-weight:700; letter-spacing:-0.02em; color:#fff; display:flex; align-items:center; gap:.5rem; border-bottom:0; }
