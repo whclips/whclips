@@ -27,8 +27,11 @@
   img,video{ max-width:100%; display:block; }
   a{ color:inherit; text-decoration:none; }
   ul{ list-style:none; }
-  .container{ width:100%; max-width:1152px; margin:0 auto; padding:0 1.5rem; }
+  .container{ width:100%; max-width:1440px; margin:0 auto; padding:0 1.5rem; }
   @media (min-width:768px){ .container{ padding:0 3rem; } }
+  /* The header spans the full screen so it lines up with the full-bleed hero
+     image, rather than floating in the middle of a wide monitor. */
+  header .container{ max-width:none; }
 
   /* Header */
   header{
@@ -92,7 +95,7 @@
   /* Hero */
   .hero{
     position:relative; width:100%; min-height:100vh;
-    display:flex; flex-direction:column; justify-content:flex-end;
+    display:flex; flex-direction:column; justify-content:center;
     padding-bottom:6rem; overflow:hidden;
   }
   .hero .hero-fallback, .hero .hero-electrons{
