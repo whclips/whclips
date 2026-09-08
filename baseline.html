@@ -14,6 +14,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
   :root{
@@ -103,16 +104,80 @@
   footer{border-top:1px solid var(--line);padding-top:18px;color:var(--mute);font-size:13.5px;max-width:70ch}
   .svg-ink{fill:var(--ink)} .svg-mute{fill:var(--mute)} .svg-line{stroke:var(--line)} .svg-accent{stroke:var(--accent)} .svg-accent-f{fill:var(--accent)} .svg-soft{fill:var(--accent-soft)} .svg-bg{fill:var(--bg)}
   @media (prefers-reduced-motion:no-preference){ .card,.claim{transition:border-color .2s} }
+
+  /* --- Site header, scoped so its tokens can't collide with this page's own --- */
+  .site-chrome{
+    --sc-bg:#000000; --sc-border:#1a1a1a; --sc-accent:#6366f1;
+    --sc-dim40:rgba(255,255,255,.40); --sc-dim45:rgba(255,255,255,.45);
+    --sc-font:"Inter",-apple-system,BlinkMacSystemFont,sans-serif;
+    font-family:var(--sc-font);
+  }
+  .site-chrome header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(0,0,0,.85); backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--sc-border);
+  }
+  .site-chrome .container{ width:100%; max-width:1152px; margin:0 auto; padding:0 1.5rem; }
+  @media (min-width:768px){ .site-chrome .container{ padding:0 3rem; } }
+  .site-chrome .header-inner{ display:flex; height:4rem; align-items:center; justify-content:space-between; position:relative; }
+  .site-chrome .logo{ font-size:1.125rem; font-weight:700; letter-spacing:-0.02em; color:#fff; display:flex; align-items:center; gap:.5rem; border-bottom:0; }
+  .site-chrome .logo span{ color:var(--sc-accent); }
+  .site-chrome .logo-img{ height:2.25rem; width:auto; display:block; }
+  .site-chrome nav.main-nav{ display:none; align-items:center; gap:2rem; }
+  @media (min-width:768px){ .site-chrome nav.main-nav{ display:flex; } }
+  .site-chrome .nav-link{
+    font-size:.75rem; font-family:var(--sc-font); font-weight:500;
+    letter-spacing:.12em; color:var(--sc-dim40); text-transform:uppercase;
+    transition:color .15s; border-bottom:0;
+  }
+  .site-chrome .nav-link:hover{ color:#fff; border-bottom:0; }
+  .site-chrome .main-nav > a.nav-link[href="baseline.html"]{ color:var(--sc-accent); }
+  .site-chrome .btn-contact{
+    font-size:.75rem; font-weight:600; letter-spacing:.12em;
+    color:#fff; background:transparent; padding:.5rem 0;
+    transition:opacity .15s; text-transform:uppercase; border-bottom:0;
+  }
+  .site-chrome .btn-contact:hover{ opacity:.7; border-bottom:0; }
+  .site-chrome .menu-btn{ display:inline-flex; background:none; border:0; color:var(--sc-dim45); cursor:pointer; padding:.5rem; }
+  @media (min-width:768px){ .site-chrome .menu-btn{ display:none; } }
+  .site-chrome .main-nav.mobile-open{
+    display:flex; position:absolute; top:100%; left:0; right:0;
+    flex-direction:column; align-items:flex-start; gap:0;
+    background:#000; border-bottom:1px solid var(--sc-border);
+    padding:.5rem 1.5rem 1.5rem; z-index:60;
+  }
+  .site-chrome .main-nav.mobile-open .nav-link{
+    width:100%; padding:1rem 0; border-bottom:1px solid var(--sc-border); font-size:.8125rem;
+  }
+  .site-chrome .main-nav.mobile-open .btn-contact{ margin-top:1rem; text-align:center; width:100%; }
 </style>
 </head>
 <body>
+<div class="site-chrome">
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <a href="/" class="logo"><img src="assets/logo.png" alt="WH Clips" class="logo-img">White Horse<span> Clips</span></a>
+        <nav class="main-nav" id="mainNav">
+          <a href="index.html#services" class="nav-link">Services</a>
+          <a href="index.html#industries" class="nav-link">Industries</a>
+          <a href="index.html#about" class="nav-link">About</a>
+          <a href="clips.html" class="nav-link">Recent Work</a>
+          <a href="baseline.html" class="nav-link">What We Do</a>
+          <a href="contact.html" class="btn-contact">Contact</a>
+        </nav>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+          <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+          <svg class="icon-close" hidden width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+
 <div class="page">
   <nav class="toc" aria-label="Sections">
     <a class="brand" href="/" aria-label="White Horse Clips home" style="text-decoration:none;color:inherit;"><div class="ring"><span></span></div><b>White Horse Clips</b></a>
-    <div style="display:flex; gap:16px; margin:-8px 0 22px; font-size:12.5px;">
-      <a href="/" style="color:var(--mute); border-bottom:0;">← whclips.co.za</a>
-      <a href="/contact.html" style="color:var(--accent); font-weight:600; border-bottom:0;">Contact us</a>
-    </div>
     <ol>
       <li><a href="#problem">The problem we solve</a></li>
       <li><a href="#customer">Do we understand the customer</a></li>
@@ -331,5 +396,6 @@
     <footer>White Horse Clips (Pty) Ltd &middot; September 2026. Operating results are drawn from the founder&rsquo;s record and are stated as delivered; the plant shown in the diagrams is an illustrative example, not a client. Every assumption here is open to challenge. Our thinking on the Unified Namespace and Industry 4.0 architecture is grounded in the body of work published by Walker Reynolds, <a href="https://www.40solutions.com">4.0 Solutions</a> and <a href="https://www.iiot.university">IIoT University</a>; the application to mining, and everything measured here, is our own.</footer>
   </main>
 </div>
+<script src="nav.js"></script>
 </body>
 </html>
