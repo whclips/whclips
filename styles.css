@@ -69,10 +69,12 @@
     flex-direction:column;
     align-items:flex-start;
     gap:0;
-    background:rgba(0,0,0,.97);
-    backdrop-filter:blur(12px);
+    /* Fully opaque: at 97% the hero's mix-blend-mode electrons bled through
+       the backdrop-filter, ghosting the hero headline behind the menu. */
+    background:#000;
     border-bottom:1px solid var(--border);
     padding:.5rem 1.5rem 1.5rem;
+    z-index:60;
   }
   .main-nav.mobile-open .nav-link{
     width:100%;
