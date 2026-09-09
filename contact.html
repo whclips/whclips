@@ -310,6 +310,8 @@
             <input type="email" id="tm-invoice-email" placeholder="Where the invoice should go">
             <label for="tm-invoice-vat">VAT number (optional)</label>
             <input type="text" id="tm-invoice-vat" placeholder="VAT number">
+            <label for="tm-invoice-details">Company information to display on invoice</label>
+            <textarea id="tm-invoice-details" placeholder="Registered company name, company registration number, billing address, and a PO or reference number if your accounts team needs one"></textarea>
           </div>
 
           <div id="tmAssetWrap" hidden>
@@ -395,7 +397,7 @@
     q1:'', q2:'', q3:'', q4:'', q5:'', pain:'', cost:'',
     name:'', company:'', email:'', phone:'',
     tier:'', commit:'', commitLabel:'', amount:'', asset:'',
-    invoiceEmail:'', invoiceVat:''
+    invoiceEmail:'', invoiceVat:'', invoiceDetails:''
   };
 
   var offerExpiresAt = null;   // ms epoch, or null until the Worker answers
@@ -658,6 +660,7 @@
     state.asset        = document.getElementById('tm-asset').value.trim();
     state.invoiceEmail = document.getElementById('tm-invoice-email').value.trim();
     state.invoiceVat   = document.getElementById('tm-invoice-vat').value.trim();
+    state.invoiceDetails = document.getElementById('tm-invoice-details').value.trim();
 
     submitError.hidden = true;
     submitBtn.disabled = true;
@@ -670,6 +673,7 @@
       pain: state.pain, cost: state.cost, asset: state.asset,
       tier: state.tier, commitLabel: state.commitLabel, amount: state.amount,
       invoiceEmail: state.invoiceEmail, invoiceVat: state.invoiceVat,
+      invoiceDetails: state.invoiceDetails,
       offerState: offerExpiresAt ? (offerLive ? 'open until ' + new Date(offerExpiresAt).toISOString() : 'closed') : 'unknown'
     };
 
