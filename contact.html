@@ -6,11 +6,137 @@
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="assets/logo.png">
 <title>Contact — WH Clips</title>
-<meta name="description" content="Get in touch with WH Clips about SCADA, MES, CMMS, and OT/IT data integration for your mining or manufacturing operation.">
+<meta name="description" content="Two minutes of questions about your assets and what they cost you, and we will tell you whether WH Clips can help. Industrial data integration for mining and manufacturing.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<style>
+  /* ---------------------------------------------------------------------
+     "Got two minutes?" qualification flow. Everything is scoped under .tm-
+     so it cannot collide with styles.css, and it reads the site's own
+     custom properties rather than redefining them.
+     --------------------------------------------------------------------- */
+  .tm-wrap{ padding:5rem 0 6rem; }
+  .tm-card{
+    width:100%; max-width:600px; margin:0 auto;
+    background:var(--bg-alt); border:1px solid var(--border);
+    border-radius:18px; padding:2.25rem 2rem;
+  }
+  .tm-progress{ display:flex; gap:.35rem; margin-bottom:2rem; }
+  .tm-progress i{ flex:1; height:3px; border-radius:2px; background:var(--text-dim-15); transition:background .2s; }
+  .tm-progress i.is-done{ background:var(--accent); }
+
+  .tm-step{ display:none; }
+  .tm-step.is-active{ display:block; animation:tmFade .25s ease; }
+  @keyframes tmFade{ from{ opacity:0; transform:translateY(6px); } to{ opacity:1; transform:translateY(0); } }
+  @media (prefers-reduced-motion:reduce){ .tm-step.is-active{ animation:none; } }
+
+  .tm-card h1{
+    font-size:1.6rem; font-weight:700; line-height:1.2;
+    margin:0 0 .65rem; letter-spacing:-.02em; text-wrap:balance; color:var(--text);
+  }
+  .tm-lead{ color:var(--text-dim-55); font-size:.95rem; line-height:1.6; margin:0 0 1.6rem; }
+  .tm-lead b{ color:var(--text); font-weight:600; }
+
+  .tm-card label{
+    display:block; font-size:.7rem; font-weight:600; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--text-dim-40); margin:1.1rem 0 .45rem;
+  }
+  .tm-card input,
+  .tm-card textarea{
+    width:100%; background:#0d0d0d; border:1px solid var(--border); border-radius:9px;
+    padding:.8rem .9rem; color:var(--text); font-family:var(--font); font-size:.95rem;
+  }
+  .tm-card textarea{ min-height:88px; resize:vertical; }
+  .tm-card input:focus,
+  .tm-card textarea:focus{ outline:none; border-color:var(--accent); }
+  .tm-card input::placeholder,
+  .tm-card textarea::placeholder{ color:var(--text-dim-25); }
+
+  .tm-opts{ display:flex; flex-direction:column; gap:.6rem; }
+  .tm-opt{
+    display:block; width:100%; text-align:left; cursor:pointer;
+    background:#0d0d0d; border:1px solid var(--border); border-radius:11px;
+    padding:.95rem 1rem; color:var(--text);
+    font-family:var(--font); font-size:.95rem; font-weight:600;
+    transition:border-color .15s, background .15s;
+  }
+  .tm-opt:hover{ border-color:var(--text-dim-30); }
+  .tm-opt.is-picked{ border-color:var(--accent); background:rgba(99,102,241,.09); }
+  .tm-opt b{ font-weight:700; }
+  .tm-sub{ display:block; margin-top:.25rem; font-size:.82rem; font-weight:400; color:var(--text-dim-45); line-height:1.45; }
+  .tm-sub-warn{ display:block; margin-top:.35rem; font-size:.78rem; font-weight:600; color:#f87171; }
+
+  .tm-qa{ padding:1rem 0; border-bottom:1px solid var(--border); }
+  .tm-qa:first-of-type{ padding-top:0; }
+  .tm-qa-text{ margin:0; font-size:.95rem; font-weight:600; line-height:1.5; color:var(--text); }
+  .tm-qa-sub{ display:block; margin-top:.3rem; font-size:.78rem; color:var(--text-dim-35); }
+  .tm-qa input{ margin-top:.7rem; }
+  .tm-yn{ display:flex; gap:.5rem; margin-top:.75rem; }
+  .tm-ynbtn{
+    flex:1; cursor:pointer; padding:.6rem; border-radius:9px;
+    background:#0d0d0d; border:1px solid var(--border); color:var(--text-dim-55);
+    font-family:var(--font); font-size:.85rem; font-weight:600;
+    transition:border-color .15s, color .15s, background .15s;
+  }
+  .tm-ynbtn:hover{ color:var(--text); }
+  .tm-ynbtn.is-picked{ border-color:var(--accent); background:rgba(99,102,241,.12); color:var(--text); }
+
+  .tm-offer{
+    display:block; margin:0 0 1.1rem; padding:.7rem .9rem; border-radius:9px;
+    font-size:.82rem; font-weight:600; line-height:1.45;
+    background:rgba(99,102,241,.1); border:1px solid rgba(99,102,241,.45); color:#c7c8fb;
+  }
+  .tm-offer.is-expired{ background:var(--text-dim-15); border-color:var(--border); color:var(--text-dim-45); }
+  .tm-offer-clock{ font-variant-numeric:tabular-nums; color:#fff; }
+
+  .tm-nav{ display:flex; gap:.6rem; margin-top:1.75rem; }
+  .tm-btn{
+    cursor:pointer; border-radius:9px; padding:.85rem 1.4rem;
+    font-family:var(--font); font-size:.85rem; font-weight:600; letter-spacing:.02em;
+    border:1px solid transparent; transition:opacity .15s, background .15s;
+  }
+  .tm-btn-primary{ flex:1; background:var(--accent); color:#fff; }
+  .tm-btn-primary:hover:not(:disabled){ background:#585bef; }
+  .tm-btn-primary:disabled{ opacity:.35; cursor:not-allowed; }
+  .tm-btn-ghost{ background:transparent; border-color:var(--border); color:var(--text-dim-55); }
+  .tm-btn-ghost:hover{ color:var(--text); border-color:var(--text-dim-30); }
+
+  .tm-error{
+    margin-top:1rem; padding:.7rem .85rem; border-radius:9px; font-size:.85rem;
+    background:rgba(248,113,113,.1); border:1px solid rgba(248,113,113,.4); color:#fca5a5;
+  }
+
+  .tm-thanks{ text-align:center; }
+  .tm-tick{
+    width:52px; height:52px; margin:0 auto 1.25rem; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(52,211,153,.12); border:1px solid rgba(52,211,153,.5); color:#34d399;
+  }
+  .tm-due{
+    margin:1.5rem 0 0; padding:1.1rem; border-radius:11px;
+    background:#0d0d0d; border:1px solid var(--border);
+  }
+  .tm-due-label{ display:block; font-size:.7rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--text-dim-40); }
+  .tm-due-amount{ display:block; margin-top:.4rem; font-size:1.75rem; font-weight:700; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+  .tm-due-to{ display:block; margin-top:.3rem; font-size:.82rem; color:var(--text-dim-45); }
+  .tm-status{ margin-top:1.25rem; font-size:.82rem; color:var(--text-dim-40); }
+
+  .tm-direct{
+    max-width:600px; margin:1.75rem auto 0; text-align:center;
+    font-size:.85rem; color:var(--text-dim-40); line-height:1.6;
+  }
+  .tm-direct a{ color:var(--text-dim-55); text-decoration:underline; text-underline-offset:3px; }
+  .tm-direct a:hover{ color:var(--text); }
+
+  @media (max-width:600px){
+    .tm-wrap{ padding:3rem 0 4rem; }
+    .tm-card{ padding:1.65rem 1.25rem; border-radius:14px; }
+    .tm-card h1{ font-size:1.35rem; }
+    .tm-nav{ flex-wrap:wrap; }
+  }
+</style>
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -40,87 +166,556 @@
     </div>
   </div>
 </header>
-
 <main>
-  <section class="page-hero">
+  <section class="tm-wrap">
     <div class="container">
-      <p class="eyebrow">Get in touch</p>
-      <h1>Let's talk about your operation.</h1>
-      <p>Tell us a bit about your site, your systems, and what's not working the way it should. We'll get back to you within one business day.</p>
-    </div>
-  </section>
 
-  <section class="page-body">
-    <div class="container page-body-inner">
+      <div class="tm-card">
+        <div class="tm-progress" id="tmProgress" aria-hidden="true"></div>
 
-      <!-- 
-        IMPORTANT: replace YOUR_FORM_ID below with the ID Formspree
-        gave you, e.g. https://formspree.io/f/abcd1234
-      -->
-      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xwvdwrek" method="POST">
-        <div class="form-row">
-          <label for="name">Full name</label>
-          <input type="text" id="name" name="name" required>
+        <!-- 0 - Welcome -->
+        <div class="tm-step is-active" data-step="0">
+          <h1>Got two minutes?</h1>
+          <p class="tm-lead">We connect what's already on your assets and in your business into one live picture &mdash; so you can see whether something's making money right now, and why. A few quick questions, then we'll follow up only if it's genuinely worth your time.</p>
+          <div class="tm-nav">
+            <button type="button" class="tm-btn tm-btn-primary" data-next>Let's go</button>
+          </div>
         </div>
-        <div class="form-row">
-          <label for="company">Company</label>
-          <input type="text" id="company" name="company">
-        </div>
-        <div class="form-row">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-row">
-          <label for="message">What can we help with?</label>
-          <textarea id="message" name="message" required></textarea>
-        </div>
-        <!-- Sends replies straight to the sender's inbox when you hit reply in Formspree -->
-        <input type="hidden" name="_replyto" value="">
-        <div id="formError" class="form-error" hidden>Something went wrong sending your message — please try again, or email us directly.</div>
-        <button type="submit" class="btn-submit" id="submitBtn">Send message</button>
-      </form>
 
-      <div class="form-success" id="successState" hidden>
-        <h3>Thank you for reaching out.</h3>
-        <p>We've received your message and will get back to you within one business day.</p>
-        <a href="index.html" class="btn-outline" style="margin-top:1.5rem;">← Back to home</a>
+        <!-- 1 - Business category -->
+        <div class="tm-step" data-step="1">
+          <h1>Which best describes your business?</h1>
+          <p class="tm-lead">Pick the closest fit.</p>
+          <div class="tm-opts" id="tmCatOptions">
+            <button type="button" class="tm-opt" data-val="oem">SA OEM<span class="tm-sub">You design or manufacture equipment</span></button>
+            <button type="button" class="tm-opt" data-val="supplier">Equipment Supplier<span class="tm-sub">You supply or distribute equipment</span></button>
+            <button type="button" class="tm-opt" data-val="contractor">Service Contractor<span class="tm-sub">You service or maintain equipment on site</span></button>
+          </div>
+          <div class="tm-nav">
+            <button type="button" class="tm-btn tm-btn-ghost" data-back>Back</button>
+            <button type="button" class="tm-btn tm-btn-primary" data-next disabled id="tmCatNext">Next</button>
+          </div>
+        </div>
+
+        <!-- 2 - Diagnostic, branches on category -->
+        <div class="tm-step" data-step="2">
+          <h1 id="tmDiagQuestion">Question</h1>
+          <p class="tm-lead" id="tmDiagLead"></p>
+          <div class="tm-opts" id="tmDiagOptions"></div>
+          <div class="tm-nav">
+            <button type="button" class="tm-btn tm-btn-ghost" data-back>Back</button>
+            <button type="button" class="tm-btn tm-btn-primary" data-next disabled id="tmDiagNext">Next</button>
+          </div>
+        </div>
+
+        <!-- 3 - Five quick questions -->
+        <div class="tm-step" data-step="3">
+          <h1>Five quick questions</h1>
+          <p class="tm-lead">Answer what applies &mdash; skip anything that doesn't.</p>
+
+          <div class="tm-qa">
+            <p class="tm-qa-text">&ldquo;Once this leaves your yard, do you know where it is and how hard it's working?&rdquo;</p>
+            <span class="tm-qa-sub">Fleet telemetry, condition monitoring, remote support</span>
+            <div class="tm-yn" data-q="q1">
+              <button type="button" class="tm-ynbtn" data-val="yes">Yes</button>
+              <button type="button" class="tm-ynbtn" data-val="no">No</button>
+            </div>
+          </div>
+
+          <div class="tm-qa">
+            <p class="tm-qa-text">&ldquo;When it breaks at 2am, how does the customer tell you, and how do you get the right tech with the right part there?&rdquo;</p>
+            <span class="tm-qa-sub">Service digitisation, CMMS, spares</span>
+            <input type="text" id="tm-q2" placeholder="Optional - answer if you'd like">
+          </div>
+
+          <div class="tm-qa">
+            <p class="tm-qa-text">&ldquo;Are your mine customers asking you for data into their SCADA or their collision-avoidance / Level 9 systems?&rdquo;</p>
+            <span class="tm-qa-sub">OEM data integration</span>
+            <div class="tm-yn" data-q="q3">
+              <button type="button" class="tm-ynbtn" data-val="yes">Yes</button>
+              <button type="button" class="tm-ynbtn" data-val="no">No</button>
+            </div>
+          </div>
+
+          <div class="tm-qa">
+            <p class="tm-qa-text">&ldquo;In your own factory, do you know today's OEE without a spreadsheet?&rdquo;</p>
+            <span class="tm-qa-sub">MES for your own plant</span>
+            <div class="tm-yn" data-q="q4">
+              <button type="button" class="tm-ynbtn" data-val="yes">Yes</button>
+              <button type="button" class="tm-ynbtn" data-val="no">No</button>
+            </div>
+          </div>
+
+          <div class="tm-qa">
+            <p class="tm-qa-text">&ldquo;What does your best technician know that isn't written down anywhere?&rdquo;</p>
+            <span class="tm-qa-sub">Industry 5.0 &mdash; skills capture, operator assistance, safety</span>
+            <input type="text" id="tm-q5" placeholder="Optional - answer if you'd like">
+          </div>
+
+          <label for="tm-pain">From the above, do you recall any known problems you would like to be worked on to improve your knowledge of your asset?</label>
+          <textarea id="tm-pain" placeholder="Type as much or as little as you like"></textarea>
+          <label for="tm-cost">Roughly, what did that cost you last year? (optional)</label>
+          <input type="text" id="tm-cost" placeholder="e.g. R500k, or not sure">
+
+          <div class="tm-nav">
+            <button type="button" class="tm-btn tm-btn-ghost" data-back>Back</button>
+            <button type="button" class="tm-btn tm-btn-primary" data-next>Next</button>
+          </div>
+        </div>
+
+        <!-- 4 - Contact capture -->
+        <div class="tm-step" data-step="4">
+          <h1>Where should we send it?</h1>
+          <p class="tm-lead">No spam &mdash; just a note if this is worth exploring further.</p>
+          <label for="tm-name">Your name</label>
+          <input type="text" id="tm-name" placeholder="Name" autocomplete="name">
+          <label for="tm-company">Company name</label>
+          <input type="text" id="tm-company" placeholder="Company" autocomplete="organization">
+          <label for="tm-email">Email</label>
+          <input type="email" id="tm-email" placeholder="Email" autocomplete="email">
+          <label for="tm-phone">Phone</label>
+          <input type="tel" id="tm-phone" placeholder="Phone" autocomplete="tel">
+          <div class="tm-error" id="tmContactError" hidden></div>
+          <div class="tm-nav">
+            <button type="button" class="tm-btn tm-btn-ghost" data-back>Back</button>
+            <button type="button" class="tm-btn tm-btn-primary" id="tmContactNext">Next</button>
+          </div>
+        </div>
+
+        <!-- 5 - Tiers -->
+        <div class="tm-step" data-step="5">
+          <h1>Our working solution</h1>
+          <div class="tm-offer" id="tmOfferBadge" hidden></div>
+          <p class="tm-lead">Pick which one fits &mdash; or tell us you're not ready to decide yet.</p>
+          <div class="tm-opts" id="tmTierOptions">
+            <button type="button" class="tm-opt" data-val="silver">Silver &mdash; <b>R14,990</b><span class="tm-sub">A paid assessment, design a working solution on selected asset.</span></button>
+            <button type="button" class="tm-opt" data-val="gold">Gold &mdash; <b>R74,950</b><span class="tm-sub">The assessment, the proof of real time knowledge graphs on a selected asset.</span></button>
+            <button type="button" class="tm-opt" data-val="platinum">Platinum<span class="tm-sub">The assessment, the proof, then a per-site subscription. Starts with a R5,000 consulting session to scope your site.</span></button>
+            <button type="button" class="tm-opt" data-val="undecided">I can't decide yet<span class="tm-sub">Send me the info, no pressure.</span><span class="tm-sub-warn" id="tmUndecidedWarn" hidden>Miss out on the 35% discount</span></button>
+          </div>
+          <div class="tm-nav">
+            <button type="button" class="tm-btn tm-btn-ghost" data-back>Back</button>
+            <button type="button" class="tm-btn tm-btn-primary" data-next disabled id="tmTierNext">Next</button>
+          </div>
+        </div>
+
+        <!-- 6 - Offer / commitment -->
+        <div class="tm-step" data-step="6">
+          <h1 id="tmOfferHeading">Ready to move on this?</h1>
+          <p class="tm-lead" id="tmOfferLead"></p>
+          <div class="tm-opts" id="tmCommitOptions"></div>
+
+          <div id="tmInvoiceWrap" hidden>
+            <label for="tm-invoice-email">Confirm your invoice email</label>
+            <input type="email" id="tm-invoice-email" placeholder="Where the invoice should go">
+            <label for="tm-invoice-vat">VAT number (optional)</label>
+            <input type="text" id="tm-invoice-vat" placeholder="VAT number">
+          </div>
+
+          <div id="tmAssetWrap" hidden>
+            <label for="tm-asset">Where is your pain point?</label>
+            <textarea id="tm-asset" placeholder="Which asset or line should the proof go on?"></textarea>
+          </div>
+
+          <div class="tm-error" id="tmSubmitError" hidden></div>
+          <div class="tm-nav">
+            <button type="button" class="tm-btn tm-btn-ghost" data-back>Back</button>
+            <button type="button" class="tm-btn tm-btn-primary" id="tmSubmitBtn">Finish</button>
+          </div>
+        </div>
+
+        <!-- 7 - Thanks -->
+        <div class="tm-step tm-thanks" data-step="7">
+          <div class="tm-tick" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <h1>Thanks &mdash; that's exactly what we needed.</h1>
+          <p class="tm-lead">If it's a fit, the usual next step is a paid assessment on one asset before anything bigger. Someone from White Horse Clips will follow up.</p>
+          <div class="tm-due" id="tmDueBlock" hidden>
+            <span class="tm-due-label" id="tmDueLabel">We'll email your invoice for</span>
+            <span class="tm-due-amount" id="tmDueAmount"></span>
+            <span class="tm-due-to" id="tmDueTo"></span>
+          </div>
+          <p class="tm-status" id="tmStatus"></p>
+        </div>
       </div>
+
+      <p class="tm-direct">Something else &mdash; an RFQ, a partner or supplier query, or a job application? Email <a href="mailto:info@whclips.co.za">info@whclips.co.za</a>.</p>
 
     </div>
   </section>
 </main>
 
 <script>
-  const form = document.getElementById('contactForm');
-  const successState = document.getElementById('successState');
-  const formError = document.getElementById('formError');
-  const submitBtn = document.getElementById('submitBtn');
+(function(){
+  'use strict';
 
-  form.addEventListener('submit', async function (e) {
-    e.preventDefault();
-    formError.hidden = true;
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending…';
+  // The access-gate Worker also carries this page's lead endpoint. It already
+  // holds the Resend secret and already allows this origin via CORS, so there
+  // is no second Worker and no API key anywhere in this public page.
+  var API = 'https://whclips-access-gate.green-mouse-5a6e.workers.dev';
 
-    try {
-      const response = await fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { 'Accept': 'application/json' }
-      });
+  var TOTAL_STEPS = 8;
+  var DISCOUNT = 0.35;
 
-      if (response.ok) {
-        form.hidden = true;
-        successState.hidden = false;
-      } else {
-        throw new Error('Form submission failed');
-      }
-    } catch (err) {
-      formError.hidden = false;
-      submitBtn.disabled = false;
-      submitBtn.textContent = 'Send message';
+  var PRICES = { silver: 14990, gold: 74950, platinum: 5000 };
+
+  var DIAG = {
+    oem: {
+      q: 'Once it leaves your yard...',
+      lead: 'Can you, or your customer, tell whether one of your assets is making money right now?',
+      options: [
+        { val:'yes',       label:'Yes, always',  sub:'We already track this well' },
+        { val:'sometimes', label:'Sometimes',    sub:'Depends on the site or the asset' },
+        { val:'no',        label:'Not really',   sub:'We only find out after the fact' }
+      ]
+    },
+    supplier: {
+      q: 'Once it leaves your yard...',
+      lead: 'Can you, or your customer, tell whether one of your assets is making money right now?',
+      options: [
+        { val:'yes',       label:'Yes, always',  sub:'We already track this well' },
+        { val:'sometimes', label:'Sometimes',    sub:'Depends on the site or the asset' },
+        { val:'no',        label:'Not really',   sub:'We only find out after the fact' }
+      ]
+    },
+    contractor: {
+      q: 'When an asset fails...',
+      lead: 'How far ahead do you usually know, before the customer calls?',
+      options: [
+        { val:'days',  label:'Days ahead',        sub:'We catch it early most of the time' },
+        { val:'hours', label:'A few hours ahead', sub:'Some warning, not much' },
+        { val:'call',  label:'When they call',    sub:'That is the first we hear of it' }
+      ]
     }
+  };
+
+  var state = {
+    category:'', categoryLabel:'', diag:'', diagLabel:'',
+    q1:'', q2:'', q3:'', q4:'', q5:'', pain:'', cost:'',
+    name:'', company:'', email:'', phone:'',
+    tier:'', commit:'', commitLabel:'', amount:'', asset:'',
+    invoiceEmail:'', invoiceVat:''
+  };
+
+  var offerExpiresAt = null;   // ms epoch, or null until the Worker answers
+  var offerLive = false;
+  var clockTimer = null;
+
+  var steps    = [].slice.call(document.querySelectorAll('.tm-step'));
+  var progress = document.getElementById('tmProgress');
+  var current  = 0;
+
+  for (var i = 0; i < TOTAL_STEPS; i++) progress.appendChild(document.createElement('i'));
+
+  function renderProgress(){
+    [].forEach.call(progress.children, function(dot, idx){
+      dot.classList.toggle('is-done', idx <= current);
+    });
+  }
+
+  function goTo(idx){
+    if (idx < 0 || idx > TOTAL_STEPS - 1) return;
+    current = idx;
+    steps.forEach(function(s){
+      s.classList.toggle('is-active', Number(s.getAttribute('data-step')) === idx);
+    });
+    renderProgress();
+    var card = document.querySelector('.tm-card');
+    if (card) window.scrollTo({ top: Math.max(0, card.offsetTop - 90), behavior:'smooth' });
+  }
+
+  document.querySelectorAll('[data-next]').forEach(function(b){
+    b.addEventListener('click', function(){ goTo(current + 1); });
   });
+  document.querySelectorAll('[data-back]').forEach(function(b){
+    b.addEventListener('click', function(){ goTo(current - 1); });
+  });
+
+  function pickOne(container, cb){
+    container.addEventListener('click', function(e){
+      var opt = e.target.closest('.tm-opt');
+      if (!opt || !container.contains(opt)) return;
+      [].forEach.call(container.querySelectorAll('.tm-opt'), function(o){ o.classList.remove('is-picked'); });
+      opt.classList.add('is-picked');
+      cb(opt.getAttribute('data-val'), opt);
+    });
+  }
+
+  function money(n){
+    return 'R' + n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',').replace(/\.00$/, '');
+  }
+
+  // ---- Step 1: category -------------------------------------------------
+  var catNext = document.getElementById('tmCatNext');
+  pickOne(document.getElementById('tmCatOptions'), function(val, opt){
+    state.category = val;
+    state.categoryLabel = opt.childNodes[0].textContent.trim();
+    catNext.disabled = false;
+    renderDiag();
+  });
+
+  // ---- Step 2: diagnostic ----------------------------------------------
+  var diagNext = document.getElementById('tmDiagNext');
+  var diagOptions = document.getElementById('tmDiagOptions');
+
+  function renderDiag(){
+    var d = DIAG[state.category];
+    if (!d) return;
+    document.getElementById('tmDiagQuestion').textContent = d.q;
+    document.getElementById('tmDiagLead').textContent = d.lead;
+    diagOptions.innerHTML = '';
+    d.options.forEach(function(o){
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'tm-opt'; b.setAttribute('data-val', o.val);
+      b.textContent = o.label;
+      var s = document.createElement('span');
+      s.className = 'tm-sub'; s.textContent = o.sub;
+      b.appendChild(s);
+      diagOptions.appendChild(b);
+    });
+    state.diag = ''; state.diagLabel = ''; diagNext.disabled = true;
+  }
+
+  pickOne(diagOptions, function(val, opt){
+    state.diag = val;
+    state.diagLabel = opt.childNodes[0].textContent.trim();
+    diagNext.disabled = false;
+  });
+
+  // ---- Step 3: five questions ------------------------------------------
+  document.querySelectorAll('.tm-yn').forEach(function(row){
+    row.addEventListener('click', function(e){
+      var btn = e.target.closest('.tm-ynbtn');
+      if (!btn) return;
+      [].forEach.call(row.querySelectorAll('.tm-ynbtn'), function(b){ b.classList.remove('is-picked'); });
+      btn.classList.add('is-picked');
+      state[row.getAttribute('data-q')] = btn.getAttribute('data-val');
+    });
+  });
+
+  // ---- Step 4: contact --------------------------------------------------
+  var contactError = document.getElementById('tmContactError');
+  document.getElementById('tmContactNext').addEventListener('click', function(){
+    state.q2   = document.getElementById('tm-q2').value.trim();
+    state.q5   = document.getElementById('tm-q5').value.trim();
+    state.pain = document.getElementById('tm-pain').value.trim();
+    state.cost = document.getElementById('tm-cost').value.trim();
+
+    state.name    = document.getElementById('tm-name').value.trim();
+    state.company = document.getElementById('tm-company').value.trim();
+    state.email   = document.getElementById('tm-email').value.trim();
+    state.phone   = document.getElementById('tm-phone').value.trim();
+
+    var problems = [];
+    if (!state.name) problems.push('your name');
+    if (!state.company) problems.push('your company');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(state.email)) problems.push('a valid email address');
+
+    if (problems.length){
+      contactError.textContent = 'We still need ' + problems.join(', ') + '.';
+      contactError.hidden = false;
+      return;
+    }
+    contactError.hidden = true;
+    document.getElementById('tm-invoice-email').value = state.email;
+    goTo(current + 1);
+  });
+
+  // ---- The 15-hour offer window ----------------------------------------
+  // Held per visitor IP in the Worker's KV (localStorage only mirrors it so
+  // the clock survives a reload). An office behind one NAT shares a window
+  // and mobile IPs rotate: it is a nudge, not an identity check.
+  var offerBadge = document.getElementById('tmOfferBadge');
+
+  function paintClock(){
+    if (!offerExpiresAt) return;
+    var left = offerExpiresAt - Date.now();
+    if (left <= 0){
+      offerLive = false;
+      offerBadge.className = 'tm-offer is-expired';
+      offerBadge.textContent = 'Your 35% window has closed. The prices below are the standard ones.';
+      if (clockTimer) { clearInterval(clockTimer); clockTimer = null; }
+      renderUndecidedWarn();
+      return;
+    }
+    var h = Math.floor(left / 3600000);
+    var m = Math.floor(left % 3600000 / 60000);
+    var s = Math.floor(left % 60000 / 1000);
+    var pad = function(n){ return (n < 10 ? '0' : '') + n; };
+    offerBadge.className = 'tm-offer';
+    offerBadge.innerHTML = '35% off if you commit within your window &mdash; ' +
+      '<span class="tm-offer-clock">' + pad(h) + ':' + pad(m) + ':' + pad(s) + '</span> left';
+  }
+
+  function renderUndecidedWarn(){
+    var warn = document.getElementById('tmUndecidedWarn');
+    if (warn) warn.hidden = !offerLive;
+  }
+
+  function startOffer(expiresAt){
+    offerExpiresAt = expiresAt;
+    offerLive = expiresAt > Date.now();
+    offerBadge.hidden = false;
+    paintClock();
+    renderUndecidedWarn();
+    if (offerLive && !clockTimer) clockTimer = setInterval(paintClock, 1000);
+  }
+
+  (function initOffer(){
+    var cached = null;
+    try { cached = Number(window.localStorage.getItem('whcOfferExpiresAt')) || null; } catch (e) {}
+    if (cached) startOffer(cached);
+
+    fetch(API + '/api/offer')
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){
+        if (!d || !d.expiresAt) return;
+        try { window.localStorage.setItem('whcOfferExpiresAt', String(d.expiresAt)); } catch (e) {}
+        startOffer(d.expiresAt);
+      })
+      .catch(function(){ /* no window shown if the Worker is unreachable */ });
+  })();
+
+  // ---- Step 5: tier -----------------------------------------------------
+  var tierNext = document.getElementById('tmTierNext');
+  pickOne(document.getElementById('tmTierOptions'), function(val){
+    state.tier = val;
+    tierNext.disabled = false;
+    renderOffer();
+  });
+
+  // ---- Step 6: commitment ----------------------------------------------
+  var commitOptions = document.getElementById('tmCommitOptions');
+  var invoiceWrap = document.getElementById('tmInvoiceWrap');
+  var assetWrap = document.getElementById('tmAssetWrap');
+
+  function renderOffer(){
+    var heading = document.getElementById('tmOfferHeading');
+    var lead = document.getElementById('tmOfferLead');
+    var opts = [];
+    assetWrap.hidden = false;
+
+    if (state.tier === 'silver' || state.tier === 'gold'){
+      var full = PRICES[state.tier];
+      var name = state.tier === 'silver' ? 'Silver assessment' : 'Gold package';
+      heading.textContent = 'Ready to move on this?';
+      if (offerLive){
+        lead.innerHTML = 'The next step is the ' + name + ' &mdash; <b>' + money(full) + '</b>. Commit while your window is open and get <b>35% off</b>. Want to think it over? Take your time &mdash; if it is still a fit later, we will send you a quote with <b>10% off</b>.';
+        opts = [
+          { val:'now',   label:'Commit now',                          sub:'35% off — ' + money(full * (1 - DISCOUNT)), amount: money(full * (1 - DISCOUNT)) },
+          { val:'later', label:'Commit within the next 2 months',      sub:'10% off when you are ready — R500 deposit today', amount:'R500' }
+        ];
+      } else {
+        lead.innerHTML = 'The next step is the ' + name + ' &mdash; <b>' + money(full) + '</b>. Commit now, or take your time &mdash; if it is still a fit later, we will send you a quote with <b>10% off</b>.';
+        opts = [
+          { val:'now',   label:'Commit now',                          sub:money(full), amount: money(full) },
+          { val:'later', label:'Commit within the next 2 months',      sub:'10% off when you are ready — R500 deposit today', amount:'R500' }
+        ];
+      }
+    } else if (state.tier === 'platinum'){
+      heading.textContent = 'Ready to scope this out?';
+      lead.innerHTML = 'Platinum starts with a <b>R5,000</b> consulting session to scope your site. Book it, or send in the pre-assessment form.';
+      opts = [
+        { val:'now',   label:'Book the scoping session',      sub:'R5,000 consulting session', amount:'R5,000' },
+        { val:'later', label:'Send me the pre-assessment form', sub:'R500 assessment fee',      amount:'R500'   }
+      ];
+    } else {
+      heading.textContent = 'No problem at all';
+      lead.textContent = 'We will send you the full breakdown of Silver, Gold, and Platinum so you can decide when you are ready.';
+      opts = [];
+    }
+
+    commitOptions.innerHTML = '';
+    opts.forEach(function(o){
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'tm-opt';
+      b.setAttribute('data-val', o.val);
+      b.setAttribute('data-amount', o.amount);
+      b.textContent = o.label;
+      var s = document.createElement('span');
+      s.className = 'tm-sub'; s.textContent = o.sub;
+      b.appendChild(s);
+      commitOptions.appendChild(b);
+    });
+
+    state.commit = ''; state.commitLabel = ''; state.amount = '';
+    invoiceWrap.hidden = true;
+  }
+
+  pickOne(commitOptions, function(val, opt){
+    state.commit = val;
+    state.commitLabel = opt.childNodes[0].textContent.trim();
+    state.amount = opt.getAttribute('data-amount') || '';
+    invoiceWrap.hidden = false;
+  });
+
+  // ---- Submit -----------------------------------------------------------
+  var submitBtn = document.getElementById('tmSubmitBtn');
+  var submitError = document.getElementById('tmSubmitError');
+
+  submitBtn.addEventListener('click', function(){
+    state.asset        = document.getElementById('tm-asset').value.trim();
+    state.invoiceEmail = document.getElementById('tm-invoice-email').value.trim();
+    state.invoiceVat   = document.getElementById('tm-invoice-vat').value.trim();
+
+    submitError.hidden = true;
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    var payload = {
+      name: state.name, company: state.company, email: state.email, phone: state.phone,
+      category: state.category, diagLabel: state.diagLabel,
+      q1: state.q1, q2: state.q2, q3: state.q3, q4: state.q4, q5: state.q5,
+      pain: state.pain, cost: state.cost, asset: state.asset,
+      tier: state.tier, commitLabel: state.commitLabel, amount: state.amount,
+      invoiceEmail: state.invoiceEmail, invoiceVat: state.invoiceVat,
+      offerState: offerExpiresAt ? (offerLive ? 'open until ' + new Date(offerExpiresAt).toISOString() : 'closed') : 'unknown'
+    };
+
+    fetch(API + '/api/lead', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function(res){
+      return res.json().catch(function(){ return {}; }).then(function(data){
+        if (!res.ok) throw new Error(data.error || 'Could not send (status ' + res.status + ')');
+        return data;
+      });
+    })
+    .then(function(){
+      showThanks(true, '');
+    })
+    .catch(function(err){
+      // Never let a failed send look like a successful one.
+      // A network failure surfaces as the browser's bare "Failed to fetch";
+      // say something a visitor can act on instead.
+      var why = /failed to fetch|networkerror|load failed/i.test(err.message)
+        ? 'We could not reach our server'
+        : err.message;
+      submitError.textContent = why + ' — please email info@whclips.co.za and we will pick it up from there.';
+      submitError.hidden = false;
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Try again';
+    });
+  });
+
+  function showThanks(ok, note){
+    goTo(TOTAL_STEPS - 1);
+    var due = document.getElementById('tmDueBlock');
+    if (state.amount){
+      document.getElementById('tmDueAmount').textContent = state.amount;
+      document.getElementById('tmDueTo').textContent = 'Invoice goes to ' + (state.invoiceEmail || state.email);
+      due.hidden = false;
+    }
+    document.getElementById('tmStatus').textContent = ok
+      ? 'Sent to White Horse Clips.'
+      : note;
+  }
+
+  renderProgress();
+})();
 </script>
 
 <footer>
