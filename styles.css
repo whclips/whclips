@@ -52,7 +52,10 @@
     transition:color .15s;
   }
   .nav-link:hover{ color:#fff; }
-  .main-nav > a.nav-link[href="clips.html"]{ color:var(--accent); }
+  /* Active-page highlight. Driven by aria-current on the current page's own link —
+     never by a hardcoded href, which highlighted Recent Work on every page.
+     baseline.html carries a scoped copy of these header rules: mirror changes there. */
+  .main-nav > a.nav-link[aria-current="page"]{ color:var(--accent); }
   .btn-contact{
     font-size:.875rem; font-weight:600; letter-spacing:.12em;
     color:#fff; background:transparent; padding:.5rem 0;

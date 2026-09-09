@@ -135,7 +135,8 @@
     transition:color .15s; border-bottom:0;
   }
   .site-chrome .nav-link:hover{ color:#fff; border-bottom:0; }
-  .site-chrome .main-nav > a.nav-link[href="baseline.html"]{ color:var(--sc-accent); }
+  /* Mirrors styles.css's active-page rule — keep the two in step (see comment there). */
+  .site-chrome .main-nav > a.nav-link[aria-current="page"]{ color:var(--sc-accent); }
   .site-chrome .btn-contact{
     font-size:.75rem; font-weight:600; letter-spacing:.12em;
     color:#fff; background:transparent; padding:.5rem 0;
@@ -167,7 +168,7 @@
           <a href="index.html#industries" class="nav-link">Industries</a>
           <a href="index.html#about" class="nav-link">About</a>
           <a href="clips.html" class="nav-link">Recent Work</a>
-          <a href="baseline.html" class="nav-link">What We Do</a>
+          <a href="baseline.html" class="nav-link" aria-current="page">What We Do</a>
           <a href="contact.html" class="btn-contact">Contact</a>
         </nav>
         <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
