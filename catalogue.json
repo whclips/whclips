@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-16T12:39:06+00:00",
- "pricedAt": "2026-09-16T12:39:06+00:00",
- "priceValidUntil": "2026-09-16T14:39:06+00:00",
+ "generatedAt": "2026-09-16T13:24:07+00:00",
+ "pricedAt": "2026-09-16T13:24:07+00:00",
+ "priceValidUntil": "2026-09-16T15:24:07+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": true,
- "count": 26,
+ "count": 27,
  "items": [
   {
    "sku": "210-BQMZ",
@@ -126,6 +126,22 @@
    "specs": []
   },
   {
+   "sku": "210-BQZS",
+   "name": "Dell 22 Monitor - SE2225HM",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 1840,
+   "stock": "in",
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqzs.jpg"
+   ],
+   "description": "",
+   "specs": []
+  },
+  {
    "sku": "580-ADHK",
    "name": "Dell Wired Keyboard - KB216 - US International (QWERTY) - Black",
    "brand": "Dell",
@@ -143,25 +159,6 @@
     "https://cdn.cs.1worldsync.com/53/8b/538bc3b4-df8d-4f48-8fb2-5f33164f8ae1.jpg",
     "https://cdn.cs.1worldsync.com/a8/ef/a8efc215-6e24-4e92-93bd-64f1abc8937f.jpg",
     "https://cdn.cs.1worldsync.com/65/00/6500d0d1-3b23-48de-8b39-38a0c521cd5f.jpg"
-   ],
-   "description": "",
-   "specs": []
-  },
-  {
-   "sku": "580-AKFZ",
-   "name": "Dell Keyboard and Mouse - KM3322W - US International (QWERTY)",
-   "brand": "Dell",
-   "category": "Keyboards & mice",
-   "price": 445,
-   "stock": "in",
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://cdn.cs.1worldsync.com/15/d0/15d0de90-63ab-4c32-b952-687c299e1829.jpg",
-    "https://cdn.cs.1worldsync.com/a6/07/a607e292-ca5f-4782-aa9e-bbb437ac3726.jpg",
-    "https://cdn.cs.1worldsync.com/16/0e/160ead80-3f17-4097-9850-423229e6c3ee.jpg",
-    "https://cdn.cs.1worldsync.com/f0/46/f0464db3-c0c0-4605-98c1-41af606e9a9d.jpg"
    ],
    "description": "",
    "specs": []
@@ -269,21 +266,17 @@
    "specs": []
   },
   {
-   "sku": "570-ABOC",
-   "name": "Dell Pro Mouse - MS300",
+   "sku": "570-BBMJ",
+   "name": "Dell Mouse - WM118",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 324,
+   "price": 202,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/7a/53/7a539dd3-4781-48ad-9769-2c92d5c2879b.jpg",
-    "https://cdn.cs.1worldsync.com/8b/e2/8be2de3f-0958-4a35-ae1e-461aa651d945.jpg",
-    "https://cdn.cs.1worldsync.com/49/04/490407ea-f565-4819-90db-97e469199079.jpg",
-    "https://cdn.cs.1worldsync.com/fc/b3/fcb3470c-052b-4b5a-848a-40917862f842.jpg",
-    "https://cdn.cs.1worldsync.com/57/50/57507734-0a8d-4174-8525-264496bcf7e1.jpg"
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bbmj.jpg"
    ],
    "description": "",
    "specs": []
@@ -350,6 +343,22 @@
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdss.jpg"
+   ],
+   "description": "",
+   "specs": []
+  },
+  {
+   "sku": "460-BDQP",
+   "name": "Dell Pro 14-16 Plus EcoLoop Slim Backpack - CP5724S",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 643,
+   "stock": "in",
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/ca/ef/caef4ee1-3eef-48b8-bdbd-51b27d284d88.jpg"
    ],
    "description": "",
    "specs": []
