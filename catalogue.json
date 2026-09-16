@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-16T08:38:07+00:00",
- "pricedAt": "2026-09-16T08:38:07+00:00",
- "priceValidUntil": "2026-09-16T10:38:07+00:00",
+ "generatedAt": "2026-09-16T09:23:07+00:00",
+ "pricedAt": "2026-09-16T09:23:07+00:00",
+ "priceValidUntil": "2026-09-16T11:23:07+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": true,
- "count": 29,
+ "count": 28,
  "items": [
   {
    "sku": "210-BQMZ",
@@ -464,22 +464,6 @@
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_450-bffm.jpg"
-   ],
-   "description": "",
-   "specs": []
-  },
-  {
-   "sku": "470-BDNM",
-   "name": "Dell HDMI 2.0 Cable - CB325H",
-   "brand": "Dell",
-   "category": "Cables & adapters",
-   "price": 217,
-   "stock": "in",
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bdnm.jpg"
    ],
    "description": "",
    "specs": []
