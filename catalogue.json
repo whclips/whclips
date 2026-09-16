@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-16T14:54:07+00:00",
- "pricedAt": "2026-09-16T14:54:07+00:00",
- "priceValidUntil": "2026-09-16T16:54:07+00:00",
+ "generatedAt": "2026-09-16T15:06:18+00:00",
+ "pricedAt": "2026-09-16T15:06:18+00:00",
+ "priceValidUntil": "2026-09-16T17:06:18+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": true,
@@ -53,7 +53,8 @@
      "Warranty",
      "36 months, manufacturer"
     ]
-   ]
+   ],
+   "specGroups": []
   },
   {
    "sku": "210-BVKM",
@@ -68,8 +69,452 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvkm.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Equipped for seamless productivity, this 23.8-inch FHD monitor offers extensive connectivity, high refresh rate and TÜV-certified 4-star eye comfort.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "61 cm (24\")"
+      ],
+      [
+       "Display resolution",
+       "1920 x 1080 pixels"
+      ],
+      [
+       "HD type",
+       "Full HD"
+      ],
+      [
+       "Native aspect ratio",
+       "16:9"
+      ],
+      [
+       "Display technology",
+       "LCD"
+      ],
+      [
+       "Panel type",
+       "IPS"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "Backlight type",
+       "Edge LED"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "Display brightness (typical)",
+       "300 cd/m²"
+      ],
+      [
+       "Response time",
+       "8 ms"
+      ],
+      [
+       "Response time measurement type",
+       "GTG (Gray to Gray)"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ],
+      [
+       "Screen shape",
+       "Flat"
+      ],
+      [
+       "Supported graphics resolutions",
+       "640 x 480 (VGA), 720 x 400, 800 x 600 (SVGA), 1024 x 768 (XGA), 1152 x 864 (XGA+), 1280 x 720 (HD 720), 1280 x 1024 (SXGA), 1600 x 900, 1920 x 1080 (HD 1080)"
+      ],
+      [
+       "Supported video modes",
+       "1080p, 720p, 576p, 480p"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "1500:1"
+      ],
+      [
+       "Maximum refresh rate",
+       "120 Hz"
+      ],
+      [
+       "Viewing angle, horizontal",
+       "178°"
+      ],
+      [
+       "Viewing angle, vertical",
+       "178°"
+      ],
+      [
+       "Display number of colours",
+       "16.7 million colours"
+      ],
+      [
+       "Response time (fast)",
+       "5 ms"
+      ],
+      [
+       "Pixel pitch",
+       "0.2745 x 0.2745 mm"
+      ],
+      [
+       "Pixel density",
+       "93 ppi"
+      ],
+      [
+       "Horizontal scan range",
+       "30 - 135 kHz"
+      ],
+      [
+       "Vertical scan range",
+       "48 - 120 Hz"
+      ],
+      [
+       "Viewable size, horizontal",
+       "52.7 cm"
+      ],
+      [
+       "Viewable size, vertical",
+       "29.6 cm"
+      ],
+      [
+       "Viewable size diagonal",
+       "60.5 cm"
+      ],
+      [
+       "Surface hardness",
+       "3H"
+      ],
+      [
+       "sRGB coverage (typical)",
+       "99%"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "NVIDIA G-SYNC",
+       "No"
+      ],
+      [
+       "AMD FreeSync",
+       "No"
+      ],
+      [
+       "Flicker-free technology",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Multimedia",
+     [
+      [
+       "Built-in speaker(s)",
+       "No"
+      ],
+      [
+       "Built-in camera",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Built-in USB hub",
+       "Yes"
+      ],
+      [
+       "USB hub version",
+       "2.0 / 3.2 Gen 1 (3.1 Gen 1)"
+      ],
+      [
+       "USB upstream port type",
+       "USB Type-B"
+      ],
+      [
+       "Number of downstream ports",
+       "4"
+      ],
+      [
+       "Number of USB Type-B upstream ports quantity",
+       "1"
+      ],
+      [
+       "USB Type-A downstream ports quantity",
+       "2"
+      ],
+      [
+       "USB Type-C downstream ports quantity",
+       "2"
+      ],
+      [
+       "HDMI",
+       "Yes"
+      ],
+      [
+       "HDMI ports quantity",
+       "1"
+      ],
+      [
+       "HDMI version",
+       "1.4"
+      ],
+      [
+       "DisplayPorts quantity",
+       "1"
+      ],
+      [
+       "DisplayPort version",
+       "1.4"
+      ],
+      [
+       "Headphone out",
+       "No"
+      ],
+      [
+       "HDCP",
+       "Yes"
+      ],
+      [
+       "HDCP version",
+       "1.4"
+      ],
+      [
+       "Charging port type",
+       "USB Type-C"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "VESA mounting",
+       "Yes"
+      ],
+      [
+       "Panel mounting interface",
+       "100 x 100 mm"
+      ],
+      [
+       "Cable management",
+       "Yes"
+      ],
+      [
+       "Cable lock slot",
+       "Yes"
+      ],
+      [
+       "Cable lock slot type",
+       "Kensington"
+      ],
+      [
+       "Height adjustment",
+       "Yes"
+      ],
+      [
+       "Adjustable height (max)",
+       "15 cm"
+      ],
+      [
+       "Pivot",
+       "Yes"
+      ],
+      [
+       "Pivot angle",
+       "-90 - 90°"
+      ],
+      [
+       "Swivelling",
+       "Yes"
+      ],
+      [
+       "Swivel angle range",
+       "-45 - 45°"
+      ],
+      [
+       "Tilt adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt angle range",
+       "-5 - 21°"
+      ],
+      [
+       "On Screen Display (OSD)",
+       "Yes"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Energy efficiency class (SDR)",
+       "C"
+      ],
+      [
+       "Energy efficiency class (HDR)",
+       "Not available"
+      ],
+      [
+       "Energy consumption (SDR) per 1000 hours",
+       "12 kWh"
+      ],
+      [
+       "Power consumption (typical)",
+       "11.7 W"
+      ],
+      [
+       "Power consumption (standby)",
+       "0.3 W"
+      ],
+      [
+       "Power consumption (max)",
+       "74 W"
+      ],
+      [
+       "Power consumption (off)",
+       "0.3 W"
+      ],
+      [
+       "AC input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "AC input frequency",
+       "50/60 Hz"
+      ],
+      [
+       "Power supply type",
+       "Internal"
+      ],
+      [
+       "Energy efficiency scale",
+       "A to G"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-20 - 60 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 80%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "5 - 90%"
+      ],
+      [
+       "Operating altitude",
+       "0 - 5000 m"
+      ],
+      [
+       "Non-operating altitude",
+       "0 - 12192 m"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width (with stand)",
+       "538.6 mm"
+      ],
+      [
+       "Depth (with stand)",
+       "181.8 mm"
+      ],
+      [
+       "Height (with stand)",
+       "410.8 mm"
+      ],
+      [
+       "Weight (with stand)",
+       "4.84 kg"
+      ],
+      [
+       "Width (without stand)",
+       "538.6 mm"
+      ],
+      [
+       "Depth (without stand)",
+       "50 mm"
+      ],
+      [
+       "Height (without stand)",
+       "314.2 mm"
+      ],
+      [
+       "Weight (without stand)",
+       "3.34 kg"
+      ],
+      [
+       "Bezel width (side)",
+       "5.8 mm"
+      ],
+      [
+       "Bezel width (top)",
+       "5.8 mm"
+      ],
+      [
+       "Bezel width (bottom)",
+       "1.2 cm"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compliance certificates",
+       "RoHS"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "210-BRDT",
@@ -87,8 +532,461 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-brdt.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Get the essentials to enhance productivity with this 21.5-inch height-adjustable monitor certified by TÜV Rheinland® for 3-star eye comfort.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "54.6 cm (21.5\")"
+      ],
+      [
+       "Display resolution",
+       "1920 x 1080 pixels"
+      ],
+      [
+       "HD type",
+       "Full HD"
+      ],
+      [
+       "Native aspect ratio",
+       "16:9"
+      ],
+      [
+       "Display technology",
+       "LCD"
+      ],
+      [
+       "Panel type",
+       "VA"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "Backlight type",
+       "Edge-Lit"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "Display brightness (typical)",
+       "250 cd/m²"
+      ],
+      [
+       "Response time",
+       "8 ms"
+      ],
+      [
+       "Response time measurement type",
+       "GTG (Gray to Gray)"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ],
+      [
+       "Screen shape",
+       "Flat"
+      ],
+      [
+       "Supported graphics resolutions",
+       "640 x 480 (VGA), 720 x 400, 800 x 600 (SVGA), 1024 x 768 (XGA), 1152 x 864 (XGA+), 1280 x 1024 (SXGA), 1280 x 720 (HD 720), 1600 x 900, 1920 x 1080 (HD 1080)"
+      ],
+      [
+       "Supported video modes",
+       "480p, 576p, 720p, 1080p"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "3000:1"
+      ],
+      [
+       "Maximum refresh rate",
+       "100 Hz"
+      ],
+      [
+       "Viewing angle, horizontal",
+       "178°"
+      ],
+      [
+       "Viewing angle, vertical",
+       "178°"
+      ],
+      [
+       "Display number of colours",
+       "16.7 million colours"
+      ],
+      [
+       "Response time (fast)",
+       "5 ms"
+      ],
+      [
+       "Pixel pitch",
+       "0.2493 x 0.241 mm"
+      ],
+      [
+       "Pixel density",
+       "103 ppi"
+      ],
+      [
+       "Horizontal scan range",
+       "30 - 110 kHz"
+      ],
+      [
+       "Vertical scan range",
+       "48 - 100 Hz"
+      ],
+      [
+       "Viewable size, horizontal",
+       "47.9 cm"
+      ],
+      [
+       "Viewable size, vertical",
+       "26 cm"
+      ],
+      [
+       "Viewable size diagonal",
+       "54.5 cm"
+      ],
+      [
+       "Surface hardness",
+       "3H"
+      ],
+      [
+       "NTSC coverage (typical)",
+       "72%"
+      ],
+      [
+       "Dell ComfortView technology",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "NVIDIA G-SYNC",
+       "No"
+      ],
+      [
+       "AMD FreeSync",
+       "No"
+      ],
+      [
+       "Flicker-free technology",
+       "Yes"
+      ],
+      [
+       "Windows operating systems supported",
+       "Windows 10, Windows 11, Yes"
+      ]
+     ]
+    ],
+    [
+     "Multimedia",
+     [
+      [
+       "Number of speakers",
+       "2"
+      ],
+      [
+       "RMS rated power",
+       "4 W"
+      ],
+      [
+       "Built-in speaker(s)",
+       "Yes"
+      ],
+      [
+       "Built-in camera",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Market positioning",
+       "Office"
+      ],
+      [
+       "Front bezel colour",
+       "Black"
+      ],
+      [
+       "Feet colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Built-in USB hub",
+       "No"
+      ],
+      [
+       "VGA (D-Sub) ports quantity",
+       "1"
+      ],
+      [
+       "HDMI",
+       "Yes"
+      ],
+      [
+       "HDMI version",
+       "1.4"
+      ],
+      [
+       "DisplayPorts quantity",
+       "1"
+      ],
+      [
+       "DisplayPort version",
+       "1.2"
+      ],
+      [
+       "Headphone out",
+       "No"
+      ],
+      [
+       "HDCP",
+       "Yes"
+      ],
+      [
+       "HDCP version",
+       "1.4"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "VESA mounting",
+       "Yes"
+      ],
+      [
+       "Panel mounting interface",
+       "100 x 100 mm"
+      ],
+      [
+       "Cable management",
+       "Yes"
+      ],
+      [
+       "Cable lock slot",
+       "Yes"
+      ],
+      [
+       "Cable lock slot type",
+       "Kensington"
+      ],
+      [
+       "Height adjustment",
+       "Yes"
+      ],
+      [
+       "Adjustable height (max)",
+       "13 cm"
+      ],
+      [
+       "Pivot",
+       "Yes"
+      ],
+      [
+       "Pivot angle",
+       "-90 - 90°"
+      ],
+      [
+       "Swivelling",
+       "Yes"
+      ],
+      [
+       "Swivel angle range",
+       "-173 - 173°"
+      ],
+      [
+       "Tilt adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt angle range",
+       "-5 - 21°"
+      ],
+      [
+       "On Screen Display (OSD)",
+       "Yes"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Energy efficiency class (SDR)",
+       "D"
+      ],
+      [
+       "Energy efficiency class (HDR)",
+       "Not available"
+      ],
+      [
+       "Energy consumption (SDR) per 1000 hours",
+       "11 kWh"
+      ],
+      [
+       "Power consumption (typical)",
+       "11.4 W"
+      ],
+      [
+       "Power consumption (standby)",
+       "0.3 W"
+      ],
+      [
+       "Power consumption (max)",
+       "25 W"
+      ],
+      [
+       "Power consumption (off)",
+       "0.3 W"
+      ],
+      [
+       "AC input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "AC input frequency",
+       "50/60 Hz"
+      ],
+      [
+       "Input current",
+       "0.7 A"
+      ],
+      [
+       "Power supply type",
+       "Internal"
+      ],
+      [
+       "Energy efficiency scale",
+       "A to G"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-20 - 60 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 80%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "5 - 90%"
+      ],
+      [
+       "Operating altitude",
+       "0 - 5000 m"
+      ],
+      [
+       "Non-operating altitude",
+       "0 - 12192 m"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width (with stand)",
+       "492.1 mm"
+      ],
+      [
+       "Depth (with stand)",
+       "211.6 mm"
+      ],
+      [
+       "Height (with stand)",
+       "468.6 mm"
+      ],
+      [
+       "Weight (with stand)",
+       "3.77 kg"
+      ],
+      [
+       "Width (without stand)",
+       "492.1 mm"
+      ],
+      [
+       "Depth (without stand)",
+       "54.3 mm"
+      ],
+      [
+       "Height (without stand)",
+       "288.9 mm"
+      ],
+      [
+       "Weight (without stand)",
+       "2.26 kg"
+      ],
+      [
+       "Bezel width (side)",
+       "6.7 mm"
+      ],
+      [
+       "Bezel width (top)",
+       "6.7 mm"
+      ],
+      [
+       "Bezel width (bottom)",
+       "1.72 cm"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compliance certificates",
+       "RoHS"
+      ]
+     ]
+    ],
+    [
+     "Brand-specific features",
+     [
+      [
+       "Dell Display Manager (DDM) compatibility",
+       "Yes"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "210-BRDQ",
@@ -106,8 +1004,393 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-brdq.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Get the essentials to enhance productivity with this 27-inch fixed-stand monitor certified by TÜV Rheinland® for 3-star eye comfort.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "68.6 cm (27\")"
+      ],
+      [
+       "Display resolution",
+       "1920 x 1080 pixels"
+      ],
+      [
+       "HD type",
+       "Full HD"
+      ],
+      [
+       "Native aspect ratio",
+       "16:9"
+      ],
+      [
+       "Display technology",
+       "LCD"
+      ],
+      [
+       "Panel type",
+       "IPS"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "Backlight type",
+       "Edge LED"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "Display brightness (typical)",
+       "300 cd/m²"
+      ],
+      [
+       "Response time",
+       "8 ms"
+      ],
+      [
+       "Response time measurement type",
+       "GTG (Gray to Gray)"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ],
+      [
+       "Screen shape",
+       "Flat"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "1000:1"
+      ],
+      [
+       "Maximum refresh rate",
+       "100 Hz"
+      ],
+      [
+       "Viewing angle, horizontal",
+       "178°"
+      ],
+      [
+       "Viewing angle, vertical",
+       "178°"
+      ],
+      [
+       "Display number of colours",
+       "16.7 million colours"
+      ],
+      [
+       "Response time (fast)",
+       "5 ms"
+      ],
+      [
+       "Pixel pitch",
+       "0.3114 x 0.3114 mm"
+      ],
+      [
+       "Pixel density",
+       "81 ppi"
+      ],
+      [
+       "Surface hardness",
+       "3H"
+      ],
+      [
+       "NTSC coverage (typical)",
+       "72%"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "NVIDIA G-SYNC",
+       "No"
+      ],
+      [
+       "AMD FreeSync",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Multimedia",
+     [
+      [
+       "Built-in speaker(s)",
+       "No"
+      ],
+      [
+       "Built-in camera",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Market positioning",
+       "Office"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Front bezel colour",
+       "Black"
+      ],
+      [
+       "Feet colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Built-in USB hub",
+       "No"
+      ],
+      [
+       "VGA (D-Sub) ports quantity",
+       "1"
+      ],
+      [
+       "HDMI",
+       "Yes"
+      ],
+      [
+       "HDMI ports quantity",
+       "1"
+      ],
+      [
+       "HDMI version",
+       "1.4"
+      ],
+      [
+       "DisplayPorts quantity",
+       "1"
+      ],
+      [
+       "DisplayPort version",
+       "1.2"
+      ],
+      [
+       "Headphone out",
+       "No"
+      ],
+      [
+       "HDCP",
+       "Yes"
+      ],
+      [
+       "HDCP version",
+       "1.4"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "VESA mounting",
+       "Yes"
+      ],
+      [
+       "Panel mounting interface",
+       "100 x 100 mm"
+      ],
+      [
+       "Cable lock slot",
+       "Yes"
+      ],
+      [
+       "Cable lock slot type",
+       "Kensington"
+      ],
+      [
+       "Height adjustment",
+       "No"
+      ],
+      [
+       "Tilt adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt angle range",
+       "-5 - 21°"
+      ],
+      [
+       "On Screen Display (OSD)",
+       "Yes"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Energy efficiency class (SDR)",
+       "D"
+      ],
+      [
+       "Energy efficiency class (HDR)",
+       "Not available"
+      ],
+      [
+       "Energy consumption (SDR) per 1000 hours",
+       "15 kWh"
+      ],
+      [
+       "Power consumption (typical)",
+       "14.8 W"
+      ],
+      [
+       "Power consumption (standby)",
+       "0.3 W"
+      ],
+      [
+       "Power consumption (max)",
+       "28 W"
+      ],
+      [
+       "Power consumption (off)",
+       "0.3 W"
+      ],
+      [
+       "AC input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "AC input frequency",
+       "50/60 Hz"
+      ],
+      [
+       "Input current",
+       "1.5 A"
+      ],
+      [
+       "Power supply type",
+       "Internal"
+      ],
+      [
+       "Energy efficiency scale",
+       "A to G"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-20 - 60 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 80%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "5 - 90%"
+      ],
+      [
+       "Operating altitude",
+       "0 - 5000 m"
+      ],
+      [
+       "Non-operating altitude",
+       "0 - 12192 m"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width (with stand)",
+       "611.1 mm"
+      ],
+      [
+       "Depth (with stand)",
+       "188.3 mm"
+      ],
+      [
+       "Height (with stand)",
+       "454.3 mm"
+      ],
+      [
+       "Weight (with stand)",
+       "4.55 kg"
+      ],
+      [
+       "Width (without stand)",
+       "611.1 mm"
+      ],
+      [
+       "Depth (without stand)",
+       "49.2 mm"
+      ],
+      [
+       "Height (without stand)",
+       "361.9 mm"
+      ],
+      [
+       "Weight (without stand)",
+       "3.57 kg"
+      ],
+      [
+       "Bezel width (side)",
+       "6.61 mm"
+      ],
+      [
+       "Bezel width (top)",
+       "6.6 mm"
+      ],
+      [
+       "Bezel width (bottom)",
+       "1.34 cm"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compliance certificates",
+       "RoHS"
+      ]
+     ]
+    ],
+    [
+     "Brand-specific features",
+     [
+      [
+       "Dell Display Manager (DDM) compatibility",
+       "Yes"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "210-BTSP",
@@ -122,8 +1405,444 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-btsp.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "DELL SE2726HG. Display diagonal: 68.6 cm (27\"), Display resolution: 1920 x 1080 pixels, HD type: Full HD, Display technology: LCD, Response time: 0.5 ms, Native aspect ratio: 16:9, Viewing angle, horizontal: 178°, Viewing angle, vertical: 178°. VESA mounting. Product colour: Black",
+   "specs": [],
+   "specGroups": [
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "68.6 cm (27\")"
+      ],
+      [
+       "Display resolution",
+       "1920 x 1080 pixels"
+      ],
+      [
+       "HD type",
+       "Full HD"
+      ],
+      [
+       "Native aspect ratio",
+       "16:9"
+      ],
+      [
+       "Display technology",
+       "LCD"
+      ],
+      [
+       "Panel type",
+       "IPS"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "Backlight type",
+       "Edge LED"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "Display brightness (typical)",
+       "300 cd/m²"
+      ],
+      [
+       "Response time",
+       "0.5 ms"
+      ],
+      [
+       "Response time measurement type",
+       "GTG (Gray to Gray)"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ],
+      [
+       "Screen shape",
+       "Flat"
+      ],
+      [
+       "Supported graphics resolutions",
+       "640 x 480 (VGA), 720 x 400, 800 x 600 (SVGA), 1024 x 768 (XGA), 1152 x 864 (XGA+), 1280 x 800 (WXGA), 1280 x 1024 (SXGA), 1680 x 1050 (WSXGA+), 1920 x 1080 (HD 1080)"
+      ],
+      [
+       "Supported video modes",
+       "480p, 576p, 720p, 1080i, 1080p"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "1000:1"
+      ],
+      [
+       "Maximum refresh rate",
+       "240 Hz"
+      ],
+      [
+       "Viewing angle, horizontal",
+       "178°"
+      ],
+      [
+       "Viewing angle, vertical",
+       "178°"
+      ],
+      [
+       "Display number of colours",
+       "16.7 million colours"
+      ],
+      [
+       "Response time (fast)",
+       "5 ms"
+      ],
+      [
+       "Pixel pitch",
+       "0.3114 x 0.3114 mm"
+      ],
+      [
+       "Pixel density",
+       "82 ppi"
+      ],
+      [
+       "Viewable size, horizontal",
+       "59.8 cm"
+      ],
+      [
+       "Viewable size, vertical",
+       "33.6 cm"
+      ],
+      [
+       "Digital horizontal frequency",
+       "30 - 280 kHz"
+      ],
+      [
+       "Digital vertical frequency",
+       "48 - 240 Hz"
+      ],
+      [
+       "Display diagonal (metric)",
+       "68.6 cm"
+      ],
+      [
+       "High Dynamic Range (HDR) supported",
+       "Yes"
+      ],
+      [
+       "High Dynamic Range (HDR) technology",
+       "High Dynamic Range 10 (HDR10)"
+      ],
+      [
+       "Surface hardness",
+       "3H"
+      ],
+      [
+       "sRGB coverage (typical)",
+       "99%"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "NVIDIA G-SYNC",
+       "No"
+      ],
+      [
+       "AMD FreeSync",
+       "Yes"
+      ],
+      [
+       "AMD FreeSync type",
+       "FreeSync Premium"
+      ],
+      [
+       "Game mode",
+       "Yes"
+      ],
+      [
+       "Smart modes",
+       "FPS, MOBA/RTS, Sports, RPG"
+      ]
+     ]
+    ],
+    [
+     "Multimedia",
+     [
+      [
+       "Built-in speaker(s)",
+       "No"
+      ],
+      [
+       "Built-in camera",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Market positioning",
+       "Gaming"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Front bezel colour",
+       "Black"
+      ],
+      [
+       "Detachable stand",
+       "Yes"
+      ],
+      [
+       "Feet colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Built-in USB hub",
+       "No"
+      ],
+      [
+       "HDMI",
+       "Yes"
+      ],
+      [
+       "HDMI ports quantity",
+       "2"
+      ],
+      [
+       "HDMI version",
+       "2.1"
+      ],
+      [
+       "DisplayPorts quantity",
+       "1"
+      ],
+      [
+       "DisplayPort out version",
+       "1.4"
+      ],
+      [
+       "Headphone out",
+       "Yes"
+      ],
+      [
+       "Headphone connectivity",
+       "3.5 mm"
+      ],
+      [
+       "HDCP",
+       "Yes"
+      ],
+      [
+       "HDCP version",
+       "2.3"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "VESA mounting",
+       "Yes"
+      ],
+      [
+       "Panel mounting interface",
+       "100 x 100 mm"
+      ],
+      [
+       "Cable management",
+       "Yes"
+      ],
+      [
+       "Cable lock slot",
+       "Yes"
+      ],
+      [
+       "Cable lock slot type",
+       "Kensington"
+      ],
+      [
+       "Height adjustment",
+       "No"
+      ],
+      [
+       "Tilt adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt angle range",
+       "-5 - 21°"
+      ],
+      [
+       "On Screen Display (OSD)",
+       "Yes"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Energy efficiency class (SDR)",
+       "E"
+      ],
+      [
+       "Energy efficiency class (HDR)",
+       "G"
+      ],
+      [
+       "Energy consumption (SDR) per 1000 hours",
+       "20 kWh"
+      ],
+      [
+       "Energy consumption (HDR) per 1000 hours",
+       "27 kWh"
+      ],
+      [
+       "Power consumption (typical)",
+       "19.7 W"
+      ],
+      [
+       "Power consumption (standby)",
+       "0.5 W"
+      ],
+      [
+       "Power consumption (max)",
+       "40 W"
+      ],
+      [
+       "Power consumption (off)",
+       "0.3 W"
+      ],
+      [
+       "AC input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "AC input frequency",
+       "50/60 Hz"
+      ],
+      [
+       "Power supply type",
+       "Internal"
+      ],
+      [
+       "Energy efficiency scale",
+       "A to G"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-20 - 60 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 80%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "5 - 90%"
+      ],
+      [
+       "Operating altitude",
+       "0 - 5000 m"
+      ],
+      [
+       "Non-operating altitude",
+       "5000 - 12192 m"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width (with stand)",
+       "610.9 mm"
+      ],
+      [
+       "Depth (with stand)",
+       "188 mm"
+      ],
+      [
+       "Height (with stand)",
+       "452.8 mm"
+      ],
+      [
+       "Weight (with stand)",
+       "47.2 g"
+      ],
+      [
+       "Width (without stand)",
+       "610.9 mm"
+      ],
+      [
+       "Depth (without stand)",
+       "3480 mm"
+      ],
+      [
+       "Height (without stand)",
+       "357.5 mm"
+      ],
+      [
+       "Weight (without stand)",
+       "3.15 kg"
+      ],
+      [
+       "Bezel width (side)",
+       "6.5 mm"
+      ],
+      [
+       "Bezel width (top)",
+       "6.5 mm"
+      ],
+      [
+       "Bezel width (bottom)",
+       "1.47 cm"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compliance certificates",
+       "RoHS"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "210-BQZS",
@@ -138,8 +1857,428 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqzs.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Breeze through everyday tasks on this 21.5-inch monitor with a smooth 100Hz refresh rate and certified by TÜV Rheinland® for 3-star eye comfort.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "54.6 cm (21.5\")"
+      ],
+      [
+       "Display resolution",
+       "1920 x 1080 pixels"
+      ],
+      [
+       "HD type",
+       "Full HD"
+      ],
+      [
+       "Native aspect ratio",
+       "16:9"
+      ],
+      [
+       "Display technology",
+       "LCD"
+      ],
+      [
+       "Panel type",
+       "VA"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "Backlight type",
+       "Edge LED"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "Display brightness (typical)",
+       "250 cd/m²"
+      ],
+      [
+       "Response time",
+       "8 ms"
+      ],
+      [
+       "Response time measurement type",
+       "GTG (Gray to Gray)"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ],
+      [
+       "Screen shape",
+       "Flat"
+      ],
+      [
+       "Supported graphics resolutions",
+       "640 x 480 (VGA), 800 x 600 (SVGA), 1024 x 768 (XGA), 1152 x 864 (XGA+), 1280 x 1024 (SXGA), 1280 x 720 (HD 720), 1600 x 900, 1920 x 1080 (HD 1080)"
+      ],
+      [
+       "Supported video modes",
+       "480p, 576p, 720p, 1080p"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "3000:1"
+      ],
+      [
+       "Maximum refresh rate",
+       "100 Hz"
+      ],
+      [
+       "Viewing angle, horizontal",
+       "178°"
+      ],
+      [
+       "Viewing angle, vertical",
+       "178°"
+      ],
+      [
+       "Display number of colours",
+       "16.7 million colours"
+      ],
+      [
+       "Response time (fast)",
+       "5 ms"
+      ],
+      [
+       "Pixel pitch",
+       "0.2493 x 0.241 mm"
+      ],
+      [
+       "Pixel density",
+       "102 ppi"
+      ],
+      [
+       "Horizontal scan range",
+       "30 - 82 kHz"
+      ],
+      [
+       "Vertical scan range",
+       "50 - 76 Hz"
+      ],
+      [
+       "Viewable size, horizontal",
+       "47.9 cm"
+      ],
+      [
+       "Viewable size, vertical",
+       "26 cm"
+      ],
+      [
+       "Digital horizontal frequency",
+       "30 - 111 kHz"
+      ],
+      [
+       "Digital vertical frequency",
+       "50 - 100 Hz"
+      ],
+      [
+       "Surface hardness",
+       "3H"
+      ],
+      [
+       "NTSC coverage (typical)",
+       "72%"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "NVIDIA G-SYNC",
+       "No"
+      ],
+      [
+       "AMD FreeSync",
+       "No"
+      ],
+      [
+       "Flicker-free technology",
+       "Yes"
+      ],
+      [
+       "Low Blue Light technology",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Multimedia",
+     [
+      [
+       "Built-in speaker(s)",
+       "No"
+      ],
+      [
+       "Built-in camera",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Market positioning",
+       "Office"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Front bezel colour",
+       "Black"
+      ],
+      [
+       "Feet colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Built-in USB hub",
+       "No"
+      ],
+      [
+       "VGA (D-Sub) ports quantity",
+       "1"
+      ],
+      [
+       "HDMI",
+       "Yes"
+      ],
+      [
+       "HDMI ports quantity",
+       "1"
+      ],
+      [
+       "Headphone out",
+       "No"
+      ],
+      [
+       "HDCP",
+       "Yes"
+      ],
+      [
+       "HDCP version",
+       "1.4"
+      ]
+     ]
+    ],
+    [
+     "Network",
+     [
+      [
+       "Wi-Fi",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "VESA mounting",
+       "Yes"
+      ],
+      [
+       "Panel mounting interface",
+       "100 x 100 mm"
+      ],
+      [
+       "Wall mountable",
+       "Yes"
+      ],
+      [
+       "Cable lock slot",
+       "Yes"
+      ],
+      [
+       "Cable lock slot type",
+       "Kensington"
+      ],
+      [
+       "Height adjustment",
+       "No"
+      ],
+      [
+       "Pivot",
+       "No"
+      ],
+      [
+       "Swivelling",
+       "No"
+      ],
+      [
+       "Tilt adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt angle range",
+       "-5 - 21°"
+      ],
+      [
+       "On Screen Display (OSD)",
+       "Yes"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Energy efficiency class (SDR)",
+       "D"
+      ],
+      [
+       "Energy efficiency class (HDR)",
+       "Not available"
+      ],
+      [
+       "Energy consumption (SDR) per 1000 hours",
+       "12 kWh"
+      ],
+      [
+       "Power consumption (typical)",
+       "11.7 W"
+      ],
+      [
+       "Power consumption (standby)",
+       "0.3 W"
+      ],
+      [
+       "Power consumption (max)",
+       "20.7 W"
+      ],
+      [
+       "Power consumption (off)",
+       "0.3 W"
+      ],
+      [
+       "AC input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "AC input frequency",
+       "50/60 Hz"
+      ],
+      [
+       "Input current",
+       "1 A"
+      ],
+      [
+       "Power supply type",
+       "Internal"
+      ],
+      [
+       "Energy efficiency scale",
+       "A to G"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-20 - 60 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 80%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "5 - 90%"
+      ],
+      [
+       "Operating altitude",
+       "0 - 5000 m"
+      ],
+      [
+       "Non-operating altitude",
+       "5000 - 12192 m"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width (with stand)",
+       "492.9 mm"
+      ],
+      [
+       "Depth (with stand)",
+       "211.8 mm"
+      ],
+      [
+       "Height (with stand)",
+       "395.8 mm"
+      ],
+      [
+       "Weight (with stand)",
+       "2.67 kg"
+      ],
+      [
+       "Width (without stand)",
+       "492.9 mm"
+      ],
+      [
+       "Depth (without stand)",
+       "44.9 mm"
+      ],
+      [
+       "Height (without stand)",
+       "286.5 mm"
+      ],
+      [
+       "Weight (without stand)",
+       "2.23 kg"
+      ],
+      [
+       "Bezel width (side)",
+       "7.05 mm"
+      ],
+      [
+       "Bezel width (top)",
+       "7.05 mm"
+      ],
+      [
+       "Bezel width (bottom)",
+       "1.85 cm"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "580-ADHK",
@@ -160,8 +2299,152 @@
     "https://cdn.cs.1worldsync.com/a8/ef/a8efc215-6e24-4e92-93bd-64f1abc8937f.jpg",
     "https://cdn.cs.1worldsync.com/65/00/6500d0d1-3b23-48de-8b39-38a0c521cd5f.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "The Dell Multimedia Keyboard provides a convenient keyboard solution for everyday home or office computing uses.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Universal"
+      ],
+      [
+       "Connectivity technology",
+       "Wired"
+      ],
+      [
+       "Device interface",
+       "USB"
+      ],
+      [
+       "Keyboard key switch",
+       "Plunger key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "Hot keys",
+       "Yes"
+      ],
+      [
+       "Multimedia keys",
+       "Yes"
+      ],
+      [
+       "Purpose",
+       "PC/Server"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "No"
+      ],
+      [
+       "Keyboard style",
+       "Straight"
+      ],
+      [
+       "Island-style keyboard",
+       "Yes"
+      ],
+      [
+       "Full-size keyboard",
+       "Yes"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Material",
+       "Plastic"
+      ],
+      [
+       "Protection features",
+       "Spill resistant"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "USB"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "442 x 127 x 24.4 mm"
+      ],
+      [
+       "Keyboard weight",
+       "503 g"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "580-AKFZ",
@@ -179,8 +2462,218 @@
     "https://cdn.cs.1worldsync.com/16/0e/160ead80-3f17-4097-9850-423229e6c3ee.jpg",
     "https://cdn.cs.1worldsync.com/f0/46/f0464db3-c0c0-4605-98c1-41af606e9a9d.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Enhance your everyday productivity with this reliable wireless keyboard and mouse combo that's built to last.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "RF Wireless"
+      ],
+      [
+       "Keyboard key switch",
+       "Plunger key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "No"
+      ],
+      [
+       "Keyboard style",
+       "Straight"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Adjustable keyboard height",
+       "Yes"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "Battery"
+      ],
+      [
+       "Keyboard battery type",
+       "AAA"
+      ],
+      [
+       "Number of batteries (keyboard)",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "Yes"
+      ],
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "1000 DPI"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ],
+      [
+       "Buttons type",
+       "Pressed buttons"
+      ],
+      [
+       "Scroll",
+       "Yes"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical"
+      ],
+      [
+       "Mouse battery type",
+       "AA"
+      ],
+      [
+       "Number of batteries (mouse)",
+       "1"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Windows 10, Windows 10 Education, Windows 10 Education x64, Windows 10 Enterprise, Windows 10 Enterprise x64, Windows 10 Home, Windows 10 Home x64, Windows 10 IOT Core, Windows 10 IoT Enterprise, Windows 10 Pro, Windows 10 Pro x64, Windows 10 x64, Windows 8, Windows 8 Enterprise, Windows 8 Enterprise x64, Windows 8 Pro, Windows 8 Pro x64, Windows 8 x64, Windows 8.1, Windows 8.1 Enterprise, Windows 8.1 Enterprise x64, Windows 8.1 Pro, Windows 8.1 Pro x64, Windows 8.1 x64"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "-10 - 50 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "449.2 x 123 x 25.3 mm"
+      ],
+      [
+       "Keyboard weight",
+       "497.12 g"
+      ],
+      [
+       "Mouse dimensions (WxDxH)",
+       "58.32 x 104.9 x 38.87 mm"
+      ],
+      [
+       "Mouse weight",
+       "57.8 g"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "580-AJRP",
@@ -201,8 +2694,230 @@
     "https://cdn.cs.1worldsync.com/77/2a/772a4942-3919-45ee-9a72-8371d2f8af35.jpg",
     "https://cdn.cs.1worldsync.com/d5/fb/d5fbb669-a844-4b0f-a532-cebac7afac27.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Combining a discreetly powerful keyboard with an expertly designed mouse, the Dell Pro Wireless Keyboard and Mouse combo enhances your productivity. Powered by one of the industry's leading battery lives of up to 36 months, this combo is built to last.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "RF Wireless"
+      ],
+      [
+       "Keyboard key switch",
+       "Plunger key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Hot keys",
+       "Yes"
+      ],
+      [
+       "Number of hot keys",
+       "12"
+      ],
+      [
+       "Programmable hot keys",
+       "Yes"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "No"
+      ],
+      [
+       "Keyboard style",
+       "Straight"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "LED indicators",
+       "Battery"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "Battery"
+      ],
+      [
+       "Keyboard battery type",
+       "AAA"
+      ],
+      [
+       "Number of batteries (keyboard)",
+       "2"
+      ],
+      [
+       "Service life of battery",
+       "36 month(s)"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "Yes"
+      ],
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "1600 DPI"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ],
+      [
+       "Buttons type",
+       "Pressed buttons"
+      ],
+      [
+       "Scroll",
+       "Yes"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical"
+      ],
+      [
+       "Mouse battery type",
+       "AA"
+      ],
+      [
+       "Number of batteries (mouse)",
+       "1"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Windows 10, Windows 10 Education, Windows 10 Education x64, Windows 10 Enterprise, Windows 10 Enterprise x64, Windows 10 Home, Windows 10 Home x64, Windows 10 IOT Core, Windows 10 IoT Enterprise, Windows 10 Pro, Windows 10 Pro x64, Windows 10 x64, Windows 8, Windows 8 Enterprise, Windows 8 Enterprise x64, Windows 8 Pro, Windows 8 Pro x64, Windows 8 x64, Windows 8.1, Windows 8.1 Enterprise, Windows 8.1 Enterprise x64, Windows 8.1 Pro, Windows 8.1 Pro x64, Windows 8.1 x64"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "-10 - 50 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "433 x 123 x 34 mm"
+      ],
+      [
+       "Keyboard weight",
+       "400 g"
+      ],
+      [
+       "Mouse dimensions (WxDxH)",
+       "115.51 x 61.96 x 38.14 mm"
+      ],
+      [
+       "Mouse weight",
+       "91.8 g"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "580-17667",
@@ -219,8 +2934,146 @@
    "images": [
     "https://cdn.cs.1worldsync.com/9a/57/9a577ffe-37f6-4da2-a1fa-ef40936b2006.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "The Dell™ KB522 Wired Business Multimedia Keyboard has a newly refreshed ID and a sturdy design with mid-profile keycap for great typing experience.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Universal"
+      ],
+      [
+       "Connectivity technology",
+       "Wired"
+      ],
+      [
+       "Device interface",
+       "USB"
+      ],
+      [
+       "Keyboard key switch",
+       "Plunger key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Keyboard number of keys",
+       "104"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "Multimedia keys",
+       "Yes"
+      ],
+      [
+       "USB hub",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "No"
+      ],
+      [
+       "Keyboard style",
+       "Straight"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "USB 2.0 ports quantity",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "USB"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard weight",
+       "590 g"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compatibility",
+       "- Dell Inspiron 11 3179, 15 5565, 15 5567, 17 5767 - Dell Latitude 13 7350, 3150, 7370, 7414 Rugged Extreme, E5250, E5270, E5440, E5450, E5540, E5550, E6440, E6540, E7240, E7250, E7270, E7440, E7450, E7470 - Dell OptiPlex 3010, 3011, 3020, 3030, 7010, 7020, 9010, 9010 AIO, 9030, XE2 - Dell Precision R7610, T1650, T1700, T3600, T3600 Base, T3600 Essential, T3610, T5600, T5600 Advanced, T5600 Base, T5600 Essential, T7600, T7600 Advanced, T7600 Base, T7600 Essential - Dell Precision Mobile Workstation M2800, M3800, M4800, M6800 - Dell Precision Tower 5810, 7910"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "580-AKOO",
@@ -241,8 +3094,187 @@
     "https://cdn.cs.1worldsync.com/f9/df/f9dfd309-85cf-4d33-af87-c707c51ac892.jpg",
     "https://cdn.cs.1worldsync.com/ea/fd/eafd56c5-bed2-4015-b4dc-e26a596edb2f.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Enhance productivity with this well-designed keyboard, powered by one of the industry's leading battery lives of up to 36 months.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "RF Wireless"
+      ],
+      [
+       "Keyboard key switch",
+       "Plunger key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "Hot keys",
+       "Yes"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "No"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ],
+      [
+       "USB connector type",
+       "USB Type-A"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "Battery"
+      ],
+      [
+       "Keyboard battery type",
+       "AAA"
+      ],
+      [
+       "Number of batteries (keyboard)",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery capacity",
+       "1200 mAh"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "-10 - 50 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 90%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "433 x 123 x 34 mm"
+      ],
+      [
+       "Keyboard weight",
+       "421 g"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "570-AAIS",
@@ -263,8 +3295,116 @@
     "https://cdn.cs.1worldsync.com/8b/07/8b07bac8-7405-42bf-8347-927fd199c877.jpg",
     "https://cdn.cs.1worldsync.com/1a/15/1a155e03-dbc0-4413-ad85-48df8a834a1e.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "The Dell Multimedia Keyboard provides a convenient keyboard solution for everyday home or office computing uses.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical"
+      ],
+      [
+       "Purpose",
+       "Office"
+      ],
+      [
+       "Device interface",
+       "USB Type-A"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "1000 DPI"
+      ],
+      [
+       "Buttons type",
+       "Pressed buttons"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Scroll",
+       "Yes"
+      ],
+      [
+       "Buttons quantity",
+       "2"
+      ],
+      [
+       "Recommended usage",
+       "Universal"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "Cable length",
+       "1.8 m"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Cable"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "90 g"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compatibility",
+       "- Alienware 13 R2, 13 R3, 15 R2, 15 R3, 17 R2, 17 R3, 17 R4, Alpha R2, Area-51 R3, Area-51 R4, Aurora R5, Aurora R6, M11xR2, M17, X51 R3 - Dell Chromebook 3120 - Dell Inspiron 11 3162, 11 3168, 11 3169, 11 3179, 13 5368 2-in-1, 13 5378 2-in-1, 13 7353, 13 7368 2-in-1, 13 7378 2-in-1, 14 3421, 14 7460, 15 3537, 15 3555, 15 3559, 15 3565, 15 3567, 15 5551, 15 5565, 15 5566, 15 5567, 15 5568 2-in-1, 15 5576 Gaming, 15 5577 Gaming, 15 5578 2-in-1, 15 7558, 15 7560, 15 7569 2-in-1, 15 7579 2-in-1, 15 Gaming 7566, 15 Gaming 7567, 15 Gaming 7577, 15 N5010, 15 N5030, 15 N5040, 15 N5050, 15R 5520, 15R N5110, 17 5765, 17 5767, 17 7778 2-in-1, 17 7779 2-in-1, 17R 5720, 17R 5721, 17R 7720, 20 3064, 24 3464, 24 5459 AIO, 27 7775, 3043, 3045, 3048, 3052, 3059, 3152, 3250, 3252, 3263, 3264 AIO, 3265, 3268, 3452, 3455, 3458, 3459, 3552, 3558, 3650, 3655, 3656, 3662, 3668, 3780, 5348, 5458, 5459, 5545, 5552, 5555, 5558, 5559, 5675, 5755, 5758, 5759, 7359, 7459, 7559, 7568, Mini 10 1010, Mini 10 1012, Mini 10v 1018 - Dell Latitude 12 Rugged Tablet 7202, 3180, 3189, 3350, 3460, 3470, 3480, 3560, 3570, 3580, 5175 2-in-1, 5179, 5280, 5285 2-in-1, 5289 2-In-1, 5414 Rugged, 5480, 5580, 7200 2-in-1, 7212 Rugged Extreme Tablet, 7214 Rugged Extreme, 7275, 7280, 7285 2-in-1, 7370, 7380, 7389 2-in-1, 7400 2-in-1, 7414 Rugged Extreme, 7480, D630 ATG, D630 XFR, E5270, E5470, E5570, E7270, E7470 - Dell OptiPlex 3040, 3046, 3050, 3240, 5040, 5050, 5055, 5250 All In One, 7040, 7050, 7440, 7450, 9010 All In One, 9020 All In One - Dell Precision 5720 AIO, T1650 - Dell Precision Mobile Workstation 3510, 3520, 5510, 5520, 5540, 7510, 7520, 7710, 7720 - Dell Precision Rack 7910 - Dell Precision Tower 3420, 3620 - Dell Venue 10 7040, 10 Pro (5056), 8 Pro (5855) - Dell Vostro 14 5468, 15 5568, 200s, 260s, 3459, 3559, 3905, 5459 - Dell XPS 12 9250, 13 9350, 13 9360, 13 9365 2-in-1, 15 (9530), 15 9550, 15 9560, 27 7760, 8900, 8910, 8920, One 2710, One 2720"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "570-AAMH",
@@ -281,8 +3421,137 @@
    "images": [
     "https://cdn.cs.1worldsync.com/a4/ea/a4eabb62-c8a3-4ffb-8b89-d64eaed625fb.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Highlights Reduce cable clutter at your workspace with the Dell Wireless Mouse-WM126. Reduce cable clutter with the Dell Wireless Mouse-WM126, providing the functionality you need in a mouse with none of the wires. Great for everyday use at home or in the office Take your work on-the-go with the reliable wireless connection of the Dell Wireless Mouse-WM126. You can also connect up to six compatible devices with a single receiver, allowing you to wirelessly connect with your keyboards and mice at home, in the office or on the move. Work and play longer with a long battery life Up to 1-year of battery life provides you peace of mind knowing that you can stay powered up longer virtually anywhere. Comfortable design Work in comfort thanks to a contoured design that feels great in either hand. The mouse features three clickable buttons (left, right, and middle) and includes a scroll wheel for ease of use. Quick setup and easy installation Your mouse comes ready to plug and play via the included receiver. No software or drivers are required. However, if you wish to make full use of Dell Universal Pairing technology and connect up to 6 compatible devices with one receiver, please go to Dell.com/pair to download the required software. Compatibility Windows 7/8/8.1/10/Server, Linux, Android, Chrome",
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical"
+      ],
+      [
+       "Purpose",
+       "Universal"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "RF Wireless"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "1000 DPI"
+      ],
+      [
+       "Buttons type",
+       "Pressed buttons"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ],
+      [
+       "Recommended usage",
+       "PC/Laptop"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "Plug and Play",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Batteries"
+      ],
+      [
+       "Number of batteries supported",
+       "1"
+      ],
+      [
+       "Battery type",
+       "AA"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Windows 10 Education, Windows 10 Education x64, Windows 10 Enterprise, Windows 10 Enterprise x64, Windows 10 Home, Windows 10 Home x64, Windows 10 Pro, Windows 10 Pro x64, Windows 7 Enterprise, Windows 7 Enterprise x64, Windows 7 Home Basic, Windows 7 Home Basic x64, Windows 7 Home Premium, Windows 7 Home Premium x64, Windows 7 Professional, Windows 7 Professional x64, Windows 7 Starter, Windows 7 Starter x64, Windows 7 Ultimate, Windows 7 Ultimate x64, Windows 8, Windows 8 Enterprise, Windows 8 Enterprise x64, Windows 8 Pro, Windows 8 Pro x64, Windows 8 x64, Windows 8.1, Windows 8.1 Enterprise, Windows 8.1 Enterprise x64, Windows 8.1 Pro, Windows 8.1 Pro x64, Windows 8.1 x64"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "57.6 g"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Alkaline"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "570-BBMJ",
@@ -297,8 +3566,131 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bbmj.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "The WM118 Wireless Optical Mouse from Dell offers you everyday wireless performance with excellent battery life. It is designed to create a clutter-free workspace with a reliable, plug-and-play RF wireless connection. This wireless mouse provides reliable performance and a stable wireless connection through the USB anchored RF wireless dongle. Its Plug and play feature allows for easy installation so users can get started using their mouse within minutes, with no confusing software or setup requirements. The small size and wireless performance help to make WM118 wireless optical mouse a great option for on-the-go users.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical"
+      ],
+      [
+       "Purpose",
+       "Universal"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "RF Wireless"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "1000 DPI"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Batteries"
+      ],
+      [
+       "Number of batteries supported",
+       "1"
+      ],
+      [
+       "Battery type",
+       "AA"
+      ],
+      [
+       "Service life of battery",
+       "18 month(s)"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "63 mm"
+      ],
+      [
+       "Depth",
+       "101.5 mm"
+      ],
+      [
+       "Height",
+       "34.4 mm"
+      ],
+      [
+       "Weight",
+       "82 g"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "570-ABOC",
@@ -317,8 +3709,150 @@
     "https://cdn.cs.1worldsync.com/fc/b3/fcb3470c-052b-4b5a-848a-40917862f842.jpg",
     "https://cdn.cs.1worldsync.com/57/50/57507734-0a8d-4174-8525-264496bcf7e1.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Enhance productivity with this expertly designed mouse, powered by one of the industry's leading battery lives of up to 36 months.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Purpose",
+       "Office"
+      ],
+      [
+       "Device interface",
+       "RF Wireless"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "4000 DPI"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Batteries"
+      ],
+      [
+       "Battery type",
+       "AA"
+      ],
+      [
+       "Service life of battery",
+       "36 month(s)"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Windows 10, Windows 11, Windows 8, Windows 8 x64"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "-10 - 65 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "62 mm"
+      ],
+      [
+       "Depth",
+       "115 mm"
+      ],
+      [
+       "Height",
+       "39 mm"
+      ],
+      [
+       "Weight",
+       "65 g"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery capacity",
+       "2850 mAh"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "520-BBLV",
@@ -335,8 +3869,9 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bblv.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Dell Wired Headset - WH125",
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "520-BBNM",
@@ -351,8 +3886,242 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bbnm.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Redefine audio clarity with an AI-based noise-cancelling mic and Adaptive ANC, designed for modern professionals.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Performance",
+     [
+      [
+       "Product type",
+       "Headset"
+      ],
+      [
+       "Wearing style",
+       "In-ear"
+      ],
+      [
+       "Recommended usage",
+       "Calls/Music"
+      ],
+      [
+       "Headset type",
+       "Binaural"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Operating keys",
+       "Bluetooth pairing"
+      ],
+      [
+       "Protection features",
+       "Dustproof, Waterproof"
+      ],
+      [
+       "International Protection (IP) code",
+       "IP54"
+      ],
+      [
+       "Signal-to-Noise Ratio (SNR)",
+       "66 dB"
+      ],
+      [
+       "Number of paired devices remembered",
+       "8"
+      ],
+      [
+       "Number of simultaneously connected devices (max)",
+       "2"
+      ],
+      [
+       "Hearing protection",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Connectivity technology",
+       "True Wireless Stereo (TWS)"
+      ],
+      [
+       "Bluetooth",
+       "Yes"
+      ],
+      [
+       "Bluetooth version",
+       "5.3"
+      ],
+      [
+       "Frequency response (music mode)",
+       "20 - 20000 Hz"
+      ],
+      [
+       "Wireless range",
+       "30 m"
+      ]
+     ]
+    ],
+    [
+     "Headphones",
+     [
+      [
+       "Ear coupling",
+       "Intraaural"
+      ],
+      [
+       "Headphone sensitivity",
+       "106 dB"
+      ],
+      [
+       "Noise canceling",
+       "Yes"
+      ],
+      [
+       "Noise canceling type",
+       "Active"
+      ]
+     ]
+    ],
+    [
+     "Microphone",
+     [
+      [
+       "Microphone type",
+       "Built-in"
+      ],
+      [
+       "Microphone frequency",
+       "100 - 8000 Hz"
+      ],
+      [
+       "Microphone sensitivity",
+       "-35 dB"
+      ],
+      [
+       "MEMS (Micro-Electro-Mechanical System) microphone",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery operated",
+       "Yes"
+      ],
+      [
+       "Battery type",
+       "Built-in battery"
+      ],
+      [
+       "Battery capacity",
+       "66 mAh"
+      ],
+      [
+       "Talk time (with charging case)",
+       "16.5 h"
+      ],
+      [
+       "Battery capacity (charging case)",
+       "500 mAh"
+      ],
+      [
+       "Continuous audio playback time (charging case/ANC on)",
+       "33 h"
+      ],
+      [
+       "Continuous audio playback time (ANC on)",
+       "8 h"
+      ],
+      [
+       "Battery recharge time",
+       "2 h"
+      ],
+      [
+       "Fast charging",
+       "Yes"
+      ],
+      [
+       "Fast charging time",
+       "5 min"
+      ],
+      [
+       "Talk time (ANC on)",
+       "5 h"
+      ],
+      [
+       "Wireless charging",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Windows 10, Windows 11"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android, iOS"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "24.6 mm"
+      ],
+      [
+       "Depth",
+       "23.5 mm"
+      ],
+      [
+       "Height",
+       "32.2 mm"
+      ],
+      [
+       "Left earpiece weight",
+       "6 g"
+      ],
+      [
+       "Right earpiece weight",
+       "6 g"
+      ],
+      [
+       "Charging case dimensions (W x D x H)",
+       "30.86 x 58 x 63.87 mm"
+      ],
+      [
+       "Charging case weight",
+       "50.4 g"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "USB Type-C charging port",
+       "Yes"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "520-BBDH",
@@ -367,8 +4136,190 @@
    "images": [
     "https://cdn.cs.1worldsync.com/62/ae/62aea193-0c7f-4c6f-a7de-fd1eed32ebac.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Dell Pro Wired Headset - WH3024",
+   "specs": [],
+   "specGroups": [
+    [
+     "General",
+     [
+      [
+       "Product Type",
+       "Headset - wired - USB-C"
+      ],
+      [
+       "Compatibility",
+       "Mac, Windows"
+      ],
+      [
+       "Additional Functions",
+       "LED lights"
+      ],
+      [
+       "Weight",
+       "110 g"
+      ],
+      [
+       "Headband Material",
+       "Leatherette, memory foam"
+      ],
+      [
+       "Earpad Material",
+       "Leatherette memory foam"
+      ],
+      [
+       "Recommended Use",
+       "Computer"
+      ],
+      [
+       "Features",
+       "260° rotatable microphone"
+      ]
+     ]
+    ],
+    [
+     "Audio Output",
+     [
+      [
+       "Headphones Form Factor",
+       "On-ear binaural"
+      ],
+      [
+       "Connectivity Technology",
+       "Wired"
+      ],
+      [
+       "Sound Output Mode",
+       "Stereo"
+      ],
+      [
+       "Frequency Response",
+       "20 - 20000 Hz"
+      ],
+      [
+       "Max Sound Pressure",
+       "119 dB"
+      ],
+      [
+       "Diaphragm",
+       "28 mm"
+      ]
+     ]
+    ],
+    [
+     "Microphone",
+     [
+      [
+       "Type",
+       "Boom"
+      ],
+      [
+       "Form Factor",
+       "Headset microphone"
+      ],
+      [
+       "Microphone Operation Mode",
+       "Uni-directional, beamforming"
+      ],
+      [
+       "Sensitivity",
+       "-45 dBV/Pascal"
+      ],
+      [
+       "Frequency Response",
+       "100 - 14000 Hz"
+      ],
+      [
+       "Signal-To-Noise Ratio",
+       "53 dB"
+      ],
+      [
+       "Noise Cancelling",
+       "Yes"
+      ],
+      [
+       "Noise Cancelling Technology",
+       "AI Powered Environmental Noise Cancellation"
+      ]
+     ]
+    ],
+    [
+     "Remote Control",
+     [
+      [
+       "Controls",
+       "Microsoft Teams button, mute, volume, answer/end"
+      ]
+     ]
+    ],
+    [
+     "Connections",
+     [
+      [
+       "Connector Type",
+       "Headphones (24 pin USB-C)"
+      ]
+     ]
+    ],
+    [
+     "Miscellaneous",
+     [
+      [
+       "Included Accessories",
+       "USB-C to USB-A adapter"
+      ],
+      [
+       "Cable Details",
+       "Headset cable - 2 m"
+      ],
+      [
+       "Supported Host Device OS",
+       "macOS, Windows 10 (64-bit), Windows 11 (64-bit)"
+      ],
+      [
+       "Software Certification",
+       "Certified for Microsoft Teams, Zoom Certified"
+      ]
+     ]
+    ],
+    [
+     "Manufacturer Warranty",
+     [
+      [
+       "Service & Support",
+       "Limited warranty - 3 years"
+      ],
+      [
+       "Service & Support",
+       "Advanced Exchange Service - 3 years"
+      ]
+     ]
+    ],
+    [
+     "Environmental Parameters",
+     [
+      [
+       "Min Operating Temperature",
+       "0 °C"
+      ],
+      [
+       "Max Operating Temperature",
+       "40 °C"
+      ],
+      [
+       "Min Storage Temperature",
+       "-5 °C"
+      ],
+      [
+       "Max Storage Temperature",
+       "45 °C"
+      ],
+      [
+       "Humidity Range Operating",
+       "5 - 90%"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "460-BDSS",
@@ -383,8 +4334,104 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdss.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "A sustainably made, everyday backpack with a large, full-access front opening and protection features that shield your laptop and essentials.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Maximum screen size",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Polyester"
+      ],
+      [
+       "Product main colour",
+       "Black"
+      ],
+      [
+       "Brand compatibility",
+       "Universal"
+      ],
+      [
+       "Interior pockets",
+       "Document pocket"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Side pocket"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Water repellent"
+      ],
+      [
+       "Product made with recycled materials",
+       "Yes"
+      ],
+      [
+       "Product recycled materials",
+       "Recycled plastic"
+      ],
+      [
+       "Overall recycled content",
+       "100%"
+      ],
+      [
+       "Quantity",
+       "1"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "310 mm"
+      ],
+      [
+       "Depth",
+       "140 mm"
+      ],
+      [
+       "Height",
+       "440 mm"
+      ],
+      [
+       "Weight",
+       "500 g"
+      ],
+      [
+       "Notebook compartment dimensions (W x D x H)",
+       "270 x 25 x 400 mm"
+      ],
+      [
+       "Volume",
+       "18 L"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "460-BDQP",
@@ -399,8 +4446,100 @@
    "images": [
     "https://cdn.cs.1worldsync.com/ca/ef/caef4ee1-3eef-48b8-bdbd-51b27d284d88.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Get the Dell EcoLoop Pro Slim Backpack 15 that protects your gear on-the-go and helps reduce environmental impact.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Maximum screen size",
+       "39.6 cm (15.6\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Fabric, Plastic, Polyester"
+      ],
+      [
+       "Product main colour",
+       "Black"
+      ],
+      [
+       "Gender",
+       "Unisex"
+      ],
+      [
+       "Tablet compartment",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Interior pockets",
+       "Zip pocket"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Front pocket, Side pocket"
+      ],
+      [
+       "Number of front pockets",
+       "1"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Dirt resistant, Waterproof"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "315 mm"
+      ],
+      [
+       "Depth",
+       "140 mm"
+      ],
+      [
+       "Height",
+       "445 mm"
+      ],
+      [
+       "Weight",
+       "590 g"
+      ],
+      [
+       "Notebook compartment dimensions (W x D x H)",
+       "400 x 270 x 25 mm"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "460-BFDD",
@@ -415,8 +4554,96 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bfdd.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Neatly carry all you need while on the go with this spacious backpack. With a 27-liter capacity and organised pockets, it's durable, stylish and made with recycled materials.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Maximum screen size",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Fabric, Polyester"
+      ],
+      [
+       "Product main colour",
+       "Grey"
+      ],
+      [
+       "Integrated compartment(s)",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Side pocket"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Dirt resistant, Water resistant"
+      ],
+      [
+       "Product made with recycled materials",
+       "Yes"
+      ],
+      [
+       "Overall recycled content",
+       "52%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "315 mm"
+      ],
+      [
+       "Depth",
+       "210 mm"
+      ],
+      [
+       "Height",
+       "480 mm"
+      ],
+      [
+       "Weight",
+       "550 g"
+      ],
+      [
+       "Volume",
+       "27 L"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "460-BFCJ",
@@ -431,8 +4658,116 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bfcj.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Compact backpack to carry essentials in style. Crafted for sustainability and durably built, it helps reduce impact to the environment and your tech.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Compatibility",
+       "l"
+      ],
+      [
+       "Maximum screen size",
+       "35.6 cm (14\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Foam, Polyethylene, Polyurethane"
+      ],
+      [
+       "Product main colour",
+       "Grey"
+      ],
+      [
+       "Gender",
+       "Unisex"
+      ],
+      [
+       "Tablet compartment",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Interior pockets",
+       "Zip pocket"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Front pocket, Side pocket"
+      ],
+      [
+       "Number of front pockets",
+       "1"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Scratch resistant"
+      ],
+      [
+       "Overall recycled content",
+       "57%"
+      ],
+      [
+       "Closure type",
+       "Zipper"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "270 mm"
+      ],
+      [
+       "Depth",
+       "165 mm"
+      ],
+      [
+       "Height",
+       "400 mm"
+      ],
+      [
+       "Weight",
+       "450 g"
+      ],
+      [
+       "Notebook compartment dimensions (W x D x H)",
+       "340 x 240 x 20 mm"
+      ],
+      [
+       "Volume",
+       "21 L"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "492-BBXU",
@@ -449,8 +4784,67 @@
     "https://cdn.cs.1worldsync.com/52/ff/52ff76a2-e929-4e0c-98fc-a66a5c2a4fa4.jpg",
     "https://cdn.cs.1worldsync.com/78/b8/78b8120a-7d2f-40ed-bcbb-bf5967e3964b.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Connect with up to 4K resolution displays With the Dell Adapter - DisplayPort to HDMI 2.0 (4K) you can connect your PC's DisplayPort to 4K displays with an HDMI input without compromising on picture quality. Enjoy a seamless connection between PCs with DisplayPorts and with multiple versions of HDMI (versions 1.2, 1.4 and 2.0) -compliant monitors, projectors and HDTVs. Uncompromising view on the big screen with Ultra HD (4K) support The adapter supports up to Ultra HD (4K) at 60 Hz, so you can experience incredible screen clarity while viewing your favorite 4K videos, playing games or making presentations on a large display. Highly portable with a compact and lightweight design Bring the adapter with you wherever your busy day takes you. Its compact and lightweight design makes it easy to carry around. Just throw it in your bag and head off to your next destination. Get started right away with plug & play With the added convenience of plug & play, you won't have to waste time trying to get your display set up. Simply connect the adapter from the DisplayPort on your PC to the HDMI input on your monitor, projector or HDTV, and get started right away. Compatibility Compatible with Dell Platforms and backward compatible with all older versions of HDMI compliant monitors, projectors and HDTVs. Connect your PC with DisplayPort to high resolution displays with the Dell™ Adapter - DisplayPort to HDMI 2.0 (4K). Enjoy uncompromised 4K content at 60 Hz with the adapter’s seamless connection between PCs with DisplayPort and HDMI-compliant monitors, projectors, and HDTVs. With the convenience of plug & play, you can get started right away without having to install drivers.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Connector 1 form factor",
+       "Straight"
+      ],
+      [
+       "Connector 2 form factor",
+       "Straight"
+      ],
+      [
+       "Cable length",
+       "0.2 m"
+      ],
+      [
+       "Connector 1",
+       "DisplayPort"
+      ],
+      [
+       "Connector 2",
+       "HDMI"
+      ],
+      [
+       "Connector 1 gender",
+       "Male"
+      ],
+      [
+       "Connector 2 gender",
+       "Female"
+      ],
+      [
+       "HDMI version",
+       "2.0"
+      ],
+      [
+       "Maximum resolution",
+       "3840 x 2160 pixels"
+      ],
+      [
+       "Supported graphics resolutions",
+       "3840 x 2160"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ],
+      [
+       "Converter type",
+       "Passive video converter"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "450-BFFM",
@@ -465,8 +4859,9 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_450-bffm.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "Dell 65W USB-C AC Adapter with Power Cord - South Africa",
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "470-BDNM",
@@ -481,8 +4876,76 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bdnm.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "DELL CB325H. Cable length: 1.8 m, Connector 1: HDMI Type A (Standard), Connector 1 gender: Male, Connector 2: HDMI Type A (Standard), Connector 2 gender: Male, HDMI version: 2.0, Product colour: Black",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Cable length",
+       "1.8 m"
+      ],
+      [
+       "Connector 1",
+       "HDMI Type A (Standard)"
+      ],
+      [
+       "Connector 2",
+       "HDMI Type A (Standard)"
+      ],
+      [
+       "Connector 1 gender",
+       "Male"
+      ],
+      [
+       "Connector 2 gender",
+       "Male"
+      ],
+      [
+       "Connector 1 form factor",
+       "Straight"
+      ],
+      [
+       "Connector 2 form factor",
+       "Straight"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "HDMI version",
+       "2.0"
+      ],
+      [
+       "Supported graphics resolutions",
+       "5120 x 2880"
+      ],
+      [
+       "HDMI Ethernet channel",
+       "Yes"
+      ],
+      [
+       "Maximum refresh rate",
+       "60 Hz"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "95 g"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "470-BDNL",
@@ -497,8 +4960,72 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bdnl.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "DELL CB325D. Cable length: 1.8 m, Connector 1: DisplayPort, Connector 2: DisplayPort. Weight: 91 g",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Connector 1 form factor",
+       "Straight"
+      ],
+      [
+       "Connector 2 form factor",
+       "Straight"
+      ],
+      [
+       "DisplayPort version",
+       "1.4"
+      ],
+      [
+       "Maximum resolution",
+       "7680 x 4320 pixels"
+      ],
+      [
+       "Maximum refresh rate",
+       "120 Hz"
+      ],
+      [
+       "Cable length",
+       "1.8 m"
+      ],
+      [
+       "Connector 1",
+       "DisplayPort"
+      ],
+      [
+       "Connector 2",
+       "DisplayPort"
+      ],
+      [
+       "Connector 1 gender",
+       "Male"
+      ],
+      [
+       "Connector 2 gender",
+       "Male"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "91 g"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "SNV3S/500G",
@@ -513,8 +5040,97 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/kingston_snv3s-500g.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "For high-speed, low-power storage needs Kingston’s NV3 PCIe 4.0 NVMe SSDs are next-gen storage solutions powered by a Gen 4x4 NVMe controller, delivering read/write speeds of up to 6,000/5,000MB/s*. They come in both compact, single-sided M.2 2280 (22x80mm) and 2230 (22x30mm) sizes to expand storage in small-form-factor systems like laptops and handheld gaming consoles*****. They offer lower power consumption and reduced heat, optimising your system's performance without compromising value. Available in capacities from 500GB– 4TB** to give you all the space you need for applications, documents, photos, videos, games and more. Gen 4x4 NVMe PCIe performance Upgrade your system with read/write speeds up to 6,000/5,000MB/s*. Small size, big performance NV3 2280 and 2230 easily integrate into thin laptops and ultra-small PCs with M.2 connectors and limited space. Increased storage space Available in a variety of high capacities up to 4TB**, providing ample space to store files, videos, documents, and games with room to spare. Store more, play more With NV3 2230 upgrade compatible handheld gaming systems to get in the game faster*****.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "SSD capacity",
+       "500 GB"
+      ],
+      [
+       "SSD form factor",
+       "M.2"
+      ],
+      [
+       "Interface",
+       "PCI Express 4.0"
+      ],
+      [
+       "NVMe",
+       "Yes"
+      ],
+      [
+       "Memory type",
+       "3D NAND"
+      ],
+      [
+       "Component for",
+       "PC/Laptop"
+      ],
+      [
+       "M.2 SSD size",
+       "2280 (22 x 80 mm)"
+      ],
+      [
+       "Read speed",
+       "5000 MB/s"
+      ],
+      [
+       "Write speed",
+       "3000 MB/s"
+      ],
+      [
+       "Mean time between failures (MTBF)",
+       "2000000 h"
+      ],
+      [
+       "TBW rating",
+       "160"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "22 mm"
+      ],
+      [
+       "Depth",
+       "80 mm"
+      ],
+      [
+       "Height",
+       "2.3 mm"
+      ],
+      [
+       "Weight",
+       "5.7 g"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 70 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 85 °C"
+      ],
+      [
+       "Operating vibration",
+       "10 G"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "TEB01",
@@ -534,8 +5150,90 @@
     "https://cdn.cs.1worldsync.com/a0/12/a012fb40-ca1b-4f32-866c-4106bd14179e.jpg",
     "https://cdn.cs.1worldsync.com/80/3c/803ccf08-e16d-42a2-8ded-890145ac7f9a.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "The Campus Notebook Backpack is ideal for students at school or university and also appeals to today’s mobile professionals with an active lifestyle and a more casual work environment. The padded computer compartment is specifically designed to protect laptops with standard 15 - 16 inch screens. There's plenty of storage space: an extra large zippered storage compartment with internal pockets including zippered mesh pockets - perfect for personal (iPod, CD player, PDA, etc.) or computing accessories. Other features include pen loops and student / business card holder. Finally, for your ultimate carrying comfort, there's a 3D contoured air-mesh back padding which helps alleviate stress and strain on your back. - Compartment for notebooks with 15\" to 16” screens - 3D contoured air-mesh back padding which helps alleviate back stress/strain - Multiple pockets for maximum storage capacity (Mobile phone, CD player, smartphone, iPod, pens, business/student card...) and many more! - Hidden rear pocket for your personal belongings - Adjustable fasteners on each side of the backpack - Neoprene comfort grip handle - Mesh pockets for your loose accessories - Removable waist strap included",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Product main colour",
+       "Black"
+      ],
+      [
+       "Coloration",
+       "Monochromatic"
+      ],
+      [
+       "Notebook compartment",
+       "Yes"
+      ],
+      [
+       "Minimum screen size",
+       "39.1 cm (15.4\")"
+      ],
+      [
+       "Maximum screen size",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Handle(s)",
+       "Yes"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Country of origin",
+       "CHN"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "130 mm"
+      ],
+      [
+       "Depth",
+       "370 mm"
+      ],
+      [
+       "Height",
+       "460 mm"
+      ],
+      [
+       "Weight",
+       "1.01 kg"
+      ],
+      [
+       "Notebook compartment dimensions (W x D x H)",
+       "300 x 43 x 374 mm"
+      ]
+     ]
+    ],
+    [
+     "Material",
+     [
+      [
+       "Material",
+       "Nylon"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Dimensions (WxDxH)",
+       "381 x 200 x 480 mm"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "TSB911GL",
@@ -550,8 +5248,113 @@
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/targus_tsb911gl.jpg"
    ],
-   "description": "",
-   "specs": []
+   "description": "The 15-16\" CitySmart™ Essentials Backpack delivers intuitive organization in a tailored design. Featuring separate compartments for your laptop and tablet, and plenty of nooks for your office supplies and devices, this pack deliver the necessary protection for your gear. The Targus 12”-16” CitySmart™ Backpack delivers device protection and intuitive organization in a polished pack with a clean-lined frame. Designed to fit laptops 12”-16”, this bag has padded, adjustable shoulder straps and a padded back that ensure a comfortable fit once it’s on your shoulders. A deep front compartment features a workstation for your business cards, pens, small gadgets, and other office supplies, while the font quick-stash pocket provides easy access to your small accessories. For maximum protection, a weather-resistant base helps keep your devices and docs safe from the elements, while thoughtful features like a pass-through trolley strap and water bottle pocket add to its functionality. With professional good looks, convenient features, and protective details, the CitySmart™ Essentials Backpack fits the way you work.",
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Maximum screen size",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Product main colour",
+       "Black, Grey"
+      ],
+      [
+       "Gender",
+       "Unisex"
+      ],
+      [
+       "Tablet compartment",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Any brand"
+      ],
+      [
+       "Interior pockets",
+       "Accessory pocket"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Front pocket, Side pocket"
+      ],
+      [
+       "Number of front pockets",
+       "2"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Trolley retainer strap",
+       "Yes"
+      ],
+      [
+       "Closure type",
+       "Zipper"
+      ],
+      [
+       "Quantity",
+       "1"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "304.8 mm"
+      ],
+      [
+       "Depth",
+       "140 mm"
+      ],
+      [
+       "Height",
+       "460 mm"
+      ],
+      [
+       "Weight",
+       "720 g"
+      ],
+      [
+       "Volume",
+       "24 L"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Water bottle holder",
+       "Yes"
+      ]
+     ]
+    ]
+   ]
   }
  ]
 }
