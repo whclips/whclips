@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-15T15:46:51+00:00",
- "pricedAt": "2026-09-15T15:46:51+00:00",
- "priceValidUntil": "2026-09-15T16:46:51+00:00",
+ "generatedAt": "2026-09-16T08:13:25+00:00",
+ "pricedAt": "2026-09-16T08:13:25+00:00",
+ "priceValidUntil": "2026-09-16T10:13:25+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": true,
@@ -12,7 +12,7 @@
    "name": "Dell Pro 22 Monitor - E2225HM",
    "brand": "Dell",
    "category": "Monitors",
-   "price": 2010.0,
+   "price": 2010,
    "stock": "in",
    "badges": [
     "On promotion",
@@ -22,6 +22,37 @@
    "promo": true,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqmz.jpg"
+   ],
+   "description": "21.5-inch Full HD business monitor with a 100 Hz refresh rate and Dell's always-on ComfortView Plus low-blue-light panel. VA panel with 3000:1 contrast and 178° viewing angles, in a thin-bezel, space-saving design. Three-year manufacturer warranty.",
+   "specs": [
+    [
+     "Screen size",
+     "21.5 in (54.6 cm)"
+    ],
+    [
+     "Resolution",
+     "1920 x 1080 (Full HD)"
+    ],
+    [
+     "Refresh rate",
+     "100 Hz"
+    ],
+    [
+     "Panel",
+     "VA, anti-glare"
+    ],
+    [
+     "Contrast",
+     "3000:1"
+    ],
+    [
+     "Viewing angle",
+     "178° / 178°"
+    ],
+    [
+     "Warranty",
+     "36 months, manufacturer"
+    ]
    ]
   },
   {
@@ -29,19 +60,23 @@
    "name": "Dell Pro P 24 Monitor -P2426H",
    "brand": "Dell",
    "category": "Monitors",
-   "price": 3680.0,
+   "price": 3680,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
-   "images": []
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvkm.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "210-BRDT",
    "name": "Dell Pro 22 Adjustable Stand Monitor - E2225HSM",
    "brand": "Dell",
    "category": "Monitors",
-   "price": 2370.0,
+   "price": 2370,
    "stock": "in",
    "badges": [
     "On promotion",
@@ -51,14 +86,16 @@
    "promo": true,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-brdt.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "210-BRDQ",
    "name": "Dell Pro 27 Monitor E2725HM",
    "brand": "Dell",
    "category": "Monitors",
-   "price": 2910.0,
+   "price": 2910,
    "stock": "in",
    "badges": [
     "Deal ending soon",
@@ -68,40 +105,48 @@
    "promo": true,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-brdq.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "210-BTSP",
    "name": "Dell 27 240Hz Monitor - SE2726HG",
    "brand": "Dell",
    "category": "Monitors",
-   "price": 3520.0,
+   "price": 3520,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
-   "images": []
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-btsp.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "210-BQZS",
    "name": "Dell 22 Monitor - SE2225HM",
    "brand": "Dell",
    "category": "Monitors",
-   "price": 1840.0,
+   "price": 1840,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqzs.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "580-ADHK",
    "name": "Dell Wired Keyboard - KB216 - US International (QWERTY) - Black",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 244.0,
+   "price": 244,
    "stock": "in",
    "badges": [
     "Best seller"
@@ -109,36 +154,40 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/c9/05/c905ae19-c628-44f0-9e17-37da76b2f598.jpg",
-    "http://cdn.cs.1worldsync.com/da/73/da732dbf-5f2e-416e-bea7-4bf005a4f085.jpg",
-    "http://cdn.cs.1worldsync.com/53/8b/538bc3b4-df8d-4f48-8fb2-5f33164f8ae1.jpg",
-    "http://cdn.cs.1worldsync.com/a8/ef/a8efc215-6e24-4e92-93bd-64f1abc8937f.jpg",
-    "http://cdn.cs.1worldsync.com/65/00/6500d0d1-3b23-48de-8b39-38a0c521cd5f.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/c9/05/c905ae19-c628-44f0-9e17-37da76b2f598.jpg",
+    "https://cdn.cs.1worldsync.com/da/73/da732dbf-5f2e-416e-bea7-4bf005a4f085.jpg",
+    "https://cdn.cs.1worldsync.com/53/8b/538bc3b4-df8d-4f48-8fb2-5f33164f8ae1.jpg",
+    "https://cdn.cs.1worldsync.com/a8/ef/a8efc215-6e24-4e92-93bd-64f1abc8937f.jpg",
+    "https://cdn.cs.1worldsync.com/65/00/6500d0d1-3b23-48de-8b39-38a0c521cd5f.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "580-AKFZ",
    "name": "Dell Keyboard and Mouse - KM3322W - US International (QWERTY)",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 445.0,
+   "price": 445,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/15/d0/15d0de90-63ab-4c32-b952-687c299e1829.jpg",
-    "http://cdn.cs.1worldsync.com/a6/07/a607e292-ca5f-4782-aa9e-bbb437ac3726.jpg",
-    "http://cdn.cs.1worldsync.com/16/0e/160ead80-3f17-4097-9850-423229e6c3ee.jpg",
-    "http://cdn.cs.1worldsync.com/f0/46/f0464db3-c0c0-4605-98c1-41af606e9a9d.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/15/d0/15d0de90-63ab-4c32-b952-687c299e1829.jpg",
+    "https://cdn.cs.1worldsync.com/a6/07/a607e292-ca5f-4782-aa9e-bbb437ac3726.jpg",
+    "https://cdn.cs.1worldsync.com/16/0e/160ead80-3f17-4097-9850-423229e6c3ee.jpg",
+    "https://cdn.cs.1worldsync.com/f0/46/f0464db3-c0c0-4605-98c1-41af606e9a9d.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "580-AJRP",
    "name": "Dell Pro Keyboard and Mouse - KM5221W - US International (QWERTY) - Black",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 714.0,
+   "price": 714,
    "stock": "in",
    "badges": [],
    "attributes": [
@@ -146,19 +195,21 @@
    ],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/7f/39/7f39f20c-644f-49c3-bbbf-84ecb2c1f3bb.jpg",
-    "http://cdn.cs.1worldsync.com/08/c6/08c66195-087c-4fca-abfd-8e3c919ecdb2.jpg",
-    "http://cdn.cs.1worldsync.com/e5/be/e5be3d68-a312-4f8e-a29a-aa9c0fd2870f.jpg",
-    "http://cdn.cs.1worldsync.com/77/2a/772a4942-3919-45ee-9a72-8371d2f8af35.jpg",
-    "http://cdn.cs.1worldsync.com/d5/fb/d5fbb669-a844-4b0f-a532-cebac7afac27.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/7f/39/7f39f20c-644f-49c3-bbbf-84ecb2c1f3bb.jpg",
+    "https://cdn.cs.1worldsync.com/08/c6/08c66195-087c-4fca-abfd-8e3c919ecdb2.jpg",
+    "https://cdn.cs.1worldsync.com/e5/be/e5be3d68-a312-4f8e-a29a-aa9c0fd2870f.jpg",
+    "https://cdn.cs.1worldsync.com/77/2a/772a4942-3919-45ee-9a72-8371d2f8af35.jpg",
+    "https://cdn.cs.1worldsync.com/d5/fb/d5fbb669-a844-4b0f-a532-cebac7afac27.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "580-17667",
    "name": "Dell Business Multimedia Keyboard - KB522 - US International (QWERTY)",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 540.0,
+   "price": 540,
    "stock": "in",
    "badges": [
     "Best seller"
@@ -166,15 +217,17 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/9a/57/9a577ffe-37f6-4da2-a1fa-ef40936b2006.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/9a/57/9a577ffe-37f6-4da2-a1fa-ef40936b2006.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "580-AKOO",
    "name": "Dell Pro Keyboard - KB500 - US International (QWERTY)",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 478.0,
+   "price": 478,
    "stock": "in",
    "badges": [
     "Best seller"
@@ -182,19 +235,21 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/b2/b6/b2b648a9-290f-4fdf-b516-a33fa1671b22.jpg",
-    "http://cdn.cs.1worldsync.com/63/dc/63dcb051-8064-4510-b617-d54a209cdf06.jpg",
-    "http://cdn.cs.1worldsync.com/26/92/2692ffa9-c752-4d48-be1a-3e49cce26767.jpg",
-    "http://cdn.cs.1worldsync.com/f9/df/f9dfd309-85cf-4d33-af87-c707c51ac892.jpg",
-    "http://cdn.cs.1worldsync.com/ea/fd/eafd56c5-bed2-4015-b4dc-e26a596edb2f.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/b2/b6/b2b648a9-290f-4fdf-b516-a33fa1671b22.jpg",
+    "https://cdn.cs.1worldsync.com/63/dc/63dcb051-8064-4510-b617-d54a209cdf06.jpg",
+    "https://cdn.cs.1worldsync.com/26/92/2692ffa9-c752-4d48-be1a-3e49cce26767.jpg",
+    "https://cdn.cs.1worldsync.com/f9/df/f9dfd309-85cf-4d33-af87-c707c51ac892.jpg",
+    "https://cdn.cs.1worldsync.com/ea/fd/eafd56c5-bed2-4015-b4dc-e26a596edb2f.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "570-AAIS",
    "name": "Dell Wired Mouse - MS116 - Black",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 167.0,
+   "price": 167,
    "stock": "in",
    "badges": [
     "Best seller"
@@ -202,19 +257,21 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/38/e0/38e03517-0853-440a-986b-cc5347f00fad.jpg",
-    "http://cdn.cs.1worldsync.com/57/56/5756138d-2dd3-4c47-974f-035cbec47432.jpg",
-    "http://cdn.cs.1worldsync.com/6c/f5/6cf520c4-5bd4-47fb-999e-236438c7bd17.jpg",
-    "http://cdn.cs.1worldsync.com/8b/07/8b07bac8-7405-42bf-8347-927fd199c877.jpg",
-    "http://cdn.cs.1worldsync.com/1a/15/1a155e03-dbc0-4413-ad85-48df8a834a1e.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/38/e0/38e03517-0853-440a-986b-cc5347f00fad.jpg",
+    "https://cdn.cs.1worldsync.com/57/56/5756138d-2dd3-4c47-974f-035cbec47432.jpg",
+    "https://cdn.cs.1worldsync.com/6c/f5/6cf520c4-5bd4-47fb-999e-236438c7bd17.jpg",
+    "https://cdn.cs.1worldsync.com/8b/07/8b07bac8-7405-42bf-8347-927fd199c877.jpg",
+    "https://cdn.cs.1worldsync.com/1a/15/1a155e03-dbc0-4413-ad85-48df8a834a1e.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "570-AAMH",
    "name": "Dell Wireless Mouse-WM126",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 241.0,
+   "price": 241,
    "stock": "in",
    "badges": [
     "Best seller"
@@ -222,45 +279,53 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/a4/ea/a4eabb62-c8a3-4ffb-8b89-d64eaed625fb.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/a4/ea/a4eabb62-c8a3-4ffb-8b89-d64eaed625fb.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "570-BBMJ",
    "name": "Dell Mouse - WM118",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 202.0,
+   "price": 202,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
-   "images": []
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bbmj.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "570-ABOC",
    "name": "Dell Pro Mouse - MS300",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 324.0,
+   "price": 324,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/7a/53/7a539dd3-4781-48ad-9769-2c92d5c2879b.jpg",
-    "http://cdn.cs.1worldsync.com/8b/e2/8be2de3f-0958-4a35-ae1e-461aa651d945.jpg",
-    "http://cdn.cs.1worldsync.com/49/04/490407ea-f565-4819-90db-97e469199079.jpg",
-    "http://cdn.cs.1worldsync.com/fc/b3/fcb3470c-052b-4b5a-848a-40917862f842.jpg",
-    "http://cdn.cs.1worldsync.com/57/50/57507734-0a8d-4174-8525-264496bcf7e1.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/7a/53/7a539dd3-4781-48ad-9769-2c92d5c2879b.jpg",
+    "https://cdn.cs.1worldsync.com/8b/e2/8be2de3f-0958-4a35-ae1e-461aa651d945.jpg",
+    "https://cdn.cs.1worldsync.com/49/04/490407ea-f565-4819-90db-97e469199079.jpg",
+    "https://cdn.cs.1worldsync.com/fc/b3/fcb3470c-052b-4b5a-848a-40917862f842.jpg",
+    "https://cdn.cs.1worldsync.com/57/50/57507734-0a8d-4174-8525-264496bcf7e1.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "520-BBLV",
    "name": "Dell Wired Headset - WH125",
    "brand": "Dell",
    "category": "Headsets & audio",
-   "price": 485.0,
+   "price": 485,
    "stock": "in",
    "badges": [],
    "attributes": [
@@ -269,156 +334,178 @@
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bblv.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "520-BBNM",
    "name": "Dell Pro Plus Earbuds - EB525",
    "brand": "Dell",
    "category": "Headsets & audio",
-   "price": 3680.0,
+   "price": 3680,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bbnm.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "520-BBDH",
    "name": "Dell Pro Wired Headset - WH3024",
    "brand": "Dell",
    "category": "Headsets & audio",
-   "price": 1300.0,
+   "price": 1300,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/62/ae/62aea193-0c7f-4c6f-a7de-fd1eed32ebac.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/62/ae/62aea193-0c7f-4c6f-a7de-fd1eed32ebac.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "460-BDSS",
    "name": "Dell 14-16 EcoLoop Backpack CP3724",
    "brand": "Dell",
    "category": "Bags & cases",
-   "price": 382.0,
+   "price": 382,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdss.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "460-BDQP",
    "name": "Dell Pro 14-16 Plus EcoLoop Slim Backpack - CP5724S",
    "brand": "Dell",
    "category": "Bags & cases",
-   "price": 643.0,
+   "price": 643,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/ca/ef/caef4ee1-3eef-48b8-bdbd-51b27d284d88.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/ca/ef/caef4ee1-3eef-48b8-bdbd-51b27d284d88.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "460-BFDD",
    "name": "Dell Pro 14-16 Plus EcoLoop Urban Backpack - CP5625G",
    "brand": "Dell",
    "category": "Bags & cases",
-   "price": 489.0,
+   "price": 489,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bfdd.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "460-BFCJ",
    "name": "Dell Pro 13-14 Plus EcoLoop Backpack CP5426G",
    "brand": "Dell",
    "category": "Bags & cases",
-   "price": 652.0,
+   "price": 652,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bfcj.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "492-BBXU",
    "name": "Kit - Dell Adapter - DisplayPort to HDMI 2.0 (4K)",
    "brand": "Dell",
    "category": "Cables & adapters",
-   "price": 435.0,
+   "price": 435,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/8b/ed/8bedeacb-d7dc-4d8f-81eb-9bd93df85605.jpg",
-    "http://cdn.cs.1worldsync.com/52/ff/52ff76a2-e929-4e0c-98fc-a66a5c2a4fa4.jpg",
-    "http://cdn.cs.1worldsync.com/78/b8/78b8120a-7d2f-40ed-bcbb-bf5967e3964b.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/8b/ed/8bedeacb-d7dc-4d8f-81eb-9bd93df85605.jpg",
+    "https://cdn.cs.1worldsync.com/52/ff/52ff76a2-e929-4e0c-98fc-a66a5c2a4fa4.jpg",
+    "https://cdn.cs.1worldsync.com/78/b8/78b8120a-7d2f-40ed-bcbb-bf5967e3964b.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "450-BFFM",
    "name": "Dell 65W USB-C AC Adapter with Power Cord - South Africa",
    "brand": "Dell",
    "category": "Cables & adapters",
-   "price": 469.0,
+   "price": 469,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_450-bffm.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "470-BDNM",
    "name": "Dell HDMI 2.0 Cable - CB325H",
    "brand": "Dell",
    "category": "Cables & adapters",
-   "price": 217.0,
+   "price": 217,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bdnm.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "470-BDNL",
    "name": "Dell DisplayPort 1.4 Cable - CB325D",
    "brand": "Dell",
    "category": "Cables & adapters",
-   "price": 261.0,
+   "price": 261,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bdnl.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "KCP432SS8/16",
    "name": "Kingston 16GB DDR4 3200MHz Single Rank SODIMM Lifetime warranty",
    "brand": "Kingston",
    "category": "Accessories",
-   "price": 6000.0,
+   "price": 6000,
    "stock": "in",
    "badges": [
     "Best seller"
@@ -426,29 +513,33 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/5d/0c/5d0c7578-eed4-40d8-a363-e4d76dd99e92.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/5d/0c/5d0c7578-eed4-40d8-a363-e4d76dd99e92.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "SNV3S/500G",
    "name": "Kingston 500G NV3 M.2 2280 PCIe 4.0 NVMe SSD",
    "brand": "Kingston",
    "category": "Accessories",
-   "price": 2370.0,
+   "price": 2370,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/kingston_snv3s-500g.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "TEB01",
    "name": "Targus Bag Campus Backpack 15 16 Nylon Black 2.5 kg Limited Lifetime warranty",
    "brand": "Targus",
    "category": "Accessories",
-   "price": 808.0,
+   "price": 808,
    "stock": "in",
    "badges": [
     "Best seller"
@@ -456,25 +547,29 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "http://cdn.cs.1worldsync.com/85/24/8524910d-83a1-430a-9153-1b00227f42cd.jpg",
-    "http://cdn.cs.1worldsync.com/9d/61/9d611076-d761-4d87-8b7c-d1ca34618f3e.jpg",
-    "http://cdn.cs.1worldsync.com/a0/12/a012fb40-ca1b-4f32-866c-4106bd14179e.jpg",
-    "http://cdn.cs.1worldsync.com/80/3c/803ccf08-e16d-42a2-8ded-890145ac7f9a.jpg"
-   ]
+    "https://cdn.cs.1worldsync.com/85/24/8524910d-83a1-430a-9153-1b00227f42cd.jpg",
+    "https://cdn.cs.1worldsync.com/9d/61/9d611076-d761-4d87-8b7c-d1ca34618f3e.jpg",
+    "https://cdn.cs.1worldsync.com/a0/12/a012fb40-ca1b-4f32-866c-4106bd14179e.jpg",
+    "https://cdn.cs.1worldsync.com/80/3c/803ccf08-e16d-42a2-8ded-890145ac7f9a.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "TSB911GL",
    "name": "Targus Bag CitySmart Essential Multi Fit 12.5 15.6 Laptop Backpack Black",
    "brand": "Targus",
    "category": "Accessories",
-   "price": 858.0,
+   "price": 858,
    "stock": "in",
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/targus_tsb911gl.jpg"
-   ]
+   ],
+   "description": "",
+   "specs": []
   }
  ]
 }
