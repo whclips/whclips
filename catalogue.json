@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-16T10:24:07+00:00",
- "pricedAt": "2026-09-16T10:24:07+00:00",
- "priceValidUntil": "2026-09-16T12:24:07+00:00",
+ "generatedAt": "2026-09-16T11:09:07+00:00",
+ "pricedAt": "2026-09-16T11:09:07+00:00",
+ "priceValidUntil": "2026-09-16T13:09:07+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": true,
- "count": 29,
+ "count": 25,
  "items": [
   {
    "sku": "210-BQMZ",
@@ -54,22 +54,6 @@
      "36 months, manufacturer"
     ]
    ]
-  },
-  {
-   "sku": "210-BVKM",
-   "name": "Dell Pro P 24 Monitor -P2426H",
-   "brand": "Dell",
-   "category": "Monitors",
-   "price": 3680,
-   "stock": "in",
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvkm.jpg"
-   ],
-   "description": "",
-   "specs": []
   },
   {
    "sku": "210-BRDT",
@@ -350,54 +334,6 @@
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bbnm.jpg"
-   ],
-   "description": "",
-   "specs": []
-  },
-  {
-   "sku": "520-BBDH",
-   "name": "Dell Pro Wired Headset - WH3024",
-   "brand": "Dell",
-   "category": "Headsets & audio",
-   "price": 1300,
-   "stock": "in",
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://cdn.cs.1worldsync.com/62/ae/62aea193-0c7f-4c6f-a7de-fd1eed32ebac.jpg"
-   ],
-   "description": "",
-   "specs": []
-  },
-  {
-   "sku": "460-BDSS",
-   "name": "Dell 14-16 EcoLoop Backpack CP3724",
-   "brand": "Dell",
-   "category": "Bags & cases",
-   "price": 382,
-   "stock": "in",
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdss.jpg"
-   ],
-   "description": "",
-   "specs": []
-  },
-  {
-   "sku": "460-BDQP",
-   "name": "Dell Pro 14-16 Plus EcoLoop Slim Backpack - CP5724S",
-   "brand": "Dell",
-   "category": "Bags & cases",
-   "price": 643,
-   "stock": "in",
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://cdn.cs.1worldsync.com/ca/ef/caef4ee1-3eef-48b8-bdbd-51b27d284d88.jpg"
    ],
    "description": "",
    "specs": []
