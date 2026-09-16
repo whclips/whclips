@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-16T16:24:08+00:00",
- "pricedAt": "2026-09-16T16:24:08+00:00",
- "priceValidUntil": "2026-09-16T18:24:08+00:00",
+ "generatedAt": "2026-09-16T16:34:58+00:00",
+ "pricedAt": "2026-09-16T16:34:58+00:00",
+ "priceValidUntil": "2026-09-16T18:34:58+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": true,
@@ -29,6 +29,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566244/210-BQMZ_5.jpg"
    ],
    "description": "21.5-inch Full HD business monitor with a 100 Hz refresh rate and Dell's always-on ComfortView Plus low-blue-light panel. VA panel with 3000:1 contrast and 178° viewing angles, in a thin-bezel, space-saving design. Three-year manufacturer warranty.",
+   "strap": "54.6 cm (21.5\"), 1920 x 1080 pixels, Full HD, LCD, 8 ms",
+   "warranty": "3 Years Base Adv Ex",
+   "highlights": [
+    [
+     "Screen size",
+     "21.5 in (54.6 cm)"
+    ],
+    [
+     "Resolution",
+     "1920 x 1080 (Full HD)"
+    ],
+    [
+     "Refresh rate",
+     "100 Hz"
+    ],
+    [
+     "Panel",
+     "VA, anti-glare"
+    ]
+   ],
    "specs": [
     [
      "Screen size",
@@ -63,7 +83,7 @@
   },
   {
    "sku": "210-BVKM",
-   "name": "Dell Pro P 24 Monitor -P2426H",
+   "name": "Dell Pro P 24 Monitor - P2426H",
    "brand": "Dell",
    "category": "Monitors",
    "price": 3680,
@@ -80,6 +100,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566239/210-BVKM_5.jpg"
    ],
    "description": "Equipped for seamless productivity, this 23.8-inch FHD monitor offers extensive connectivity, high refresh rate and TÜV-certified 4-star eye comfort.",
+   "strap": "61 cm (24\"), 1920 x 1080 pixels, Full HD, LCD, 8 ms, Black",
+   "warranty": "3 Years Advance Exchange Service",
+   "highlights": [
+    [
+     "Display diagonal",
+     "61 cm (24\")"
+    ],
+    [
+     "Display resolution",
+     "1920 x 1080 pixels"
+    ],
+    [
+     "Maximum refresh rate",
+     "120 Hz"
+    ],
+    [
+     "Panel type",
+     "IPS"
+    ],
+    [
+     "Response time",
+     "8 ms"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -548,6 +596,30 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566239/210-BRDT_5.jpg"
    ],
    "description": "Get the essentials to enhance productivity with this 21.5-inch height-adjustable monitor certified by TÜV Rheinland® for 3-star eye comfort.",
+   "strap": "54.6 cm (21.5\"), 1920 x 1080 pixels, Full HD, LCD, 8 ms",
+   "warranty": "3 Years Base Adv Ex",
+   "highlights": [
+    [
+     "Display diagonal",
+     "54.6 cm (21.5\")"
+    ],
+    [
+     "Display resolution",
+     "1920 x 1080 pixels"
+    ],
+    [
+     "Maximum refresh rate",
+     "100 Hz"
+    ],
+    [
+     "Panel type",
+     "VA"
+    ],
+    [
+     "Response time",
+     "8 ms"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -1025,6 +1097,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566248/210-BRDQ_5.jpg"
    ],
    "description": "Get the essentials to enhance productivity with this 27-inch fixed-stand monitor certified by TÜV Rheinland® for 3-star eye comfort.",
+   "strap": "68.6 cm (27\"), 1920 x 1080 pixels, Full HD, LCD, 8 ms, Black",
+   "warranty": "3 Years Base Adv Ex",
+   "highlights": [
+    [
+     "Display diagonal",
+     "68.6 cm (27\")"
+    ],
+    [
+     "Display resolution",
+     "1920 x 1080 pixels"
+    ],
+    [
+     "Maximum refresh rate",
+     "100 Hz"
+    ],
+    [
+     "Panel type",
+     "IPS"
+    ],
+    [
+     "Response time",
+     "8 ms"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -1431,6 +1531,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566244/210-BTSP_5.jpg"
    ],
    "description": "DELL SE2726HG. Display diagonal: 68.6 cm (27\"), Display resolution: 1920 x 1080 pixels, HD type: Full HD, Display technology: LCD, Response time: 0.5 ms, Native aspect ratio: 16:9, Viewing angle, horizontal: 178°, Viewing angle, vertical: 178°. VESA mounting. Product colour: Black",
+   "strap": "68.6 cm (27\"), 1920 x 1080 pixels, Full HD, LCD, 0.5 ms, Black",
+   "warranty": "",
+   "highlights": [
+    [
+     "Display diagonal",
+     "68.6 cm (27\")"
+    ],
+    [
+     "Display resolution",
+     "1920 x 1080 pixels"
+    ],
+    [
+     "Maximum refresh rate",
+     "240 Hz"
+    ],
+    [
+     "Panel type",
+     "IPS"
+    ],
+    [
+     "Response time",
+     "0.5 ms"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -1888,6 +2016,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566245/210-BQZS_5.jpg"
    ],
    "description": "Breeze through everyday tasks on this 21.5-inch monitor with a smooth 100Hz refresh rate and certified by TÜV Rheinland® for 3-star eye comfort.",
+   "strap": "54.6 cm (21.5\"), 1920 x 1080 pixels, Full HD, LCD, 8 ms, Black",
+   "warranty": "3 Years Base Adv Ex",
+   "highlights": [
+    [
+     "Display diagonal",
+     "54.6 cm (21.5\")"
+    ],
+    [
+     "Display resolution",
+     "1920 x 1080 pixels"
+    ],
+    [
+     "Maximum refresh rate",
+     "100 Hz"
+    ],
+    [
+     "Panel type",
+     "VA"
+    ],
+    [
+     "Response time",
+     "8 ms"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -2331,6 +2487,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566244/580-ADHK_5.jpg"
    ],
    "description": "The Dell Multimedia Keyboard provides a convenient keyboard solution for everyday home or office computing uses.",
+   "strap": "Full-size (100%), Wired, USB, Plunger key switch, QWERTY, Black",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wired"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Material",
+     "Plastic"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -2496,6 +2672,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566251/580-AKFZ_5.jpg"
    ],
    "description": "Enhance your everyday productivity with this reliable wireless keyboard and mouse combo that's built to last.",
+   "strap": "Wireless, RF Wireless, Plunger key switch, QWERTY, Black, Mouse included",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Movement resolution",
+     "1000 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -2729,6 +2933,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/580-AJRP_5.jpg"
    ],
    "description": "Combining a discreetly powerful keyboard with an expertly designed mouse, the Dell Pro Wireless Keyboard and Mouse combo enhances your productivity. Powered by one of the industry's leading battery lives of up to 36 months, this combo is built to last.",
+   "strap": "Wireless, RF Wireless, Plunger key switch, QWERTY, Black, Mouse included",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Movement resolution",
+     "1600 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -2974,6 +3206,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566249/580-17667_5.jpg"
    ],
    "description": "The Dell™ KB522 Wired Business Multimedia Keyboard has a newly refreshed ID and a sturdy design with mid-profile keycap for great typing experience.",
+   "strap": "Full-size (100%), Wired, USB, Plunger key switch, QWERTY, Black",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wired"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Recommended usage",
+     "Universal"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -3135,6 +3387,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/580-AKOO_5.jpg"
    ],
    "description": "Enhance productivity with this well-designed keyboard, powered by one of the industry's leading battery lives of up to 36 months.",
+   "strap": "Full-size (100%), Wireless, RF Wireless, Plunger key switch, QWERTY, Black",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Recommended usage",
+     "Office"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -3337,6 +3609,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566252/570-AAIS_5.jpg"
    ],
    "description": "The Dell Multimedia Keyboard provides a convenient keyboard solution for everyday home or office computing uses.",
+   "strap": "Ambidextrous, Optical, USB Type-A, 1000 DPI, Black",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Movement resolution",
+     "1000 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "2"
+    ],
+    [
+     "Cable length",
+     "1.8 m"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "90 g"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -3466,6 +3766,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566253/570-AAMH_3.jpg"
    ],
    "description": "Highlights Reduce cable clutter at your workspace with the Dell Wireless Mouse-WM126. Reduce cable clutter with the Dell Wireless Mouse-WM126, providing the functionality you need in a mouse with none of the wires. Great for everyday use at home or in the office Take your work on-the-go with the reliable wireless connection of the Dell Wireless Mouse-WM126. You can also connect up to six compatible devices with a single receiver, allowing you to wirelessly connect with your keyboards and mice at home, in the office or on the move. Work and play longer with a long battery life Up to 1-year of battery life provides you peace of mind knowing that you can stay powered up longer virtually anywhere. Comfortable design Work in comfort thanks to a contoured design that feels great in either hand. The mouse features three clickable buttons (left, right, and middle) and includes a scroll wheel for ease of use. Quick setup and easy installation Your mouse comes ready to plug and play via the included receiver. No software or drivers are required. However, if you wish to make full use of Dell Universal Pairing technology and connect up to 6 compatible devices with one receiver, please go to Dell.com/pair to download the required software. Compatibility Windows 7/8/8.1/10/Server, Linux, Android, Chrome",
+   "strap": "Ambidextrous, Optical, RF Wireless, 1000 DPI, Black",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Movement resolution",
+     "1000 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "57.6 g"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -3612,6 +3940,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/570-BBMJ_1.jpg"
    ],
    "description": "The WM118 Wireless Optical Mouse from Dell offers you everyday wireless performance with excellent battery life. It is designed to create a clutter-free workspace with a reliable, plug-and-play RF wireless connection. This wireless mouse provides reliable performance and a stable wireless connection through the USB anchored RF wireless dongle. Its Plug and play feature allows for easy installation so users can get started using their mouse within minutes, with no confusing software or setup requirements. The small size and wireless performance help to make WM118 wireless optical mouse a great option for on-the-go users.",
+   "strap": "Ambidextrous, Optical, RF Wireless, 1000 DPI, Black",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Movement resolution",
+     "1000 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "82 g"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -3756,6 +4112,30 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566255/570-ABOC_5.jpg"
    ],
    "description": "Enhance productivity with this expertly designed mouse, powered by one of the industry's leading battery lives of up to 36 months.",
+   "strap": "Ambidextrous, Optical, RF Wireless, 4000 DPI, Black",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Movement resolution",
+     "4000 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "65 g"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -3916,6 +4296,9 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566256/520-BBLV_0.jpg"
    ],
    "description": "Dell Wired Headset - WH125",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
    "specs": [],
    "specGroups": []
   },
@@ -3938,6 +4321,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/520-BBNM_5.jpg"
    ],
    "description": "Redefine audio clarity with an AI-based noise-cancelling mic and Adaptive ANC, designed for modern professionals.",
+   "strap": "True Wireless Stereo (TWS), Calls/Music, Headset, Black",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "True Wireless Stereo (TWS)"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Product type",
+     "Headset"
+    ],
+    [
+     "Wearing style",
+     "In-ear"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -4188,6 +4591,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566257/520-BBDH_0.jpg"
    ],
    "description": "Dell Pro Wired Headset - WH3024",
+   "strap": "",
+   "warranty": "Limited warranty - 3 years",
+   "highlights": [
+    [
+     "Form Factor",
+     "Headset microphone"
+    ],
+    [
+     "Connectivity Technology",
+     "Wired"
+    ],
+    [
+     "Weight",
+     "110 g"
+    ],
+    [
+     "Product Type",
+     "Headset - wired - USB-C"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -4389,6 +4812,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/460-BDSS_3.jpg"
    ],
    "description": "A sustainably made, everyday backpack with a large, full-access front opening and protection features that shield your laptop and essentials.",
+   "strap": "Backpack, 40.6 cm (16\"), 500 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Polyester"
+    ],
+    [
+     "Weight",
+     "500 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -4505,6 +4948,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/460-BDQP_4.jpg"
    ],
    "description": "Get the Dell EcoLoop Pro Slim Backpack 15 that protects your gear on-the-go and helps reduce environmental impact.",
+   "strap": "Backpack, 39.6 cm (15.6\"), Shoulder strap, 590 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Fabric, Plastic, Polyester"
+    ],
+    [
+     "Weight",
+     "590 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -4616,6 +5079,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566261/460-BFDD_3.jpg"
    ],
    "description": "Neatly carry all you need while on the go with this spacious backpack. With a 27-liter capacity and organised pockets, it's durable, stylish and made with recycled materials.",
+   "strap": "Backpack, 40.6 cm (16\"), Shoulder strap, 550 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Fabric, Polyester"
+    ],
+    [
+     "Weight",
+     "550 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -4723,6 +5206,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_3.jpg"
    ],
    "description": "Compact backpack to carry essentials in style. Crafted for sustainability and durably built, it helps reduce impact to the environment and your tech.",
+   "strap": "Backpack, 35.6 cm (14\"), Shoulder strap, 450 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Foam, Polyethylene, Polyurethane"
+    ],
+    [
+     "Weight",
+     "450 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -4852,6 +5355,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/492-BBXU_5.jpg"
    ],
    "description": "Connect with up to 4K resolution displays With the Dell Adapter - DisplayPort to HDMI 2.0 (4K) you can connect your PC's DisplayPort to 4K displays with an HDMI input without compromising on picture quality. Enjoy a seamless connection between PCs with DisplayPorts and with multiple versions of HDMI (versions 1.2, 1.4 and 2.0) -compliant monitors, projectors and HDTVs. Uncompromising view on the big screen with Ultra HD (4K) support The adapter supports up to Ultra HD (4K) at 60 Hz, so you can experience incredible screen clarity while viewing your favorite 4K videos, playing games or making presentations on a large display. Highly portable with a compact and lightweight design Bring the adapter with you wherever your busy day takes you. Its compact and lightweight design makes it easy to carry around. Just throw it in your bag and head off to your next destination. Get started right away with plug & play With the added convenience of plug & play, you won't have to waste time trying to get your display set up. Simply connect the adapter from the DisplayPort on your PC to the HDMI input on your monitor, projector or HDTV, and get started right away. Compatibility Compatible with Dell Platforms and backward compatible with all older versions of HDMI compliant monitors, projectors and HDTVs. Connect your PC with DisplayPort to high resolution displays with the Dell™ Adapter - DisplayPort to HDMI 2.0 (4K). Enjoy uncompromised 4K content at 60 Hz with the adapter’s seamless connection between PCs with DisplayPort and HDMI-compliant monitors, projectors, and HDTVs. With the convenience of plug & play, you can get started right away without having to install drivers.",
+   "strap": "0.2 m, DisplayPort, HDMI, Male, Female, Straight",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Cable length",
+     "0.2 m"
+    ],
+    [
+     "Connector 1",
+     "DisplayPort"
+    ],
+    [
+     "Connector 2",
+     "HDMI"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -4927,6 +5450,9 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/450-BFFM_0.jpg"
    ],
    "description": "Dell 65W USB-C AC Adapter with Power Cord - South Africa",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
    "specs": [],
    "specGroups": []
   },
@@ -4947,6 +5473,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNM_3.jpg"
    ],
    "description": "DELL CB325H. Cable length: 1.8 m, Connector 1: HDMI Type A (Standard), Connector 1 gender: Male, Connector 2: HDMI Type A (Standard), Connector 2 gender: Male, HDMI version: 2.0, Product colour: Black",
+   "strap": "1.8 m, HDMI Type A (Standard), HDMI Type A (Standard), Black",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Maximum refresh rate",
+     "60 Hz"
+    ],
+    [
+     "Cable length",
+     "1.8 m"
+    ],
+    [
+     "Connector 1",
+     "HDMI Type A (Standard)"
+    ],
+    [
+     "Connector 2",
+     "HDMI Type A (Standard)"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "95 g"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -5034,6 +5588,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/470-BDNL_3.jpg"
    ],
    "description": "DELL CB325D. Cable length: 1.8 m, Connector 1: DisplayPort, Connector 2: DisplayPort. Weight: 91 g",
+   "strap": "1.8 m, DisplayPort, DisplayPort, Male, Male, 7680 x 4320 pixels",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Maximum refresh rate",
+     "120 Hz"
+    ],
+    [
+     "Cable length",
+     "1.8 m"
+    ],
+    [
+     "Connector 1",
+     "DisplayPort"
+    ],
+    [
+     "Connector 2",
+     "DisplayPort"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "91 g"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -5118,6 +5700,34 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/SNV3S-500G_4.jpg"
    ],
    "description": "For high-speed, low-power storage needs Kingston’s NV3 PCIe 4.0 NVMe SSDs are next-gen storage solutions powered by a Gen 4x4 NVMe controller, delivering read/write speeds of up to 6,000/5,000MB/s*. They come in both compact, single-sided M.2 2280 (22x80mm) and 2230 (22x30mm) sizes to expand storage in small-form-factor systems like laptops and handheld gaming consoles*****. They offer lower power consumption and reduced heat, optimising your system's performance without compromising value. Available in capacities from 500GB– 4TB** to give you all the space you need for applications, documents, photos, videos, games and more. Gen 4x4 NVMe PCIe performance Upgrade your system with read/write speeds up to 6,000/5,000MB/s*. Small size, big performance NV3 2280 and 2230 easily integrate into thin laptops and ultra-small PCs with M.2 connectors and limited space. Increased storage space Available in a variety of high capacities up to 4TB**, providing ample space to store files, videos, documents, and games with room to spare. Store more, play more With NV3 2230 upgrade compatible handheld gaming systems to get in the game faster*****.",
+   "strap": "500 GB, M.2, 5000 MB/s",
+   "warranty": "Limited 5-year warranty with free technical support",
+   "highlights": [
+    [
+     "SSD capacity",
+     "500 GB"
+    ],
+    [
+     "SSD form factor",
+     "M.2"
+    ],
+    [
+     "Read speed",
+     "5000 MB/s"
+    ],
+    [
+     "Write speed",
+     "3000 MB/s"
+    ],
+    [
+     "Interface",
+     "PCI Express 4.0"
+    ],
+    [
+     "Weight",
+     "5.7 g"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -5230,6 +5840,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/TEB01_5.jpg"
    ],
    "description": "The Campus Notebook Backpack is ideal for students at school or university and also appeals to today’s mobile professionals with an active lifestyle and a more casual work environment. The padded computer compartment is specifically designed to protect laptops with standard 15 - 16 inch screens. There's plenty of storage space: an extra large zippered storage compartment with internal pockets including zippered mesh pockets - perfect for personal (iPod, CD player, PDA, etc.) or computing accessories. Other features include pen loops and student / business card holder. Finally, for your ultimate carrying comfort, there's a 3D contoured air-mesh back padding which helps alleviate stress and strain on your back. - Compartment for notebooks with 15\" to 16” screens - 3D contoured air-mesh back padding which helps alleviate back stress/strain - Multiple pockets for maximum storage capacity (Mobile phone, CD player, smartphone, iPod, pens, business/student card...) and many more! - Hidden rear pocket for your personal belongings - Adjustable fasteners on each side of the backpack - Neoprene comfort grip handle - Mesh pockets for your loose accessories - Removable waist strap included",
+   "strap": "40.6 cm (16\"), Notebook compartment, Nylon",
+   "warranty": "Limited lifetime warranty",
+   "highlights": [
+    [
+     "Material",
+     "Nylon"
+    ],
+    [
+     "Weight",
+     "1.01 kg"
+    ],
+    [
+     "Product main colour",
+     "Black"
+    ],
+    [
+     "Coloration",
+     "Monochromatic"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
@@ -5329,6 +5959,26 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566269/TSB911GL_1.jpg"
    ],
    "description": "The 15-16\" CitySmart™ Essentials Backpack delivers intuitive organization in a tailored design. Featuring separate compartments for your laptop and tablet, and plenty of nooks for your office supplies and devices, this pack deliver the necessary protection for your gear. The Targus 12”-16” CitySmart™ Backpack delivers device protection and intuitive organization in a polished pack with a clean-lined frame. Designed to fit laptops 12”-16”, this bag has padded, adjustable shoulder straps and a padded back that ensure a comfortable fit once it’s on your shoulders. A deep front compartment features a workstation for your business cards, pens, small gadgets, and other office supplies, while the font quick-stash pocket provides easy access to your small accessories. For maximum protection, a weather-resistant base helps keep your devices and docs safe from the elements, while thoughtful features like a pass-through trolley strap and water bottle pocket add to its functionality. With professional good looks, convenient features, and protective details, the CitySmart™ Essentials Backpack fits the way you work.",
+   "strap": "Backpack, 40.6 cm (16\"), Shoulder strap, 720 g",
+   "warranty": "Limited lifetime",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Weight",
+     "720 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ],
+    [
+     "Maximum screen size",
+     "40.6 cm (16\")"
+    ]
+   ],
    "specs": [],
    "specGroups": [
     [
