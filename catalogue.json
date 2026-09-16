@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-16T11:54:06+00:00",
- "pricedAt": "2026-09-16T11:54:06+00:00",
- "priceValidUntil": "2026-09-16T13:54:06+00:00",
+ "generatedAt": "2026-09-16T12:39:06+00:00",
+ "pricedAt": "2026-09-16T12:39:06+00:00",
+ "priceValidUntil": "2026-09-16T14:39:06+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": true,
- "count": 25,
+ "count": 26,
  "items": [
   {
    "sku": "210-BQMZ",
@@ -54,6 +54,22 @@
      "36 months, manufacturer"
     ]
    ]
+  },
+  {
+   "sku": "210-BVKM",
+   "name": "Dell Pro P 24 Monitor -P2426H",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 3680,
+   "stock": "in",
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvkm.jpg"
+   ],
+   "description": "",
+   "specs": []
   },
   {
    "sku": "210-BRDT",
@@ -105,22 +121,6 @@
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-btsp.jpg"
-   ],
-   "description": "",
-   "specs": []
-  },
-  {
-   "sku": "210-BQZS",
-   "name": "Dell 22 Monitor - SE2225HM",
-   "brand": "Dell",
-   "category": "Monitors",
-   "price": 1840,
-   "stock": "in",
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqzs.jpg"
    ],
    "description": "",
    "specs": []
@@ -269,22 +269,6 @@
    "specs": []
   },
   {
-   "sku": "570-BBMJ",
-   "name": "Dell Mouse - WM118",
-   "brand": "Dell",
-   "category": "Keyboards & mice",
-   "price": 202,
-   "stock": "in",
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bbmj.jpg"
-   ],
-   "description": "",
-   "specs": []
-  },
-  {
    "sku": "570-ABOC",
    "name": "Dell Pro Mouse - MS300",
    "brand": "Dell",
@@ -334,6 +318,38 @@
    "promo": false,
    "images": [
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bbnm.jpg"
+   ],
+   "description": "",
+   "specs": []
+  },
+  {
+   "sku": "520-BBDH",
+   "name": "Dell Pro Wired Headset - WH3024",
+   "brand": "Dell",
+   "category": "Headsets & audio",
+   "price": 1300,
+   "stock": "in",
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/62/ae/62aea193-0c7f-4c6f-a7de-fd1eed32ebac.jpg"
+   ],
+   "description": "",
+   "specs": []
+  },
+  {
+   "sku": "460-BDSS",
+   "name": "Dell 14-16 EcoLoop Backpack CP3724",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 382,
+   "stock": "in",
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdss.jpg"
    ],
    "description": "",
    "specs": []
