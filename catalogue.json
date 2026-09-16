@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-16T13:24:07+00:00",
- "pricedAt": "2026-09-16T13:24:07+00:00",
- "priceValidUntil": "2026-09-16T15:24:07+00:00",
+ "generatedAt": "2026-09-16T13:33:02+00:00",
+ "pricedAt": "2026-09-16T13:33:02+00:00",
+ "priceValidUntil": "2026-09-16T15:33:02+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": true,
- "count": 27,
+ "count": 29,
  "items": [
   {
    "sku": "210-BQMZ",
@@ -53,7 +53,8 @@
      "Warranty",
      "36 months, manufacturer"
     ]
-   ]
+   ],
+   "specGroups": []
   },
   {
    "sku": "210-BVKM",
@@ -69,7 +70,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvkm.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "210-BRDT",
@@ -88,7 +90,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-brdt.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "210-BRDQ",
@@ -107,7 +110,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-brdq.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "210-BTSP",
@@ -123,7 +127,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-btsp.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "210-BQZS",
@@ -139,7 +144,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqzs.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "580-ADHK",
@@ -161,7 +167,28 @@
     "https://cdn.cs.1worldsync.com/65/00/6500d0d1-3b23-48de-8b39-38a0c521cd5f.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "580-AKFZ",
+   "name": "Dell Keyboard and Mouse - KM3322W - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 445,
+   "stock": "in",
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/15/d0/15d0de90-63ab-4c32-b952-687c299e1829.jpg",
+    "https://cdn.cs.1worldsync.com/a6/07/a607e292-ca5f-4782-aa9e-bbb437ac3726.jpg",
+    "https://cdn.cs.1worldsync.com/16/0e/160ead80-3f17-4097-9850-423229e6c3ee.jpg",
+    "https://cdn.cs.1worldsync.com/f0/46/f0464db3-c0c0-4605-98c1-41af606e9a9d.jpg"
+   ],
+   "description": "",
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "580-AJRP",
@@ -183,7 +210,8 @@
     "https://cdn.cs.1worldsync.com/d5/fb/d5fbb669-a844-4b0f-a532-cebac7afac27.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "580-17667",
@@ -201,7 +229,8 @@
     "https://cdn.cs.1worldsync.com/9a/57/9a577ffe-37f6-4da2-a1fa-ef40936b2006.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "580-AKOO",
@@ -223,7 +252,8 @@
     "https://cdn.cs.1worldsync.com/ea/fd/eafd56c5-bed2-4015-b4dc-e26a596edb2f.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "570-AAIS",
@@ -245,7 +275,8 @@
     "https://cdn.cs.1worldsync.com/1a/15/1a155e03-dbc0-4413-ad85-48df8a834a1e.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "570-AAMH",
@@ -263,7 +294,8 @@
     "https://cdn.cs.1worldsync.com/a4/ea/a4eabb62-c8a3-4ffb-8b89-d64eaed625fb.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "570-BBMJ",
@@ -279,7 +311,29 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bbmj.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-ABOC",
+   "name": "Dell Pro Mouse - MS300",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 324,
+   "stock": "in",
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/7a/53/7a539dd3-4781-48ad-9769-2c92d5c2879b.jpg",
+    "https://cdn.cs.1worldsync.com/8b/e2/8be2de3f-0958-4a35-ae1e-461aa651d945.jpg",
+    "https://cdn.cs.1worldsync.com/49/04/490407ea-f565-4819-90db-97e469199079.jpg",
+    "https://cdn.cs.1worldsync.com/fc/b3/fcb3470c-052b-4b5a-848a-40917862f842.jpg",
+    "https://cdn.cs.1worldsync.com/57/50/57507734-0a8d-4174-8525-264496bcf7e1.jpg"
+   ],
+   "description": "",
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "520-BBLV",
@@ -297,7 +351,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bblv.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "520-BBNM",
@@ -313,7 +368,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bbnm.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "520-BBDH",
@@ -329,7 +385,8 @@
     "https://cdn.cs.1worldsync.com/62/ae/62aea193-0c7f-4c6f-a7de-fd1eed32ebac.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "460-BDSS",
@@ -345,7 +402,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdss.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "460-BDQP",
@@ -361,7 +419,8 @@
     "https://cdn.cs.1worldsync.com/ca/ef/caef4ee1-3eef-48b8-bdbd-51b27d284d88.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "460-BFDD",
@@ -377,7 +436,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bfdd.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "460-BFCJ",
@@ -393,7 +453,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bfcj.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "492-BBXU",
@@ -411,7 +472,8 @@
     "https://cdn.cs.1worldsync.com/78/b8/78b8120a-7d2f-40ed-bcbb-bf5967e3964b.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "450-BFFM",
@@ -427,7 +489,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_450-bffm.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "470-BDNM",
@@ -443,7 +506,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bdnm.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "470-BDNL",
@@ -459,7 +523,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bdnl.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "SNV3S/500G",
@@ -475,7 +540,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/kingston_snv3s-500g.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "TEB01",
@@ -496,7 +562,8 @@
     "https://cdn.cs.1worldsync.com/80/3c/803ccf08-e16d-42a2-8ded-890145ac7f9a.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "TSB911GL",
@@ -512,7 +579,8 @@
     "https://staxdstoragecdn.blob.core.windows.net/axd-live/targus_tsb911gl.jpg"
    ],
    "description": "",
-   "specs": []
+   "specs": [],
+   "specGroups": []
   }
  ]
 }
