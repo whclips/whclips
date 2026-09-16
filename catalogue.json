@@ -1,10 +1,11 @@
 {
- "generatedAt": "2026-09-16T17:54:07+00:00",
- "pricedAt": "2026-09-16T17:54:07+00:00",
- "priceValidUntil": "2026-09-16T19:54:07+00:00",
+ "generatedAt": "2026-09-16T18:15:44+00:00",
+ "pricedAt": "2026-09-16T18:15:44+00:00",
+ "priceValidUntil": "2026-09-16T20:15:44+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
- "pricesIncludeVat": true,
+ "pricesIncludeVat": false,
+ "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
  "count": 29,
  "items": [
   {
@@ -14,6 +15,7 @@
    "category": "Monitors",
    "price": 2010,
    "stock": "in",
+   "available": 560,
    "badges": [
     "On promotion",
     "Deal ending soon"
@@ -88,6 +90,7 @@
    "category": "Monitors",
    "price": 3680,
    "stock": "in",
+   "available": 363,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -581,6 +584,7 @@
    "category": "Monitors",
    "price": 2370,
    "stock": "in",
+   "available": 341,
    "badges": [
     "On promotion",
     "Deal ending soon"
@@ -1082,6 +1086,7 @@
    "category": "Monitors",
    "price": 2910,
    "stock": "in",
+   "available": 326,
    "badges": [
     "Deal ending soon",
     "On promotion"
@@ -1519,6 +1524,7 @@
    "category": "Monitors",
    "price": 3520,
    "stock": "in",
+   "available": 307,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2004,6 +2010,7 @@
    "category": "Monitors",
    "price": 1840,
    "stock": "in",
+   "available": 279,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2473,6 +2480,7 @@
    "category": "Keyboards & mice",
    "price": 244,
    "stock": "in",
+   "available": 448,
    "badges": [
     "Best seller"
    ],
@@ -2660,6 +2668,7 @@
    "category": "Keyboards & mice",
    "price": 445,
    "stock": "in",
+   "available": 367,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2919,6 +2928,7 @@
    "category": "Keyboards & mice",
    "price": 714,
    "stock": "in",
+   "available": 424,
    "badges": [],
    "attributes": [
     "DeskPro"
@@ -3192,6 +3202,7 @@
    "category": "Keyboards & mice",
    "price": 540,
    "stock": "in",
+   "available": 334,
    "badges": [
     "Best seller"
    ],
@@ -3373,6 +3384,7 @@
    "category": "Keyboards & mice",
    "price": 478,
    "stock": "in",
+   "available": 307,
    "badges": [
     "Best seller"
    ],
@@ -3595,6 +3607,7 @@
    "category": "Keyboards & mice",
    "price": 167,
    "stock": "in",
+   "available": 758,
    "badges": [
     "Best seller"
    ],
@@ -3754,6 +3767,7 @@
    "category": "Keyboards & mice",
    "price": 241,
    "stock": "in",
+   "available": 410,
    "badges": [
     "Best seller"
    ],
@@ -3932,6 +3946,7 @@
    "category": "Keyboards & mice",
    "price": 202,
    "stock": "in",
+   "available": 249,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -4100,6 +4115,7 @@
    "category": "Keyboards & mice",
    "price": 324,
    "stock": "in",
+   "available": 209,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -4287,6 +4303,7 @@
    "category": "Headsets & audio",
    "price": 485,
    "stock": "in",
+   "available": 260,
    "badges": [],
    "attributes": [
     "DeskPro"
@@ -4309,6 +4326,7 @@
    "category": "Headsets & audio",
    "price": 3680,
    "stock": "in",
+   "available": 136,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -4584,6 +4602,7 @@
    "category": "Headsets & audio",
    "price": 1300,
    "stock": "in",
+   "available": 97,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -4802,6 +4821,7 @@
    "category": "Bags & cases",
    "price": 382,
    "stock": "in",
+   "available": 1103,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -4937,6 +4957,7 @@
    "category": "Bags & cases",
    "price": 643,
    "stock": "in",
+   "available": 325,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5069,6 +5090,7 @@
    "category": "Bags & cases",
    "price": 489,
    "stock": "in",
+   "available": 254,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5196,6 +5218,7 @@
    "category": "Bags & cases",
    "price": 652,
    "stock": "in",
+   "available": 60,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5343,6 +5366,7 @@
    "category": "Cables & adapters",
    "price": 435,
    "stock": "in",
+   "available": 132,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5443,6 +5467,7 @@
    "category": "Cables & adapters",
    "price": 469,
    "stock": "in",
+   "available": 118,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5463,6 +5488,7 @@
    "category": "Cables & adapters",
    "price": 217,
    "stock": "in",
+   "available": 101,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5578,6 +5604,7 @@
    "category": "Cables & adapters",
    "price": 261,
    "stock": "in",
+   "available": 89,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5689,6 +5716,7 @@
    "category": "Accessories",
    "price": 2370,
    "stock": "in",
+   "available": 55,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5826,6 +5854,7 @@
    "category": "Accessories",
    "price": 808,
    "stock": "in",
+   "available": 839,
    "badges": [
     "Best seller"
    ],
@@ -5951,6 +5980,7 @@
    "category": "Accessories",
    "price": 858,
    "stock": "in",
+   "available": 183,
    "badges": [],
    "attributes": [],
    "promo": false,
