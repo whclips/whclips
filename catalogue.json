@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-16T15:06:18+00:00",
- "pricedAt": "2026-09-16T15:06:18+00:00",
- "priceValidUntil": "2026-09-16T17:06:18+00:00",
+ "generatedAt": "2026-09-16T15:13:24+00:00",
+ "pricedAt": "2026-09-16T15:13:24+00:00",
+ "priceValidUntil": "2026-09-16T17:13:24+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": true,
@@ -21,7 +21,12 @@
    "attributes": [],
    "promo": true,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqmz.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566242/210-BQMZ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566243/210-BQMZ_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566237/210-BQMZ_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566237/210-BQMZ_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566238/210-BQMZ_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566244/210-BQMZ_5.jpg"
    ],
    "description": "21.5-inch Full HD business monitor with a 100 Hz refresh rate and Dell's always-on ComfortView Plus low-blue-light panel. VA panel with 3000:1 contrast and 178° viewing angles, in a thin-bezel, space-saving design. Three-year manufacturer warranty.",
    "specs": [
@@ -67,7 +72,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvkm.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566245/210-BVKM_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566248/210-BVKM_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566241/210-BVKM_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566239/210-BVKM_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566239/210-BVKM_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566239/210-BVKM_5.jpg"
    ],
    "description": "Equipped for seamless productivity, this 23.8-inch FHD monitor offers extensive connectivity, high refresh rate and TÜV-certified 4-star eye comfort.",
    "specs": [],
@@ -530,7 +540,12 @@
    "attributes": [],
    "promo": true,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-brdt.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566245/210-BRDT_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566247/210-BRDT_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566241/210-BRDT_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566241/210-BRDT_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566241/210-BRDT_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566239/210-BRDT_5.jpg"
    ],
    "description": "Get the essentials to enhance productivity with this 21.5-inch height-adjustable monitor certified by TÜV Rheinland® for 3-star eye comfort.",
    "specs": [],
@@ -1002,7 +1017,12 @@
    "attributes": [],
    "promo": true,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-brdq.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566247/210-BRDQ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566248/210-BRDQ_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566242/210-BRDQ_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566242/210-BRDQ_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566243/210-BRDQ_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566248/210-BRDQ_5.jpg"
    ],
    "description": "Get the essentials to enhance productivity with this 27-inch fixed-stand monitor certified by TÜV Rheinland® for 3-star eye comfort.",
    "specs": [],
@@ -1403,7 +1423,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-btsp.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566250/210-BTSP_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566250/210-BTSP_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566248/210-BTSP_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566243/210-BTSP_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566243/210-BTSP_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566244/210-BTSP_5.jpg"
    ],
    "description": "DELL SE2726HG. Display diagonal: 68.6 cm (27\"), Display resolution: 1920 x 1080 pixels, HD type: Full HD, Display technology: LCD, Response time: 0.5 ms, Native aspect ratio: 16:9, Viewing angle, horizontal: 178°, Viewing angle, vertical: 178°. VESA mounting. Product colour: Black",
    "specs": [],
@@ -1855,7 +1880,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqzs.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566257/210-BQZS_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566255/210-BQZS_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566253/210-BQZS_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566245/210-BQZS_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566245/210-BQZS_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566245/210-BQZS_5.jpg"
    ],
    "description": "Breeze through everyday tasks on this 21.5-inch monitor with a smooth 100Hz refresh rate and certified by TÜV Rheinland® for 3-star eye comfort.",
    "specs": [],
@@ -2293,11 +2323,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/c9/05/c905ae19-c628-44f0-9e17-37da76b2f598.jpg",
-    "https://cdn.cs.1worldsync.com/da/73/da732dbf-5f2e-416e-bea7-4bf005a4f085.jpg",
-    "https://cdn.cs.1worldsync.com/53/8b/538bc3b4-df8d-4f48-8fb2-5f33164f8ae1.jpg",
-    "https://cdn.cs.1worldsync.com/a8/ef/a8efc215-6e24-4e92-93bd-64f1abc8937f.jpg",
-    "https://cdn.cs.1worldsync.com/65/00/6500d0d1-3b23-48de-8b39-38a0c521cd5f.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566247/580-ADHK_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566245/580-ADHK_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566246/580-ADHK_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566246/580-ADHK_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566246/580-ADHK_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566244/580-ADHK_5.jpg"
    ],
    "description": "The Dell Multimedia Keyboard provides a convenient keyboard solution for everyday home or office computing uses.",
    "specs": [],
@@ -2457,10 +2488,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/15/d0/15d0de90-63ab-4c32-b952-687c299e1829.jpg",
-    "https://cdn.cs.1worldsync.com/a6/07/a607e292-ca5f-4782-aa9e-bbb437ac3726.jpg",
-    "https://cdn.cs.1worldsync.com/16/0e/160ead80-3f17-4097-9850-423229e6c3ee.jpg",
-    "https://cdn.cs.1worldsync.com/f0/46/f0464db3-c0c0-4605-98c1-41af606e9a9d.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566247/580-AKFZ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566248/580-AKFZ_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566256/580-AKFZ_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566248/580-AKFZ_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566253/580-AKFZ_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566251/580-AKFZ_5.jpg"
    ],
    "description": "Enhance your everyday productivity with this reliable wireless keyboard and mouse combo that's built to last.",
    "specs": [],
@@ -2688,11 +2721,12 @@
    ],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/7f/39/7f39f20c-644f-49c3-bbbf-84ecb2c1f3bb.jpg",
-    "https://cdn.cs.1worldsync.com/08/c6/08c66195-087c-4fca-abfd-8e3c919ecdb2.jpg",
-    "https://cdn.cs.1worldsync.com/e5/be/e5be3d68-a312-4f8e-a29a-aa9c0fd2870f.jpg",
-    "https://cdn.cs.1worldsync.com/77/2a/772a4942-3919-45ee-9a72-8371d2f8af35.jpg",
-    "https://cdn.cs.1worldsync.com/d5/fb/d5fbb669-a844-4b0f-a532-cebac7afac27.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566261/580-AJRP_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566252/580-AJRP_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566255/580-AJRP_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/580-AJRP_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566256/580-AJRP_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/580-AJRP_5.jpg"
    ],
    "description": "Combining a discreetly powerful keyboard with an expertly designed mouse, the Dell Pro Wireless Keyboard and Mouse combo enhances your productivity. Powered by one of the industry's leading battery lives of up to 36 months, this combo is built to last.",
    "specs": [],
@@ -2932,7 +2966,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/9a/57/9a577ffe-37f6-4da2-a1fa-ef40936b2006.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566251/580-17667_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566251/580-17667_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566252/580-17667_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566251/580-17667_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566250/580-17667_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566249/580-17667_5.jpg"
    ],
    "description": "The Dell™ KB522 Wired Business Multimedia Keyboard has a newly refreshed ID and a sturdy design with mid-profile keycap for great typing experience.",
    "specs": [],
@@ -3088,11 +3127,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/b2/b6/b2b648a9-290f-4fdf-b516-a33fa1671b22.jpg",
-    "https://cdn.cs.1worldsync.com/63/dc/63dcb051-8064-4510-b617-d54a209cdf06.jpg",
-    "https://cdn.cs.1worldsync.com/26/92/2692ffa9-c752-4d48-be1a-3e49cce26767.jpg",
-    "https://cdn.cs.1worldsync.com/f9/df/f9dfd309-85cf-4d33-af87-c707c51ac892.jpg",
-    "https://cdn.cs.1worldsync.com/ea/fd/eafd56c5-bed2-4015-b4dc-e26a596edb2f.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566251/580-AKOO_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566253/580-AKOO_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566253/580-AKOO_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566252/580-AKOO_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/580-AKOO_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/580-AKOO_5.jpg"
    ],
    "description": "Enhance productivity with this well-designed keyboard, powered by one of the industry's leading battery lives of up to 36 months.",
    "specs": [],
@@ -3289,11 +3329,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/38/e0/38e03517-0853-440a-986b-cc5347f00fad.jpg",
-    "https://cdn.cs.1worldsync.com/57/56/5756138d-2dd3-4c47-974f-035cbec47432.jpg",
-    "https://cdn.cs.1worldsync.com/6c/f5/6cf520c4-5bd4-47fb-999e-236438c7bd17.jpg",
-    "https://cdn.cs.1worldsync.com/8b/07/8b07bac8-7405-42bf-8347-927fd199c877.jpg",
-    "https://cdn.cs.1worldsync.com/1a/15/1a155e03-dbc0-4413-ad85-48df8a834a1e.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566256/570-AAIS_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566255/570-AAIS_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566255/570-AAIS_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566251/570-AAIS_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566252/570-AAIS_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566252/570-AAIS_5.jpg"
    ],
    "description": "The Dell Multimedia Keyboard provides a convenient keyboard solution for everyday home or office computing uses.",
    "specs": [],
@@ -3419,7 +3460,10 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/a4/ea/a4eabb62-c8a3-4ffb-8b89-d64eaed625fb.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566253/570-AAMH_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566253/570-AAMH_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566253/570-AAMH_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566253/570-AAMH_3.jpg"
    ],
    "description": "Highlights Reduce cable clutter at your workspace with the Dell Wireless Mouse-WM126. Reduce cable clutter with the Dell Wireless Mouse-WM126, providing the functionality you need in a mouse with none of the wires. Great for everyday use at home or in the office Take your work on-the-go with the reliable wireless connection of the Dell Wireless Mouse-WM126. You can also connect up to six compatible devices with a single receiver, allowing you to wirelessly connect with your keyboards and mice at home, in the office or on the move. Work and play longer with a long battery life Up to 1-year of battery life provides you peace of mind knowing that you can stay powered up longer virtually anywhere. Comfortable design Work in comfort thanks to a contoured design that feels great in either hand. The mouse features three clickable buttons (left, right, and middle) and includes a scroll wheel for ease of use. Quick setup and easy installation Your mouse comes ready to plug and play via the included receiver. No software or drivers are required. However, if you wish to make full use of Dell Universal Pairing technology and connect up to 6 compatible devices with one receiver, please go to Dell.com/pair to download the required software. Compatibility Windows 7/8/8.1/10/Server, Linux, Android, Chrome",
    "specs": [],
@@ -3564,7 +3608,8 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bbmj.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/570-BBMJ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/570-BBMJ_1.jpg"
    ],
    "description": "The WM118 Wireless Optical Mouse from Dell offers you everyday wireless performance with excellent battery life. It is designed to create a clutter-free workspace with a reliable, plug-and-play RF wireless connection. This wireless mouse provides reliable performance and a stable wireless connection through the USB anchored RF wireless dongle. Its Plug and play feature allows for easy installation so users can get started using their mouse within minutes, with no confusing software or setup requirements. The small size and wireless performance help to make WM118 wireless optical mouse a great option for on-the-go users.",
    "specs": [],
@@ -3703,11 +3748,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/7a/53/7a539dd3-4781-48ad-9769-2c92d5c2879b.jpg",
-    "https://cdn.cs.1worldsync.com/8b/e2/8be2de3f-0958-4a35-ae1e-461aa651d945.jpg",
-    "https://cdn.cs.1worldsync.com/49/04/490407ea-f565-4819-90db-97e469199079.jpg",
-    "https://cdn.cs.1worldsync.com/fc/b3/fcb3470c-052b-4b5a-848a-40917862f842.jpg",
-    "https://cdn.cs.1worldsync.com/57/50/57507734-0a8d-4174-8525-264496bcf7e1.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/570-ABOC_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/570-ABOC_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/570-ABOC_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566260/570-ABOC_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566260/570-ABOC_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566255/570-ABOC_5.jpg"
    ],
    "description": "Enhance productivity with this expertly designed mouse, powered by one of the industry's leading battery lives of up to 36 months.",
    "specs": [],
@@ -3867,7 +3913,7 @@
    ],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bblv.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566256/520-BBLV_0.jpg"
    ],
    "description": "Dell Wired Headset - WH125",
    "specs": [],
@@ -3884,7 +3930,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bbnm.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/520-BBNM_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/520-BBNM_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/520-BBNM_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566260/520-BBNM_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566260/520-BBNM_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/520-BBNM_5.jpg"
    ],
    "description": "Redefine audio clarity with an AI-based noise-cancelling mic and Adaptive ANC, designed for modern professionals.",
    "specs": [],
@@ -4134,7 +4185,7 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/62/ae/62aea193-0c7f-4c6f-a7de-fd1eed32ebac.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566257/520-BBDH_0.jpg"
    ],
    "description": "Dell Pro Wired Headset - WH3024",
    "specs": [],
@@ -4332,7 +4383,10 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdss.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/460-BDSS_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566270/460-BDSS_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BDSS_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/460-BDSS_3.jpg"
    ],
    "description": "A sustainably made, everyday backpack with a large, full-access front opening and protection features that shield your laptop and essentials.",
    "specs": [],
@@ -4444,7 +4498,11 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/ca/ef/caef4ee1-3eef-48b8-bdbd-51b27d284d88.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/460-BDQP_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/460-BDQP_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/460-BDQP_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/460-BDQP_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/460-BDQP_4.jpg"
    ],
    "description": "Get the Dell EcoLoop Pro Slim Backpack 15 that protects your gear on-the-go and helps reduce environmental impact.",
    "specs": [],
@@ -4552,7 +4610,10 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bfdd.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566273/460-BFDD_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566261/460-BFDD_3.jpg"
    ],
    "description": "Neatly carry all you need while on the go with this spacious backpack. With a 27-liter capacity and organised pockets, it's durable, stylish and made with recycled materials.",
    "specs": [],
@@ -4656,7 +4717,10 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bfcj.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_3.jpg"
    ],
    "description": "Compact backpack to carry essentials in style. Crafted for sustainability and durably built, it helps reduce impact to the environment and your tech.",
    "specs": [],
@@ -4780,9 +4844,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/8b/ed/8bedeacb-d7dc-4d8f-81eb-9bd93df85605.jpg",
-    "https://cdn.cs.1worldsync.com/52/ff/52ff76a2-e929-4e0c-98fc-a66a5c2a4fa4.jpg",
-    "https://cdn.cs.1worldsync.com/78/b8/78b8120a-7d2f-40ed-bcbb-bf5967e3964b.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/492-BBXU_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/492-BBXU_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/492-BBXU_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/492-BBXU_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/492-BBXU_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/492-BBXU_5.jpg"
    ],
    "description": "Connect with up to 4K resolution displays With the Dell Adapter - DisplayPort to HDMI 2.0 (4K) you can connect your PC's DisplayPort to 4K displays with an HDMI input without compromising on picture quality. Enjoy a seamless connection between PCs with DisplayPorts and with multiple versions of HDMI (versions 1.2, 1.4 and 2.0) -compliant monitors, projectors and HDTVs. Uncompromising view on the big screen with Ultra HD (4K) support The adapter supports up to Ultra HD (4K) at 60 Hz, so you can experience incredible screen clarity while viewing your favorite 4K videos, playing games or making presentations on a large display. Highly portable with a compact and lightweight design Bring the adapter with you wherever your busy day takes you. Its compact and lightweight design makes it easy to carry around. Just throw it in your bag and head off to your next destination. Get started right away with plug & play With the added convenience of plug & play, you won't have to waste time trying to get your display set up. Simply connect the adapter from the DisplayPort on your PC to the HDMI input on your monitor, projector or HDTV, and get started right away. Compatibility Compatible with Dell Platforms and backward compatible with all older versions of HDMI compliant monitors, projectors and HDTVs. Connect your PC with DisplayPort to high resolution displays with the Dell™ Adapter - DisplayPort to HDMI 2.0 (4K). Enjoy uncompromised 4K content at 60 Hz with the adapter’s seamless connection between PCs with DisplayPort and HDMI-compliant monitors, projectors, and HDTVs. With the convenience of plug & play, you can get started right away without having to install drivers.",
    "specs": [],
@@ -4857,7 +4924,7 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_450-bffm.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/450-BFFM_0.jpg"
    ],
    "description": "Dell 65W USB-C AC Adapter with Power Cord - South Africa",
    "specs": [],
@@ -4874,7 +4941,10 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bdnm.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/470-BDNM_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/470-BDNM_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/470-BDNM_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNM_3.jpg"
    ],
    "description": "DELL CB325H. Cable length: 1.8 m, Connector 1: HDMI Type A (Standard), Connector 1 gender: Male, Connector 2: HDMI Type A (Standard), Connector 2 gender: Male, HDMI version: 2.0, Product colour: Black",
    "specs": [],
@@ -4958,7 +5028,10 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bdnl.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNL_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNL_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNL_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/470-BDNL_3.jpg"
    ],
    "description": "DELL CB325D. Cable length: 1.8 m, Connector 1: DisplayPort, Connector 2: DisplayPort. Weight: 91 g",
    "specs": [],
@@ -5038,7 +5111,11 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/kingston_snv3s-500g.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/SNV3S-500G_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/SNV3S-500G_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/SNV3S-500G_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566269/SNV3S-500G_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/SNV3S-500G_4.jpg"
    ],
    "description": "For high-speed, low-power storage needs Kingston’s NV3 PCIe 4.0 NVMe SSDs are next-gen storage solutions powered by a Gen 4x4 NVMe controller, delivering read/write speeds of up to 6,000/5,000MB/s*. They come in both compact, single-sided M.2 2280 (22x80mm) and 2230 (22x30mm) sizes to expand storage in small-form-factor systems like laptops and handheld gaming consoles*****. They offer lower power consumption and reduced heat, optimising your system's performance without compromising value. Available in capacities from 500GB– 4TB** to give you all the space you need for applications, documents, photos, videos, games and more. Gen 4x4 NVMe PCIe performance Upgrade your system with read/write speeds up to 6,000/5,000MB/s*. Small size, big performance NV3 2280 and 2230 easily integrate into thin laptops and ultra-small PCs with M.2 connectors and limited space. Increased storage space Available in a variety of high capacities up to 4TB**, providing ample space to store files, videos, documents, and games with room to spare. Store more, play more With NV3 2230 upgrade compatible handheld gaming systems to get in the game faster*****.",
    "specs": [],
@@ -5145,10 +5222,12 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://cdn.cs.1worldsync.com/85/24/8524910d-83a1-430a-9153-1b00227f42cd.jpg",
-    "https://cdn.cs.1worldsync.com/9d/61/9d611076-d761-4d87-8b7c-d1ca34618f3e.jpg",
-    "https://cdn.cs.1worldsync.com/a0/12/a012fb40-ca1b-4f32-866c-4106bd14179e.jpg",
-    "https://cdn.cs.1worldsync.com/80/3c/803ccf08-e16d-42a2-8ded-890145ac7f9a.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/TEB01_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/TEB01_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/TEB01_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/TEB01_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/TEB01_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/TEB01_5.jpg"
    ],
    "description": "The Campus Notebook Backpack is ideal for students at school or university and also appeals to today’s mobile professionals with an active lifestyle and a more casual work environment. The padded computer compartment is specifically designed to protect laptops with standard 15 - 16 inch screens. There's plenty of storage space: an extra large zippered storage compartment with internal pockets including zippered mesh pockets - perfect for personal (iPod, CD player, PDA, etc.) or computing accessories. Other features include pen loops and student / business card holder. Finally, for your ultimate carrying comfort, there's a 3D contoured air-mesh back padding which helps alleviate stress and strain on your back. - Compartment for notebooks with 15\" to 16” screens - 3D contoured air-mesh back padding which helps alleviate back stress/strain - Multiple pockets for maximum storage capacity (Mobile phone, CD player, smartphone, iPod, pens, business/student card...) and many more! - Hidden rear pocket for your personal belongings - Adjustable fasteners on each side of the backpack - Neoprene comfort grip handle - Mesh pockets for your loose accessories - Removable waist strap included",
    "specs": [],
@@ -5246,7 +5325,8 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://staxdstoragecdn.blob.core.windows.net/axd-live/targus_tsb911gl.jpg"
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566269/TSB911GL_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566269/TSB911GL_1.jpg"
    ],
    "description": "The 15-16\" CitySmart™ Essentials Backpack delivers intuitive organization in a tailored design. Featuring separate compartments for your laptop and tablet, and plenty of nooks for your office supplies and devices, this pack deliver the necessary protection for your gear. The Targus 12”-16” CitySmart™ Backpack delivers device protection and intuitive organization in a polished pack with a clean-lined frame. Designed to fit laptops 12”-16”, this bag has padded, adjustable shoulder straps and a padded back that ensure a comfortable fit once it’s on your shoulders. A deep front compartment features a workstation for your business cards, pens, small gadgets, and other office supplies, while the font quick-stash pocket provides easy access to your small accessories. For maximum protection, a weather-resistant base helps keep your devices and docs safe from the elements, while thoughtful features like a pass-through trolley strap and water bottle pocket add to its functionality. With professional good looks, convenient features, and protective details, the CitySmart™ Essentials Backpack fits the way you work.",
    "specs": [],
