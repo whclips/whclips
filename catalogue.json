@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-17T06:05:02+00:00",
- "pricedAt": "2026-09-17T06:05:02+00:00",
- "priceValidUntil": "2026-09-17T08:05:02+00:00",
+ "generatedAt": "2026-09-17T06:35:03+00:00",
+ "pricedAt": "2026-09-17T06:35:03+00:00",
+ "priceValidUntil": "2026-09-17T08:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -1086,7 +1086,7 @@
    "category": "Monitors",
    "price": 2910,
    "stock": "in",
-   "available": 326,
+   "available": 324,
    "badges": [
     "Deal ending soon",
     "On promotion"
@@ -2010,7 +2010,7 @@
    "category": "Monitors",
    "price": 1840,
    "stock": "in",
-   "available": 279,
+   "available": 271,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2668,7 +2668,7 @@
    "category": "Keyboards & mice",
    "price": 445,
    "stock": "in",
-   "available": 367,
+   "available": 364,
    "badges": [],
    "attributes": [],
    "promo": false,
