@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-17T15:35:02+00:00",
- "pricedAt": "2026-09-17T15:35:02+00:00",
- "priceValidUntil": "2026-09-17T17:35:02+00:00",
+ "generatedAt": "2026-09-18T05:05:02+00:00",
+ "pricedAt": "2026-09-18T05:05:02+00:00",
+ "priceValidUntil": "2026-09-18T07:05:02+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -3607,7 +3607,7 @@
    "category": "Keyboards & mice",
    "price": 167,
    "stock": "in",
-   "available": 750,
+   "available": 749,
    "badges": [
     "Best seller"
    ],
@@ -5854,7 +5854,7 @@
    "category": "Accessories",
    "price": 808,
    "stock": "in",
-   "available": 837,
+   "available": 830,
    "badges": [
     "Best seller"
    ],
