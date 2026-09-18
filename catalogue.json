@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-18T10:05:02+00:00",
- "pricedAt": "2026-09-18T10:05:02+00:00",
- "priceValidUntil": "2026-09-18T12:05:02+00:00",
+ "generatedAt": "2026-09-18T10:35:03+00:00",
+ "pricedAt": "2026-09-18T10:35:03+00:00",
+ "priceValidUntil": "2026-09-18T12:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -15,7 +15,7 @@
    "category": "Monitors",
    "price": 2010,
    "stock": "in",
-   "available": 556,
+   "available": 551,
    "badges": [
     "On promotion",
     "Deal ending soon"
@@ -2480,7 +2480,7 @@
    "category": "Keyboards & mice",
    "price": 244,
    "stock": "in",
-   "available": 420,
+   "available": 410,
    "badges": [
     "Best seller"
    ],
@@ -3767,7 +3767,7 @@
    "category": "Keyboards & mice",
    "price": 241,
    "stock": "in",
-   "available": 394,
+   "available": 393,
    "badges": [
     "Best seller"
    ],
@@ -5090,7 +5090,7 @@
    "category": "Bags & cases",
    "price": 489,
    "stock": "in",
-   "available": 254,
+   "available": 224,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5854,7 +5854,7 @@
    "category": "Accessories",
    "price": 808,
    "stock": "in",
-   "available": 830,
+   "available": 829,
    "badges": [
     "Best seller"
    ],
