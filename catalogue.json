@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-18T14:05:02+00:00",
- "pricedAt": "2026-09-18T14:05:02+00:00",
- "priceValidUntil": "2026-09-18T16:05:02+00:00",
+ "generatedAt": "2026-09-18T14:35:02+00:00",
+ "pricedAt": "2026-09-18T14:35:02+00:00",
+ "priceValidUntil": "2026-09-18T16:35:02+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -2010,7 +2010,7 @@
    "category": "Monitors",
    "price": 1840,
    "stock": "in",
-   "available": 417,
+   "available": 416,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5854,7 +5854,7 @@
    "category": "Accessories",
    "price": 808,
    "stock": "in",
-   "available": 829,
+   "available": 830,
    "badges": [
     "Best seller"
    ],
