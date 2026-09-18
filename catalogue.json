@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-18T12:05:02+00:00",
- "pricedAt": "2026-09-18T12:05:02+00:00",
- "priceValidUntil": "2026-09-18T14:05:02+00:00",
+ "generatedAt": "2026-09-18T12:35:02+00:00",
+ "pricedAt": "2026-09-18T12:35:02+00:00",
+ "priceValidUntil": "2026-09-18T14:35:02+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -2010,7 +2010,7 @@
    "category": "Monitors",
    "price": 1840,
    "stock": "in",
-   "available": 267,
+   "available": 417,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2480,7 +2480,7 @@
    "category": "Keyboards & mice",
    "price": 244,
    "stock": "in",
-   "available": 410,
+   "available": 360,
    "badges": [
     "Best seller"
    ],
@@ -3607,7 +3607,7 @@
    "category": "Keyboards & mice",
    "price": 167,
    "stock": "in",
-   "available": 749,
+   "available": 679,
    "badges": [
     "Best seller"
    ],
@@ -3767,7 +3767,7 @@
    "category": "Keyboards & mice",
    "price": 241,
    "stock": "in",
-   "available": 393,
+   "available": 389,
    "badges": [
     "Best seller"
    ],
@@ -5090,7 +5090,7 @@
    "category": "Bags & cases",
    "price": 489,
    "stock": "in",
-   "available": 224,
+   "available": 220,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5467,7 +5467,7 @@
    "category": "Cables & adapters",
    "price": 469,
    "stock": "in",
-   "available": 115,
+   "available": 114,
    "badges": [],
    "attributes": [],
    "promo": false,
