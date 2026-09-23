@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-23T08:05:03+00:00",
- "pricedAt": "2026-09-23T08:05:03+00:00",
- "priceValidUntil": "2026-09-23T10:05:03+00:00",
+ "generatedAt": "2026-09-23T08:35:02+00:00",
+ "pricedAt": "2026-09-23T08:35:02+00:00",
+ "priceValidUntil": "2026-09-23T10:35:02+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -1086,7 +1086,7 @@
    "category": "Monitors",
    "price": 2910,
    "stock": "in",
-   "available": 322,
+   "available": 321,
    "badges": [
     "Deal ending soon",
     "On promotion"
@@ -2010,7 +2010,7 @@
    "category": "Monitors",
    "price": 1840,
    "stock": "in",
-   "available": 394,
+   "available": 393,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2668,7 +2668,7 @@
    "category": "Keyboards & mice",
    "price": 445,
    "stock": "in",
-   "available": 263,
+   "available": 260,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -3384,7 +3384,7 @@
    "category": "Keyboards & mice",
    "price": 478,
    "stock": "in",
-   "available": 300,
+   "available": 295,
    "badges": [
     "Best seller"
    ],
@@ -3767,7 +3767,7 @@
    "category": "Keyboards & mice",
    "price": 241,
    "stock": "in",
-   "available": 336,
+   "available": 334,
    "badges": [
     "Best seller"
    ],
@@ -4821,7 +4821,7 @@
    "category": "Bags & cases",
    "price": 382,
    "stock": "in",
-   "available": 1069,
+   "available": 1068,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5090,7 +5090,7 @@
    "category": "Bags & cases",
    "price": 489,
    "stock": "in",
-   "available": 219,
+   "available": 189,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5467,7 +5467,7 @@
    "category": "Cables & adapters",
    "price": 469,
    "stock": "in",
-   "available": 106,
+   "available": 104,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5716,7 +5716,7 @@
    "category": "Accessories",
    "price": 2370,
    "stock": "in",
-   "available": 52,
+   "available": 46,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5854,7 +5854,7 @@
    "category": "Accessories",
    "price": 808,
    "stock": "in",
-   "available": 821,
+   "available": 820,
    "badges": [
     "Best seller"
    ],
