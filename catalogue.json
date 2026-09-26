@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-24T15:35:03+00:00",
- "pricedAt": "2026-09-24T15:35:03+00:00",
- "priceValidUntil": "2026-09-24T17:35:03+00:00",
+ "generatedAt": "2026-09-26T08:05:03+00:00",
+ "pricedAt": "2026-09-26T08:05:03+00:00",
+ "priceValidUntil": "2026-09-26T10:05:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -15,7 +15,7 @@
    "category": "Monitors",
    "price": 2010,
    "stock": "in",
-   "available": 551,
+   "available": 584,
    "badges": [
     "On promotion",
     "Deal ending soon"
@@ -90,7 +90,7 @@
    "category": "Monitors",
    "price": 3680,
    "stock": "in",
-   "available": 332,
+   "available": 327,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -584,7 +584,7 @@
    "category": "Monitors",
    "price": 2370,
    "stock": "in",
-   "available": 338,
+   "available": 73,
    "badges": [
     "On promotion",
     "Deal ending soon"
@@ -2928,7 +2928,7 @@
    "category": "Keyboards & mice",
    "price": 714,
    "stock": "in",
-   "available": 422,
+   "available": 418,
    "badges": [],
    "attributes": [
     "DeskPro"
@@ -3384,7 +3384,7 @@
    "category": "Keyboards & mice",
    "price": 478,
    "stock": "in",
-   "available": 294,
+   "available": 293,
    "badges": [
     "Best seller"
    ],
@@ -3607,7 +3607,7 @@
    "category": "Keyboards & mice",
    "price": 167,
    "stock": "in",
-   "available": 503,
+   "available": 453,
    "badges": [
     "Best seller"
    ],
@@ -3767,7 +3767,7 @@
    "category": "Keyboards & mice",
    "price": 241,
    "stock": "in",
-   "available": 334,
+   "available": 326,
    "badges": [
     "Best seller"
    ],
@@ -4821,7 +4821,7 @@
    "category": "Bags & cases",
    "price": 382,
    "stock": "in",
-   "available": 1067,
+   "available": 893,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -4957,7 +4957,7 @@
    "category": "Bags & cases",
    "price": 643,
    "stock": "in",
-   "available": 324,
+   "available": 322,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5467,7 +5467,7 @@
    "category": "Cables & adapters",
    "price": 469,
    "stock": "in",
-   "available": 104,
+   "available": 99,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5487,8 +5487,8 @@
    "brand": "Dell",
    "category": "Cables & adapters",
    "price": 217,
-   "stock": "in",
-   "available": 100,
+   "stock": "out",
+   "available": 0,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5716,7 +5716,7 @@
    "category": "Accessories",
    "price": 2370,
    "stock": "in",
-   "available": 34,
+   "available": 33,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5854,7 +5854,7 @@
    "category": "Accessories",
    "price": 808,
    "stock": "in",
-   "available": 815,
+   "available": 779,
    "badges": [
     "Best seller"
    ],
