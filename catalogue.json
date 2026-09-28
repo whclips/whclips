@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-28T10:05:02+00:00",
- "pricedAt": "2026-09-28T10:05:02+00:00",
- "priceValidUntil": "2026-09-28T12:05:02+00:00",
+ "generatedAt": "2026-09-28T10:35:03+00:00",
+ "pricedAt": "2026-09-28T10:35:03+00:00",
+ "priceValidUntil": "2026-09-28T12:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -2010,7 +2010,7 @@
    "category": "Monitors",
    "price": 1840,
    "stock": "in",
-   "available": 393,
+   "available": 392,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2480,7 +2480,7 @@
    "category": "Keyboards & mice",
    "price": 244,
    "stock": "in",
-   "available": 211,
+   "available": 207,
    "badges": [
     "Best seller"
    ],
@@ -2668,7 +2668,7 @@
    "category": "Keyboards & mice",
    "price": 445,
    "stock": "in",
-   "available": 256,
+   "available": 254,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2928,7 +2928,7 @@
    "category": "Keyboards & mice",
    "price": 714,
    "stock": "in",
-   "available": 416,
+   "available": 410,
    "badges": [],
    "attributes": [
     "DeskPro"
@@ -3384,7 +3384,7 @@
    "category": "Keyboards & mice",
    "price": 478,
    "stock": "in",
-   "available": 293,
+   "available": 292,
    "badges": [
     "Best seller"
    ],
@@ -4821,7 +4821,7 @@
    "category": "Bags & cases",
    "price": 382,
    "stock": "in",
-   "available": 881,
+   "available": 880,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5218,7 +5218,7 @@
    "category": "Bags & cases",
    "price": 652,
    "stock": "in",
-   "available": 58,
+   "available": 31,
    "badges": [],
    "attributes": [],
    "promo": false,
