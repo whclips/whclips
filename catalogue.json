@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-09-29T08:05:02+00:00",
- "pricedAt": "2026-09-29T08:05:02+00:00",
- "priceValidUntil": "2026-09-29T10:05:02+00:00",
+ "generatedAt": "2026-09-29T08:35:03+00:00",
+ "pricedAt": "2026-09-29T08:35:03+00:00",
+ "priceValidUntil": "2026-09-29T10:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 28,
+ "count": 29,
  "items": [
   {
    "sku": "210-BQMZ",
@@ -2668,7 +2668,7 @@
    "category": "Keyboards & mice",
    "price": 445,
    "stock": "in",
-   "available": 242,
+   "available": 240,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -3607,7 +3607,7 @@
    "category": "Keyboards & mice",
    "price": 167,
    "stock": "in",
-   "available": 403,
+   "available": 398,
    "badges": [
     "Best seller"
    ],
@@ -3767,7 +3767,7 @@
    "category": "Keyboards & mice",
    "price": 241,
    "stock": "in",
-   "available": 313,
+   "available": 308,
    "badges": [
     "Best seller"
    ],
@@ -4596,13 +4596,232 @@
    ]
   },
   {
+   "sku": "520-BBDH",
+   "name": "Dell Pro Wired Headset - WH3024",
+   "brand": "Dell",
+   "category": "Headsets & audio",
+   "price": 1300,
+   "stock": "in",
+   "available": 97,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566257/520-BBDH_0.jpg"
+   ],
+   "description": "Dell Pro Wired Headset - WH3024",
+   "strap": "",
+   "warranty": "Limited warranty - 3 years",
+   "highlights": [
+    [
+     "Form Factor",
+     "Headset microphone"
+    ],
+    [
+     "Connectivity Technology",
+     "Wired"
+    ],
+    [
+     "Weight",
+     "110 g"
+    ],
+    [
+     "Product Type",
+     "Headset - wired - USB-C"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "General",
+     [
+      [
+       "Product Type",
+       "Headset - wired - USB-C"
+      ],
+      [
+       "Compatibility",
+       "Mac, Windows"
+      ],
+      [
+       "Additional Functions",
+       "LED lights"
+      ],
+      [
+       "Weight",
+       "110 g"
+      ],
+      [
+       "Headband Material",
+       "Leatherette, memory foam"
+      ],
+      [
+       "Earpad Material",
+       "Leatherette memory foam"
+      ],
+      [
+       "Recommended Use",
+       "Computer"
+      ],
+      [
+       "Features",
+       "260° rotatable microphone"
+      ]
+     ]
+    ],
+    [
+     "Audio Output",
+     [
+      [
+       "Headphones Form Factor",
+       "On-ear binaural"
+      ],
+      [
+       "Connectivity Technology",
+       "Wired"
+      ],
+      [
+       "Sound Output Mode",
+       "Stereo"
+      ],
+      [
+       "Frequency Response",
+       "20 - 20000 Hz"
+      ],
+      [
+       "Max Sound Pressure",
+       "119 dB"
+      ],
+      [
+       "Diaphragm",
+       "28 mm"
+      ]
+     ]
+    ],
+    [
+     "Microphone",
+     [
+      [
+       "Type",
+       "Boom"
+      ],
+      [
+       "Form Factor",
+       "Headset microphone"
+      ],
+      [
+       "Microphone Operation Mode",
+       "Uni-directional, beamforming"
+      ],
+      [
+       "Sensitivity",
+       "-45 dBV/Pascal"
+      ],
+      [
+       "Frequency Response",
+       "100 - 14000 Hz"
+      ],
+      [
+       "Signal-To-Noise Ratio",
+       "53 dB"
+      ],
+      [
+       "Noise Cancelling",
+       "Yes"
+      ],
+      [
+       "Noise Cancelling Technology",
+       "AI Powered Environmental Noise Cancellation"
+      ]
+     ]
+    ],
+    [
+     "Remote Control",
+     [
+      [
+       "Controls",
+       "Microsoft Teams button, mute, volume, answer/end"
+      ]
+     ]
+    ],
+    [
+     "Connections",
+     [
+      [
+       "Connector Type",
+       "Headphones (24 pin USB-C)"
+      ]
+     ]
+    ],
+    [
+     "Miscellaneous",
+     [
+      [
+       "Included Accessories",
+       "USB-C to USB-A adapter"
+      ],
+      [
+       "Cable Details",
+       "Headset cable - 2 m"
+      ],
+      [
+       "Supported Host Device OS",
+       "macOS, Windows 10 (64-bit), Windows 11 (64-bit)"
+      ],
+      [
+       "Software Certification",
+       "Certified for Microsoft Teams, Zoom Certified"
+      ]
+     ]
+    ],
+    [
+     "Manufacturer Warranty",
+     [
+      [
+       "Service & Support",
+       "Limited warranty - 3 years"
+      ],
+      [
+       "Service & Support",
+       "Advanced Exchange Service - 3 years"
+      ]
+     ]
+    ],
+    [
+     "Environmental Parameters",
+     [
+      [
+       "Min Operating Temperature",
+       "0 °C"
+      ],
+      [
+       "Max Operating Temperature",
+       "40 °C"
+      ],
+      [
+       "Min Storage Temperature",
+       "-5 °C"
+      ],
+      [
+       "Max Storage Temperature",
+       "45 °C"
+      ],
+      [
+       "Humidity Range Operating",
+       "5 - 90%"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "460-BDSS",
    "name": "Dell 14-16 EcoLoop Backpack CP3724",
    "brand": "Dell",
    "category": "Bags & cases",
    "price": 382,
    "stock": "in",
-   "available": 872,
+   "available": 862,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -4999,7 +5218,7 @@
    "category": "Bags & cases",
    "price": 652,
    "stock": "in",
-   "available": 28,
+   "available": 26,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5267,7 +5486,7 @@
    "name": "Dell HDMI 2.0 Cable - CB325H",
    "brand": "Dell",
    "category": "Cables & adapters",
-   "price": 217,
+   "price": 242,
    "stock": "out",
    "available": 0,
    "badges": [],
@@ -5635,7 +5854,7 @@
    "category": "Accessories",
    "price": 808,
    "stock": "in",
-   "available": 776,
+   "available": 775,
    "badges": [
     "Best seller"
    ],
