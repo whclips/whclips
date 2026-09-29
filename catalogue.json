@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-29T12:05:02+00:00",
- "pricedAt": "2026-09-29T12:05:02+00:00",
- "priceValidUntil": "2026-09-29T14:05:02+00:00",
+ "generatedAt": "2026-09-29T12:35:03+00:00",
+ "pricedAt": "2026-09-29T12:35:03+00:00",
+ "priceValidUntil": "2026-09-29T14:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -4303,7 +4303,7 @@
    "category": "Headsets & audio",
    "price": 485,
    "stock": "in",
-   "available": 253,
+   "available": 252,
    "badges": [],
    "attributes": [
     "DeskPro"
@@ -4821,7 +4821,7 @@
    "category": "Bags & cases",
    "price": 382,
    "stock": "in",
-   "available": 862,
+   "available": 840,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5467,7 +5467,7 @@
    "category": "Cables & adapters",
    "price": 469,
    "stock": "in",
-   "available": 95,
+   "available": 94,
    "badges": [],
    "attributes": [],
    "promo": false,
