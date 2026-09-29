@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-28T15:35:02+00:00",
- "pricedAt": "2026-09-28T15:35:02+00:00",
- "priceValidUntil": "2026-09-28T17:35:02+00:00",
+ "generatedAt": "2026-09-29T05:05:02+00:00",
+ "pricedAt": "2026-09-29T05:05:02+00:00",
+ "priceValidUntil": "2026-09-29T07:05:02+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -15,7 +15,7 @@
    "category": "Monitors",
    "price": 2010,
    "stock": "in",
-   "available": 584,
+   "available": 564,
    "badges": [
     "On promotion",
     "Deal ending soon"
@@ -5218,7 +5218,7 @@
    "category": "Bags & cases",
    "price": 652,
    "stock": "in",
-   "available": 29,
+   "available": 28,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5467,7 +5467,7 @@
    "category": "Cables & adapters",
    "price": 469,
    "stock": "in",
-   "available": 99,
+   "available": 97,
    "badges": [],
    "attributes": [],
    "promo": false,
