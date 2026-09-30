@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-30T14:05:03+00:00",
- "pricedAt": "2026-09-30T14:05:03+00:00",
- "priceValidUntil": "2026-09-30T16:05:03+00:00",
+ "generatedAt": "2026-09-30T14:35:03+00:00",
+ "pricedAt": "2026-09-30T14:35:03+00:00",
+ "priceValidUntil": "2026-09-30T16:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -582,9 +582,9 @@
    "name": "Dell Pro 22 Adjustable Stand Monitor - E2225HSM",
    "brand": "Dell",
    "category": "Monitors",
-   "price": 2370,
-   "stock": "in",
-   "available": 68,
+   "price": 2210,
+   "stock": "out",
+   "available": 0,
    "badges": [
     "On promotion",
     "Deal ending soon"
@@ -1524,7 +1524,7 @@
    "category": "Monitors",
    "price": 3520,
    "stock": "in",
-   "available": 305,
+   "available": 304,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2668,7 +2668,7 @@
    "category": "Keyboards & mice",
    "price": 445,
    "stock": "in",
-   "available": 230,
+   "available": 212,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -3607,7 +3607,7 @@
    "category": "Keyboards & mice",
    "price": 167,
    "stock": "in",
-   "available": 185,
+   "available": 175,
    "badges": [
     "Best seller"
    ],
@@ -5090,7 +5090,7 @@
    "category": "Bags & cases",
    "price": 489,
    "stock": "in",
-   "available": 218,
+   "available": 217,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -5854,7 +5854,7 @@
    "category": "Accessories",
    "price": 808,
    "stock": "in",
-   "available": 767,
+   "available": 766,
    "badges": [
     "Best seller"
    ],
