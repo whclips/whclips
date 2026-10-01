@@ -33,11 +33,13 @@
   .ck-qty span{ min-width:1.6rem; text-align:center; font-variant-numeric:tabular-nums; }
   .ck-price{ font-weight:700; text-align:right; font-variant-numeric:tabular-nums; }
   .ck-rm{ display:block; margin:.4rem 0 0 auto; background:none; border:0; color:var(--text-dim-40); font-size:.75rem; cursor:pointer; text-decoration:underline; }
+  .ck-form select option{ background:#161616; color:#f5f5f5; }
+  .ck-sum{ display:flex; justify-content:space-between; align-items:baseline; padding:.35rem 0; font-size:.98rem; }
   .ck-total{ display:flex; justify-content:space-between; align-items:baseline; font-size:1.15rem; padding-top:1.1rem; margin-top:.5rem; border-top:1px solid var(--border); }
   .ck-fine{ font-size:.78rem; color:var(--text-dim-40); line-height:1.55; margin:.7rem 0 0; }
   .ck-fine a{ text-decoration:underline; }
   .ck-form{ display:flex; flex-direction:column; gap:.9rem; }
-  .ck-form select{ padding:.7rem .8rem; font-size:.95rem; font-family:inherit; color:var(--text); background:rgba(255,255,255,.04); border:1px solid var(--border); border-radius:8px; }
+  .ck-form select{ color-scheme:dark; padding:.7rem .8rem; font-size:.95rem; font-family:inherit; color:var(--text); background:rgba(255,255,255,.04); border:1px solid var(--border); border-radius:8px; }
   .ck-form .form-row input{ padding:.7rem .8rem; font-size:.95rem; }
   .ck-two{ display:grid; grid-template-columns:1fr; gap:.9rem; }
   @media (min-width:520px){ .ck-two{ grid-template-columns:1fr 1fr; } }
@@ -99,8 +101,13 @@
         <div class="ck-card">
           <h2>Items</h2>
           <div id="ckLines"></div>
-          <div class="ck-total"><span>Total</span><strong id="ckTotal">R0</strong></div>
-          <p class="ck-fine">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged. Delivery is included in the price, anywhere in South Africa. Stock and price are checked again when you pay.</p>
+          <div id="ckDelRows" hidden>
+          <div class="ck-sum"><span>Items</span><span id="ckItems">R0.00</span></div>
+          <div class="ck-sum"><span>Delivery</span><span id="ckDelivery">Choose your province</span></div>
+          <p class="ck-fine" id="ckDeliveryNote"></p>
+          </div>
+          <div class="ck-total"><span>Total</span><strong id="ckTotal">R0.00</strong></div>
+          <p class="ck-fine">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged. Stock and price are checked again when you pay.</p>
           <p class="ck-fine"><a href="store.html">&larr; Continue shopping</a></p>
         </div>
 
@@ -128,9 +135,9 @@
               <div class="form-row"><label for="shPostal">Postal code</label><input id="shPostal" name="address_postal_code" type="text" inputmode="numeric" autocomplete="postal-code" required maxlength="4" pattern="[0-9]{4}"></div>
             </div>
             <div class="form-row"><label for="shNotes">Delivery instructions (optional)</label><textarea id="shNotes" name="delivery_instructions" rows="3" maxlength="300" placeholder="For example: gate code, or leave with security"></textarea></div>
-            <label class="ck-check"><input type="checkbox" id="shTerms" required> <span>I accept the <a href="terms.html" target="_blank" rel="noopener">Terms of sale</a> and the <a href="delivery.html" target="_blank" rel="noopener">Delivery</a>, <a href="cancellation.html" target="_blank" rel="noopener">Cancellation</a> and <a href="returns.html" target="_blank" rel="noopener">Returns</a> policies.</span></label>
-            <label class="ck-check"><input type="checkbox" id="shPrivacy" required> <span>I have read the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span></label>
-            <label class="ck-check"><input type="checkbox" id="shMarketing"> <span>Email me news and offers (optional). You can unsubscribe at any time. See the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span></label>
+            <label class="ck-check"><input type="checkbox" id="shTerms" required> <span>I accept the <a href="terms.html" target="_blank" rel="noopener">Terms &amp; Conditions</a>.*</span></label>
+            <label class="ck-check"><input type="checkbox" id="shPrivacy" required> <span>I have read the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.*</span></label>
+            <label class="ck-check"><input type="checkbox" id="shMarketing"> <span>Email me news and offers (optional). You can unsubscribe at any time.</span></label>
             <p class="ck-err" id="ckErr" hidden></p>
             <button type="submit" class="btn-submit ck-pay" id="ckPay" disabled>Pay with PayFast</button>
             <p class="ck-fine" id="ckPayNote">Checkout opens once payments go live.</p>
@@ -202,9 +209,11 @@
   // refuses a different value and stores the accepted one with the order. Change both together.
   var POLICY_VERSION = '2026-10-01';
 
-  var state = { items: [], cart: {}, stale: false, loaded: false };
+  var DELIVERY_ON = false;   // build_checkout_page.py --no-delivery flips this to false (interim page for a Worker that cannot quote yet)
+  var state = { items: [], cart: {}, stale: false, loaded: false, quote: null };
   function byId(id){ return document.getElementById(id); }
   function money(n){ return 'R' + Math.round(n).toLocaleString('en-ZA'); }
+  function money2(n){ return 'R' + Number(n).toLocaleString('en-ZA', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
   function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
   function loadCart(){ try { state.cart = JSON.parse(localStorage.getItem(CART_KEY) || '{}'); } catch(e){ state.cart = {}; } }
   function saveCart(){ try { localStorage.setItem(CART_KEY, JSON.stringify(state.cart)); } catch(e){} }
@@ -217,6 +226,39 @@
   function notice(msg, warn){ var n = byId('ckNotice'); n.hidden = !msg; n.className = 'ck-notice' + (warn ? ' is-warn' : ''); n.textContent = msg || ''; }
   function showErr(msg){ var e = byId('ckErr'); e.hidden = !msg; e.textContent = msg || ''; }
 
+  // Delivery is worked out by the Worker (rate card, province, packed weight) so the browser never holds the price list.
+  function cartKey(lines){ return lines.map(function(l){ return l.item.sku + 'x' + l.qty; }).join(',') + '|' + byId('shProvince').value; }
+  function quoteIsCurrent(lines){ if (!DELIVERY_ON) return true; return !!state.quote && state.quote.key === cartKey(lines); }
+  function updateTotals(itemsTotal){
+    if (!DELIVERY_ON) { byId('ckTotal').textContent = money2(itemsTotal); return; }
+    var q = state.quote, lines = cartLines();
+    if (q && q.key === cartKey(lines)) {
+      byId('ckDelivery').textContent = money2(q.delivery);
+      byId('ckDeliveryNote').textContent = (q.service === 'ECO' ? 'Delivery within Gauteng' : 'Delivery to ' + byId('shProvince').value) + ', about ' + q.days + ' after we dispatch. Parcel billed at ' + q.billedKg + ' kg.';
+      byId('ckTotal').textContent = money2(q.total);
+    } else {
+      byId('ckDelivery').textContent = byId('shProvince').value ? 'Calculating…' : 'Choose your province';
+      byId('ckDeliveryNote').textContent = '';
+      byId('ckTotal').textContent = money2(itemsTotal);
+    }
+  }
+  var quoteSeq = 0, quoteAsked = '';
+  function requestQuote(lines){
+    if (!DELIVERY_ON) return;
+    var prov = byId('shProvince').value, key = cartKey(lines);
+    if (!lines.length || !prov || quoteIsCurrent(lines) || quoteAsked === key) return;
+    quoteAsked = key; var mine = ++quoteSeq;
+    fetch(API + '/api/delivery-quote', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items: lines.map(function(l){ return { sku: l.item.sku, qty: l.qty }; }), province: prov }) })
+      .then(function(r){ return r.json().then(function(b){ return { ok: r.ok, body: b }; }); })
+      .then(function(res){
+        if (mine !== quoteSeq) return;                       // a newer question is in flight
+        if (!res.ok) { state.quote = null; showErr(res.body && res.body.error || 'Could not work out the delivery charge.'); render(); return; }   // quoteAsked stays set: no retry until the cart or province changes
+        showErr(''); res.body.key = key; state.quote = res.body; render();
+      })
+      .catch(function(){ if (mine === quoteSeq) { state.quote = null; showErr('Could not work out the delivery charge. Please try again, or email info@whclips.co.za.'); } });
+  }
+  byId('shProvince').addEventListener('change', function(){ render(); });
+
   function render(){
     var lines = cartLines();
     var count = lines.reduce(function(n, l){ return n + l.qty; }, 0);
@@ -224,7 +266,9 @@
     var c = byId('navCartCount'); c.textContent = count; c.hidden = count === 0;
     byId('ckEmpty').hidden = !(state.loaded && lines.length === 0);
     byId('ckGrid').hidden = lines.length === 0;
-    byId('ckTotal').textContent = money(total);
+    byId('ckItems').textContent = money2(total);
+    updateTotals(total);
+    requestQuote(lines);
     byId('ckLines').innerHTML = lines.map(function(l){
       var im = l.item.images && l.item.images[0] ? '<img src="' + esc(l.item.images[0]) + '" alt="">' : '<div></div>';
       return '<div class="ck-line">' + im +
@@ -232,9 +276,9 @@
         '<div class="ck-qty"><button type="button" data-dec="' + esc(l.item.sku) + '" aria-label="One fewer">&minus;</button><span>' + l.qty + '</span><button type="button" data-inc="' + esc(l.item.sku) + '" aria-label="One more">+</button></div></div>' +
         '<div><div class="ck-price">' + money(l.qty * l.item.price) + '</div><button type="button" class="ck-rm" data-rm="' + esc(l.item.sku) + '">Remove</button></div></div>';
     }).join('');
-    var ready = lines.length > 0 && !state.stale && window.WHC_CHECKOUT_LIVE === true;
+    var ready = lines.length > 0 && !state.stale && window.WHC_CHECKOUT_LIVE === true && quoteIsCurrent(lines);
     byId('ckPay').disabled = !ready;
-    byId('ckPayNote').textContent = state.stale ? 'Checkout paused while prices refresh.' : (window.WHC_CHECKOUT_LIVE ? '' : 'Checkout opens once payments go live.');
+    byId('ckPayNote').textContent = state.stale ? 'Checkout paused while prices refresh.' : (window.WHC_CHECKOUT_LIVE ? (quoteIsCurrent(lines) || !lines.length ? '' : 'Choose your province to see the delivery charge.') : 'Checkout opens once payments go live.');
   }
 
   byId('ckLines').addEventListener('click', function(e){
@@ -273,7 +317,8 @@
       address_city: v('shCity'), address_province: byId('shProvince').value, address_postal_code: v('shPostal'),
       company: v('shCompany'), delivery_instructions: v('shNotes'),
       accepted_terms: byId('shTerms').checked, accepted_privacy: byId('shPrivacy').checked, marketing_opt_in: byId('shMarketing').checked,
-      policy_version: POLICY_VERSION
+      policy_version: POLICY_VERSION,
+      expected_total: DELIVERY_ON && state.quote ? state.quote.total : undefined   // the Worker refuses if the price moved since the customer saw it
     };
     var cellDigits = customer.cell.replace(/[^\d+]/g, '');
     if (customer.name_first.length < 2) return showErr('Please give us your first name.');
@@ -286,7 +331,7 @@
     if (customer.address_city.length < 2) return showErr('Please give us your city or town.');
     if (!customer.address_province) return showErr('Please choose your province.');
     if (!/^\d{4}$/.test(customer.address_postal_code)) return showErr('Please give us a 4-digit postal code.');
-    if (!customer.accepted_terms) return showErr('Please accept the Terms of sale and our delivery, cancellation and returns policies.');
+    if (!customer.accepted_terms) return showErr('Please accept the Terms & Conditions.');
     if (!customer.accepted_privacy) return showErr('Please confirm that you have read the Privacy Policy.');
     showErr('');
     var items = cartLines().map(function(l){ return { sku: l.item.sku, qty: l.qty }; });
@@ -294,7 +339,7 @@
     fetch(API + '/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items: items, customer: customer }) })
       .then(function(r){ return r.json().then(function(b){ return { ok: r.ok, body: b }; }); })
       .then(function(res){
-        if (!res.ok) throw new Error(res.body && res.body.error || 'Checkout failed');
+        if (!res.ok) { if (res.body && res.body.total) { state.quote = null; quoteAsked = ''; render(); } throw new Error(res.body && res.body.error || 'Checkout failed'); }
         // The Worker signed the order; the browser only carries the form to PayFast.
         var f = document.createElement('form'); f.method = 'POST'; f.action = res.body.processUrl; f.hidden = true;
         Object.keys(res.body.fields).forEach(function(k){
