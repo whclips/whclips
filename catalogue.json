@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-30T15:35:02+00:00",
- "pricedAt": "2026-09-30T15:35:02+00:00",
- "priceValidUntil": "2026-09-30T17:35:02+00:00",
+ "generatedAt": "2026-10-01T05:05:03+00:00",
+ "pricedAt": "2026-10-01T05:05:03+00:00",
+ "priceValidUntil": "2026-10-01T07:05:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -15,7 +15,7 @@
    "category": "Monitors",
    "price": 2010,
    "stock": "in",
-   "available": 528,
+   "available": 527,
    "badges": [
     "On promotion",
     "Deal ending soon"
@@ -2668,7 +2668,7 @@
    "category": "Keyboards & mice",
    "price": 445,
    "stock": "in",
-   "available": 212,
+   "available": 211,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -3607,7 +3607,7 @@
    "category": "Keyboards & mice",
    "price": 167,
    "stock": "in",
-   "available": 175,
+   "available": 155,
    "badges": [
     "Best seller"
    ],
@@ -3767,7 +3767,7 @@
    "category": "Keyboards & mice",
    "price": 241,
    "stock": "in",
-   "available": 301,
+   "available": 276,
    "badges": [
     "Best seller"
    ],
@@ -4303,7 +4303,7 @@
    "category": "Headsets & audio",
    "price": 485,
    "stock": "in",
-   "available": 252,
+   "available": 227,
    "badges": [],
    "attributes": [
     "DeskPro"
@@ -4821,7 +4821,7 @@
    "category": "Bags & cases",
    "price": 382,
    "stock": "in",
-   "available": 820,
+   "available": 795,
    "badges": [],
    "attributes": [],
    "promo": false,
