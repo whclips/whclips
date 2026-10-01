@@ -592,10 +592,13 @@
     // trust lines: only what the data can back. Delivery/returns wording is JC's, added when agreed with the supplier.
     var trust = [];
     if (item.warranty) trust.push(esc(item.warranty) + (/warranty/i.test(item.warranty) ? '' : ' manufacturer warranty'));
+    else trust.push('Manufacturer warranty applies; the period is confirmed on request');
     trust.push('Official channel stock with the full manufacturer warranty');
     trust.push('No VAT charged - White Horse Clips is not a VAT vendor');
     byId('shDetailTrust').innerHTML = trust.map(function(t){ return '<li>' + t + '</li>'; }).join('');
-    byId('shDetailDesc').textContent = item.description || 'Full specification available on request - email info@whclips.co.za with the SKU.';
+    // a description that only repeats the product name is no description
+    var desc = (item.description || '').trim();
+    byId('shDetailDesc').textContent = (desc && desc.toLowerCase() !== String(item.name || '').trim().toLowerCase()) ? desc : 'Full specification available on request - email info@whclips.co.za with the SKU.';
     // hand-written pairs first (curated.json), then the supplier's grouped table (specs.json via Flow 1) under group headings
     var specRows = function(rows){ return (rows || []).map(function(row){ return '<dt>' + esc(row[0]) + '</dt><dd>' + esc(row[1]) + '</dd>'; }).join(''); };
     var specsEl = byId('shDetailSpecs');
@@ -730,7 +733,7 @@
           <a href="returns.html">Returns &amp; refunds</a>
           <a href="privacy.html">Privacy</a>
         </nav>
-        <p class="copyright">© 2026 WH Clips.<br>All rights reserved.</p>
+        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
         <p class="footer-tagline">Industrial automation, AI &amp; data integration for mining and manufacturing.</p>
       </div>
     </div>
