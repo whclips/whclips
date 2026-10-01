@@ -352,6 +352,19 @@
   .footer-legal{ display:flex; flex-wrap:wrap; gap:.4rem 1rem; margin-top:1rem; font-size:.78rem; color:var(--text-dim-40); }
   .footer-legal a{ transition:color .15s; }
   .footer-legal a:hover{ color:#fff; }
+  .pay-row{ max-width:1152px; margin:2.75rem auto 0; padding-top:1.75rem; border-top:1px solid var(--border); display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1.25rem 2.5rem; }
+  .pay-row .footer-heading{ margin-bottom:.35rem; }
+  .pay-row p{ font-size:.85rem; color:var(--text-dim-55); margin:0; }
+  .pay-badges{ display:flex; flex-wrap:wrap; gap:.6rem; }
+  .pay-pf{ height:34px; width:auto; display:block; margin-bottom:.7rem; }
+  .pay-chip{ display:flex; align-items:center; justify-content:center; height:44px; padding:0 .9rem; background:#fff; border-radius:8px; }
+  .pay-chip img{ height:22px; width:auto; display:block; }
+  .header-inner nav.main-nav{ margin-left:auto; }
+  .nav-cart{ position:relative; display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; margin-left:.75rem; color:var(--text-dim-55); }
+  .nav-cart:hover{ color:#fff; }
+  .nav-cart-count{ position:absolute; top:2px; right:-2px; min-width:18px; height:18px; padding:0 5px; border-radius:999px; background:var(--accent); color:#fff; font-size:.7rem; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .nav-cart-count[hidden]{ display:none; }
+  @media (max-width:767px){ .nav-cart{ margin-left:auto; } }
   .footer-tagline{ font-size:.75rem; line-height:1.625; color:var(--text-dim-15); }
 
 /* --- Shared: simple inner pages (Contact / Careers) --- */

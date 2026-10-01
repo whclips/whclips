@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=20261001c">
 <style>
   /* ---------------------------------------------------------------------
      Store / hardware supply page. Everything is scoped under .st- so it
@@ -220,6 +220,9 @@
   .sh-drawer-foot{ padding:1rem 1.25rem 1.25rem; border-top:1px solid var(--border); }
   .sh-total{ display:flex; justify-content:space-between; align-items:baseline; font-size:1.05rem; margin-bottom:.6rem; }
   .sh-fine{ font-size:.74rem; color:var(--text-dim-40); line-height:1.5; margin:.5rem 0 0; }
+  .sh-check{ display:flex; gap:.6rem; align-items:flex-start; margin:.6rem 0; font-size:.8rem; line-height:1.5; color:var(--text-dim-55); cursor:pointer; }
+  .sh-check input{ margin-top:.2rem; flex:0 0 auto; }
+  .sh-check a{ text-decoration:underline; }
   .sh-form{ display:flex; flex-direction:column; gap:.75rem; margin:0 0 1rem; }
   .sh-form .form-row{ gap:.3rem; }
   .sh-form .form-row input{ padding:.6rem .8rem; font-size:.9rem; }
@@ -284,6 +287,13 @@
   .sh-specs .sh-spec-group{ grid-column:1 / -1; margin-top:.5rem; padding-bottom:.2rem; border-bottom:1px solid var(--border, rgba(255,255,255,.08)); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; color:var(--text-dim-55); }
   .sh-specs .sh-spec-group:first-child{ margin-top:0; }
   .sh-drawer .btn-submit:disabled{ opacity:.4; cursor:not-allowed; }
+  .sh-added{ position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:90; width:min(92vw,400px);
+             background:#0b0b0b; border:1px solid var(--border); border-radius:16px; padding:1.5rem; text-align:center; box-shadow:0 24px 60px rgba(0,0,0,.6); }
+  .sh-added[hidden]{ display:none; }
+  .sh-added-title{ font-size:.75rem; letter-spacing:.14em; text-transform:uppercase; color:#34d399; margin:0 0 .6rem; }
+  .sh-added-name{ font-weight:700; font-size:1rem; line-height:1.4; margin:0 0 .35rem; color:var(--text); }
+  .sh-added-sum{ font-size:.82rem; color:var(--text-dim-55); margin:0 0 1.25rem; }
+  .sh-added-actions{ display:flex; gap:.75rem; justify-content:center; flex-wrap:wrap; }
 </style>
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -308,6 +318,7 @@
         <a href="store.html" class="nav-link" aria-current="page">Store</a>
         <a href="contact.html" class="btn-contact">Contact</a>
       </nav>
+      <a href="checkout.html" class="nav-cart" id="navCart" aria-label="Your cart"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg><span class="nav-cart-count" id="navCartCount" hidden>0</span></a>
       <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
         <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
         <svg class="icon-close" hidden width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
@@ -337,33 +348,16 @@
     </div>
   </section>
 
-  <!-- cart drawer -->
-  <button type="button" class="sh-cart-btn" id="shCartBtn" aria-label="Open cart" hidden>
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
-    <span id="shCartCount">0</span>
-  </button>
-  <div class="sh-drawer" id="shDrawer" aria-hidden="true">
-    <div class="sh-drawer-head">
-      <strong>Your cart</strong>
-      <button type="button" class="sh-x" id="shClose" aria-label="Close cart">&times;</button>
-    </div>
-    <div class="sh-drawer-body" id="shCartItems"></div>
-    <div class="sh-drawer-foot">
-      <div class="sh-total"><span>Total</span><strong id="shTotal">R0</strong></div>
-      <p class="sh-fine">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.</p>
-      <p class="sh-fine">Delivery is included in the price, anywhere in South Africa. Stock and price are rechecked when you pay. <a href="delivery.html">Delivery</a> &middot; <a href="returns.html">Returns &amp; refunds</a> &middot; <a href="terms.html">Terms of sale</a></p>
-      <form class="sh-form" id="shForm" hidden novalidate>
-        <div class="form-row"><label for="shFirst">First name</label><input id="shFirst" name="name_first" type="text" autocomplete="given-name" required maxlength="100"></div>
-        <div class="form-row"><label for="shLast">Last name</label><input id="shLast" name="name_last" type="text" autocomplete="family-name" maxlength="100"></div>
-        <div class="form-row"><label for="shEmail">Email for the receipt</label><input id="shEmail" name="email" type="email" autocomplete="email" required maxlength="200"></div>
-        <div class="form-row"><label for="shCell">Mobile (optional)</label><input id="shCell" name="cell" type="tel" autocomplete="tel" maxlength="20"></div>
-        <p class="sh-fine sh-err" id="shFormErr" hidden></p>
-      </form>
-      <button type="button" class="btn-submit" id="shCheckout" disabled>Checkout</button>
-      <p class="sh-fine" id="shCheckoutNote">Checkout opens once payments go live.</p>
+  <div class="sh-scrim" id="shScrim" hidden></div>
+  <div class="sh-added" id="shAdded" role="dialog" aria-modal="true" aria-labelledby="shAddedTitle" hidden>
+    <p class="sh-added-title" id="shAddedTitle">Added to your cart</p>
+    <p class="sh-added-name" id="shAddedName"></p>
+    <p class="sh-added-sum" id="shAddedSum"></p>
+    <div class="sh-added-actions">
+      <button type="button" class="btn-outline" id="shAddedMore">Continue shopping</button>
+      <a class="btn-solid" id="shAddedGo" href="checkout.html">Go to cart</a>
     </div>
   </div>
-  <div class="sh-scrim" id="shScrim" hidden></div>
 
   <!-- product detail panel -->
   <div class="sh-detail" id="shDetail" role="dialog" aria-modal="true" aria-labelledby="shDetailName" hidden>
@@ -467,10 +461,7 @@
   var CATALOGUE_URL = 'catalogue.json';
   var CART_KEY = 'whc-cart-v1';
   // On localhost the store talks to wrangler dev; live, to the Worker. Checkout
-  // on the live site stays off until WHC_CHECKOUT_LIVE is set - the go-live gate.
-  var LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
-  var API = LOCAL ? 'http://localhost:8787' : 'https://whclips-access-gate.green-mouse-5a6e.workers.dev';
-  if (LOCAL) window.WHC_CHECKOUT_LIVE = true;
+  // on the live site stays off until WHC_CHECKOUT_LIVE is set on checkout.html - the go-live gate.
   var state = { items: [], filter: 'All', cart: {} };
 
   function money(n){ return 'R' + Math.round(n).toLocaleString('en-ZA'); }
@@ -561,7 +552,7 @@
     var b = e.target.closest('[data-add]'); if (!b || b.disabled) return;
     var sku = b.getAttribute('data-add');
     state.cart[sku] = Math.min(maxQty(sku), (state.cart[sku] || 0) + 1);
-    saveCart(); renderCart(); openCart();
+    saveCart(); renderCart(); showAdded(findItem(sku));
   });
 
   // ---- product detail -------------------------------------------------------
@@ -641,7 +632,7 @@
   byId('shDetailAdd').addEventListener('click', function(){
     if (!detail.item) return;
     state.cart[detail.item.sku] = Math.min(maxQty(detail.item.sku), (state.cart[detail.item.sku] || 0) + detail.qty);
-    saveCart(); renderCart(); closeDetail(); openCart();
+    saveCart(); renderCart(); closeDetail(); showAdded(detail.item);
   });
   byId('shDetailClose').addEventListener('click', function(){ closeDetail(); });
   byId('shDetail').addEventListener('click', function(e){ if (e.target === byId('shDetail')) closeDetail(); });
@@ -659,33 +650,23 @@
     }).filter(Boolean);
   }
   function renderCart(){
+    var count = cartLines().reduce(function(n, l){ return n + l.qty; }, 0);
+    var c = byId('navCartCount'); c.textContent = count; c.hidden = count === 0;
+  }
+  // Adding to the cart updates the cart icon in the top bar and shows this prompt. The cart itself, the
+  // delivery details and the payment are on checkout.html.
+  function showAdded(item){
+    if (!item) return;
     var lines = cartLines();
     var count = lines.reduce(function(n, l){ return n + l.qty; }, 0);
     var total = lines.reduce(function(n, l){ return n + l.qty * l.item.price; }, 0);
-    byId('shCartCount').textContent = count;
-    byId('shCartBtn').hidden = count === 0;
-    byId('shTotal').textContent = money(total);
-    byId('shCartItems').innerHTML = lines.length ? lines.map(function(l){
-      var im = l.item.images && l.item.images[0] ? '<img src="' + esc(l.item.images[0]) + '" alt="">' : '<div></div>';
-      return '<div class="sh-line">' + im +
-        '<div><div class="sh-line-name">' + esc(l.item.name) + '</div><div class="sh-line-sub">' + esc(l.item.sku) + ' &middot; ' + money(l.item.price) + ' each</div>' +
-        '<div class="sh-qty"><button type="button" data-dec="' + esc(l.item.sku) + '">&minus;</button><span>' + l.qty + '</span><button type="button" data-inc="' + esc(l.item.sku) + '">+</button></div></div>' +
-        '<div><div class="sh-line-price">' + money(l.qty * l.item.price) + '</div><button type="button" class="sh-line-rm" data-rm="' + esc(l.item.sku) + '">Remove</button></div>' +
-      '</div>';
-    }).join('') : '<p class="sh-fine">Your cart is empty.</p>';
-    // checkout stays off until the Worker endpoint exists; the stale rule applies regardless
-    var ready = lines.length > 0 && !state.stale && window.WHC_CHECKOUT_LIVE === true;
-    byId('shCheckout').disabled = !ready;
-    byId('shCheckoutNote').textContent = state.stale ? 'Checkout paused while prices refresh.' : (window.WHC_CHECKOUT_LIVE ? '' : 'Checkout opens once payments go live.');
+    byId('shAddedName').textContent = item.name;
+    byId('shAddedSum').textContent = count + (count === 1 ? ' item' : ' items') + ' in your cart \u00b7 ' + money(total);
+    var keep = /[?&]checkout=sandbox-test(&|$)/.test(location.search) ? '?checkout=sandbox-test' : '';
+    byId('shAddedGo').setAttribute('href', 'checkout.html' + keep);
+    byId('shAdded').hidden = false; byId('shScrim').hidden = false; byId('shAddedGo').focus();
   }
-  byId('shCartItems').addEventListener('click', function(e){
-    var t = e.target.closest('[data-inc],[data-dec],[data-rm]'); if (!t) return;
-    var sku = t.getAttribute('data-inc') || t.getAttribute('data-dec') || t.getAttribute('data-rm');
-    if (t.hasAttribute('data-inc')) state.cart[sku] = Math.min(maxQty(sku), (state.cart[sku] || 0) + 1);
-    else if (t.hasAttribute('data-dec')) { state.cart[sku] = Math.max(0, (state.cart[sku] || 0) - 1); if (!state.cart[sku]) delete state.cart[sku]; }
-    else delete state.cart[sku];
-    saveCart(); renderCart();
-  });
+  function closeAdded(){ byId('shAdded').hidden = true; byId('shScrim').hidden = true; }
 
   // ---- checkout -----------------------------------------------------------
   // Back from PayFast: ?order=WHC-...&status=paid|cancelled. "paid" here means
@@ -708,46 +689,10 @@
     history.replaceState(null, '', location.pathname);
   }
 
-  var formOpen = false;
-  function showFormError(msg){ var e = byId('shFormErr'); e.hidden = !msg; e.textContent = msg || ''; }
 
-  function checkout(){
-    var form = byId('shForm');
-    if (!formOpen){ formOpen = true; form.hidden = false; byId('shCheckout').textContent = 'Pay with PayFast'; byId('shFirst').focus(); return; }
-    var customer = {
-      name_first: byId('shFirst').value.trim(), name_last: byId('shLast').value.trim(),
-      email: byId('shEmail').value.trim(), cell: byId('shCell').value.trim()
-    };
-    if (customer.name_first.length < 2) return showFormError('Please give us your first name.');
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customer.email)) return showFormError('A valid email is needed for the receipt.');
-    showFormError('');
-    var items = cartLines().map(function(l){ return { sku: l.item.sku, qty: l.qty }; });
-    var btn = byId('shCheckout'); btn.disabled = true; btn.textContent = 'Preparing payment\u2026';
-    fetch(API + '/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items: items, customer: customer }) })
-      .then(function(r){ return r.json().then(function(b){ return { ok: r.ok, body: b }; }); })
-      .then(function(res){
-        if (!res.ok) throw new Error(res.body && res.body.error || 'Checkout failed');
-        // The Worker signed the order; the browser only carries the form to PayFast.
-        var f = document.createElement('form'); f.method = 'POST'; f.action = res.body.processUrl; f.hidden = true;
-        Object.keys(res.body.fields).forEach(function(k){
-          var i = document.createElement('input'); i.type = 'hidden'; i.name = k; i.value = res.body.fields[k]; f.appendChild(i);
-        });
-        document.body.appendChild(f); f.submit();
-      })
-      .catch(function(err){
-        showFormError(err.message === 'Failed to fetch' ? 'Could not reach checkout. Please try again, or email info@whclips.co.za.' : err.message);
-        btn.disabled = false; btn.textContent = 'Pay with PayFast';
-      });
-  }
-  byId('shCheckout').addEventListener('click', checkout);
-  byId('shForm').addEventListener('submit', function(e){ e.preventDefault(); checkout(); });
-
-  function openCart(){ byId('shDrawer').classList.add('is-open'); byId('shDrawer').setAttribute('aria-hidden','false'); byId('shScrim').hidden = false; }
-  function closeCart(){ byId('shDrawer').classList.remove('is-open'); byId('shDrawer').setAttribute('aria-hidden','true'); byId('shScrim').hidden = true; }
-  byId('shCartBtn').addEventListener('click', openCart);
-  byId('shClose').addEventListener('click', closeCart);
-  byId('shScrim').addEventListener('click', function(){ closeDetail(); closeCart(); });
-  document.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ closeDetail(); closeCart(); } });
+  byId('shAddedMore').addEventListener('click', closeAdded);
+  byId('shScrim').addEventListener('click', function(){ closeDetail(); closeAdded(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ closeDetail(); closeAdded(); } });
 })();
 </script>
 
@@ -777,11 +722,23 @@
         </nav>
       </div>
       <div class="footer-col">
+        <h4 class="footer-heading">Help</h4>
+        <nav class="footer-nav" aria-label="Store policies">
+          <a href="terms.html">Terms of sale</a>
+          <a href="delivery.html">Delivery</a>
+          <a href="cancellation.html">Cancellation</a>
+          <a href="returns.html">Returns &amp; refunds</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
         <p class="copyright">© 2026 WH Clips.<br>All rights reserved.</p>
-        <nav class="footer-legal" aria-label="Store policies"><a href="terms.html">Terms of sale</a><a href="delivery.html">Delivery</a><a href="cancellation.html">Cancellation</a><a href="returns.html">Returns &amp; refunds</a><a href="privacy.html">Privacy</a></nav>
         <p class="footer-tagline">Industrial automation, AI &amp; data integration for mining and manufacturing.</p>
       </div>
     </div>
+  <div class="pay-row">
+    <div class="pay-text"><img class="pay-pf" src="assets/payfast/payfast-white.svg" alt="Payfast by Network" width="95" height="34">
+      <p>Paid through PayFast. Your card details never reach our systems.</p></div>
+    <div class="pay-badges"><span class="pay-chip"><img src="assets/payfast/visa.svg" alt="Visa" width="66" height="22"></span><span class="pay-chip"><img src="assets/payfast/mastercard.svg" alt="Mastercard" width="36" height="22"></span><span class="pay-chip"><img src="assets/payfast/instant-eft.svg" alt="Instant EFT" width="65" height="22"></span><span class="pay-chip"><img src="assets/payfast/apple-pay.png" alt="Apple Pay" width="54" height="22"></span><span class="pay-chip"><img src="assets/payfast/google-pay.svg" alt="Google Pay" width="55" height="22"></span><span class="pay-chip"><img src="assets/payfast/samsung-pay.png" alt="Samsung Pay" width="117" height="22"></span></div>
+  </div>
   </div>
 </footer>
 

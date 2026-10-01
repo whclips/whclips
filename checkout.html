@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<title>Your cart — WH Clips</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261001c">
+<style>
+  .ck-hero{ padding:4.5rem 0 2rem; }
+  .ck-back{ display:inline-block; margin-bottom:1.25rem; }
+  .ck-hero h1{ font-size:2.25rem; font-weight:800; letter-spacing:-.03em; margin:.75rem 0 0; color:var(--text); }
+  @media (min-width:768px){ .ck-hero{ padding:5.5rem 0 2.5rem; } .ck-hero h1{ font-size:3rem; } }
+  .ck-body{ padding:1rem 0 5rem; }
+  .ck-notice{ margin:0 0 1.5rem; padding:.8rem 1rem; border:1px solid var(--border); border-radius:10px; font-size:.85rem; color:var(--text-dim-55); background:rgba(255,255,255,.03); }
+  .ck-notice.is-warn{ background:rgba(248,113,113,.1); border-color:rgba(248,113,113,.4); color:#fca5a5; }
+  .ck-grid{ display:grid; gap:2rem; grid-template-columns:1fr; align-items:start; }
+  @media (min-width:900px){ .ck-grid{ grid-template-columns:1.1fr .9fr; gap:2.5rem; } }
+  .ck-card{ border:1px solid var(--border); border-radius:14px; padding:1.5rem; background:rgba(255,255,255,.02); }
+  .ck-card h2{ font-size:1.05rem; font-weight:700; margin:0 0 1.1rem; color:var(--text); }
+  .ck-line{ display:grid; grid-template-columns:72px 1fr auto; gap:1rem; align-items:center; padding:1rem 0; border-top:1px solid var(--border); }
+  .ck-line:first-of-type{ border-top:0; padding-top:0; }
+  .ck-line img{ width:72px; height:72px; object-fit:contain; background:#fff; border-radius:8px; }
+  .ck-name{ font-size:.92rem; font-weight:600; line-height:1.35; }
+  .ck-sub{ font-size:.75rem; color:var(--text-dim-40); margin-top:.2rem; }
+  .ck-qty{ display:flex; align-items:center; gap:.5rem; margin-top:.6rem; }
+  .ck-qty button{ width:30px; height:30px; border-radius:8px; border:1px solid var(--border); background:transparent; color:var(--text); cursor:pointer; font-size:1rem; }
+  .ck-qty span{ min-width:1.6rem; text-align:center; font-variant-numeric:tabular-nums; }
+  .ck-price{ font-weight:700; text-align:right; font-variant-numeric:tabular-nums; }
+  .ck-rm{ display:block; margin:.4rem 0 0 auto; background:none; border:0; color:var(--text-dim-40); font-size:.75rem; cursor:pointer; text-decoration:underline; }
+  .ck-total{ display:flex; justify-content:space-between; align-items:baseline; font-size:1.15rem; padding-top:1.1rem; margin-top:.5rem; border-top:1px solid var(--border); }
+  .ck-fine{ font-size:.78rem; color:var(--text-dim-40); line-height:1.55; margin:.7rem 0 0; }
+  .ck-fine a{ text-decoration:underline; }
+  .ck-form{ display:flex; flex-direction:column; gap:.9rem; }
+  .ck-form select{ padding:.7rem .8rem; font-size:.95rem; font-family:inherit; color:var(--text); background:rgba(255,255,255,.04); border:1px solid var(--border); border-radius:8px; }
+  .ck-form .form-row input{ padding:.7rem .8rem; font-size:.95rem; }
+  .ck-two{ display:grid; grid-template-columns:1fr; gap:.9rem; }
+  @media (min-width:520px){ .ck-two{ grid-template-columns:1fr 1fr; } }
+  .ck-h3{ font-size:.75rem; letter-spacing:.12em; text-transform:uppercase; color:var(--text-dim-40); margin:.6rem 0 0; }
+  .ck-check{ display:flex; gap:.65rem; align-items:flex-start; font-size:.82rem; line-height:1.55; color:var(--text-dim-55); cursor:pointer; }
+  .ck-check input{ margin-top:.25rem; flex:0 0 auto; }
+  .ck-check a{ text-decoration:underline; }
+  .ck-err{ color:#fca5a5; font-size:.85rem; margin:0; }
+  .ck-pay{ width:100%; margin-top:.4rem; }
+  .ck-paylogos{ margin-top:.9rem; }
+  .ck-form textarea{ padding:.7rem .8rem; font-size:.95rem; resize:vertical; }
+  .ck-pay:disabled{ opacity:.4; cursor:not-allowed; }
+  .ck-empty{ text-align:center; padding:3rem 1rem; }
+  .ck-empty p{ color:var(--text-dim-55); margin:0 0 1.5rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="assets/logo.png" alt="WH Clips" class="logo-img">White Horse<span> Clips</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="index.html#industries" class="nav-link">Industries</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="clips.html" class="nav-link">Recent Work</a>
+        <a href="baseline.html" class="nav-link">What We Do</a>
+        <a href="store.html" class="nav-link">Store</a>
+        <a href="contact.html" class="btn-contact">Contact</a>
+      </nav>
+      <a href="checkout.html" class="nav-cart" id="navCart" aria-label="Your cart"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg><span class="nav-cart-count" id="navCartCount" hidden>0</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+        <svg class="icon-close" hidden width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="ck-hero">
+    <div class="container">
+      <a class="btn-solid ck-back" id="ckBack" href="store.html">&larr; Back to store</a>
+      <h1>Your cart</h1>
+    </div>
+  </section>
+
+  <section class="ck-body">
+    <div class="container">
+      <div class="ck-notice" id="ckNotice" hidden></div>
+
+      <div class="ck-empty" id="ckEmpty" hidden>
+        <p>Your cart is empty.</p>
+        <a class="btn-solid" href="store.html">Back to the shop</a>
+      </div>
+
+      <div class="ck-grid" id="ckGrid" hidden>
+        <div class="ck-card">
+          <h2>Items</h2>
+          <div id="ckLines"></div>
+          <div class="ck-total"><span>Total</span><strong id="ckTotal">R0</strong></div>
+          <p class="ck-fine">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged. Delivery is included in the price, anywhere in South Africa. Stock and price are checked again when you pay.</p>
+          <p class="ck-fine"><a href="store.html">&larr; Continue shopping</a></p>
+        </div>
+
+        <div class="ck-card">
+          <h2>Delivery details</h2>
+          <form class="ck-form" id="ckForm" novalidate>
+            <div class="ck-two">
+              <div class="form-row"><label for="shFirst">First name</label><input id="shFirst" name="name_first" type="text" autocomplete="given-name" required maxlength="100"></div>
+              <div class="form-row"><label for="shLast">Last name</label><input id="shLast" name="name_last" type="text" autocomplete="family-name" required maxlength="100"></div>
+            </div>
+            <div class="form-row"><label for="shCompany">Company (optional)</label><input id="shCompany" name="company" type="text" autocomplete="organization" maxlength="100"></div>
+            <div class="form-row"><label for="shEmail">Email for the receipt</label><input id="shEmail" name="email" type="email" autocomplete="email" required maxlength="200"></div>
+            <div class="form-row"><label for="shEmail2">Confirm your email</label><input id="shEmail2" name="email_confirm" type="email" autocomplete="off" required maxlength="200"></div>
+            <div class="form-row"><label for="shCell">Mobile number (for the delivery)</label><input id="shCell" name="cell" type="tel" autocomplete="tel" required maxlength="20"></div>
+            <p class="ck-h3">Delivery address (South Africa)</p>
+            <div class="form-row"><label for="shStreet">Street address</label><input id="shStreet" name="address_street" type="text" autocomplete="address-line1" required maxlength="150"></div>
+            <div class="form-row"><label for="shLine2">Complex, building or unit (optional)</label><input id="shLine2" name="address_line2" type="text" autocomplete="address-line2" maxlength="100"></div>
+            <div class="ck-two">
+              <div class="form-row"><label for="shSuburb">Suburb</label><input id="shSuburb" name="address_suburb" type="text" autocomplete="address-level3" required maxlength="100"></div>
+              <div class="form-row"><label for="shCity">City or town</label><input id="shCity" name="address_city" type="text" autocomplete="address-level2" required maxlength="100"></div>
+            </div>
+            <div class="ck-two">
+              <div class="form-row"><label for="shProvince">Province</label><select id="shProvince" name="address_province" autocomplete="address-level1" required>
+                <option value="">Choose&hellip;</option><option>Eastern Cape</option><option>Free State</option><option>Gauteng</option><option>KwaZulu-Natal</option><option>Limpopo</option><option>Mpumalanga</option><option>North West</option><option>Northern Cape</option><option>Western Cape</option></select></div>
+              <div class="form-row"><label for="shPostal">Postal code</label><input id="shPostal" name="address_postal_code" type="text" inputmode="numeric" autocomplete="postal-code" required maxlength="4" pattern="[0-9]{4}"></div>
+            </div>
+            <div class="form-row"><label for="shNotes">Delivery instructions (optional)</label><textarea id="shNotes" name="delivery_instructions" rows="3" maxlength="300" placeholder="For example: gate code, or leave with security"></textarea></div>
+            <label class="ck-check"><input type="checkbox" id="shTerms" required> <span>I accept the <a href="terms.html" target="_blank" rel="noopener">Terms of sale</a> and the <a href="delivery.html" target="_blank" rel="noopener">Delivery</a>, <a href="cancellation.html" target="_blank" rel="noopener">Cancellation</a> and <a href="returns.html" target="_blank" rel="noopener">Returns</a> policies.</span></label>
+            <label class="ck-check"><input type="checkbox" id="shPrivacy" required> <span>I have read the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span></label>
+            <label class="ck-check"><input type="checkbox" id="shMarketing"> <span>Email me news and offers (optional). You can unsubscribe at any time. See the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span></label>
+            <p class="ck-err" id="ckErr" hidden></p>
+            <button type="submit" class="btn-submit ck-pay" id="ckPay" disabled>Pay with PayFast</button>
+            <p class="ck-fine" id="ckPayNote">Checkout opens once payments go live.</p>
+            <p class="ck-fine ck-redirect">You will be redirected to PayFast to pay securely. Your card details never reach our systems.</p>
+            <div class="pay-badges ck-paylogos"><span class="pay-chip"><img src="assets/payfast/visa.svg" alt="Visa" width="66" height="22"></span><span class="pay-chip"><img src="assets/payfast/mastercard.svg" alt="Mastercard" width="36" height="22"></span><span class="pay-chip"><img src="assets/payfast/instant-eft.svg" alt="Instant EFT" width="65" height="22"></span><span class="pay-chip"><img src="assets/payfast/apple-pay.png" alt="Apple Pay" width="54" height="22"></span><span class="pay-chip"><img src="assets/payfast/google-pay.svg" alt="Google Pay" width="55" height="22"></span><span class="pay-chip"><img src="assets/payfast/samsung-pay.png" alt="Samsung Pay" width="117" height="22"></span></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="footer-logo"><img src="assets/logo.png" alt="WH Clips" class="footer-logo-img">White Horse<span> Clips</span></span>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Contact</h4>
+        <p>214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa</p>
+        <p><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigation</h4>
+        <nav class="footer-nav">
+          <a href="about.html">About Us</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#industries">Industries</a>
+          <a href="clips.html">Recent Work</a>
+          <a href="store.html">Store</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Help</h4>
+        <nav class="footer-nav" aria-label="Store policies">
+          <a href="terms.html">Terms of sale</a>
+          <a href="delivery.html">Delivery</a>
+          <a href="cancellation.html">Cancellation</a>
+          <a href="returns.html">Returns &amp; refunds</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd.<br>All rights reserved.</p>
+      </div>
+    </div>
+  <div class="pay-row">
+    <div class="pay-text"><img class="pay-pf" src="assets/payfast/payfast-white.svg" alt="Payfast by Network" width="95" height="34">
+      <p>Paid through PayFast. Your card details never reach our systems.</p></div>
+    <div class="pay-badges"><span class="pay-chip"><img src="assets/payfast/visa.svg" alt="Visa" width="66" height="22"></span><span class="pay-chip"><img src="assets/payfast/mastercard.svg" alt="Mastercard" width="36" height="22"></span><span class="pay-chip"><img src="assets/payfast/instant-eft.svg" alt="Instant EFT" width="65" height="22"></span><span class="pay-chip"><img src="assets/payfast/apple-pay.png" alt="Apple Pay" width="54" height="22"></span><span class="pay-chip"><img src="assets/payfast/google-pay.svg" alt="Google Pay" width="55" height="22"></span><span class="pay-chip"><img src="assets/payfast/samsung-pay.png" alt="Samsung Pay" width="117" height="22"></span></div>
+  </div>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+<script>
+(function(){
+  'use strict';
+  var CATALOGUE_URL = 'catalogue.json';
+  var CART_KEY = 'whc-cart-v1';
+  // On localhost the page talks to wrangler dev; live, to the Worker.
+  var LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+  var API = LOCAL ? 'http://localhost:8787' : 'https://whclips-access-gate.green-mouse-5a6e.workers.dev';
+  if (LOCAL) window.WHC_CHECKOUT_LIVE = true;
+  // SANDBOX TEST ONLY: ?checkout=sandbox-test opens the checkout while the Worker still points at the PayFast
+  // sandbox (no real money moves). REMOVE THIS LINE before the live PayFast switch.
+  if (!LOCAL && /[?&]checkout=sandbox-test(&|$)/.test(location.search)) window.WHC_CHECKOUT_LIVE = true;
+  // The policy version shown on terms.html and the other four pages (their "Effective" date). The Worker
+  // refuses a different value and stores the accepted one with the order. Change both together.
+  var POLICY_VERSION = '2026-10-01';
+
+  var state = { items: [], cart: {}, stale: false, loaded: false };
+  function byId(id){ return document.getElementById(id); }
+  function money(n){ return 'R' + Math.round(n).toLocaleString('en-ZA'); }
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function loadCart(){ try { state.cart = JSON.parse(localStorage.getItem(CART_KEY) || '{}'); } catch(e){ state.cart = {}; } }
+  function saveCart(){ try { localStorage.setItem(CART_KEY, JSON.stringify(state.cart)); } catch(e){} }
+  function isListable(i){ return !!i && i.stock !== 'out' && Number(i.price) > 0; }
+  function findItem(sku){ return state.items.filter(function(i){ return i.sku === sku; })[0] || null; }
+  function maxQty(sku){ var it = findItem(sku); return it && Number.isInteger(it.available) ? Math.max(0, it.available) : 10; }
+  function cartLines(){
+    return Object.keys(state.cart).map(function(sku){ var item = findItem(sku); return item ? { item: item, qty: state.cart[sku] } : null; }).filter(Boolean);
+  }
+  function notice(msg, warn){ var n = byId('ckNotice'); n.hidden = !msg; n.className = 'ck-notice' + (warn ? ' is-warn' : ''); n.textContent = msg || ''; }
+  function showErr(msg){ var e = byId('ckErr'); e.hidden = !msg; e.textContent = msg || ''; }
+
+  function render(){
+    var lines = cartLines();
+    var count = lines.reduce(function(n, l){ return n + l.qty; }, 0);
+    var total = lines.reduce(function(n, l){ return n + l.qty * l.item.price; }, 0);
+    var c = byId('navCartCount'); c.textContent = count; c.hidden = count === 0;
+    byId('ckEmpty').hidden = !(state.loaded && lines.length === 0);
+    byId('ckGrid').hidden = lines.length === 0;
+    byId('ckTotal').textContent = money(total);
+    byId('ckLines').innerHTML = lines.map(function(l){
+      var im = l.item.images && l.item.images[0] ? '<img src="' + esc(l.item.images[0]) + '" alt="">' : '<div></div>';
+      return '<div class="ck-line">' + im +
+        '<div><div class="ck-name">' + esc(l.item.name) + '</div><div class="ck-sub">' + esc(l.item.sku) + ' &middot; ' + money(l.item.price) + ' each</div>' +
+        '<div class="ck-qty"><button type="button" data-dec="' + esc(l.item.sku) + '" aria-label="One fewer">&minus;</button><span>' + l.qty + '</span><button type="button" data-inc="' + esc(l.item.sku) + '" aria-label="One more">+</button></div></div>' +
+        '<div><div class="ck-price">' + money(l.qty * l.item.price) + '</div><button type="button" class="ck-rm" data-rm="' + esc(l.item.sku) + '">Remove</button></div></div>';
+    }).join('');
+    var ready = lines.length > 0 && !state.stale && window.WHC_CHECKOUT_LIVE === true;
+    byId('ckPay').disabled = !ready;
+    byId('ckPayNote').textContent = state.stale ? 'Checkout paused while prices refresh.' : (window.WHC_CHECKOUT_LIVE ? '' : 'Checkout opens once payments go live.');
+  }
+
+  byId('ckLines').addEventListener('click', function(e){
+    var t = e.target.closest('[data-inc],[data-dec],[data-rm]'); if (!t) return;
+    var sku = t.getAttribute('data-inc') || t.getAttribute('data-dec') || t.getAttribute('data-rm');
+    if (t.hasAttribute('data-inc')) state.cart[sku] = Math.min(maxQty(sku), (state.cart[sku] || 0) + 1);
+    else if (t.hasAttribute('data-dec')) { state.cart[sku] = Math.max(0, (state.cart[sku] || 0) - 1); if (!state.cart[sku]) delete state.cart[sku]; }
+    else delete state.cart[sku];
+    saveCart(); render();
+  });
+
+  fetch(CATALOGUE_URL + '?t=' + Date.now(), { cache: 'no-store' })
+    .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function(cat){
+      state.items = (cat.items || []).filter(isListable);
+      var until = cat.priceValidUntil ? Date.parse(cat.priceValidUntil) : null;
+      if (until && Date.now() > until){ state.stale = true; notice('Prices are being refreshed. Checkout reopens in a few minutes.', true); }
+      // drop anything that is no longer on sale or no longer has stock, and cap quantities
+      var changed = false;
+      Object.keys(state.cart).forEach(function(sku){
+        var it = findItem(sku);
+        if (!it){ delete state.cart[sku]; changed = true; }
+        else if (state.cart[sku] > maxQty(sku)){ state.cart[sku] = maxQty(sku); changed = true; }
+      });
+      if (changed){ saveCart(); notice('Your cart was updated: an item is no longer available or the quantity was reduced.', true); }
+      state.loaded = true; render();
+    })
+    .catch(function(){ state.loaded = true; notice('The catalogue could not be loaded. Email info@whclips.co.za and we will help by hand.', true); render(); });
+
+  function checkout(){
+    var v = function(id){ return byId(id).value.trim(); };
+    var customer = {
+      name_first: v('shFirst'), name_last: v('shLast'),
+      email: v('shEmail'), email_confirm: v('shEmail2'), cell: v('shCell'),
+      address_street: v('shStreet'), address_line2: v('shLine2'), address_suburb: v('shSuburb'),
+      address_city: v('shCity'), address_province: byId('shProvince').value, address_postal_code: v('shPostal'),
+      company: v('shCompany'), delivery_instructions: v('shNotes'),
+      accepted_terms: byId('shTerms').checked, accepted_privacy: byId('shPrivacy').checked, marketing_opt_in: byId('shMarketing').checked,
+      policy_version: POLICY_VERSION
+    };
+    var cellDigits = customer.cell.replace(/[^\d+]/g, '');
+    if (customer.name_first.length < 2) return showErr('Please give us your first name.');
+    if (customer.name_last.length < 2) return showErr('Please give us your last name.');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customer.email)) return showErr('A valid email is needed for the receipt.');
+    if (customer.email.toLowerCase() !== customer.email_confirm.toLowerCase()) return showErr('The two email addresses do not match.');
+    if (!/^\+?\d{9,15}$/.test(cellDigits)) return showErr('Please give us a mobile number for the delivery.');
+    if (customer.address_street.length < 3) return showErr('Please give us your street address.');
+    if (customer.address_suburb.length < 2) return showErr('Please give us your suburb.');
+    if (customer.address_city.length < 2) return showErr('Please give us your city or town.');
+    if (!customer.address_province) return showErr('Please choose your province.');
+    if (!/^\d{4}$/.test(customer.address_postal_code)) return showErr('Please give us a 4-digit postal code.');
+    if (!customer.accepted_terms) return showErr('Please accept the Terms of sale and our delivery, cancellation and returns policies.');
+    if (!customer.accepted_privacy) return showErr('Please confirm that you have read the Privacy Policy.');
+    showErr('');
+    var items = cartLines().map(function(l){ return { sku: l.item.sku, qty: l.qty }; });
+    var btn = byId('ckPay'); btn.disabled = true; btn.textContent = 'Preparing payment\u2026';
+    fetch(API + '/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items: items, customer: customer }) })
+      .then(function(r){ return r.json().then(function(b){ return { ok: r.ok, body: b }; }); })
+      .then(function(res){
+        if (!res.ok) throw new Error(res.body && res.body.error || 'Checkout failed');
+        // The Worker signed the order; the browser only carries the form to PayFast.
+        var f = document.createElement('form'); f.method = 'POST'; f.action = res.body.processUrl; f.hidden = true;
+        Object.keys(res.body.fields).forEach(function(k){
+          var i = document.createElement('input'); i.type = 'hidden'; i.name = k; i.value = res.body.fields[k]; f.appendChild(i);
+        });
+        document.body.appendChild(f); f.submit();
+      })
+      .catch(function(err){
+        showErr(err.message === 'Failed to fetch' ? 'Could not reach checkout. Please try again, or email info@whclips.co.za.' : err.message);
+        btn.disabled = false; btn.textContent = 'Pay with PayFast';
+      });
+  }
+  byId('ckForm').addEventListener('submit', function(e){ e.preventDefault(); checkout(); });
+  // keep the sandbox test switch when going back to the shop and forward again
+  if (/[?&]checkout=sandbox-test(&|$)/.test(location.search)) byId('ckBack').setAttribute('href', 'store.html?checkout=sandbox-test');
+  loadCart(); render();
+})();
+</script>
+</body>
+</html>
