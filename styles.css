@@ -349,6 +349,9 @@
   .footer-nav a{ transition:color .15s; }
   .footer-nav a:hover{ color:#fff; }
   .copyright{ font-size:.75rem; color:var(--text-dim-20); }
+  .footer-legal{ display:flex; flex-wrap:wrap; gap:.4rem 1rem; margin-top:1rem; font-size:.78rem; color:var(--text-dim-40); }
+  .footer-legal a{ transition:color .15s; }
+  .footer-legal a:hover{ color:#fff; }
   .footer-tagline{ font-size:.75rem; line-height:1.625; color:var(--text-dim-15); }
 
 /* --- Shared: simple inner pages (Contact / Careers) --- */

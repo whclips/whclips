@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<title>Store — WH Clips</title>
+<meta name="description" content="Buy Dell, HP, Kingston and Targus hardware online from White Horse Clips — in stock, with full local manufacturer warranty. Displays, networking, power protection, storage and peripherals, specified by the team that deploys them.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* ---------------------------------------------------------------------
+     Store / hardware supply page. Everything is scoped under .st- so it
+     cannot collide with styles.css, and it reads the site's own custom
+     properties rather than redefining them. Same convention as .tm- on
+     contact.html.
+     --------------------------------------------------------------------- */
+
+  /* --- generic section scaffolding ---------------------------------- */
+  .st-sec{ padding:4rem 0; border-bottom:1px solid var(--border); }
+  main > .st-sec:first-child{ padding-top:3rem; }
+  .st-sec:last-of-type{ border-bottom:0; }
+  .st-head{ display:flex; align-items:baseline; gap:1rem; margin-bottom:2.5rem; }
+  .st-num{ font-size:.75rem; font-weight:700; letter-spacing:.14em; color:var(--accent); }
+  .st-rule{ flex:1; height:1px; background:var(--border); }
+  .st-label{
+    font-size:.75rem; font-weight:600; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--text-dim-40);
+  }
+  .st-sec h2{
+    font-size:1.5rem; font-weight:700; letter-spacing:-.02em;
+    margin:0 0 .6rem; color:var(--text); text-wrap:balance;
+  }
+  .st-sec > .container > p{ color:var(--text-dim-55); line-height:1.7; max-width:62ch; }
+  @media (min-width:768px){ .st-sec{ padding:5.5rem 0; } .st-sec h2{ font-size:1.875rem; } }
+
+  /* --- three reasons ------------------------------------------------ */
+  .st-why{ display:grid; grid-template-columns:1fr; gap:1.25rem; }
+  @media (min-width:768px){ .st-why{ grid-template-columns:repeat(3,1fr); gap:1.5rem; } }
+  .st-why-item{
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.6rem 1.4rem; transition:border-color .15s;
+  }
+  .st-why-item:hover{ border-color:var(--text-dim-30); }
+  .st-why-item h3{
+    font-size:1rem; font-weight:700; margin:0 0 .55rem; color:var(--text); letter-spacing:-.01em;
+  }
+  .st-why-item p{ margin:0; font-size:.9rem; line-height:1.65; color:var(--text-dim-55); }
+
+  /* --- category grid ------------------------------------------------ */
+  .st-cats{ display:grid; grid-template-columns:1fr; gap:1rem; }
+  @media (min-width:640px){ .st-cats{ grid-template-columns:repeat(2,1fr); } }
+  @media (min-width:1024px){ .st-cats{ grid-template-columns:repeat(3,1fr); } }
+  .st-cat{
+    display:flex; flex-direction:column;
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.5rem 1.35rem; transition:border-color .15s;
+  }
+  .st-cat:hover{ border-color:var(--accent); }
+  .st-cat h3{
+    font-size:.95rem; font-weight:700; margin:0 0 .5rem; color:var(--text);
+    letter-spacing:.01em;
+  }
+  .st-cat p{ margin:0; font-size:.86rem; line-height:1.6; color:var(--text-dim-45); }
+
+  /* --- kits --------------------------------------------------------- */
+  .st-kits{ display:grid; grid-template-columns:1fr; gap:1.25rem; }
+  @media (min-width:768px){ .st-kits{ grid-template-columns:repeat(3,1fr); } }
+  .st-kit{
+    display:flex; flex-direction:column;
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.6rem 1.4rem; transition:border-color .15s;
+  }
+  .st-kit:hover{ border-color:var(--accent); }
+  .st-kit h3{ font-size:1rem; font-weight:700; margin:0 0 .4rem; color:var(--text); }
+  .st-kit-tag{
+    display:inline-block; align-self:flex-start; margin:0 0 .85rem;
+    font-size:.68rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--accent);
+  }
+  .st-kit ul{ list-style:none; padding:0; margin:0 0 1.1rem; }
+  .st-kit li{
+    position:relative; padding-left:1rem; margin-bottom:.4rem;
+    font-size:.86rem; line-height:1.55; color:var(--text-dim-55);
+  }
+  .st-kit li::before{
+    content:""; position:absolute; left:0; top:.55em;
+    width:4px; height:4px; border-radius:50%; background:var(--accent);
+  }
+  .st-kit-foot{ margin-top:auto; font-size:.8rem; color:var(--text-dim-35); line-height:1.5; }
+
+  /* --- how to buy --------------------------------------------------- */
+  .st-buy{ display:grid; grid-template-columns:1fr; gap:1.25rem; }
+  @media (min-width:768px){ .st-buy{ grid-template-columns:repeat(2,1fr); gap:1.5rem; } }
+  .st-buy-card{
+    display:flex; flex-direction:column;
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.75rem 1.5rem;
+  }
+  .st-buy-card h3{ font-size:1.05rem; font-weight:700; margin:0 0 .6rem; color:var(--text); }
+  .st-buy-card p{ margin:0 0 1.5rem; font-size:.9rem; line-height:1.65; color:var(--text-dim-55); }
+  .st-buy-card .btn-solid,
+  .st-buy-card .btn-outline{ align-self:flex-start; margin-top:auto; }
+  .st-soon{
+    display:inline-block; align-self:flex-start; margin-top:auto;
+    padding:.75rem 1.25rem; border-radius:9px;
+    border:1px dashed var(--text-dim-20); color:var(--text-dim-35);
+    font-size:.8rem; font-weight:600; letter-spacing:.06em; text-transform:uppercase;
+  }
+
+  /* --- assurance note ----------------------------------------------- */
+  .st-note{
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.6rem 1.5rem;
+  }
+  .st-note h3{
+    font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--text-dim-40); margin:0 0 .8rem;
+  }
+  .st-note p{ margin:0 0 .75rem; font-size:.87rem; line-height:1.7; color:var(--text-dim-55); max-width:78ch; }
+  .st-note p:last-child{ margin-bottom:0; }
+
+  /* --- closing cta -------------------------------------------------- */
+  .st-cta{ text-align:center; padding:5rem 0; }
+  .st-cta h2{
+    font-size:1.75rem; font-weight:800; letter-spacing:-.02em;
+    margin:0 0 .9rem; color:var(--text); text-wrap:balance;
+  }
+  .st-cta p{ margin:0 auto 2rem; max-width:52ch; color:var(--text-dim-55); line-height:1.7; }
+  @media (min-width:768px){ .st-cta h2{ font-size:2.25rem; } }
+
+  @media (max-width:600px){
+    .st-sec{ padding:3rem 0; }
+    .st-head{ margin-bottom:1.75rem; }
+  }
+
+  /* ---------- shop: grid, cards, cart. Scoped .sh- so it cannot collide. ---------- */
+  .sh-notice{
+    margin:0 0 1.25rem; padding:.75rem .95rem; border-radius:9px; font-size:.85rem; line-height:1.5;
+    background:rgba(99,102,241,.1); border:1px solid rgba(99,102,241,.45); color:#c7c8fb;
+  }
+  .sh-notice.is-warn{ background:rgba(248,113,113,.1); border-color:rgba(248,113,113,.4); color:#fca5a5; }
+
+  .sh-filters{ display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.75rem; }
+  .sh-chip{
+    cursor:pointer; padding:.45rem .9rem; border-radius:999px; font-family:var(--font); font-size:.78rem; font-weight:600;
+    letter-spacing:.04em; background:transparent; border:1px solid var(--border); color:var(--text-dim-55);
+    transition:border-color .15s, color .15s, background .15s;
+  }
+  .sh-chip:hover{ color:var(--text); border-color:var(--text-dim-30); }
+  .sh-chip.is-on{ background:var(--accent); border-color:var(--accent); color:#fff; }
+
+  .sh-grid{ display:grid; grid-template-columns:1fr; gap:1.25rem; }
+  @media (min-width:600px){ .sh-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (min-width:960px){ .sh-grid{ grid-template-columns:repeat(3,1fr); } }
+  @media (min-width:1280px){ .sh-grid{ grid-template-columns:repeat(4,1fr); } }
+  .sh-empty{ grid-column:1/-1; padding:3rem 1rem; text-align:center; color:var(--text-dim-40); }
+
+  .sh-card{
+    display:flex; flex-direction:column; background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    overflow:hidden; transition:border-color .15s;
+  }
+  .sh-card:hover{ border-color:var(--text-dim-30); }
+  .sh-img{
+    position:relative; aspect-ratio:4/3; background:#0d0d0d; display:flex; align-items:center; justify-content:center; overflow:hidden;
+  }
+  .sh-img img{ width:100%; height:100%; object-fit:contain; padding:1rem; background:#fff; }
+  .sh-img .sh-noimg{ font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; color:var(--text-dim-30); }
+  .sh-badges{ position:absolute; top:.6rem; left:.6rem; display:flex; flex-wrap:wrap; gap:.3rem; }
+  .sh-badge{
+    font-size:.62rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; padding:.25rem .5rem; border-radius:6px;
+    background:var(--accent); color:#fff;
+  }
+  .sh-badge.is-deal{ background:#dc2626; }
+  .sh-badge.is-best{ background:#111; border:1px solid var(--text-dim-30); color:var(--text); }
+  .sh-body{ padding:1rem 1.1rem 1.1rem; display:flex; flex-direction:column; gap:.4rem; flex:1; }
+  .sh-brand{ font-size:.68rem; letter-spacing:.14em; text-transform:uppercase; color:var(--text-dim-40); }
+  .sh-name{ font-size:.92rem; font-weight:600; line-height:1.4; color:var(--text); }
+  .sh-sku{ font-size:.72rem; color:var(--text-dim-30); font-variant-numeric:tabular-nums; }
+  .sh-row{ margin-top:auto; padding-top:.75rem; display:flex; align-items:center; justify-content:space-between; gap:.75rem; }
+  .sh-price{ font-size:1.15rem; font-weight:700; letter-spacing:-.01em; font-variant-numeric:tabular-nums; }
+  .sh-price small{ display:block; font-size:.66rem; font-weight:500; color:var(--text-dim-40); letter-spacing:.06em; }
+  .sh-stock{ font-size:.7rem; letter-spacing:.08em; text-transform:uppercase; }
+  .sh-stock.in{ color:#34d399; } .sh-stock.low{ color:#fbbf24; } .sh-stock.out{ color:#f87171; }
+  .sh-add{
+    cursor:pointer; padding:.6rem .9rem; border-radius:8px; border:1px solid var(--accent); background:transparent; color:var(--text);
+    font-family:var(--font); font-size:.8rem; font-weight:600; transition:background .15s;
+  }
+  .sh-add:hover:not(:disabled){ background:var(--accent); }
+  .sh-add:disabled{ opacity:.35; cursor:not-allowed; border-color:var(--border); }
+
+  .sh-cart-btn{
+    position:fixed; right:1.25rem; bottom:1.25rem; z-index:70; display:flex; align-items:center; gap:.5rem;
+    padding:.8rem 1.1rem; border-radius:999px; border:0; background:var(--accent); color:#fff; cursor:pointer;
+    font-family:var(--font); font-weight:700; box-shadow:0 8px 24px rgba(0,0,0,.45);
+  }
+  .sh-cart-btn[hidden]{ display:none; }   /* display:flex above would otherwise beat the hidden attribute */
+  .sh-scrim{ position:fixed; inset:0; background:rgba(0,0,0,.6); z-index:80; }
+  .sh-drawer{
+    position:fixed; top:0; right:0; bottom:0; width:min(420px,100vw); z-index:90; background:var(--bg-alt);
+    border-left:1px solid var(--border); display:flex; flex-direction:column; transform:translateX(100%); transition:transform .25s ease;
+  }
+  .sh-drawer.is-open{ transform:none; }
+  @media (prefers-reduced-motion:reduce){ .sh-drawer{ transition:none; } }
+  .sh-drawer-head{ display:flex; align-items:center; justify-content:space-between; padding:1.1rem 1.25rem; border-bottom:1px solid var(--border); }
+  .sh-x{ background:none; border:0; color:var(--text-dim-55); font-size:1.5rem; cursor:pointer; line-height:1; }
+  .sh-drawer-body{ flex:1; overflow-y:auto; padding:1rem 1.25rem; }
+  .sh-line{ display:grid; grid-template-columns:56px 1fr auto; gap:.8rem; align-items:center; padding:.75rem 0; border-bottom:1px solid var(--border); }
+  .sh-line img{ width:56px; height:56px; object-fit:contain; background:#fff; border-radius:6px; }
+  .sh-line-name{ font-size:.85rem; font-weight:600; line-height:1.35; }
+  .sh-line-sub{ font-size:.72rem; color:var(--text-dim-40); margin-top:.15rem; }
+  .sh-qty{ display:flex; align-items:center; gap:.4rem; margin-top:.4rem; }
+  .sh-qty button{ width:26px; height:26px; border-radius:6px; border:1px solid var(--border); background:transparent; color:var(--text); cursor:pointer; }
+  .sh-qty span{ min-width:1.5rem; text-align:center; font-size:.85rem; font-variant-numeric:tabular-nums; }
+  .sh-line-price{ font-weight:700; font-variant-numeric:tabular-nums; text-align:right; }
+  .sh-line-rm{ display:block; margin-top:.3rem; background:none; border:0; color:var(--text-dim-40); font-size:.72rem; cursor:pointer; text-decoration:underline; }
+  .sh-drawer-foot{ padding:1rem 1.25rem 1.25rem; border-top:1px solid var(--border); }
+  .sh-total{ display:flex; justify-content:space-between; align-items:baseline; font-size:1.05rem; margin-bottom:.6rem; }
+  .sh-fine{ font-size:.74rem; color:var(--text-dim-40); line-height:1.5; margin:.5rem 0 0; }
+  .sh-form{ display:flex; flex-direction:column; gap:.75rem; margin:0 0 1rem; }
+  .sh-form .form-row{ gap:.3rem; }
+  .sh-form .form-row input{ padding:.6rem .8rem; font-size:.9rem; }
+  .sh-err{ color:#fca5a5; }
+  .sh-drawer .btn-submit{ width:100%; }
+
+  /* ---------- product detail ---------- */
+  .sh-card .sh-img, .sh-card .sh-name{ cursor:pointer; }
+  .sh-card .sh-name:hover{ text-decoration:underline; text-underline-offset:3px; }
+  .sh-detail{ position:fixed; inset:0; z-index:85; display:flex; align-items:flex-start; justify-content:center; padding:4vh 1rem; overflow-y:auto; }
+  .sh-detail[hidden], .sh-scrim[hidden]{ display:none; } /* the panel's display:flex would otherwise beat the hidden attribute (bug seen 16 Sep: ghost box after close) */
+  .sh-detail-box{
+    position:relative; width:min(1040px,100%); background:var(--bg-alt); border:1px solid var(--border); border-radius:16px;
+    display:grid; grid-template-columns:1fr; gap:0; overflow:hidden;
+  }
+  @media (min-width:860px){ .sh-detail-box{ grid-template-columns:1.1fr 1fr; } }
+  .sh-detail-x{ position:absolute; top:.6rem; right:.9rem; z-index:2; font-size:1.8rem; }
+  /* spec band under both columns: the gallery column's white ends at the thumbnails, so the table gets the full width (JC, 16 Sep) */
+  .sh-detail-specs{ grid-column:1 / -1; padding:1rem 1.5rem 1.5rem; border-top:1px solid var(--border); }
+  @media (min-width:860px){
+    .sh-detail-specs{ padding:1.25rem 2.25rem 1.75rem; }
+    .sh-detail-specs .sh-detail-desc{ max-width:none; margin:0 0 1.25rem; } /* one block, reads straight through (JC, 16 Sep) */
+    .sh-detail-specs .sh-specs{ grid-template-columns:auto 1fr auto 1fr; column-gap:2rem; }
+    .sh-detail-specs .sh-specs dd{ padding-right:1rem; }
+  }
+  .sh-detail-gallery{ background:#fff; display:flex; flex-direction:column; align-self:start; } /* white ends at the thumbs; the row's remaining height shows the panel background (JC, 16 Sep) */
+  .sh-detail-main{ position:relative; aspect-ratio:1/1; display:flex; align-items:center; justify-content:center; padding:1.5rem; }
+  /* pinned to the box: an aspect-ratio height is not "definite" for a child's max-height, so a portrait image would grow the box (16 Sep) */
+  .sh-detail-main img{ position:absolute; inset:1.5rem; width:calc(100% - 3rem); height:calc(100% - 3rem); object-fit:contain; }
+  .sh-detail-main .sh-noimg{ color:#999; font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; }
+  .sh-detail-thumbs{ display:flex; gap:.5rem; padding:0 1rem 1rem; flex-wrap:wrap; }
+  .sh-detail-thumbs button{ width:56px; height:56px; border-radius:6px; border:1px solid #ddd; background:#fff; padding:4px; cursor:pointer; }
+  .sh-detail-thumbs button.is-on{ border-color:var(--accent); box-shadow:0 0 0 1px var(--accent); }
+  .sh-detail-thumbs img{ width:100%; height:100%; object-fit:contain; }
+  .sh-detail-info{ padding:2rem 1.5rem 1.5rem; display:flex; flex-direction:column; gap:.5rem; }
+  @media (min-width:860px){ .sh-detail-info{ padding:2.25rem 2.25rem 1.75rem 2rem; } }
+  .sh-detail-name{ font-size:1.35rem; font-weight:700; line-height:1.3; letter-spacing:-.01em; margin:0; color:var(--text); text-wrap:balance; }
+  .sh-badges-inline{ position:static; margin:.25rem 0; }
+  .sh-detail-row{ margin-top:.5rem; padding-top:.25rem; }
+  .sh-detail-row .sh-price{ font-size:1.6rem; }
+  .sh-detail-buy{ display:flex; align-items:center; gap:.9rem; margin:.5rem 0 1rem; }
+  .sh-detail-buy .sh-qty{ margin:0; }
+  .sh-detail-buy .sh-qty button{ width:32px; height:32px; }
+  .sh-add-solid{ background:var(--accent); flex:1; padding:.75rem 1rem; }
+  .sh-detail-desc{ margin:.25rem 0 .75rem; font-size:.92rem; line-height:1.65; color:var(--text-dim-55); }
+  .sh-specs{ margin:0 0 1rem; display:grid; grid-template-columns:auto 1fr; gap:.35rem 1.25rem; font-size:.85rem; }
+  .sh-specs dt{ color:var(--text-dim-40); }
+  .sh-specs dd{ margin:0; color:var(--text); }
+  .sh-specs:empty{ display:none; }
+  .sh-detail-strap{ margin:-.25rem 0 .35rem; font-size:.9rem; line-height:1.5; color:var(--text-dim-55); }
+  .sh-detail-strap:empty{ display:none; }
+  .sh-highlights{ list-style:none; margin:.25rem 0 .5rem; padding:0; display:flex; flex-wrap:wrap; gap:.4rem; }
+  .sh-highlights li{ font-size:.78rem; line-height:1.3; padding:.3rem .6rem; border:1px solid var(--border, rgba(255,255,255,.12)); border-radius:999px; color:var(--text); }
+  .sh-highlights li span{ color:var(--text-dim-40); margin-right:.3rem; }
+  .sh-highlights:empty{ display:none; }
+  .sh-trust{ list-style:none; margin:0 0 .75rem; padding:.6rem 0; border-top:1px solid var(--border, rgba(255,255,255,.08)); border-bottom:1px solid var(--border, rgba(255,255,255,.08)); font-size:.85rem; line-height:1.7; color:var(--text-dim-55); }
+  .sh-trust li::before{ content:"✓"; color:var(--ok, #5ad48f); margin-right:.5rem; }
+  .sh-trust:empty{ display:none; }
+  .sh-specs.is-collapsed .sh-spec-group ~ .sh-spec-group, .sh-specs.is-collapsed .sh-spec-group ~ .sh-spec-group ~ dt, .sh-specs.is-collapsed .sh-spec-group ~ .sh-spec-group ~ dd{ display:none; }
+  .sh-specs-more{ margin:-.5rem 0 1rem; background:none; border:1px solid var(--border, rgba(255,255,255,.15)); color:var(--text); border-radius:6px; padding:.45rem .8rem; font-size:.82rem; cursor:pointer; }
+  .sh-specs-more[hidden]{ display:none; }
+  .sh-specs .sh-spec-group{ grid-column:1 / -1; margin-top:.5rem; padding-bottom:.2rem; border-bottom:1px solid var(--border, rgba(255,255,255,.08)); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; color:var(--text-dim-55); }
+  .sh-specs .sh-spec-group:first-child{ margin-top:0; }
+  .sh-drawer .btn-submit:disabled{ opacity:.4; cursor:not-allowed; }
+</style>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xhn6f6xk36");
+</script>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="assets/logo.png" alt="WH Clips" class="logo-img">White Horse<span> Clips</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="index.html#industries" class="nav-link">Industries</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="clips.html" class="nav-link">Recent Work</a>
+        <a href="baseline.html" class="nav-link">What We Do</a>
+        <a href="store.html" class="nav-link" aria-current="page">Store</a>
+        <a href="contact.html" class="btn-contact">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+        <svg class="icon-close" hidden width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main>
+  <!-- ================= SHOP ================= -->
+  <section class="st-sec" id="shop">
+    <div class="container">
+      <div class="st-head">
+        <span class="st-num">01</span>
+        <span class="st-rule"></span>
+        <span class="st-label">Shop</span>
+      </div>
+      <h2>In stock, priced to deliver.</h2>
+      <p style="margin-bottom:1.5rem;" id="shVatNote">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.</p>
+
+      <div class="sh-notice" id="shNotice" hidden></div>
+
+      <div class="sh-filters" id="shFilters" role="tablist" aria-label="Product categories"></div>
+
+      <div class="sh-grid" id="shGrid" aria-live="polite">
+        <div class="sh-empty">Loading products&hellip;</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- cart drawer -->
+  <button type="button" class="sh-cart-btn" id="shCartBtn" aria-label="Open cart" hidden>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
+    <span id="shCartCount">0</span>
+  </button>
+  <div class="sh-drawer" id="shDrawer" aria-hidden="true">
+    <div class="sh-drawer-head">
+      <strong>Your cart</strong>
+      <button type="button" class="sh-x" id="shClose" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="sh-drawer-body" id="shCartItems"></div>
+    <div class="sh-drawer-foot">
+      <div class="sh-total"><span>Total</span><strong id="shTotal">R0</strong></div>
+      <p class="sh-fine">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.</p>
+      <p class="sh-fine">Delivery is included in the price, anywhere in South Africa. Stock and price are rechecked when you pay. <a href="delivery.html">Delivery</a> &middot; <a href="returns.html">Returns &amp; refunds</a> &middot; <a href="terms.html">Terms of sale</a></p>
+      <form class="sh-form" id="shForm" hidden novalidate>
+        <div class="form-row"><label for="shFirst">First name</label><input id="shFirst" name="name_first" type="text" autocomplete="given-name" required maxlength="100"></div>
+        <div class="form-row"><label for="shLast">Last name</label><input id="shLast" name="name_last" type="text" autocomplete="family-name" maxlength="100"></div>
+        <div class="form-row"><label for="shEmail">Email for the receipt</label><input id="shEmail" name="email" type="email" autocomplete="email" required maxlength="200"></div>
+        <div class="form-row"><label for="shCell">Mobile (optional)</label><input id="shCell" name="cell" type="tel" autocomplete="tel" maxlength="20"></div>
+        <p class="sh-fine sh-err" id="shFormErr" hidden></p>
+      </form>
+      <button type="button" class="btn-submit" id="shCheckout" disabled>Checkout</button>
+      <p class="sh-fine" id="shCheckoutNote">Checkout opens once payments go live.</p>
+    </div>
+  </div>
+  <div class="sh-scrim" id="shScrim" hidden></div>
+
+  <!-- product detail panel -->
+  <div class="sh-detail" id="shDetail" role="dialog" aria-modal="true" aria-labelledby="shDetailName" hidden>
+    <div class="sh-detail-box">
+      <button type="button" class="sh-x sh-detail-x" id="shDetailClose" aria-label="Close">&times;</button>
+      <div class="sh-detail-gallery">
+        <div class="sh-detail-main" id="shDetailMain"></div>
+        <div class="sh-detail-thumbs" id="shDetailThumbs"></div>
+      </div>
+      <div class="sh-detail-info">
+        <span class="sh-brand" id="shDetailBrand"></span>
+        <h2 class="sh-detail-name" id="shDetailName"></h2>
+        <p class="sh-detail-strap" id="shDetailStrap"></p>
+        <span class="sh-sku" id="shDetailSku"></span>
+        <div class="sh-badges sh-badges-inline" id="shDetailBadges"></div>
+        <div class="sh-row sh-detail-row">
+          <span class="sh-price" id="shDetailPrice"></span>
+          <span class="sh-stock" id="shDetailStock"></span>
+        </div>
+        <div class="sh-detail-buy">
+          <div class="sh-qty"><button type="button" id="shDetailDec" aria-label="Fewer">&minus;</button><span id="shDetailQty">1</span><button type="button" id="shDetailInc" aria-label="More">+</button></div>
+          <button type="button" class="sh-add sh-add-solid" id="shDetailAdd">Add to cart</button>
+        </div>
+        <ul class="sh-highlights" id="shDetailHighlights"></ul>
+        <ul class="sh-trust" id="shDetailTrust"></ul>
+      </div>
+      <div class="sh-detail-specs">
+        <p class="sh-detail-desc" id="shDetailDesc"></p>
+        <dl class="sh-specs" id="shDetailSpecs"></dl>
+        <button type="button" class="sh-specs-more" id="shDetailSpecsMore" hidden></button>
+        <p class="sh-fine">Official channel stock with the full manufacturer warranty. Delivery is included in the price, anywhere in South Africa.</p>
+      </div>
+    </div>
+  </div>
+  <!-- ================= HOW TO BUY ================= -->
+  <section class="st-sec">
+    <div class="container">
+      <div class="st-head">
+        <span class="st-num">02</span>
+        <span class="st-rule"></span>
+        <span class="st-label">How to buy</span>
+      </div>
+      <div class="st-buy">
+        <div class="st-buy-card">
+          <h3>Request a quote</h3>
+          <p>For site quantities, project bills of materials, kits, and anything that needs
+          specifying before it is ordered. Send us the requirement and we will come back
+          with a priced, technically checked proposal.</p>
+          <a href="contact.html" class="btn-solid">Send us your spec</a>
+        </div>
+        <div class="st-buy-card">
+          <h3>Buy online</h3>
+          <p>Single units and accessories, straight from the shop above, for customers who
+          already know exactly what they need and would rather not wait for a quote.</p>
+          <a class="btn-outline" href="#shop">Browse the shop</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ASSURANCE ================= -->
+  <section class="st-sec">
+    <div class="container">
+      <div class="st-note">
+        <h3>Sourcing &amp; compliance</h3>
+        <p>
+          All equipment is supplied through the official South African distribution channel
+          and carries the manufacturer's local warranty. We do not import directly.
+        </p>
+        <p>
+          Statutory approvals — NRCS Letters of Authority for electrical and electronic
+          equipment, and ICASA type approval for radio-frequency devices such as wireless
+          access points — are held by the manufacturer or importer for the South African
+          market. Proof of approval can be supplied for any item on request.
+        </p>
+        <p>
+          White Horse Clips is a CIPC-registered private company, registration 2026/545579/07.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="st-cta">
+    <div class="container">
+      <h2>Need a bill of materials priced?</h2>
+      <p>Send us the specification, the site constraints, or just the problem you are trying
+      to solve. We will tell you what it takes and what it costs.</p>
+      <a href="contact.html" class="btn-solid">Let's Go!</a>
+    </div>
+  </section>
+
+</main>
+
+<script>
+(function(){
+  'use strict';
+  // The shop reads catalogue.json - generated from the price feed, public,
+  // selling prices only. The browser never decides a price: at checkout the Worker
+  // re-prices every line from the same file and refuses a stale one.
+  var CATALOGUE_URL = 'catalogue.json';
+  var CART_KEY = 'whc-cart-v1';
+  // On localhost the store talks to wrangler dev; live, to the Worker. Checkout
+  // on the live site stays off until WHC_CHECKOUT_LIVE is set - the go-live gate.
+  var LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+  var API = LOCAL ? 'http://localhost:8787' : 'https://whclips-access-gate.green-mouse-5a6e.workers.dev';
+  if (LOCAL) window.WHC_CHECKOUT_LIVE = true;
+  var state = { items: [], filter: 'All', cart: {} };
+
+  function money(n){ return 'R' + Math.round(n).toLocaleString('en-ZA'); }
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  function loadCart(){ try { state.cart = JSON.parse(localStorage.getItem(CART_KEY) || '{}'); } catch(e){ state.cart = {}; } }
+  function saveCart(){ try { localStorage.setItem(CART_KEY, JSON.stringify(state.cart)); } catch(e){} }
+
+  function byId(id){ return document.getElementById(id); }
+
+  // ---- catalogue ----------------------------------------------------------
+  function isListable(i){ return !!i && i.stock !== 'out' && Number(i.price) > 0; }
+  fetch(CATALOGUE_URL + '?t=' + Date.now(), { cache: 'no-store' })
+    .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function(cat){
+      // Display rule (JC, 30 Sep 2026): an item with no price, or out of stock, is never shown.
+      // Filtered here, before filters, grid, detail panel and cart are built, so none can render it.
+      state.items = (cat.items || []).filter(isListable);
+      staleCheck(cat);
+      renderFilters();
+      renderGrid();
+      loadCart();
+      returnFromPayFast();
+      renderCart();
+      openFromHash();
+    })
+    .catch(function(err){
+      byId('shGrid').innerHTML = '<div class="sh-empty">The catalogue could not be loaded. Email <a href="mailto:info@whclips.co.za">info@whclips.co.za</a> and we will quote by hand.</div>';
+    });
+
+  // A price computed from a promo cost is only good until the next refresh.
+  // Say so on the page, and refuse checkout past it - the Worker does the same.
+  function staleCheck(cat){
+    var n = byId('shNotice');
+    var until = cat.priceValidUntil ? Date.parse(cat.priceValidUntil) : null;
+    var stale = until && Date.now() > until;
+    var anyPromo = state.items.some(function(i){ return i.promo; });
+    if (stale){
+      n.hidden = false; n.className = 'sh-notice is-warn';
+      n.textContent = 'Prices are being refreshed. Browse freely - checkout reopens in a few minutes.';
+      state.stale = true;
+    } else if (anyPromo){
+      n.hidden = false; n.className = 'sh-notice';
+      n.textContent = 'Some items are on promotion. Promo prices hold until our next hourly refresh.';
+    }
+  }
+
+  // ---- filters ------------------------------------------------------------
+  function renderFilters(){
+    var cats = ['All'].concat(Array.from(new Set(state.items.map(function(i){ return i.category; }))).sort());
+    byId('shFilters').innerHTML = cats.map(function(c){
+      return '<button type="button" class="sh-chip' + (c === state.filter ? ' is-on' : '') + '" data-cat="' + esc(c) + '" role="tab">' + esc(c) + '</button>';
+    }).join('');
+  }
+  byId('shFilters').addEventListener('click', function(e){
+    var b = e.target.closest('.sh-chip'); if (!b) return;
+    state.filter = b.getAttribute('data-cat'); renderFilters(); renderGrid();
+  });
+
+  // ---- grid ---------------------------------------------------------------
+  function badgeClass(b){ return /deal/i.test(b) ? ' is-deal' : /best/i.test(b) ? ' is-best' : ''; }
+  function renderGrid(){
+    var list = state.items.filter(function(i){ return state.filter === 'All' || i.category === state.filter; });
+    if (!list.length){ byId('shGrid').innerHTML = '<div class="sh-empty">Nothing in this category right now.</div>'; return; }
+    byId('shGrid').innerHTML = list.map(function(i){
+      var img = i.images && i.images[0]
+        ? '<img src="' + esc(i.images[0]) + '" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'sh-noimg\',textContent:\'Image to follow\'}))">'
+        : '<span class="sh-noimg">Image to follow</span>';
+      var badges = (i.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('');
+      var out = i.stock === 'out';
+      return '' +
+        '<article class="sh-card" data-sku="' + esc(i.sku) + '">' +
+          '<div class="sh-img">' + img + (badges ? '<div class="sh-badges">' + badges + '</div>' : '') + '</div>' +
+          '<div class="sh-body">' +
+            '<span class="sh-brand">' + esc(i.brand) + '</span>' +
+            '<span class="sh-name">' + esc(i.name) + '</span>' +
+            '<span class="sh-sku">' + esc(i.sku) + '</span>' +
+            '<div class="sh-row">' +
+              '<span class="sh-price">' + money(i.price) + '</span>' +
+              '<span class="sh-stock ' + esc(i.stock) + '">' + stockLabel(i) + '</span>' +
+            '</div>' +
+            '<button type="button" class="sh-add" data-add="' + esc(i.sku) + '"' + (out ? ' disabled' : '') + '>' + (out ? 'Unavailable' : 'Add to cart') + '</button>' +
+          '</div>' +
+        '</article>';
+    }).join('');
+  }
+  byId('shGrid').addEventListener('click', function(e){
+    var b = e.target.closest('[data-add]'); if (!b || b.disabled) return;
+    var sku = b.getAttribute('data-add');
+    state.cart[sku] = Math.min(maxQty(sku), (state.cart[sku] || 0) + 1);
+    saveCart(); renderCart(); openCart();
+  });
+
+  // ---- product detail -------------------------------------------------------
+  // Opened by clicking a card's image or name; the URL hash carries the SKU so a
+  // product can be linked to and the back button closes it.
+  var detail = { item: null, qty: 1, img: 0 };
+  function findItem(sku){ return state.items.filter(function(i){ return i.sku === sku; })[0] || null; }
+  // The most one order may take: the catalogue's `available` (Axiz stock minus one). The Worker enforces the same number.
+  function maxQty(sku){ var it = findItem(sku); return it && Number.isInteger(it.available) ? Math.max(0, it.available) : 10; }
+  function stockLabel(i){ return i.stock === 'out' ? 'Out of stock' : Number.isInteger(i.available) ? i.available + ' available' : (i.stock === 'low' ? 'Low stock' : 'In stock'); }
+
+  function renderDetailImage(){
+    var imgs = detail.item.images || [];
+    byId('shDetailMain').innerHTML = imgs.length
+      ? '<img src="' + esc(imgs[detail.img] || imgs[0]) + '" alt="' + esc(detail.item.name) + '">'
+      : '<span class="sh-noimg">Image to follow</span>';
+    byId('shDetailThumbs').innerHTML = imgs.length > 1 ? imgs.map(function(u, k){
+      return '<button type="button" class="' + (k === detail.img ? 'is-on' : '') + '" data-img="' + k + '" aria-label="Image ' + (k + 1) + '"><img src="' + esc(u) + '" alt=""></button>';
+    }).join('') : '';
+  }
+  function openDetail(sku, fromHash){
+    var item = findItem(sku); if (!item) return;
+    detail = { item: item, qty: 1, img: 0 };
+    var out = item.stock === 'out';
+    byId('shDetailBrand').textContent = item.brand;
+    byId('shDetailName').textContent = item.name;
+    byId('shDetailSku').textContent = item.sku;
+    byId('shDetailBadges').innerHTML = (item.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('')
+      + (item.attributes || []).map(function(a){ return '<span class="sh-badge is-best">' + esc(a) + '</span>'; }).join('');
+    byId('shDetailPrice').innerHTML = money(item.price);
+    var st = byId('shDetailStock'); st.className = 'sh-stock ' + esc(item.stock); st.textContent = stockLabel(item);
+    byId('shDetailQty').textContent = '1';
+    var add = byId('shDetailAdd'); add.disabled = out; add.textContent = out ? 'Unavailable' : 'Add to cart';
+    byId('shDetailStrap').textContent = item.strap || '';
+    // highlight chips (from the catalogue: 4-6 spec rows chosen by Flow 1)
+    byId('shDetailHighlights').innerHTML = (item.highlights || []).map(function(h){ return '<li><span>' + esc(h[0]) + '</span>' + esc(h[1]) + '</li>'; }).join('');
+    // trust lines: only what the data can back. Delivery/returns wording is JC's, added when agreed with Axiz.
+    var trust = [];
+    if (item.warranty) trust.push(esc(item.warranty) + (/warranty/i.test(item.warranty) ? '' : ' manufacturer warranty'));
+    trust.push('Official Dell/HP/Kingston/Targus channel stock via Axiz');
+    trust.push('No VAT charged - White Horse Clips is not a VAT vendor');
+    byId('shDetailTrust').innerHTML = trust.map(function(t){ return '<li>' + t + '</li>'; }).join('');
+    byId('shDetailDesc').textContent = item.description || 'Full specification available on request - email info@whclips.co.za with the SKU.';
+    // hand-written pairs first (curated.json), then Axiz's grouped table (specs.json via Flow 1) under group headings
+    var specRows = function(rows){ return (rows || []).map(function(row){ return '<dt>' + esc(row[0]) + '</dt><dd>' + esc(row[1]) + '</dd>'; }).join(''); };
+    var specsEl = byId('shDetailSpecs');
+    specsEl.innerHTML = specRows(item.specs)
+      + (item.specGroups || []).map(function(g){ return '<dt class="sh-spec-group">' + esc(g[0]) + '</dt>' + specRows(g[1]); }).join('');
+    // first group open, the rest behind "Full specification"
+    var groupCount = (item.specGroups || []).length, moreBtn = byId('shDetailSpecsMore');
+    var hiddenRows = (item.specGroups || []).slice(1).reduce(function(n, g){ return n + g[1].length; }, 0);
+    specsEl.classList.toggle('is-collapsed', groupCount > 1);
+    moreBtn.hidden = groupCount <= 1;
+    moreBtn.textContent = 'Full specification (' + hiddenRows + ' more)';
+    moreBtn.onclick = function(){ var open = specsEl.classList.toggle('is-collapsed'); moreBtn.textContent = open ? 'Full specification (' + hiddenRows + ' more)' : 'Show less'; };
+    renderDetailImage();
+    var d = byId('shDetail'); d.hidden = false; d.scrollTop = 0;
+    byId('shScrim').hidden = false;
+    document.body.style.overflow = 'hidden';
+    if (!fromHash) history.pushState({ sku: sku }, '', '#sku=' + encodeURIComponent(sku));
+    byId('shDetailClose').focus();
+  }
+  function closeDetail(fromPop){
+    var d = byId('shDetail'); if (d.hidden) return;
+    d.hidden = true; byId('shScrim').hidden = true; document.body.style.overflow = '';
+    if (!fromPop && /#sku=/.test(location.hash)) history.back();
+  }
+  byId('shGrid').addEventListener('click', function(e){
+    var t = e.target.closest('.sh-img, .sh-name'); if (!t) return;
+    var card = t.closest('.sh-card'); if (card) openDetail(card.getAttribute('data-sku'));
+  });
+  byId('shDetailThumbs').addEventListener('click', function(e){
+    var b = e.target.closest('[data-img]'); if (!b) return; detail.img = Number(b.getAttribute('data-img')); renderDetailImage();
+  });
+  byId('shDetailInc').addEventListener('click', function(){ detail.qty = Math.min(maxQty(detail.item.sku), detail.qty + 1); byId('shDetailQty').textContent = detail.qty; });
+  byId('shDetailDec').addEventListener('click', function(){ detail.qty = Math.max(1, detail.qty - 1); byId('shDetailQty').textContent = detail.qty; });
+  byId('shDetailAdd').addEventListener('click', function(){
+    if (!detail.item) return;
+    state.cart[detail.item.sku] = Math.min(maxQty(detail.item.sku), (state.cart[detail.item.sku] || 0) + detail.qty);
+    saveCart(); renderCart(); closeDetail(); openCart();
+  });
+  byId('shDetailClose').addEventListener('click', function(){ closeDetail(); });
+  byId('shDetail').addEventListener('click', function(e){ if (e.target === byId('shDetail')) closeDetail(); });
+  window.addEventListener('popstate', function(){
+    var m = location.hash.match(/#sku=([^&]+)/);
+    if (m) openDetail(decodeURIComponent(m[1]), true); else closeDetail(true);
+  });
+  function openFromHash(){ var m = location.hash.match(/#sku=([^&]+)/); if (m) openDetail(decodeURIComponent(m[1]), true); }
+
+  // ---- cart ---------------------------------------------------------------
+  function cartLines(){
+    return Object.keys(state.cart).map(function(sku){
+      var item = state.items.filter(function(i){ return i.sku === sku; })[0];
+      return item ? { item: item, qty: state.cart[sku] } : null;
+    }).filter(Boolean);
+  }
+  function renderCart(){
+    var lines = cartLines();
+    var count = lines.reduce(function(n, l){ return n + l.qty; }, 0);
+    var total = lines.reduce(function(n, l){ return n + l.qty * l.item.price; }, 0);
+    byId('shCartCount').textContent = count;
+    byId('shCartBtn').hidden = count === 0;
+    byId('shTotal').textContent = money(total);
+    byId('shCartItems').innerHTML = lines.length ? lines.map(function(l){
+      var im = l.item.images && l.item.images[0] ? '<img src="' + esc(l.item.images[0]) + '" alt="">' : '<div></div>';
+      return '<div class="sh-line">' + im +
+        '<div><div class="sh-line-name">' + esc(l.item.name) + '</div><div class="sh-line-sub">' + esc(l.item.sku) + ' &middot; ' + money(l.item.price) + ' each</div>' +
+        '<div class="sh-qty"><button type="button" data-dec="' + esc(l.item.sku) + '">&minus;</button><span>' + l.qty + '</span><button type="button" data-inc="' + esc(l.item.sku) + '">+</button></div></div>' +
+        '<div><div class="sh-line-price">' + money(l.qty * l.item.price) + '</div><button type="button" class="sh-line-rm" data-rm="' + esc(l.item.sku) + '">Remove</button></div>' +
+      '</div>';
+    }).join('') : '<p class="sh-fine">Your cart is empty.</p>';
+    // checkout stays off until the Worker endpoint exists; the stale rule applies regardless
+    var ready = lines.length > 0 && !state.stale && window.WHC_CHECKOUT_LIVE === true;
+    byId('shCheckout').disabled = !ready;
+    byId('shCheckoutNote').textContent = state.stale ? 'Checkout paused while prices refresh.' : (window.WHC_CHECKOUT_LIVE ? '' : 'Checkout opens once payments go live.');
+  }
+  byId('shCartItems').addEventListener('click', function(e){
+    var t = e.target.closest('[data-inc],[data-dec],[data-rm]'); if (!t) return;
+    var sku = t.getAttribute('data-inc') || t.getAttribute('data-dec') || t.getAttribute('data-rm');
+    if (t.hasAttribute('data-inc')) state.cart[sku] = Math.min(maxQty(sku), (state.cart[sku] || 0) + 1);
+    else if (t.hasAttribute('data-dec')) { state.cart[sku] = Math.max(0, (state.cart[sku] || 0) - 1); if (!state.cart[sku]) delete state.cart[sku]; }
+    else delete state.cart[sku];
+    saveCart(); renderCart();
+  });
+
+  // ---- checkout -----------------------------------------------------------
+  // Back from PayFast: ?order=WHC-...&status=paid|cancelled. "paid" here means
+  // the customer came back down the success path - the ITN to the Worker is the
+  // record of payment, and the receipt mail follows from that, not from this.
+  function returnFromPayFast(){
+    var q = new URLSearchParams(location.search);
+    var order = q.get('order'), status = q.get('status');
+    if (!order || !/^WHC-[A-Z0-9-]+$/.test(order)) return;
+    var n = byId('shNotice');
+    n.hidden = false;
+    if (status === 'paid'){
+      state.cart = {}; saveCart();
+      n.className = 'sh-notice';
+      n.textContent = 'Thank you - order ' + order + ' received. Your PayFast receipt is on its way, and we will confirm dispatch by email.';
+    } else {
+      n.className = 'sh-notice is-warn';
+      n.textContent = 'Payment for order ' + order + ' was not completed. Your cart is still here if you want to try again.';
+    }
+    history.replaceState(null, '', location.pathname);
+  }
+
+  var formOpen = false;
+  function showFormError(msg){ var e = byId('shFormErr'); e.hidden = !msg; e.textContent = msg || ''; }
+
+  function checkout(){
+    var form = byId('shForm');
+    if (!formOpen){ formOpen = true; form.hidden = false; byId('shCheckout').textContent = 'Pay with PayFast'; byId('shFirst').focus(); return; }
+    var customer = {
+      name_first: byId('shFirst').value.trim(), name_last: byId('shLast').value.trim(),
+      email: byId('shEmail').value.trim(), cell: byId('shCell').value.trim()
+    };
+    if (customer.name_first.length < 2) return showFormError('Please give us your first name.');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customer.email)) return showFormError('A valid email is needed for the receipt.');
+    showFormError('');
+    var items = cartLines().map(function(l){ return { sku: l.item.sku, qty: l.qty }; });
+    var btn = byId('shCheckout'); btn.disabled = true; btn.textContent = 'Preparing payment\u2026';
+    fetch(API + '/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items: items, customer: customer }) })
+      .then(function(r){ return r.json().then(function(b){ return { ok: r.ok, body: b }; }); })
+      .then(function(res){
+        if (!res.ok) throw new Error(res.body && res.body.error || 'Checkout failed');
+        // The Worker signed the order; the browser only carries the form to PayFast.
+        var f = document.createElement('form'); f.method = 'POST'; f.action = res.body.processUrl; f.hidden = true;
+        Object.keys(res.body.fields).forEach(function(k){
+          var i = document.createElement('input'); i.type = 'hidden'; i.name = k; i.value = res.body.fields[k]; f.appendChild(i);
+        });
+        document.body.appendChild(f); f.submit();
+      })
+      .catch(function(err){
+        showFormError(err.message === 'Failed to fetch' ? 'Could not reach checkout. Please try again, or email info@whclips.co.za.' : err.message);
+        btn.disabled = false; btn.textContent = 'Pay with PayFast';
+      });
+  }
+  byId('shCheckout').addEventListener('click', checkout);
+  byId('shForm').addEventListener('submit', function(e){ e.preventDefault(); checkout(); });
+
+  function openCart(){ byId('shDrawer').classList.add('is-open'); byId('shDrawer').setAttribute('aria-hidden','false'); byId('shScrim').hidden = false; }
+  function closeCart(){ byId('shDrawer').classList.remove('is-open'); byId('shDrawer').setAttribute('aria-hidden','true'); byId('shScrim').hidden = true; }
+  byId('shCartBtn').addEventListener('click', openCart);
+  byId('shClose').addEventListener('click', closeCart);
+  byId('shScrim').addEventListener('click', function(){ closeDetail(); closeCart(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ closeDetail(); closeCart(); } });
+})();
+</script>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="footer-logo"><img src="assets/logo.png" alt="WH Clips" class="footer-logo-img">White Horse<span> Clips</span></span>
+        <a href="https://www.linkedin.com/company/wh-clips" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Contact</h4>
+        <p>214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa</p>
+        <p><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigation</h4>
+        <nav class="footer-nav">
+          <a href="about.html">About Us</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#industries">Industries</a>
+          <a href="clips.html">Recent Work</a>
+          <a href="store.html">Store</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <p class="copyright">© 2026 WH Clips.<br>All rights reserved.</p>
+        <nav class="footer-legal" aria-label="Store policies"><a href="terms.html">Terms of sale</a><a href="delivery.html">Delivery</a><a href="cancellation.html">Cancellation</a><a href="returns.html">Returns &amp; refunds</a><a href="privacy.html">Privacy</a></nav>
+        <p class="footer-tagline">Industrial automation, AI &amp; data integration for mining and manufacturing.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>

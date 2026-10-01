@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<title>About — WH Clips</title>
+<meta name="description" content="Who White Horse Clips is, what we believe, and how we supply and deploy industrial and IT hardware for mining and manufacturing in South Africa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* ---------------------------------------------------------------------
+     Store / hardware supply page. Everything is scoped under .st- so it
+     cannot collide with styles.css, and it reads the site's own custom
+     properties rather than redefining them. Same convention as .tm- on
+     contact.html.
+     --------------------------------------------------------------------- */
+
+  /* --- page hero ---------------------------------------------------- */
+  .st-hero{ padding:5rem 0 3.5rem; border-bottom:1px solid var(--border); }
+  .st-hero h1{
+    font-size:2.25rem; font-weight:800; line-height:1.1; letter-spacing:-.03em;
+    margin:.75rem 0 1.1rem; max-width:18ch; text-wrap:balance; color:var(--text);
+  }
+  .st-lead{ color:var(--text-dim-55); font-size:1rem; line-height:1.7; max-width:62ch; margin:0; }
+  .st-lead b{ color:var(--text); font-weight:600; }
+  @media (min-width:768px){ .st-hero{ padding:6.5rem 0 4.5rem; } .st-hero h1{ font-size:3.25rem; } }
+
+  /* --- about: hero facts + mission/values two-up ------------------- */
+  .ab-hero{ display:grid; grid-template-columns:1fr; gap:3rem; align-items:end; }
+  @media (min-width:900px){ .ab-hero{ grid-template-columns:3fr 2fr; gap:5rem; } }
+  .ab-facts{ margin:0; display:grid; gap:0; border-top:1px solid var(--border); }
+  .ab-facts > div{ display:grid; grid-template-columns:9rem 1fr; gap:1rem; padding:.85rem 0; border-bottom:1px solid var(--border); }
+  .ab-facts dt{ font-size:.7rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--text-dim-40); padding-top:.15rem; }
+  .ab-facts dd{ margin:0; font-size:.9rem; line-height:1.5; color:var(--text); }
+  @media (max-width:480px){ .ab-facts > div{ grid-template-columns:1fr; gap:.25rem; } }
+  .ab-grid{ display:grid; grid-template-columns:1fr; gap:3.5rem; }
+  @media (min-width:768px){ .ab-grid{ grid-template-columns:1fr 1fr; gap:5rem; } }
+  .ab-grid h2{ font-size:1.5rem; margin-bottom:1.25rem; }
+  .ab-grid p{ color:var(--text-dim-55); line-height:1.7; margin:0 0 1.25rem; }
+  .ab-grid .values-intro{ font-size:.85rem; color:var(--text-dim-40); margin-bottom:1.5rem; }
+  .ab-grid .careers-line{ margin-top:1.75rem; }
+
+  /* --- generic section scaffolding ---------------------------------- */
+  .st-sec{ padding:4rem 0; border-bottom:1px solid var(--border); }
+  .st-sec:last-of-type{ border-bottom:0; }
+  .st-head{ display:flex; align-items:baseline; gap:1rem; margin-bottom:2.5rem; }
+  .st-num{ font-size:.75rem; font-weight:700; letter-spacing:.14em; color:var(--accent); }
+  .st-rule{ flex:1; height:1px; background:var(--border); }
+  .st-label{
+    font-size:.75rem; font-weight:600; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--text-dim-40);
+  }
+  .st-sec h2{
+    font-size:1.5rem; font-weight:700; letter-spacing:-.02em;
+    margin:0 0 .6rem; color:var(--text); text-wrap:balance;
+  }
+  .st-sec > .container > p{ color:var(--text-dim-55); line-height:1.7; max-width:62ch; }
+  @media (min-width:768px){ .st-sec{ padding:5.5rem 0; } .st-sec h2{ font-size:1.875rem; } }
+
+  /* --- three reasons ------------------------------------------------ */
+  .st-why{ display:grid; grid-template-columns:1fr; gap:1.25rem; }
+  @media (min-width:768px){ .st-why{ grid-template-columns:repeat(3,1fr); gap:1.5rem; } }
+  .st-why-item{
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.6rem 1.4rem; transition:border-color .15s;
+  }
+  .st-why-item:hover{ border-color:var(--text-dim-30); }
+  .st-why-item h3{
+    font-size:1rem; font-weight:700; margin:0 0 .55rem; color:var(--text); letter-spacing:-.01em;
+  }
+  .st-why-item p{ margin:0; font-size:.9rem; line-height:1.65; color:var(--text-dim-55); }
+
+  /* --- category grid ------------------------------------------------ */
+  .st-cats{ display:grid; grid-template-columns:1fr; gap:1rem; }
+  @media (min-width:640px){ .st-cats{ grid-template-columns:repeat(2,1fr); } }
+  @media (min-width:1024px){ .st-cats{ grid-template-columns:repeat(3,1fr); } }
+  .st-cat{
+    display:flex; flex-direction:column;
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.5rem 1.35rem; transition:border-color .15s;
+  }
+  .st-cat:hover{ border-color:var(--accent); }
+  .st-cat h3{
+    font-size:.95rem; font-weight:700; margin:0 0 .5rem; color:var(--text);
+    letter-spacing:.01em;
+  }
+  .st-cat p{ margin:0; font-size:.86rem; line-height:1.6; color:var(--text-dim-45); }
+
+  /* --- brands ------------------------------------------------------- */
+  .st-brands{ display:flex; flex-wrap:wrap; gap:.6rem; margin:0 0 1.25rem; }
+  .st-brand{
+    padding:.55rem 1rem; border-radius:999px;
+    border:1px solid var(--border); background:var(--bg-alt);
+    font-size:.82rem; font-weight:600; color:var(--text-dim-90); letter-spacing:.01em;
+  }
+  .st-brand-primary{ border-color:rgba(99,102,241,.5); background:rgba(99,102,241,.09); color:#c7c8fb; }
+  .st-brand-note{ font-size:.85rem; color:var(--text-dim-40); line-height:1.6; margin:0; max-width:62ch; }
+
+  /* --- kits --------------------------------------------------------- */
+  .st-kits{ display:grid; grid-template-columns:1fr; gap:1.25rem; }
+  @media (min-width:768px){ .st-kits{ grid-template-columns:repeat(3,1fr); } }
+  .st-kit{
+    display:flex; flex-direction:column;
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.6rem 1.4rem; transition:border-color .15s;
+  }
+  .st-kit:hover{ border-color:var(--accent); }
+  .st-kit h3{ font-size:1rem; font-weight:700; margin:0 0 .4rem; color:var(--text); }
+  .st-kit-tag{
+    display:inline-block; align-self:flex-start; margin:0 0 .85rem;
+    font-size:.68rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--accent);
+  }
+  .st-kit ul{ list-style:none; padding:0; margin:0 0 1.1rem; }
+  .st-kit li{
+    position:relative; padding-left:1rem; margin-bottom:.4rem;
+    font-size:.86rem; line-height:1.55; color:var(--text-dim-55);
+  }
+  .st-kit li::before{
+    content:""; position:absolute; left:0; top:.55em;
+    width:4px; height:4px; border-radius:50%; background:var(--accent);
+  }
+  .st-kit-foot{ margin-top:auto; font-size:.8rem; color:var(--text-dim-35); line-height:1.5; }
+
+  /* --- how to buy --------------------------------------------------- */
+  .st-buy{ display:grid; grid-template-columns:1fr; gap:1.25rem; }
+  @media (min-width:768px){ .st-buy{ grid-template-columns:repeat(2,1fr); gap:1.5rem; } }
+  .st-buy-card{
+    display:flex; flex-direction:column;
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.75rem 1.5rem;
+  }
+  .st-buy-card h3{ font-size:1.05rem; font-weight:700; margin:0 0 .6rem; color:var(--text); }
+  .st-buy-card p{ margin:0 0 1.5rem; font-size:.9rem; line-height:1.65; color:var(--text-dim-55); }
+  .st-buy-card .btn-solid,
+  .st-buy-card .btn-outline{ align-self:flex-start; margin-top:auto; }
+  .st-soon{
+    display:inline-block; align-self:flex-start; margin-top:auto;
+    padding:.75rem 1.25rem; border-radius:9px;
+    border:1px dashed var(--text-dim-20); color:var(--text-dim-35);
+    font-size:.8rem; font-weight:600; letter-spacing:.06em; text-transform:uppercase;
+  }
+
+  /* --- assurance note ----------------------------------------------- */
+  .st-note{
+    background:var(--bg-alt); border:1px solid var(--border); border-radius:14px;
+    padding:1.6rem 1.5rem;
+  }
+  .st-note h3{
+    font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--text-dim-40); margin:0 0 .8rem;
+  }
+  .st-note p{ margin:0 0 .75rem; font-size:.87rem; line-height:1.7; color:var(--text-dim-55); max-width:78ch; }
+  .st-note p:last-child{ margin-bottom:0; }
+
+  /* --- closing cta -------------------------------------------------- */
+  .st-cta{ text-align:center; padding:5rem 0; }
+  .st-cta h2{
+    font-size:1.75rem; font-weight:800; letter-spacing:-.02em;
+    margin:0 0 .9rem; color:var(--text); text-wrap:balance;
+  }
+  .st-cta p{ margin:0 auto 2rem; max-width:52ch; color:var(--text-dim-55); line-height:1.7; }
+  @media (min-width:768px){ .st-cta h2{ font-size:2.25rem; } }
+
+  @media (max-width:600px){
+    .st-hero{ padding:3.5rem 0 2.5rem; }
+    .st-sec{ padding:3rem 0; }
+    .st-head{ margin-bottom:1.75rem; }
+  }
+</style>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xhn6f6xk36");
+</script>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="assets/logo.png" alt="WH Clips" class="logo-img">White Horse<span> Clips</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="index.html#industries" class="nav-link">Industries</a>
+        <a href="about.html" class="nav-link" aria-current="page">About</a>
+        <a href="clips.html" class="nav-link">Recent Work</a>
+        <a href="baseline.html" class="nav-link">What We Do</a>
+        <a href="store.html" class="nav-link">Store</a>
+        <a href="contact.html" class="btn-contact">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+        <svg class="icon-close" hidden width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="st-hero">
+    <div class="container ab-hero">
+      <div>
+        <p class="eyebrow">About</p>
+        <h1>Built to leave your operation stronger than we found it.</h1>
+        <p class="st-lead">White Horse Clips is a South African industrial technology company working where operational technology meets the business - the layer above the control systems that says whether an asset is making money right now, and why.</p>
+      </div>
+      <dl class="ab-facts">
+        <div><dt>Company</dt><dd>White Horse Clips</dd></div>
+        <div><dt>Where we work</dt><dd>Mining and manufacturing, South Africa</dd></div>
+        <div><dt>What we do</dt><dd>OT/IT convergence, MES, digital twin, automation stack, industrial IT and hardware supply</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ================= MISSION + VALUES ================= -->
+  <section class="st-sec">
+    <div class="container">
+      <div class="st-head"><span class="st-num">01</span><span class="st-rule"></span><span class="st-label">Mission &amp; values</span></div>
+      <div class="ab-grid">
+        <div>
+          <h2>Our mission</h2>
+          <p>To grow African talent and strengthen local economies by helping industrial businesses harness data and technology to run smarter, safer, and more competitively.</p>
+          <p>We build capability that lasts beyond any single project, leaving your people, systems, and operations stronger than we found them.</p>
+          <p class="careers-line">Interested in joining our team? <a href="careers.html">Careers &rarr;</a></p>
+        </div>
+        <div>
+          <h2>Core values</h2>
+          <p class="values-intro">Five values shape how we run the business, deliver projects, work with our people and engage with the world around us.</p>
+          <div class="value-row"><span class="value-num">01</span><span class="value-name">Dialogue</span></div>
+          <div class="value-row"><span class="value-num">02</span><span class="value-name">Ingenuity</span></div>
+          <div class="value-row"><span class="value-num">03</span><span class="value-name">Humility</span></div>
+          <div class="value-row"><span class="value-num">04</span><span class="value-name">Faith-Driven Purpose</span></div>
+          <div class="value-row"><span class="value-num">05</span><span class="value-name">Integrity</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY ================= -->
+  <section class="st-sec">
+    <div class="container">
+      <div class="st-head">
+        <span class="st-num">02</span>
+        <span class="st-rule"></span>
+        <span class="st-label">Why buy hardware from us</span>
+      </div>
+      <div class="st-why">
+        <div class="st-why-item">
+          <h3>Official channel</h3>
+          <p>Every item is sourced through Axiz, one of South Africa's largest technology
+          distributors. Genuine stock, full local manufacturer warranty, no grey imports
+          and no parallel-market surprises when you need a warranty claim honoured.</p>
+        </div>
+        <div class="st-why-item">
+          <h3>Specified, not just shipped</h3>
+          <p>We deploy this equipment in live plant environments. Compatibility checks,
+          application guidance and honest advice about what you don't need come as part
+          of the quote, not as a paid extra.</p>
+        </div>
+        <div class="st-why-item">
+          <h3>One point of supply</h3>
+          <p>Hardware, integration and ongoing support from a single supplier on a single
+          invoice — so there is no gap between who sold you the equipment and who is
+          accountable for making it work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CATEGORIES ================= -->
+  <section class="st-sec">
+    <div class="container">
+      <div class="st-head">
+        <span class="st-num">03</span>
+        <span class="st-rule"></span>
+        <span class="st-label">What we supply</span>
+      </div>
+      <div class="st-cats">
+        <div class="st-cat">
+          <h3>Displays &amp; Workstations</h3>
+          <p>Business and professional monitors, docking stations, desktop and mobile
+          workstations for control rooms, engineering offices and site administration.</p>
+        </div>
+        <div class="st-cat">
+          <h3>Networking</h3>
+          <p>Managed and smart switches, wireless access points, SFP transceivers, DAC
+          and fibre patch leads, and the structured cabling that ties a site together.</p>
+        </div>
+        <div class="st-cat">
+          <h3>Power Protection</h3>
+          <p>UPS systems, rack PDUs and surge protection for control rooms, server rooms
+          and the edge cabinets that cannot afford an unplanned restart.</p>
+        </div>
+        <div class="st-cat">
+          <h3>Storage &amp; Memory</h3>
+          <p>Solid-state drives, enterprise storage, memory upgrades and removable media
+          for historians, edge nodes and engineering workstations.</p>
+        </div>
+        <div class="st-cat">
+          <h3>Audio &amp; Peripherals</h3>
+          <p>Headsets, speakerphones and conferencing hardware, keyboards, mice and the
+          desk-level equipment that distributed operations teams depend on.</p>
+        </div>
+        <div class="st-cat">
+          <h3>Racks &amp; Cabling</h3>
+          <p>Patch panels, keystones, cable management, rack accessories and copper and
+          fibre patch leads — specified to the cabinet, not guessed at.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KITS ================= -->
+  <section class="st-sec">
+    <div class="container">
+      <div class="st-head">
+        <span class="st-num">04</span>
+        <span class="st-rule"></span>
+        <span class="st-label">Site kits</span>
+      </div>
+      <h2>Configured sets, not parts lists.</h2>
+      <p style="margin-bottom:2.5rem;">
+        Most sites do not need a catalogue — they need the right combination of equipment,
+        specified once and delivered together. These are the configurations we build most often.
+      </p>
+      <div class="st-kits">
+        <div class="st-kit">
+          <span class="st-kit-tag">Kit 01</span>
+          <h3>Small Site Network Cabinet</h3>
+          <ul>
+            <li>UPS and rack PDU</li>
+            <li>Managed or smart switch</li>
+            <li>Wireless access point</li>
+            <li>Patch panel and cable management</li>
+            <li>Copper and fibre patch leads</li>
+          </ul>
+          <p class="st-kit-foot">For remote sites, weighbridges, plant offices and satellite operations.</p>
+        </div>
+        <div class="st-kit">
+          <span class="st-kit-tag">Kit 02</span>
+          <h3>Control Room Workstation</h3>
+          <ul>
+            <li>Dual or triple business monitors</li>
+            <li>Workstation and docking station</li>
+            <li>Peripherals and headset</li>
+            <li>Surge protection and UPS</li>
+            <li>Mounting and cable management</li>
+          </ul>
+          <p class="st-kit-foot">For operator stations, engineering desks and shift-handover positions.</p>
+        </div>
+        <div class="st-kit">
+          <span class="st-kit-tag">Kit 03</span>
+          <h3>Edge Compute Starter</h3>
+          <ul>
+            <li>Edge compute node</li>
+            <li>Industrial-grade networking</li>
+            <li>Power protection</li>
+            <li>Storage for local buffering</li>
+            <li>Cabinet and mounting hardware</li>
+          </ul>
+          <p class="st-kit-foot">A first node for a unified namespace, historian or edge analytics deployment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="st-cta">
+    <div class="container">
+      <h2>Tell us about your operation.</h2>
+      <p>The problem you are trying to solve, the site constraints, or a specification that
+      needs pricing. We will tell you what it takes and what it costs.</p>
+      <a href="contact.html" class="btn-solid">Let's Go!</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="footer-logo"><img src="assets/logo.png" alt="WH Clips" class="footer-logo-img">White Horse<span> Clips</span></span>
+        <a href="https://www.linkedin.com/company/wh-clips" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Contact</h4>
+        <p>214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa</p>
+        <p><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigation</h4>
+        <nav class="footer-nav">
+          <a href="index.html#about">About Us</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#industries">Industries</a>
+          <a href="clips.html">Recent Work</a>
+          <a href="store.html">Store</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <p class="copyright">© 2026 WH Clips.<br>All rights reserved.</p>
+        <nav class="footer-legal" aria-label="Store policies"><a href="terms.html">Terms of sale</a><a href="delivery.html">Delivery</a><a href="cancellation.html">Cancellation</a><a href="returns.html">Returns &amp; refunds</a><a href="privacy.html">Privacy</a></nav>
+        <p class="footer-tagline">Industrial automation, AI &amp; data integration for mining and manufacturing.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>
