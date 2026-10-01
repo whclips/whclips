@@ -569,7 +569,7 @@
   // product can be linked to and the back button closes it.
   var detail = { item: null, qty: 1, img: 0 };
   function findItem(sku){ return state.items.filter(function(i){ return i.sku === sku; })[0] || null; }
-  // The most one order may take: the catalogue's `available` (Axiz stock minus one). The Worker enforces the same number.
+  // The most one order may take: the catalogue's `available` (supplier stock minus one). The Worker enforces the same number.
   function maxQty(sku){ var it = findItem(sku); return it && Number.isInteger(it.available) ? Math.max(0, it.available) : 10; }
   function stockLabel(i){ return i.stock === 'out' ? 'Out of stock' : Number.isInteger(i.available) ? i.available + ' available' : (i.stock === 'low' ? 'Low stock' : 'In stock'); }
 
@@ -598,14 +598,14 @@
     byId('shDetailStrap').textContent = item.strap || '';
     // highlight chips (from the catalogue: 4-6 spec rows chosen by Flow 1)
     byId('shDetailHighlights').innerHTML = (item.highlights || []).map(function(h){ return '<li><span>' + esc(h[0]) + '</span>' + esc(h[1]) + '</li>'; }).join('');
-    // trust lines: only what the data can back. Delivery/returns wording is JC's, added when agreed with Axiz.
+    // trust lines: only what the data can back. Delivery/returns wording is JC's, added when agreed with the supplier.
     var trust = [];
     if (item.warranty) trust.push(esc(item.warranty) + (/warranty/i.test(item.warranty) ? '' : ' manufacturer warranty'));
-    trust.push('Official Dell/HP/Kingston/Targus channel stock via Axiz');
+    trust.push('Official channel stock with the full manufacturer warranty');
     trust.push('No VAT charged - White Horse Clips is not a VAT vendor');
     byId('shDetailTrust').innerHTML = trust.map(function(t){ return '<li>' + t + '</li>'; }).join('');
     byId('shDetailDesc').textContent = item.description || 'Full specification available on request - email info@whclips.co.za with the SKU.';
-    // hand-written pairs first (curated.json), then Axiz's grouped table (specs.json via Flow 1) under group headings
+    // hand-written pairs first (curated.json), then the supplier's grouped table (specs.json via Flow 1) under group headings
     var specRows = function(rows){ return (rows || []).map(function(row){ return '<dt>' + esc(row[0]) + '</dt><dd>' + esc(row[1]) + '</dd>'; }).join(''); };
     var specsEl = byId('shDetailSpecs');
     specsEl.innerHTML = specRows(item.specs)
