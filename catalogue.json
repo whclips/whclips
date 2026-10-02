@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-02T08:05:03+00:00",
- "pricedAt": "2026-10-02T08:05:03+00:00",
- "priceValidUntil": "2026-10-02T10:05:03+00:00",
+ "generatedAt": "2026-10-02T08:35:03+00:00",
+ "pricedAt": "2026-10-02T08:35:03+00:00",
+ "priceValidUntil": "2026-10-02T10:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -1540,7 +1540,7 @@
    "category": "Headsets & audio",
    "price": 574,
    "stock": "in",
-   "available": 227,
+   "available": 221,
    "badges": [],
    "attributes": [
     "DeskPro"
@@ -2521,7 +2521,7 @@
    "category": "Accessories",
    "price": 934,
    "stock": "in",
-   "available": 733,
+   "available": 732,
    "badges": [
     "Best seller"
    ],
