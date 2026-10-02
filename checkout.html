@@ -101,13 +101,13 @@
         <div class="ck-card">
           <h2>Items</h2>
           <div id="ckLines"></div>
-          <div id="ckDelRows" hidden>
+          <div id="ckDelRows">
           <div class="ck-sum"><span>Items</span><span id="ckItems">R0.00</span></div>
           <div class="ck-sum"><span>Delivery</span><span id="ckDelivery">Choose your province</span></div>
           <p class="ck-fine" id="ckDeliveryNote"></p>
           </div>
           <div class="ck-total"><span>Total</span><strong id="ckTotal">R0.00</strong></div>
-          <p class="ck-fine">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged. Stock and price are checked again when you pay.</p>
+          <p class="ck-fine">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged. The delivery charge is not included in the item prices; it is worked out from your province and the weight of your order and added to the total before you pay. Stock and price are checked again when you pay.</p>
           <p class="ck-fine"><a href="store.html">&larr; Continue shopping</a></p>
         </div>
 
@@ -210,7 +210,7 @@
   // refuses a different value and stores the accepted one with the order. Change both together.
   var POLICY_VERSION = '2026-10-01';
 
-  var DELIVERY_ON = false;   // build_checkout_page.py --no-delivery flips this to false (interim page for a Worker that cannot quote yet)
+  var DELIVERY_ON = true;   // build_checkout_page.py --no-delivery flips this to false (interim page for a Worker that cannot quote yet)
   var state = { items: [], cart: {}, stale: false, loaded: false, quote: null };
   function byId(id){ return document.getElementById(id); }
   function money(n){ return 'R' + Math.round(n).toLocaleString('en-ZA'); }
