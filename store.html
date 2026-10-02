@@ -489,7 +489,7 @@
       openFromHash();
     })
     .catch(function(err){
-      byId('shGrid').innerHTML = '<div class="sh-empty">The catalogue could not be loaded. Email <a href="mailto:info@whclips.co.za">info@whclips.co.za</a> and we will quote by hand.</div>';
+      byId('shGrid').innerHTML = '<div class="sh-empty">The catalogue could not be loaded. Email <a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> and we will quote by hand.</div>';
     });
 
   // A price computed from a promo cost is only good until the next refresh.
@@ -598,7 +598,7 @@
     byId('shDetailTrust').innerHTML = trust.map(function(t){ return '<li>' + t + '</li>'; }).join('');
     // a description that only repeats the product name is no description
     var desc = (item.description || '').trim();
-    byId('shDetailDesc').textContent = (desc && desc.toLowerCase() !== String(item.name || '').trim().toLowerCase()) ? desc : 'Full specification available on request - email info@whclips.co.za with the SKU.';
+    byId('shDetailDesc').textContent = (desc && desc.toLowerCase() !== String(item.name || '').trim().toLowerCase()) ? desc : 'Full specification available on request - email enquiries@whclips.co.za with the SKU.';
     // hand-written pairs first (curated.json), then the supplier's grouped table (specs.json via Flow 1) under group headings
     var specRows = function(rows){ return (rows || []).map(function(row){ return '<dt>' + esc(row[0]) + '</dt><dd>' + esc(row[1]) + '</dd>'; }).join(''); };
     var specsEl = byId('shDetailSpecs');

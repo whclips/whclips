@@ -256,7 +256,7 @@
         if (!res.ok) { state.quote = null; showErr(res.body && res.body.error || 'Could not work out the delivery charge.'); render(); return; }   // quoteAsked stays set: no retry until the cart or province changes
         showErr(''); res.body.key = key; state.quote = res.body; render();
       })
-      .catch(function(){ if (mine === quoteSeq) { state.quote = null; showErr('Could not work out the delivery charge. Please try again, or email info@whclips.co.za.'); } });
+      .catch(function(){ if (mine === quoteSeq) { state.quote = null; showErr('Could not work out the delivery charge. Please try again, or email enquiries@whclips.co.za.'); } });
   }
   byId('shProvince').addEventListener('change', function(){ render(); });
 
@@ -307,7 +307,7 @@
       if (changed){ saveCart(); notice('Your cart was updated: an item is no longer available or the quantity was reduced.', true); }
       state.loaded = true; render();
     })
-    .catch(function(){ state.loaded = true; notice('The catalogue could not be loaded. Email info@whclips.co.za and we will help by hand.', true); render(); });
+    .catch(function(){ state.loaded = true; notice('The catalogue could not be loaded. Email enquiries@whclips.co.za and we will help by hand.', true); render(); });
 
   function checkout(){
     var v = function(id){ return byId(id).value.trim(); };
@@ -349,7 +349,7 @@
         document.body.appendChild(f); f.submit();
       })
       .catch(function(err){
-        showErr(err.message === 'Failed to fetch' ? 'Could not reach checkout. Please try again, or email info@whclips.co.za.' : err.message);
+        showErr(err.message === 'Failed to fetch' ? 'Could not reach checkout. Please try again, or email enquiries@whclips.co.za.' : err.message);
         btn.disabled = false; btn.textContent = 'Pay with PayFast';
       });
   }

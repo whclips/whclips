@@ -1,21 +1,11 @@
 # Security Policy
 
-## Supported Versions
+This repository holds the public website of White Horse Clips (Pty) Ltd (whclips.co.za).
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+## Reporting a vulnerability
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+If you think you have found a security problem on whclips.co.za, please email info@whclips.co.za with "Security" in the subject line and tell us what you found and how to reproduce it. Please do not publish the details until we have had a chance to fix it.
 
-## Reporting a Vulnerability
+We acknowledge your report within 3 working days and tell you what we plan to do about it. If it is accepted we fix it as soon as we reasonably can and let you know when it is done; if it is not accepted we tell you why.
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Please do not access, change or delete other people's data, and do not disrupt the site while testing.
