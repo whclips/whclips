@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-02T13:35:03+00:00",
- "pricedAt": "2026-10-02T13:35:03+00:00",
- "priceValidUntil": "2026-10-02T15:35:03+00:00",
+ "generatedAt": "2026-10-02T14:05:03+00:00",
+ "pricedAt": "2026-10-02T14:05:03+00:00",
+ "priceValidUntil": "2026-10-02T16:05:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -2516,7 +2516,7 @@
   },
   {
    "sku": "TEB01",
-   "name": "Targus Bag Campus Backpack 15 16 Nylon Black 2.5 kg Limited Lifetime warranty",
+   "name": "Targus Campus Backpack, 15-16\" Notebook, Nylon, Black",
    "brand": "Targus",
    "category": "Accessories",
    "price": 934,
