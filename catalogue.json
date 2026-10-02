@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-02T14:35:03+00:00",
- "pricedAt": "2026-10-02T14:35:03+00:00",
- "priceValidUntil": "2026-10-02T16:35:03+00:00",
+ "generatedAt": "2026-10-02T14:51:33+00:00",
+ "pricedAt": "2026-10-02T14:51:33+00:00",
+ "priceValidUntil": "2026-10-02T16:51:33+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -16,6 +16,7 @@
    "price": 3510,
    "stock": "in",
    "available": 309,
+   "shipKg": 8,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -510,6 +511,7 @@
    "price": 2830,
    "stock": "in",
    "available": 212,
+   "shipKg": 9,
    "badges": [
     "Deal ending soon",
     "On promotion"
@@ -948,6 +950,7 @@
    "price": 651,
    "stock": "in",
    "available": 325,
+   "shipKg": 1,
    "badges": [
     "Best seller"
    ],
@@ -1130,6 +1133,7 @@
    "price": 576,
    "stock": "in",
    "available": 291,
+   "shipKg": 1,
    "badges": [
     "Best seller"
    ],
@@ -1353,6 +1357,7 @@
    "price": 498,
    "stock": "in",
    "available": 206,
+   "shipKg": 0.5,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -1541,6 +1546,7 @@
    "price": 574,
    "stock": "in",
    "available": 221,
+   "shipKg": 0.5,
    "badges": [],
    "attributes": [
     "DeskPro"
@@ -1564,6 +1570,7 @@
    "price": 3490,
    "stock": "in",
    "available": 136,
+   "shipKg": 0.3,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -1840,6 +1847,7 @@
    "price": 599,
    "stock": "in",
    "available": 774,
+   "shipKg": 1,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -1976,6 +1984,7 @@
    "price": 787,
    "stock": "in",
    "available": 209,
+   "shipKg": 1,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2109,6 +2118,7 @@
    "price": 739,
    "stock": "in",
    "available": 184,
+   "shipKg": 1,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2237,6 +2247,7 @@
    "price": 1270,
    "stock": "in",
    "available": 28,
+   "shipKg": 1,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2385,6 +2396,7 @@
    "price": 799,
    "stock": "in",
    "available": 55,
+   "shipKg": 0.6,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2406,6 +2418,7 @@
    "price": 397,
    "stock": "out",
    "available": 0,
+   "shipKg": 0.3,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2522,6 +2535,7 @@
    "price": 934,
    "stock": "in",
    "available": 724,
+   "shipKg": 1.5,
    "badges": [
     "Best seller"
    ],
