@@ -335,7 +335,7 @@
         <span class="st-rule"></span>
         <span class="st-label">Shop</span>
       </div>
-      <h2>In stock, priced to deliver.</h2>
+      <h2>In stock and ready to order.</h2>
       <p style="margin-bottom:1.5rem;" id="shVatNote">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.</p>
 
       <div class="sh-notice" id="shNotice" hidden></div>
@@ -388,7 +388,7 @@
         <p class="sh-detail-desc" id="shDetailDesc"></p>
         <dl class="sh-specs" id="shDetailSpecs"></dl>
         <button type="button" class="sh-specs-more" id="shDetailSpecsMore" hidden></button>
-        <p class="sh-fine">Official channel stock with the full manufacturer warranty. Delivery is included in the price, anywhere in South Africa.</p>
+        <p class="sh-fine">Official channel stock with the full manufacturer warranty. Delivery is not included in the price; it is calculated at checkout from your province and the weight of your order.</p>
       </div>
     </div>
   </div>
@@ -592,7 +592,7 @@
     // trust lines: only what the data can back. Delivery/returns wording is JC's, added when agreed with the supplier.
     var trust = [];
     if (item.warranty) trust.push(esc(item.warranty) + (/warranty/i.test(item.warranty) ? '' : ' manufacturer warranty'));
-    else trust.push('Manufacturer warranty applies; the period is confirmed on request');
+    else trust.push('The original manufacturer (OEM) warranty applies; the period is confirmed on request');
     trust.push('Official channel stock with the full manufacturer warranty');
     trust.push('No VAT charged - White Horse Clips is not a VAT vendor');
     byId('shDetailTrust').innerHTML = trust.map(function(t){ return '<li>' + t + '</li>'; }).join('');
@@ -707,11 +707,14 @@
         <a href="https://www.linkedin.com/company/wh-clips" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
         </a>
+        <p class="footer-tagline">Industrial automation, AI &amp; data integration for mining and manufacturing.</p>
+        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
       </div>
       <div class="footer-col">
         <h4 class="footer-heading">Contact</h4>
         <p>214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa</p>
-        <p><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+        <p>General information:<br><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+        <p>Shop related:<br><a href="mailto:enquiries@whclips.co.za" class="footer-email">enquiries@whclips.co.za</a></p>
       </div>
       <div class="footer-col">
         <h4 class="footer-heading">Navigation</h4>
@@ -725,7 +728,7 @@
         </nav>
       </div>
       <div class="footer-col">
-        <h4 class="footer-heading">Help</h4>
+        <h4 class="footer-heading">Terms and Conditions</h4>
         <nav class="footer-nav" aria-label="Store policies">
           <a href="terms.html">Terms of sale</a>
           <a href="delivery.html">Delivery</a>
@@ -733,8 +736,6 @@
           <a href="returns.html">Returns &amp; refunds</a>
           <a href="privacy.html">Privacy</a>
         </nav>
-        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
-        <p class="footer-tagline">Industrial automation, AI &amp; data integration for mining and manufacturing.</p>
       </div>
     </div>
   <div class="pay-row">

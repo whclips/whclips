@@ -20,11 +20,18 @@
   @media (min-width:768px){ .tc-hero{ padding:6rem 0 3.5rem; } .tc-hero h1{ font-size:3rem; } }
 
   .tc-body{ padding:3rem 0 5rem; }
-  .tc-toc{ list-style:none; padding:0; margin:0 0 3rem; display:flex; flex-wrap:wrap; gap:.5rem; }
-  .tc-toc a{ display:inline-block; padding:.45rem .9rem; border:1px solid var(--border); border-radius:999px;
-             font-size:.8rem; color:var(--text-dim-55); text-decoration:none; }
-  .tc-toc a:hover{ border-color:var(--accent); color:var(--text); }
-
+  .tc-layout{ display:grid; grid-template-columns:1fr; gap:2rem; }
+  @media (min-width:900px){ .tc-layout{ grid-template-columns:15.5rem minmax(0,1fr); gap:3.5rem; } .tc-side{ position:sticky; top:5.5rem; align-self:start; max-height:calc(100vh - 7rem); overflow:auto; } }
+  .tc-side{ border:1px solid var(--border); border-radius:12px; padding:1.1rem 1.1rem 1.2rem; }
+  .tc-side-h{ font-size:.7rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--text-dim-40); margin:0 0 .7rem; }
+  .tc-side ul{ list-style:none; margin:0; padding:0; }
+  .tc-side > ul > li > a{ display:block; padding:.5rem .6rem; border-radius:8px; font-size:.92rem; font-weight:500; color:var(--text-dim-55); text-decoration:none; }
+  .tc-side > ul > li > a:hover{ color:var(--text); background:rgba(255,255,255,.04); }
+  .tc-side > ul > li > a[aria-current="page"]{ color:var(--text); font-weight:700; background:rgba(255,255,255,.06); }
+  .tc-sub{ margin:.2rem 0 .6rem .6rem !important; padding-left:.8rem !important; border-left:1px solid var(--border); }
+  .tc-sub a{ display:block; padding:.28rem .4rem; font-size:.8rem; line-height:1.35; color:var(--text-dim-40); text-decoration:none; }
+  .tc-sub a:hover{ color:var(--text); }
+  @media (max-width:899px){ .tc-sub{ display:none; } .tc-side{ padding:.9rem; } .tc-side > ul{ display:flex; flex-wrap:wrap; gap:.3rem; } .tc-side > ul > li > a{ padding:.4rem .75rem; border:1px solid var(--border); border-radius:999px; font-size:.82rem; } }
   .tc-sec{ padding:2.25rem 0; border-top:1px solid var(--border); max-width:72ch; scroll-margin-top:5rem; }
   .tc-sec h2{ font-size:1.3rem; font-weight:700; letter-spacing:-.01em; margin:0 0 1rem; color:var(--text); }
   .tc-sec h2 .tc-n{ color:var(--accent); font-size:.8rem; font-weight:700; letter-spacing:.14em; margin-right:.6rem; vertical-align:.15em; }
@@ -71,7 +78,7 @@
 <main>
   <section class="tc-hero">
     <div class="container">
-      <p class="eyebrow">Store</p>
+      <p class="eyebrow">Terms &amp; Conditions</p>
       <h1>Privacy Policy</h1>
       <p class="tc-lead">This policy explains what personal information we collect when you use the White Horse Clips website and online store, why we collect it, who sees it, and your rights under the Protection of Personal Information Act 4 of 2013 (POPIA). The responsible party is White Horse Clips (Pty) Ltd.</p>
       <p class="tc-meta">Effective 1 October 2026</p>
@@ -79,18 +86,28 @@
   </section>
 
   <section class="tc-body">
-    <div class="container">
-      <ul class="tc-toc">
-        <li><a href="#what-we-collect">What we collect</a></li>
-        <li><a href="#why-we-collect-it">Why we collect it</a></li>
-        <li><a href="#who-sees-it">Who sees it</a></li>
-        <li><a href="#how-long-we-keep-it">How long we keep it</a></li>
-        <li><a href="#how-we-protect-it">How we protect it</a></li>
-        <li><a href="#your-rights">Your rights</a></li>
-        <li><a href="#information-officer-and-complaints">Information Officer and complaints</a></li>
-        <li><a href="#changes">Changes</a></li>
-      </ul>
-
+    <div class="container tc-layout">
+      <nav class="tc-side" aria-label="Terms &amp; Conditions">
+        <p class="tc-side-h">Terms &amp; Conditions</p>
+        <ul>
+          <li><a href="terms.html">Terms of sale</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="cancellation.html">Cancellation</a></li>
+          <li><a href="returns.html">Returns &amp; refunds</a></li>
+          <li><a href="privacy.html" aria-current="page">Privacy</a>
+          <ul class="tc-sub">
+            <li><a href="#what-we-collect">What we collect</a></li>
+            <li><a href="#why-we-collect-it">Why we collect it</a></li>
+            <li><a href="#who-sees-it">Who sees it</a></li>
+            <li><a href="#how-long-we-keep-it">How long we keep it</a></li>
+            <li><a href="#how-we-protect-it">How we protect it</a></li>
+            <li><a href="#your-rights">Your rights</a></li>
+            <li><a href="#information-officer-and-complaints">Information Officer and complaints</a></li>
+            <li><a href="#changes">Changes</a></li>
+          </ul></li>
+        </ul>
+      </nav>
+      <div class="tc-main">
       <div class="tc-sec" id="what-we-collect">
         <h2><span class="tc-n">01</span>What we collect</h2>
         <ul>
@@ -157,6 +174,7 @@
         <h2><span class="tc-n">08</span>Changes</h2>
         <p>We may update this policy. The version in force is the one on this page, and the date at the top shows when it took effect.</p>
       </div>
+      </div>
     </div>
   </section>
 </main>
@@ -166,11 +184,13 @@
     <div class="footer-grid">
       <div class="footer-col">
         <span class="footer-logo"><img src="assets/logo.png" alt="WH Clips" class="footer-logo-img">White Horse<span> Clips</span></span>
+        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
       </div>
       <div class="footer-col">
         <h4 class="footer-heading">Contact</h4>
         <p>214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa</p>
-        <p><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+        <p>General information:<br><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+        <p>Shop related:<br><a href="mailto:enquiries@whclips.co.za" class="footer-email">enquiries@whclips.co.za</a></p>
       </div>
       <div class="footer-col">
         <h4 class="footer-heading">Navigation</h4>
@@ -184,7 +204,7 @@
         </nav>
       </div>
       <div class="footer-col">
-        <h4 class="footer-heading">Help</h4>
+        <h4 class="footer-heading">Terms and Conditions</h4>
         <nav class="footer-nav" aria-label="Store policies">
           <a href="terms.html">Terms of sale</a>
           <a href="delivery.html">Delivery</a>
@@ -192,7 +212,6 @@
           <a href="returns.html">Returns &amp; refunds</a>
           <a href="privacy.html">Privacy</a>
         </nav>
-        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
       </div>
     </div>
   <div class="pay-row">

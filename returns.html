@@ -20,11 +20,18 @@
   @media (min-width:768px){ .tc-hero{ padding:6rem 0 3.5rem; } .tc-hero h1{ font-size:3rem; } }
 
   .tc-body{ padding:3rem 0 5rem; }
-  .tc-toc{ list-style:none; padding:0; margin:0 0 3rem; display:flex; flex-wrap:wrap; gap:.5rem; }
-  .tc-toc a{ display:inline-block; padding:.45rem .9rem; border:1px solid var(--border); border-radius:999px;
-             font-size:.8rem; color:var(--text-dim-55); text-decoration:none; }
-  .tc-toc a:hover{ border-color:var(--accent); color:var(--text); }
-
+  .tc-layout{ display:grid; grid-template-columns:1fr; gap:2rem; }
+  @media (min-width:900px){ .tc-layout{ grid-template-columns:15.5rem minmax(0,1fr); gap:3.5rem; } .tc-side{ position:sticky; top:5.5rem; align-self:start; max-height:calc(100vh - 7rem); overflow:auto; } }
+  .tc-side{ border:1px solid var(--border); border-radius:12px; padding:1.1rem 1.1rem 1.2rem; }
+  .tc-side-h{ font-size:.7rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--text-dim-40); margin:0 0 .7rem; }
+  .tc-side ul{ list-style:none; margin:0; padding:0; }
+  .tc-side > ul > li > a{ display:block; padding:.5rem .6rem; border-radius:8px; font-size:.92rem; font-weight:500; color:var(--text-dim-55); text-decoration:none; }
+  .tc-side > ul > li > a:hover{ color:var(--text); background:rgba(255,255,255,.04); }
+  .tc-side > ul > li > a[aria-current="page"]{ color:var(--text); font-weight:700; background:rgba(255,255,255,.06); }
+  .tc-sub{ margin:.2rem 0 .6rem .6rem !important; padding-left:.8rem !important; border-left:1px solid var(--border); }
+  .tc-sub a{ display:block; padding:.28rem .4rem; font-size:.8rem; line-height:1.35; color:var(--text-dim-40); text-decoration:none; }
+  .tc-sub a:hover{ color:var(--text); }
+  @media (max-width:899px){ .tc-sub{ display:none; } .tc-side{ padding:.9rem; } .tc-side > ul{ display:flex; flex-wrap:wrap; gap:.3rem; } .tc-side > ul > li > a{ padding:.4rem .75rem; border:1px solid var(--border); border-radius:999px; font-size:.82rem; } }
   .tc-sec{ padding:2.25rem 0; border-top:1px solid var(--border); max-width:72ch; scroll-margin-top:5rem; }
   .tc-sec h2{ font-size:1.3rem; font-weight:700; letter-spacing:-.01em; margin:0 0 1rem; color:var(--text); }
   .tc-sec h2 .tc-n{ color:var(--accent); font-size:.8rem; font-weight:700; letter-spacing:.14em; margin-right:.6rem; vertical-align:.15em; }
@@ -71,7 +78,7 @@
 <main>
   <section class="tc-hero">
     <div class="container">
-      <p class="eyebrow">Store</p>
+      <p class="eyebrow">Terms &amp; Conditions</p>
       <h1>Returns and Refund Policy</h1>
       <p class="tc-lead">This policy explains how to return goods and how refunds are paid. It forms part of our <a href="terms.html">Store Terms of Sale</a>. Changing your mind is covered by our <a href="cancellation.html">Cancellation Policy</a>; this policy covers goods that are faulty, damaged, wrong or unsuitable.</p>
       <p class="tc-meta">Effective 1 October 2026</p>
@@ -79,24 +86,34 @@
   </section>
 
   <section class="tc-body">
-    <div class="container">
-      <ul class="tc-toc">
-        <li><a href="#your-rights">Your rights</a></li>
-        <li><a href="#how-to-return-goods">How to return goods</a></li>
-        <li><a href="#who-pays-for-returns">Who pays for returns</a></li>
-        <li><a href="#refunds">Refunds</a></li>
-        <li><a href="#claims-through-the-manufacturer-s-warran">Claims through the manufacturer's warranty</a></li>
-        <li><a href="#what-is-not-covered">What is not covered</a></li>
-        <li><a href="#business-buyers">Business buyers</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
+    <div class="container tc-layout">
+      <nav class="tc-side" aria-label="Terms &amp; Conditions">
+        <p class="tc-side-h">Terms &amp; Conditions</p>
+        <ul>
+          <li><a href="terms.html">Terms of sale</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="cancellation.html">Cancellation</a></li>
+          <li><a href="returns.html" aria-current="page">Returns &amp; refunds</a>
+          <ul class="tc-sub">
+            <li><a href="#your-rights">Your rights</a></li>
+            <li><a href="#how-to-return-goods">How to return goods</a></li>
+            <li><a href="#who-pays-for-returns">Who pays for returns</a></li>
+            <li><a href="#refunds">Refunds</a></li>
+            <li><a href="#claims-through-the-manufacturer-s-warran">Claims through the manufacturer's warranty</a></li>
+            <li><a href="#what-is-not-covered">What is not covered</a></li>
+            <li><a href="#business-buyers">Business buyers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+      <div class="tc-main">
       <div class="tc-sec" id="your-rights">
         <h2><span class="tc-n">01</span>Your rights</h2>
         <p>Nothing in this policy limits any right you have under the Consumer Protection Act (CPA) or the Electronic Communications and Transactions Act (ECT Act).</p>
         <ul>
-          <li><b>Change of mind.</b> You may cancel within 7 days of receiving the goods, under section 44 of the ECT Act. See the <a href="cancellation.html">Cancellation Policy</a>.</li>
-          <li><b>Six-month right.</b> If a product is defective, unsafe, or not fit for its purpose within six months of delivery, you may return it, and you choose whether we repair it, replace it, or refund you, at no cost to you (CPA section 56).</li>
+          <li><b>Change of mind.</b> You may cancel an online purchase under section 44 of the ECT Act. Please tell us as early as you can, ideally within 5 days of delivery. See the <a href="cancellation.html">Cancellation Policy</a>.</li>
+          <li><b>Six-month right.</b> If a product is defective, unsafe, or not fit for its purpose within six months of delivery, you may return it and we will replace it with a new item, delivered to you at no cost to you (CPA section 56). If we do not have a replacement in stock, we refund you the price of the goods.</li>
           <li><b>Manufacturer's warranty.</b> On top of that, every product carries the manufacturer's warranty for the period shown on its product page or, where no period is shown, the manufacturer's standard warranty period for that product, which we confirm on request.</li>
         </ul>
       </div>
@@ -104,7 +121,7 @@
       <div class="tc-sec" id="how-to-return-goods">
         <h2><span class="tc-n">02</span>How to return goods</h2>
         <ol>
-          <li>Email <a href="mailto:info@whclips.co.za">info@whclips.co.za</a> with your order number, a description of the problem, and photographs if the item is damaged.</li>
+          <li>Email <a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> with your order number, a description of the problem, and photographs if the item is damaged.</li>
           <li>We reply with what happens next and the return address, which is 214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa.</li>
           <li>Send the goods back, with everything that came in the box, including the original packaging.</li>
           <li>Write your order number on the outside of the parcel.</li>
@@ -115,15 +132,16 @@
       <div class="tc-sec" id="who-pays-for-returns">
         <h2><span class="tc-n">03</span>Who pays for returns</h2>
         <ul>
-          <li><b>Faulty, damaged or wrong goods:</b> we do. We arrange the collection or pay the courier cost.</li>
-          <li><b>Cancelling under the 7-day right:</b> you carry the direct cost of returning the goods, and the handling fee in our <a href="cancellation.html">Cancellation Policy</a> where it applies.</li>
+          <li><b>Faulty, damaged or wrong goods:</b> we do. We arrange the collection or pay the courier cost, and we deliver the replacement to you at no cost.</li>
+          <li><b>Cancelling after shipment:</b> you carry the direct cost of returning the goods, and the handling fee in our <a href="cancellation.html">Cancellation Policy</a> where it applies.</li>
         </ul>
       </div>
 
       <div class="tc-sec" id="refunds">
         <h2><span class="tc-n">04</span>Refunds</h2>
         <ul>
-          <li>We refund the price you paid. Delivery is included in the price, so it is refunded with it. If you cancelled because you changed your mind, the 10% handling fee in our <a href="cancellation.html">Cancellation Policy</a> is deducted; no fee applies to faulty, damaged or wrong goods.</li>
+          <li><b>Faulty, damaged or wrong goods</b> are replaced with a new item. We refund the price of the goods only if we have no replacement in stock.</li>
+          <li><b>Changing your mind:</b> we refund the price of the goods you return. The delivery charge is not refundable. If you cancelled because you changed your mind, the 10% handling fee in our <a href="cancellation.html">Cancellation Policy</a> is deducted; no fee applies to faulty, damaged or wrong goods.</li>
           <li>Refunds are paid through PayFast to the card or account you paid with.</li>
           <li>We pay the refund within 30 days of the date you cancelled or, for a fault, within 30 days of the date we receive and check the goods. How quickly it shows on your statement depends on your bank. If we have told you a refund is approved and it has not reached you within 15 business days, email us.</li>
           <li>We do not refund to a different account from the one that paid.</li>
@@ -147,7 +165,8 @@
 
       <div class="tc-sec" id="contact">
         <h2><span class="tc-n">08</span>Contact</h2>
-        <p><a href="mailto:info@whclips.co.za">info@whclips.co.za</a> · Monday to Friday, 08:00 to 17:00 (SAST).</p>
+        <p><a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> · Monday to Friday, 08:00 to 17:00 (SAST).</p>
+      </div>
       </div>
     </div>
   </section>
@@ -158,11 +177,13 @@
     <div class="footer-grid">
       <div class="footer-col">
         <span class="footer-logo"><img src="assets/logo.png" alt="WH Clips" class="footer-logo-img">White Horse<span> Clips</span></span>
+        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
       </div>
       <div class="footer-col">
         <h4 class="footer-heading">Contact</h4>
         <p>214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa</p>
-        <p><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+        <p>General information:<br><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+        <p>Shop related:<br><a href="mailto:enquiries@whclips.co.za" class="footer-email">enquiries@whclips.co.za</a></p>
       </div>
       <div class="footer-col">
         <h4 class="footer-heading">Navigation</h4>
@@ -176,7 +197,7 @@
         </nav>
       </div>
       <div class="footer-col">
-        <h4 class="footer-heading">Help</h4>
+        <h4 class="footer-heading">Terms and Conditions</h4>
         <nav class="footer-nav" aria-label="Store policies">
           <a href="terms.html">Terms of sale</a>
           <a href="delivery.html">Delivery</a>
@@ -184,7 +205,6 @@
           <a href="returns.html">Returns &amp; refunds</a>
           <a href="privacy.html">Privacy</a>
         </nav>
-        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
       </div>
     </div>
   <div class="pay-row">

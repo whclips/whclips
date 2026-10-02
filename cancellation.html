@@ -20,11 +20,18 @@
   @media (min-width:768px){ .tc-hero{ padding:6rem 0 3.5rem; } .tc-hero h1{ font-size:3rem; } }
 
   .tc-body{ padding:3rem 0 5rem; }
-  .tc-toc{ list-style:none; padding:0; margin:0 0 3rem; display:flex; flex-wrap:wrap; gap:.5rem; }
-  .tc-toc a{ display:inline-block; padding:.45rem .9rem; border:1px solid var(--border); border-radius:999px;
-             font-size:.8rem; color:var(--text-dim-55); text-decoration:none; }
-  .tc-toc a:hover{ border-color:var(--accent); color:var(--text); }
-
+  .tc-layout{ display:grid; grid-template-columns:1fr; gap:2rem; }
+  @media (min-width:900px){ .tc-layout{ grid-template-columns:15.5rem minmax(0,1fr); gap:3.5rem; } .tc-side{ position:sticky; top:5.5rem; align-self:start; max-height:calc(100vh - 7rem); overflow:auto; } }
+  .tc-side{ border:1px solid var(--border); border-radius:12px; padding:1.1rem 1.1rem 1.2rem; }
+  .tc-side-h{ font-size:.7rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--text-dim-40); margin:0 0 .7rem; }
+  .tc-side ul{ list-style:none; margin:0; padding:0; }
+  .tc-side > ul > li > a{ display:block; padding:.5rem .6rem; border-radius:8px; font-size:.92rem; font-weight:500; color:var(--text-dim-55); text-decoration:none; }
+  .tc-side > ul > li > a:hover{ color:var(--text); background:rgba(255,255,255,.04); }
+  .tc-side > ul > li > a[aria-current="page"]{ color:var(--text); font-weight:700; background:rgba(255,255,255,.06); }
+  .tc-sub{ margin:.2rem 0 .6rem .6rem !important; padding-left:.8rem !important; border-left:1px solid var(--border); }
+  .tc-sub a{ display:block; padding:.28rem .4rem; font-size:.8rem; line-height:1.35; color:var(--text-dim-40); text-decoration:none; }
+  .tc-sub a:hover{ color:var(--text); }
+  @media (max-width:899px){ .tc-sub{ display:none; } .tc-side{ padding:.9rem; } .tc-side > ul{ display:flex; flex-wrap:wrap; gap:.3rem; } .tc-side > ul > li > a{ padding:.4rem .75rem; border:1px solid var(--border); border-radius:999px; font-size:.82rem; } }
   .tc-sec{ padding:2.25rem 0; border-top:1px solid var(--border); max-width:72ch; scroll-margin-top:5rem; }
   .tc-sec h2{ font-size:1.3rem; font-weight:700; letter-spacing:-.01em; margin:0 0 1rem; color:var(--text); }
   .tc-sec h2 .tc-n{ color:var(--accent); font-size:.8rem; font-weight:700; letter-spacing:.14em; margin-right:.6rem; vertical-align:.15em; }
@@ -71,7 +78,7 @@
 <main>
   <section class="tc-hero">
     <div class="container">
-      <p class="eyebrow">Store</p>
+      <p class="eyebrow">Terms &amp; Conditions</p>
       <h1>Cancellation Policy</h1>
       <p class="tc-lead">This policy explains how you can cancel an order placed on the White Horse Clips online store, and what happens to your money. It forms part of our <a href="terms.html">Store Terms of Sale</a> and is read with our <a href="returns.html">Returns and Refund Policy</a> and <a href="delivery.html">Delivery Policy</a>.</p>
       <p class="tc-meta">Effective 1 October 2026</p>
@@ -79,38 +86,48 @@
   </section>
 
   <section class="tc-body">
-    <div class="container">
-      <ul class="tc-toc">
-        <li><a href="#cancelling-before-your-order-is-dispatch">Cancelling before your order is dispatched</a></li>
-        <li><a href="#your-7-day-cooling-off-right">Your 7-day cooling-off right</a></li>
-        <li><a href="#when-the-cooling-off-right-does-not-appl">When the cooling-off right does not apply</a></li>
-        <li><a href="#if-we-cancel-your-order">If we cancel your order</a></li>
-        <li><a href="#how-refunds-are-paid">How refunds are paid</a></li>
-        <li><a href="#your-other-rights">Your other rights</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
+    <div class="container tc-layout">
+      <nav class="tc-side" aria-label="Terms &amp; Conditions">
+        <p class="tc-side-h">Terms &amp; Conditions</p>
+        <ul>
+          <li><a href="terms.html">Terms of sale</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="cancellation.html" aria-current="page">Cancellation</a>
+          <ul class="tc-sub">
+            <li><a href="#cancelling-before-your-order-is-dispatch">Cancelling before your order is dispatched</a></li>
+            <li><a href="#cancelling-after-shipment-took-place">Cancelling after shipment took place</a></li>
+            <li><a href="#when-the-right-to-cancel-does-not-apply">When the right to cancel does not apply</a></li>
+            <li><a href="#if-we-cancel-your-order">If we cancel your order</a></li>
+            <li><a href="#how-refunds-are-paid">How refunds are paid</a></li>
+            <li><a href="#your-other-rights">Your other rights</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul></li>
+          <li><a href="returns.html">Returns &amp; refunds</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+      <div class="tc-main">
       <div class="tc-sec" id="cancelling-before-your-order-is-dispatch">
         <h2><span class="tc-n">01</span>Cancelling before your order is dispatched</h2>
-        <p>You may cancel an order, without giving a reason, until we have placed it with our supplier. Email <a href="mailto:info@whclips.co.za">info@whclips.co.za</a> with your order number. If the order has not yet been placed with our supplier, we cancel it and refund everything you paid.</p>
-        <p>Once the order has been placed with our supplier, the 7-day right in section 2 applies.</p>
+        <p>You may cancel an order without giving a reason, just email us at <a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> with your order number. If the order has not yet been shipped, we cancel it and refund everything you paid.</p>
+        <p>Once the order has been shipped section 2 applies.</p>
       </div>
 
-      <div class="tc-sec" id="your-7-day-cooling-off-right">
-        <h2><span class="tc-n">02</span>Your 7-day cooling-off right</h2>
-        <p>Under section 44 of the Electronic Communications and Transactions Act, you may cancel an online purchase without giving a reason, within 7 days of receiving the goods. To give us time to arrange the return with our supplier, please tell us as early as you can, ideally within 5 days of delivery. A request made on day 6 or day 7 is still honoured.</p>
+      <div class="tc-sec" id="cancelling-after-shipment-took-place">
+        <h2><span class="tc-n">02</span>Cancelling after shipment took place</h2>
+        <p>Under section 44 of the Electronic Communications and Transactions Act, you may cancel an online purchase without giving a reason. To give us time to arrange the return with our supplier, please tell us as early as you can, ideally within 5 days of delivery.</p>
         <ul>
-          <li><b>How to cancel.</b> Email <a href="mailto:info@whclips.co.za">info@whclips.co.za</a> with your order number and say that you are cancelling. You do not need to use a form.</li>
-          <li><b>Returning the goods.</b> Send the goods back to us, with everything that came in the box, including the original packaging, in the condition you received them. You may unpack and handle them as far as you need to decide whether to keep them. We will tell you the address and how to send them back.</li>
-          <li><b>Cost of returning.</b> You carry the direct cost of returning the goods to us, and the handling fee below where it applies.</li>
-          <li><b>Condition.</b> Take reasonable care of the goods while they are with you. If they come back damaged, used beyond what you needed to inspect them, or missing parts or packaging, we may deduct the loss in value from your refund.</li>
-          <li><b>Handling fee.</b> When you cancel after your order has been dispatched, a handling fee of 10% of the purchase price is deducted from your refund. It covers the supplier's cost of taking the goods back. No handling fee applies if the goods are faulty, damaged in transit or not what you ordered.</li>
-          <li><b>Your refund.</b> We refund the price you paid, less the handling fee where it applies, to the payment method you used, within 30 days of the date you cancelled, as the Electronic Communications and Transactions Act requires. We may hold the refund until the goods are back with us and checked against your order.</li>
+          <li><b>How to cancel.</b> Email <a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> with your order number and say that you are cancelling.</li>
+          <li><b>Returning the goods.</b> Send the goods back to us, with everything that came in the box, including the original packaging, in the condition you received them.</li>
+          <li><b>Cost of returning.</b> You may carry the direct cost of returning the goods to us, and the handling fee below where it applies.</li>
+          <li><b>Condition.</b> Take reasonable care of the goods while they are with you. If they come back damaged, used, or missing parts or packaging, we may deduct the loss in value from your refund.</li>
+          <li><b>Handling fee.</b> When you cancel after your order has been dispatched, a handling fee of 10% of the price of the goods may be deducted from your refund. The delivery charge is not refundable. No handling fee applies if the goods are faulty, damaged in transit or not what you ordered.</li>
+          <li><b>Your refund.</b> We refund the price of the goods you return, less the handling fee where it applies, to the payment method you used, within 30 days of the date you cancelled, as the Electronic Communications and Transactions Act requires. We may hold the refund until the goods are back with us and checked against your order.</li>
         </ul>
       </div>
 
-      <div class="tc-sec" id="when-the-cooling-off-right-does-not-appl">
-        <h2><span class="tc-n">03</span>When the cooling-off right does not apply</h2>
+      <div class="tc-sec" id="when-the-right-to-cancel-does-not-apply">
+        <h2><span class="tc-n">03</span>When the right to cancel does not apply</h2>
         <p>The right in section 2 does not apply to goods that by their nature cannot be returned, goods made to your own specification, and computer software whose seal you have broken. If we ever sell an item in one of these categories, we say so on its product page before you order.</p>
       </div>
 
@@ -131,7 +148,8 @@
 
       <div class="tc-sec" id="contact">
         <h2><span class="tc-n">07</span>Contact</h2>
-        <p><a href="mailto:info@whclips.co.za">info@whclips.co.za</a> · Monday to Friday, 08:00 to 17:00 (SAST). Messages sent outside those hours are answered the next working day.</p>
+        <p><a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> · Monday to Friday, 08:00 to 17:00 (SAST). Messages sent outside those hours are answered the next working day.</p>
+      </div>
       </div>
     </div>
   </section>
@@ -142,11 +160,13 @@
     <div class="footer-grid">
       <div class="footer-col">
         <span class="footer-logo"><img src="assets/logo.png" alt="WH Clips" class="footer-logo-img">White Horse<span> Clips</span></span>
+        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
       </div>
       <div class="footer-col">
         <h4 class="footer-heading">Contact</h4>
         <p>214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa</p>
-        <p><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+        <p>General information:<br><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+        <p>Shop related:<br><a href="mailto:enquiries@whclips.co.za" class="footer-email">enquiries@whclips.co.za</a></p>
       </div>
       <div class="footer-col">
         <h4 class="footer-heading">Navigation</h4>
@@ -160,7 +180,7 @@
         </nav>
       </div>
       <div class="footer-col">
-        <h4 class="footer-heading">Help</h4>
+        <h4 class="footer-heading">Terms and Conditions</h4>
         <nav class="footer-nav" aria-label="Store policies">
           <a href="terms.html">Terms of sale</a>
           <a href="delivery.html">Delivery</a>
@@ -168,7 +188,6 @@
           <a href="returns.html">Returns &amp; refunds</a>
           <a href="privacy.html">Privacy</a>
         </nav>
-        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
       </div>
     </div>
   <div class="pay-row">
