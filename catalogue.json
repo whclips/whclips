@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-02T14:05:03+00:00",
- "pricedAt": "2026-10-02T14:05:03+00:00",
- "priceValidUntil": "2026-10-02T16:05:03+00:00",
+ "generatedAt": "2026-10-02T14:35:03+00:00",
+ "pricedAt": "2026-10-02T14:35:03+00:00",
+ "priceValidUntil": "2026-10-02T16:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -15,7 +15,7 @@
    "category": "Monitors",
    "price": 3510,
    "stock": "in",
-   "available": 312,
+   "available": 309,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -509,7 +509,7 @@
    "category": "Monitors",
    "price": 2830,
    "stock": "in",
-   "available": 313,
+   "available": 212,
    "badges": [
     "Deal ending soon",
     "On promotion"
@@ -1549,7 +1549,7 @@
    "images": [
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566256/520-BBLV_0.jpg"
    ],
-   "description": "Dell Wired Headset - WH125",
+   "description": "Wired on-ear stereo headset with a rotatable boom microphone, in-line mute and volume controls, and a 2.1 m cable. Compatible with Windows and Mac. Black.",
    "strap": "",
    "warranty": "",
    "highlights": [],
@@ -1975,7 +1975,7 @@
    "category": "Bags & cases",
    "price": 787,
    "stock": "in",
-   "available": 210,
+   "available": 209,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2108,7 +2108,7 @@
    "category": "Bags & cases",
    "price": 739,
    "stock": "in",
-   "available": 194,
+   "available": 184,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2236,7 +2236,7 @@
    "category": "Bags & cases",
    "price": 1270,
    "stock": "in",
-   "available": 29,
+   "available": 28,
    "badges": [],
    "attributes": [],
    "promo": false,
@@ -2391,7 +2391,7 @@
    "images": [
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/450-BFFM_0.jpg"
    ],
-   "description": "Dell 65W USB-C AC Adapter with Power Cord - South Africa",
+   "description": "65 W USB-C power adapter for compatible Dell notebooks, supplied with a 1 m power cord (South African plug). Built-in cable strap and an LED ring on the connector.",
    "strap": "",
    "warranty": "",
    "highlights": [],
@@ -2521,7 +2521,7 @@
    "category": "Accessories",
    "price": 934,
    "stock": "in",
-   "available": 727,
+   "available": 724,
    "badges": [
     "Best seller"
    ],
