@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-03T08:05:03+00:00",
- "pricedAt": "2026-10-03T08:05:03+00:00",
- "priceValidUntil": "2026-10-03T10:05:03+00:00",
+ "generatedAt": "2026-10-03T08:35:02+00:00",
+ "pricedAt": "2026-10-03T08:35:02+00:00",
+ "priceValidUntil": "2026-10-03T10:35:02+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 12,
+ "count": 14,
  "items": [
   {
    "sku": "210-BVKM",
@@ -2105,6 +2105,284 @@
       [
        "Notebook compartment dimensions (W x D x H)",
        "400 x 270 x 25 mm"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "460-BFDD",
+   "name": "Dell Pro 14-16 Plus EcoLoop Urban Backpack - CP5625G",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 739,
+   "stock": "in",
+   "available": 184,
+   "shipKg": 1,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566273/460-BFDD_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566261/460-BFDD_3.jpg"
+   ],
+   "description": "Neatly carry all you need while on the go with this spacious backpack. With a 27-liter capacity and organised pockets, it's durable, stylish and made with recycled materials.",
+   "strap": "Backpack, 40.6 cm (16\"), Shoulder strap, 550 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Fabric, Polyester"
+    ],
+    [
+     "Weight",
+     "550 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Maximum screen size",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Fabric, Polyester"
+      ],
+      [
+       "Product main colour",
+       "Grey"
+      ],
+      [
+       "Integrated compartment(s)",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Side pocket"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Dirt resistant, Water resistant"
+      ],
+      [
+       "Product made with recycled materials",
+       "Yes"
+      ],
+      [
+       "Overall recycled content",
+       "52%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "315 mm"
+      ],
+      [
+       "Depth",
+       "210 mm"
+      ],
+      [
+       "Height",
+       "480 mm"
+      ],
+      [
+       "Weight",
+       "550 g"
+      ],
+      [
+       "Volume",
+       "27 L"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "460-BFCJ",
+   "name": "Dell Pro 13-14 Plus EcoLoop Backpack CP5426G",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 1270,
+   "stock": "in",
+   "available": 28,
+   "shipKg": 1,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_3.jpg"
+   ],
+   "description": "Compact backpack to carry essentials in style. Crafted for sustainability and durably built, it helps reduce impact to the environment and your tech.",
+   "strap": "Backpack, 35.6 cm (14\"), Shoulder strap, 450 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Foam, Polyethylene, Polyurethane"
+    ],
+    [
+     "Weight",
+     "450 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Compatibility",
+       "l"
+      ],
+      [
+       "Maximum screen size",
+       "35.6 cm (14\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Foam, Polyethylene, Polyurethane"
+      ],
+      [
+       "Product main colour",
+       "Grey"
+      ],
+      [
+       "Gender",
+       "Unisex"
+      ],
+      [
+       "Tablet compartment",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Interior pockets",
+       "Zip pocket"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Front pocket, Side pocket"
+      ],
+      [
+       "Number of front pockets",
+       "1"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Scratch resistant"
+      ],
+      [
+       "Overall recycled content",
+       "57%"
+      ],
+      [
+       "Closure type",
+       "Zipper"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "270 mm"
+      ],
+      [
+       "Depth",
+       "165 mm"
+      ],
+      [
+       "Height",
+       "400 mm"
+      ],
+      [
+       "Weight",
+       "450 g"
+      ],
+      [
+       "Notebook compartment dimensions (W x D x H)",
+       "340 x 240 x 20 mm"
+      ],
+      [
+       "Volume",
+       "21 L"
       ]
      ]
     ]
