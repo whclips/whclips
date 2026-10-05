@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-05T14:05:03+00:00",
- "pricedAt": "2026-10-05T14:05:03+00:00",
- "priceValidUntil": "2026-10-05T16:05:03+00:00",
+ "generatedAt": "2026-10-05T14:35:03+00:00",
+ "pricedAt": "2026-10-05T14:35:03+00:00",
+ "priceValidUntil": "2026-10-05T16:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -2534,7 +2534,7 @@
    "category": "Accessories",
    "price": 934,
    "stock": "in",
-   "available": 650,
+   "available": 648,
    "shipKg": 1.5,
    "badges": [
     "Best seller"
