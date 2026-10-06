@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-06T10:05:03+00:00",
- "pricedAt": "2026-10-06T10:05:03+00:00",
- "priceValidUntil": "2026-10-06T12:05:03+00:00",
+ "generatedAt": "2026-10-06T10:35:03+00:00",
+ "pricedAt": "2026-10-06T10:35:03+00:00",
+ "priceValidUntil": "2026-10-06T12:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -1846,7 +1846,7 @@
    "category": "Bags & cases",
    "price": 599,
    "stock": "in",
-   "available": 768,
+   "available": 765,
    "shipKg": 1,
    "badges": [],
    "attributes": [],
@@ -2395,7 +2395,7 @@
    "category": "Cables & adapters",
    "price": 799,
    "stock": "in",
-   "available": 54,
+   "available": 51,
    "shipKg": 0.6,
    "badges": [],
    "attributes": [],
@@ -2534,7 +2534,7 @@
    "category": "Accessories",
    "price": 934,
    "stock": "in",
-   "available": 647,
+   "available": 644,
    "shipKg": 1.5,
    "badges": [
     "Best seller"
