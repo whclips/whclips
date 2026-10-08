@@ -38,6 +38,11 @@
   .ck-total{ display:flex; justify-content:space-between; align-items:baseline; font-size:1.15rem; padding-top:1.1rem; margin-top:.5rem; border-top:1px solid var(--border); }
   .ck-fine{ font-size:.78rem; color:var(--text-dim-40); line-height:1.55; margin:.7rem 0 0; }
   .ck-fine a{ text-decoration:underline; }
+  .ck-terms{ margin:.4rem 0 .2rem; padding:1rem 1.1rem; border:1px solid var(--border); border-radius:10px; background:rgba(255,255,255,.03); }
+  .ck-terms h3{ margin:0 0 .6rem; font-size:.95rem; }
+  .ck-terms ul{ margin:0; padding-left:1.1rem; display:flex; flex-direction:column; gap:.45rem; font-size:.8rem; line-height:1.55; color:var(--text-dim-40); }
+  .ck-terms b{ color:var(--text); font-weight:600; }
+  .ck-terms a{ text-decoration:underline; }
   .ck-form{ display:flex; flex-direction:column; gap:.9rem; }
   .ck-form select{ color-scheme:dark; padding:.7rem .8rem; font-size:.95rem; font-family:inherit; color:var(--text); background:rgba(255,255,255,.04); border:1px solid var(--border); border-radius:8px; }
   .ck-form .form-row input{ padding:.7rem .8rem; font-size:.95rem; }
@@ -135,7 +140,19 @@
               <div class="form-row"><label for="shPostal">Postal code</label><input id="shPostal" name="address_postal_code" type="text" inputmode="numeric" autocomplete="postal-code" required maxlength="4" pattern="[0-9]{4}"></div>
             </div>
             <div class="form-row"><label for="shNotes">Delivery instructions (optional)</label><textarea id="shNotes" name="delivery_instructions" rows="3" maxlength="300" placeholder="For example: gate code, or leave with security"></textarea></div>
-            <label class="ck-check"><input type="checkbox" id="shTerms" required> <span>I accept the <a href="terms.html" target="_blank" rel="noopener">Terms &amp; Conditions</a>.*</span></label>
+            <div class="ck-terms" id="ckTerms">
+              <h3>Before you pay: the key terms</h3>
+              <ul>
+                <li><b>Who you buy from.</b> White Horse Clips (Pty) Ltd, registration 2026/545579/07, 214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa. Shop questions: enquiries@whclips.co.za, Monday to Friday, 08:00 to 17:00 (SAST).</li>
+                <li><b>Price and delivery.</b> All prices are in South African Rand and no VAT is charged. The delivery charge is shown in your total above and is not refundable. We dispatch within 1 to 2 working days; delivery takes 2 to 3 working days in Gauteng and 2 to 10 working days in other provinces.</li>
+                <li><b>Cancelling before we ship.</b> Email us your order number and we cancel it and refund everything you paid.</li>
+                <li><b>Cancelling after shipment.</b> You may cancel an online purchase without giving a reason (section 44 of the Electronic Communications and Transactions Act). Tell us as early as you can, ideally within 5 days of delivery. You may carry the direct cost of returning the goods, and a handling fee of 10% of the price of the goods may be deducted from your refund. The delivery charge is not refundable. The goods must come back with everything in the box, in the condition you received them.</li>
+                <li><b>Faulty, damaged or wrong goods.</b> We replace them at no cost to you, or refund the price of the goods if we have no replacement in stock. No handling fee applies.</li>
+                <li><b>Refunds</b> go back to the payment method you used, within 30 days of the cancellation.</li>
+              </ul>
+              <p class="ck-fine">The full wording is in our <a href="terms.html" target="_blank" rel="noopener">Terms &amp; Conditions</a>, <a href="cancellation.html" target="_blank" rel="noopener">Cancellation Policy</a>, <a href="returns.html" target="_blank" rel="noopener">Returns &amp; Refund Policy</a> and <a href="delivery.html" target="_blank" rel="noopener">Delivery Policy</a>.</p>
+            </div>
+            <label class="ck-check"><input type="checkbox" id="shTerms" required> <span>I accept the <a href="terms.html" target="_blank" rel="noopener">Terms &amp; Conditions</a>, including the <a href="cancellation.html" target="_blank" rel="noopener">Cancellation Policy</a> and the <a href="returns.html" target="_blank" rel="noopener">Returns &amp; Refund Policy</a>.*</span></label>
             <label class="ck-check"><input type="checkbox" id="shPrivacy" required> <span>I have read the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.*</span></label>
             <label class="ck-check"><input type="checkbox" id="shMarketing"> <span>Email me news and offers (optional). You can unsubscribe at any time.</span></label>
             <p class="ck-err" id="ckErr" hidden></p>
@@ -332,7 +349,7 @@
     if (customer.address_city.length < 2) return showErr('Please give us your city or town.');
     if (!customer.address_province) return showErr('Please choose your province.');
     if (!/^\d{4}$/.test(customer.address_postal_code)) return showErr('Please give us a 4-digit postal code.');
-    if (!customer.accepted_terms) return showErr('Please accept the Terms & Conditions.');
+    if (!customer.accepted_terms) return showErr('Please accept the Terms & Conditions, including the Cancellation and Returns & Refund Policies.');
     if (!customer.accepted_privacy) return showErr('Please confirm that you have read the Privacy Policy.');
     showErr('');
     var items = cartLines().map(function(l){ return { sku: l.item.sku, qty: l.qty }; });
