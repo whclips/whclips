@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-08T08:05:02+00:00",
- "pricedAt": "2026-10-08T08:05:02+00:00",
- "priceValidUntil": "2026-10-08T10:05:02+00:00",
+ "generatedAt": "2026-10-08T08:35:04+00:00",
+ "pricedAt": "2026-10-08T08:35:04+00:00",
+ "priceValidUntil": "2026-10-08T10:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -15,7 +15,7 @@
    "category": "Monitors",
    "price": 3510,
    "stock": "in",
-   "available": 309,
+   "available": 312,
    "shipKg": 8,
    "badges": [],
    "attributes": [],
@@ -510,7 +510,7 @@
    "category": "Monitors",
    "price": 2830,
    "stock": "in",
-   "available": 212,
+   "available": 312,
    "shipKg": 9,
    "badges": [
     "Deal ending soon",
@@ -2395,7 +2395,7 @@
    "category": "Cables & adapters",
    "price": 799,
    "stock": "in",
-   "available": 37,
+   "available": 36,
    "shipKg": 0.6,
    "badges": [],
    "attributes": [],
@@ -2534,7 +2534,7 @@
    "category": "Accessories",
    "price": 934,
    "stock": "in",
-   "available": 642,
+   "available": 641,
    "shipKg": 1.5,
    "badges": [
     "Best seller"
