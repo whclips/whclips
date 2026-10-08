@@ -140,7 +140,7 @@
               <div class="form-row"><label for="shPostal">Postal code</label><input id="shPostal" name="address_postal_code" type="text" inputmode="numeric" autocomplete="postal-code" required maxlength="4" pattern="[0-9]{4}"></div>
             </div>
             <div class="form-row"><label for="shNotes">Delivery instructions (optional)</label><textarea id="shNotes" name="delivery_instructions" rows="3" maxlength="300" placeholder="For example: gate code, or leave with security"></textarea></div>
-            <div class="ck-terms" id="ckTerms">
+            <div class="ck-terms" id="ckTerms" hidden>
               <h3>Before you pay: the key terms</h3>
               <ul>
                 <li><b>Who you buy from.</b> White Horse Clips (Pty) Ltd, registration 2026/545579/07, 214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa. Shop questions: enquiries@whclips.co.za, Monday to Friday, 08:00 to 17:00 (SAST).</li>
@@ -152,8 +152,8 @@
               </ul>
               <p class="ck-fine">The full wording is in our <a href="terms.html" target="_blank" rel="noopener">Terms &amp; Conditions</a>, <a href="cancellation.html" target="_blank" rel="noopener">Cancellation Policy</a>, <a href="returns.html" target="_blank" rel="noopener">Returns &amp; Refund Policy</a> and <a href="delivery.html" target="_blank" rel="noopener">Delivery Policy</a>.</p>
             </div>
-            <label class="ck-check"><input type="checkbox" id="shTerms" required> <span>I accept the <a href="terms.html" target="_blank" rel="noopener">Terms &amp; Conditions</a>, including the <a href="cancellation.html" target="_blank" rel="noopener">Cancellation Policy</a> and the <a href="returns.html" target="_blank" rel="noopener">Returns &amp; Refund Policy</a>.*</span></label>
-            <label class="ck-check"><input type="checkbox" id="shPrivacy" required> <span>I have read the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.*</span></label>
+            <label class="ck-check"><input type="checkbox" id="shTerms" required> <span>I have read and accept the <a href="terms.html" id="ckTermsLink" aria-controls="ckTerms" aria-expanded="false">Terms &amp; Conditions</a>.*</span></label>
+            <label class="ck-check"><input type="checkbox" id="shPrivacy" required> <span>I have read and accept the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.*</span></label>
             <label class="ck-check"><input type="checkbox" id="shMarketing"> <span>Email me news and offers (optional). You can unsubscribe at any time.</span></label>
             <p class="ck-err" id="ckErr" hidden></p>
             <button type="submit" class="btn-submit ck-pay" id="ckPay" disabled>Pay with PayFast</button>
@@ -349,7 +349,7 @@
     if (customer.address_city.length < 2) return showErr('Please give us your city or town.');
     if (!customer.address_province) return showErr('Please choose your province.');
     if (!/^\d{4}$/.test(customer.address_postal_code)) return showErr('Please give us a 4-digit postal code.');
-    if (!customer.accepted_terms) return showErr('Please accept the Terms & Conditions, including the Cancellation and Returns & Refund Policies.');
+    if (!customer.accepted_terms) return showErr('Please accept the Terms & Conditions.');
     if (!customer.accepted_privacy) return showErr('Please confirm that you have read the Privacy Policy.');
     showErr('');
     var items = cartLines().map(function(l){ return { sku: l.item.sku, qty: l.qty }; });
@@ -370,6 +370,14 @@
         btn.disabled = false; btn.textContent = 'Pay with PayFast';
       });
   }
+  // The key terms stay out of the way until the customer opens them from the tick-box; without JS the link opens terms.html.
+  byId('ckTermsLink').addEventListener('click', function(e){
+    e.preventDefault();
+    var box = byId('ckTerms'), open = box.hidden;
+    box.hidden = !open;
+    this.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) box.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  });
   byId('ckForm').addEventListener('submit', function(e){ e.preventDefault(); checkout(); });
   // keep the sandbox test switch when going back to the shop and forward again
   if (/[?&]checkout=sandbox-test(&|$)/.test(location.search)) byId('ckBack').setAttribute('href', 'store.html?checkout=sandbox-test');
