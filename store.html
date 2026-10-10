@@ -541,7 +541,7 @@
             '<span class="sh-sku">' + esc(i.sku) + '</span>' +
             '<div class="sh-row">' +
               '<span class="sh-price">' + money(i.price) + '</span>' +
-              '<span class="sh-stock ' + esc(i.stock) + '">' + stockLabel(i) + '</span>' +
+              '<span class="sh-stock ' + stockState(i) + '">' + stockLabel(i) + '</span>' +
             '</div>' +
             '<button type="button" class="sh-add" data-add="' + esc(i.sku) + '"' + (out ? ' disabled' : '') + '>' + (out ? 'Unavailable' : 'Add to cart') + '</button>' +
           '</div>' +
@@ -562,7 +562,9 @@
   function findItem(sku){ return state.items.filter(function(i){ return i.sku === sku; })[0] || null; }
   // The most one order may take: the catalogue's `available` (supplier stock minus one). The Worker enforces the same number.
   function maxQty(sku){ var it = findItem(sku); return it && Number.isInteger(it.available) ? Math.max(0, it.available) : 10; }
-  function stockLabel(i){ return i.stock === 'out' ? 'Out of stock' : Number.isInteger(i.available) ? i.available + ' available' : (i.stock === 'low' ? 'Low stock' : 'In stock'); }
+  // Stock display (JC, 10 Oct 2026): no unit counts. Fewer than 5 available = low stock; 5 or more = in stock.
+  function stockState(i){ if (i.stock === 'out') return 'out'; if (Number.isInteger(i.available)) return i.available < 5 ? 'low' : 'in'; return i.stock === 'low' ? 'low' : 'in'; }
+  function stockLabel(i){ var s = stockState(i); return s === 'out' ? 'Out of stock' : (s === 'low' ? 'Low stock' : 'In stock'); }
 
   function renderDetailImage(){
     var imgs = detail.item.images || [];
@@ -583,7 +585,7 @@
     byId('shDetailBadges').innerHTML = (item.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('')
       + (item.attributes || []).map(function(a){ return '<span class="sh-badge is-best">' + esc(a) + '</span>'; }).join('');
     byId('shDetailPrice').innerHTML = money(item.price);
-    var st = byId('shDetailStock'); st.className = 'sh-stock ' + esc(item.stock); st.textContent = stockLabel(item);
+    var st = byId('shDetailStock'); st.className = 'sh-stock ' + stockState(item); st.textContent = stockLabel(item);
     byId('shDetailQty').textContent = '1';
     var add = byId('shDetailAdd'); add.disabled = out; add.textContent = out ? 'Unavailable' : 'Add to cart';
     byId('shDetailStrap').textContent = item.strap || '';
