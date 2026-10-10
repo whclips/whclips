@@ -154,10 +154,49 @@
   .sh-chip:hover{ color:var(--text); border-color:var(--text-dim-30); }
   .sh-chip.is-on{ background:var(--accent); border-color:var(--accent); color:#fff; }
 
-  .sh-grid{ display:grid; grid-template-columns:1fr; gap:1.25rem; }
-  @media (min-width:600px){ .sh-grid{ grid-template-columns:repeat(2,1fr); } }
-  @media (min-width:960px){ .sh-grid{ grid-template-columns:repeat(3,1fr); } }
-  @media (min-width:1280px){ .sh-grid{ grid-template-columns:repeat(4,1fr); } }
+  /* Search and filter panel on the left (Director's design, 10 Oct 2026): the shop uses the full width. */
+  /* The shop scales to the screen (Director, 10 Oct 2026): no fixed page width; the panel and the number of
+     product columns grow with the display. */
+  .sh-wide{ max-width:none; width:100%; padding-left:clamp(1rem,3vw,4rem); padding-right:clamp(1rem,3vw,4rem); }
+  .sh-layout{ display:grid; grid-template-columns:1fr; gap:1.5rem; align-items:start; }
+  @media (min-width:900px){ .sh-layout{ grid-template-columns:clamp(240px,15vw,340px) minmax(0,1fr); } }
+  .sh-side{ border:1px solid var(--border); border-radius:12px; padding:1rem; background:rgba(255,255,255,.02); }
+  @media (min-width:900px){ .sh-side{ position:sticky; top:84px; max-height:calc(100vh - 104px); overflow:auto; } }
+  .sh-side-h{ display:block; margin:1.1rem 0 .45rem; font-size:.7rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--text-dim-40); }
+  .sh-side-h:first-child{ margin-top:0; }
+  .sh-side input[type=search]{
+    width:100%; font-family:var(--font); font-size:.88rem; color:var(--text); background:transparent;
+    border:1px solid var(--border); border-radius:8px; padding:.55rem .7rem;
+  }
+  .sh-side input[type=search]:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .sh-facet{ list-style:none; margin:0; padding:0; }
+  .sh-facet li{
+    display:flex; justify-content:space-between; gap:.6rem; padding:.38rem .6rem; border-radius:8px; cursor:pointer;
+    font-size:.86rem; color:var(--text-dim-55);
+  }
+  .sh-facet li:hover{ color:var(--text); background:rgba(255,255,255,.04); }
+  .sh-facet li.is-on{ background:var(--accent); color:#fff; font-weight:600; }
+  .sh-facet li .n{ opacity:.7; font-variant-numeric:tabular-nums; }
+  .sh-clear{
+    margin-top:1.1rem; cursor:pointer; font-family:var(--font); font-size:.8rem; font-weight:600; color:var(--text-dim-55);
+    background:transparent; border:1px solid var(--border); border-radius:8px; padding:.45rem .8rem;
+  }
+  .sh-clear:hover{ color:var(--text); border-color:var(--text-dim-30); }
+  @media (max-width:899px){
+    .sh-facet{ display:flex; flex-wrap:wrap; gap:.4rem; }
+    .sh-facet li{ border:1px solid var(--border); border-radius:999px; padding:.35rem .8rem; }
+  }
+  .sh-count{ margin-right:auto; font-size:.82rem; color:var(--text-dim-55); }
+  .sh-sortbar{ display:flex; align-items:center; justify-content:flex-end; gap:.6rem; margin:0 0 1.25rem; }
+  .sh-sortbar label{ font-size:.78rem; font-weight:600; letter-spacing:.04em; color:var(--text-dim-55); }
+  .sh-sortbar select{
+    font-family:var(--font); font-size:.82rem; color:var(--text); background:transparent; border:1px solid var(--border);
+    border-radius:8px; padding:.45rem .7rem; cursor:pointer;
+  }
+  .sh-sortbar select option{ color:#111; background:#fff; }
+  .sh-sortbar select:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+
+  .sh-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr)); gap:1.25rem; }
   .sh-empty{ grid-column:1/-1; padding:3rem 1rem; text-align:center; color:var(--text-dim-40); }
 
   .sh-card{
@@ -330,7 +369,7 @@
 <main>
   <!-- ================= SHOP ================= -->
   <section class="st-sec" id="shop">
-    <div class="container">
+    <div class="container sh-wide">
       <div class="st-head">
         <span class="st-num">01</span>
         <span class="st-rule"></span>
@@ -341,11 +380,33 @@
 
       <div class="sh-notice" id="shNotice" hidden></div>
 
-      <div class="sh-filters" id="shFilters" role="tablist" aria-label="Product categories"></div>
+      <div class="sh-layout">
+      <aside class="sh-side" aria-label="Search and filters">
+        <label class="sh-side-h" for="shSearch">Search</label>
+        <input type="search" id="shSearch" placeholder="Name, brand or code" autocomplete="off">
+        <h3 class="sh-side-h">Category</h3>
+        <ul class="sh-facet" id="shCats"></ul>
+        <h3 class="sh-side-h">Brand</h3>
+        <ul class="sh-facet" id="shBrands"></ul>
+        <button type="button" class="sh-clear" id="shClear">Clear filters</button>
+      </aside>
+      <div class="sh-main">
+      <div class="sh-sortbar">
+        <span class="sh-count" id="shCount" aria-live="polite"></span>
+        <label for="shSort">Sort by</label>
+        <select id="shSort">
+          <option value="featured">Featured</option>
+          <option value="price-asc">Price, low to high</option>
+          <option value="price-desc">Price, high to low</option>
+          <option value="name">Name A to Z</option>
+        </select>
+      </div>
 
       <div class="sh-grid" id="shGrid" aria-live="polite">
         <div class="sh-empty">Loading products&hellip;</div>
       </div>
+      </div><!-- /.sh-main -->
+      </div><!-- /.sh-layout -->
     </div>
   </section>
 
@@ -463,7 +524,10 @@
   var CART_KEY = 'whc-cart-v1';
   // On localhost the store talks to wrangler dev; live, to the Worker. Checkout
   // on the live site stays off until WHC_CHECKOUT_LIVE is set on checkout.html - the go-live gate.
-  var state = { items: [], filter: 'All', cart: {} };
+  var state = { items: [], filter: 'All', brand: 'All', q: '', sort: 'featured', cart: {} };
+  // The shop categories, in the order customers see them (Director, 10 Oct 2026). Any other name sorts after these.
+  var CATEGORY_ORDER = ['Laptops & desktops', 'Monitors & stands', 'Keyboards & mice', 'Headsets, audio & webcams', 'Bags & cases',
+    'Cables, power & docks', 'Storage & memory', 'Servers & networking', 'Software & warranties', 'Accessories'];
 
   function money(n){ return 'R' + Math.round(n).toLocaleString('en-ZA'); }
   function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
@@ -511,21 +575,63 @@
   }
 
   // ---- filters ------------------------------------------------------------
-  function renderFilters(){
-    var cats = ['All'].concat(Array.from(new Set(state.items.map(function(i){ return i.category; }))).sort());
-    byId('shFilters').innerHTML = cats.map(function(c){
-      return '<button type="button" class="sh-chip' + (c === state.filter ? ' is-on' : '') + '" data-cat="' + esc(c) + '" role="tab">' + esc(c) + '</button>';
-    }).join('');
+  // Search, category and brand together. `skip` leaves one filter out so each list can show the counts it would give.
+  function matches(i, skip){
+    if (skip !== 'cat' && state.filter !== 'All' && i.category !== state.filter) return false;
+    if (skip !== 'brand' && state.brand !== 'All' && i.brand !== state.brand) return false;
+    if (state.q){
+      var q = state.q.toLowerCase();
+      if ((i.name + ' ' + i.brand + ' ' + i.sku).toLowerCase().indexOf(q) < 0) return false;
+    }
+    return true;
   }
-  byId('shFilters').addEventListener('click', function(e){
-    var b = e.target.closest('.sh-chip'); if (!b) return;
-    state.filter = b.getAttribute('data-cat'); renderFilters(); renderGrid();
+  function facetHtml(counts, order, current){
+    var total = Object.keys(counts).reduce(function(a, k){ return a + counts[k]; }, 0);
+    var h = '<li data-v="All" class="' + (current === 'All' ? 'is-on' : '') + '"><span>All</span><span class="n">' + total + '</span></li>';
+    order.forEach(function(n){
+      if (!counts[n] && n !== current) return;
+      h += '<li data-v="' + esc(n) + '" class="' + (n === current ? 'is-on' : '') + '"><span>' + esc(n) + '</span><span class="n">' + (counts[n] || 0) + '</span></li>';
+    });
+    return h;
+  }
+  function renderFilters(){
+    var cc = {}, bc = {};
+    state.items.forEach(function(i){
+      if (matches(i, 'cat')) cc[i.category] = (cc[i.category] || 0) + 1;
+      if (matches(i, 'brand')) bc[i.brand] = (bc[i.brand] || 0) + 1;
+    });
+    var all = Array.from(new Set(state.items.map(function(i){ return i.category; })));
+    var rank = function(c){ var n = CATEGORY_ORDER.indexOf(c); return n < 0 ? 999 : n; };
+    var catOrder = all.sort(function(a, b){ return rank(a) - rank(b) || a.localeCompare(b); });
+    var brandOrder = Array.from(new Set(state.items.map(function(i){ return i.brand; })))
+      .sort(function(a, b){ return (bc[b] || 0) - (bc[a] || 0) || a.localeCompare(b); });
+    byId('shCats').innerHTML = facetHtml(cc, catOrder, state.filter);
+    byId('shBrands').innerHTML = facetHtml(bc, brandOrder, state.brand);
+  }
+  function refresh(){ renderFilters(); renderGrid(); }
+  byId('shSort').addEventListener('change', function(){ state.sort = this.value; renderGrid(); });
+  byId('shSearch').addEventListener('input', function(){ state.q = this.value.trim(); refresh(); });
+  byId('shCats').addEventListener('click', function(e){
+    var li = e.target.closest('li'); if (!li) return; state.filter = li.getAttribute('data-v'); refresh();
+  });
+  byId('shBrands').addEventListener('click', function(e){
+    var li = e.target.closest('li'); if (!li) return; state.brand = li.getAttribute('data-v'); refresh();
+  });
+  byId('shClear').addEventListener('click', function(){
+    state.q = ''; state.filter = 'All'; state.brand = 'All'; byId('shSearch').value = ''; refresh();
   });
 
   // ---- grid ---------------------------------------------------------------
   function badgeClass(b){ return /deal/i.test(b) ? ' is-deal' : /best/i.test(b) ? ' is-best' : ''; }
   function renderGrid(){
-    var list = state.items.filter(function(i){ return state.filter === 'All' || i.category === state.filter; });
+    var list = state.items.filter(function(i){ return matches(i); });
+    byId('shCount').textContent = list.length + (list.length === 1 ? ' product' : ' products');
+    // Sort a copy. Featured keeps the catalogue order but puts badged items (best sellers, deals) first.
+    var byBadge = function(i){ return (i.badges && i.badges.length) ? 0 : 1; };
+    if (state.sort === 'price-asc') list = list.slice().sort(function(a, b){ return a.price - b.price || a.name.localeCompare(b.name); });
+    else if (state.sort === 'price-desc') list = list.slice().sort(function(a, b){ return b.price - a.price || a.name.localeCompare(b.name); });
+    else if (state.sort === 'name') list = list.slice().sort(function(a, b){ return a.name.localeCompare(b.name); });
+    else list = list.map(function(i, n){ return [i, n]; }).sort(function(a, b){ return byBadge(a[0]) - byBadge(b[0]) || a[1] - b[1]; }).map(function(p){ return p[0]; });
     if (!list.length){ byId('shGrid').innerHTML = '<div class="sh-empty">Nothing in this category right now.</div>'; return; }
     byId('shGrid').innerHTML = list.map(function(i){
       var img = i.images && i.images[0]
