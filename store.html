@@ -665,8 +665,7 @@
     var total = lines.reduce(function(n, l){ return n + l.qty * l.item.price; }, 0);
     byId('shAddedName').textContent = item.name;
     byId('shAddedSum').textContent = count + (count === 1 ? ' item' : ' items') + ' in your cart \u00b7 ' + money(total);
-    var keep = /[?&]checkout=sandbox-test(&|$)/.test(location.search) ? '?checkout=sandbox-test' : '';
-    byId('shAddedGo').setAttribute('href', 'checkout.html' + keep);
+    byId('shAddedGo').setAttribute('href', 'checkout.html');
     byId('shAdded').hidden = false; byId('shScrim').hidden = false; byId('shAddedGo').focus();
   }
   function closeAdded(){ byId('shAdded').hidden = true; byId('shScrim').hidden = true; }

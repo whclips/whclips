@@ -219,10 +219,7 @@
   // On localhost the page talks to wrangler dev; live, to the Worker.
   var LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
   var API = LOCAL ? 'http://localhost:8787' : 'https://whclips-access-gate.green-mouse-5a6e.workers.dev';
-  if (LOCAL) window.WHC_CHECKOUT_LIVE = true;
-  // SANDBOX TEST ONLY: ?checkout=sandbox-test opens the checkout while the Worker still points at the PayFast
-  // sandbox (no real money moves). REMOVE THIS LINE before the live PayFast switch.
-  if (!LOCAL && /[?&]checkout=sandbox-test(&|$)/.test(location.search)) window.WHC_CHECKOUT_LIVE = true;
+  window.WHC_CHECKOUT_LIVE = true;   // the checkout is live for everyone (go-live switch)
   // The policy version shown on terms.html and the other four pages (their "Effective" date). The Worker
   // refuses a different value and stores the accepted one with the order. Change both together.
   var POLICY_VERSION = '2026-10-09';
@@ -379,8 +376,6 @@
     if (open) box.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   });
   byId('ckForm').addEventListener('submit', function(e){ e.preventDefault(); checkout(); });
-  // keep the sandbox test switch when going back to the shop and forward again
-  if (/[?&]checkout=sandbox-test(&|$)/.test(location.search)) byId('ckBack').setAttribute('href', 'store.html?checkout=sandbox-test');
   loadCart(); render();
 })();
 </script>
