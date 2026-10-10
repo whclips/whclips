@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="assets/logo.png">
 <title>Store — WH Clips</title>
@@ -667,7 +668,9 @@
     var total = lines.reduce(function(n, l){ return n + l.qty * l.item.price; }, 0);
     byId('shAddedName').textContent = item.name;
     byId('shAddedSum').textContent = count + (count === 1 ? ' item' : ' items') + ' in your cart \u00b7 ' + money(total);
-    byId('shAddedGo').setAttribute('href', 'checkout.html');
+    // The store is closed to the public (Director, 10 Oct 2026): keep the private opening link when going to the cart.
+    var keep = /[?&]checkout=whc-open-4c9e(&|$)/.test(location.search) ? '?checkout=whc-open-4c9e' : '';
+    byId('shAddedGo').setAttribute('href', 'checkout.html' + keep);
     byId('shAdded').hidden = false; byId('shScrim').hidden = false; byId('shAddedGo').focus();
   }
   function closeAdded(){ byId('shAdded').hidden = true; byId('shScrim').hidden = true; }

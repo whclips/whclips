@@ -219,7 +219,12 @@
   // On localhost the page talks to wrangler dev; live, to the Worker.
   var LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
   var API = LOCAL ? 'http://localhost:8787' : 'https://whclips-access-gate.green-mouse-5a6e.workers.dev';
-  window.WHC_CHECKOUT_LIVE = true;   // the checkout is live for everyone (go-live switch)
+  // CLOSED TO THE PUBLIC (Director, 10 Oct 2026): the checkout opens only on this PC (localhost) or with the
+  // private link ?checkout=whc-open-4c9e. This hides the Pay button; it is not a lock on the Worker. To open the
+  // shop for everyone, replace the next three lines with: window.WHC_CHECKOUT_LIVE = true;
+  if (LOCAL) window.WHC_CHECKOUT_LIVE = true;
+  if (!LOCAL && /[?&]checkout=whc-open-4c9e(&|$)/.test(location.search)) window.WHC_CHECKOUT_LIVE = true;
+  if (/[?&]checkout=whc-open-4c9e(&|$)/.test(location.search)) { var ckb = document.getElementById('ckBack'); if (ckb) ckb.setAttribute('href', 'store.html?checkout=whc-open-4c9e'); }
   // The policy version shown on terms.html and the other four pages (their "Effective" date). The Worker
   // refuses a different value and stores the accepted one with the order. Change both together.
   var POLICY_VERSION = '2026-10-09';
