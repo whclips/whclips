@@ -254,8 +254,10 @@
     if (!DELIVERY_ON) { byId('ckTotal').textContent = money2(itemsTotal); return; }
     var q = state.quote, lines = cartLines();
     if (q && q.key === cartKey(lines)) {
-      byId('ckDelivery').textContent = money2(q.delivery);
-      byId('ckDeliveryNote').textContent = (q.service === 'ECO' ? 'Delivery within Gauteng' : 'Delivery to ' + byId('shProvince').value) + ', about ' + q.days + ' after we dispatch. Parcel billed at ' + q.billedKg + ' kg.';
+      byId('ckDelivery').textContent = q.free ? 'R0.00' : money2(q.delivery);
+      byId('ckDeliveryNote').textContent = q.free
+        ? 'Your delivery is free.' + (q.service === 'Email delivery' ? ' Your licence is sent by email.' : ' ' + (q.service === 'ECO' ? 'Delivery within Gauteng' : 'Delivery to ' + byId('shProvince').value) + ', about ' + q.days + ' after we dispatch.')
+        : (q.service === 'ECO' ? 'Delivery within Gauteng' : 'Delivery to ' + byId('shProvince').value) + ', about ' + q.days + ' after we dispatch. Parcel billed at ' + q.billedKg + ' kg.';
       byId('ckTotal').textContent = money2(q.total);
     } else {
       byId('ckDelivery').textContent = byId('shProvince').value ? 'Calculating…' : 'Choose your province';

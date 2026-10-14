@@ -301,6 +301,7 @@
   @media (min-width:860px){ .sh-detail-info{ padding:2.25rem 2.25rem 1.75rem 2rem; } }
   .sh-detail-name{ font-size:1.35rem; font-weight:700; line-height:1.3; letter-spacing:-.01em; margin:0; color:var(--text); text-wrap:balance; }
   .sh-badges-inline{ position:static; margin:.25rem 0; }
+  .sh-badge-free{ background:#0f766e; color:#fff; } .sh-free-note{ display:block; flex-basis:100%; font-size:.78rem; color:#555; margin-top:.2rem; }
   .sh-detail-row{ margin-top:.5rem; padding-top:.25rem; }
   .sh-detail-row .sh-price{ font-size:1.6rem; }
   .sh-detail-buy{ display:flex; align-items:center; gap:.9rem; margin:.5rem 0 1rem; }
@@ -638,7 +639,8 @@
       var img = i.images && i.images[0]
         ? '<img src="' + esc(i.images[0]) + '" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'sh-noimg\',textContent:\'Image to follow\'}))">'
         : '<span class="sh-noimg">Image to follow</span>';
-      var badges = (i.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('');
+      var badges = (i.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('')
+        + (i.freeDelivery === true ? '<span class="sh-badge sh-badge-free" title="Free delivery anywhere in South Africa on this item. In a basket with other items, delivery is worked out at checkout.">Free delivery</span>' : '');
       var out = i.stock === 'out';
       return '' +
         '<article class="sh-card" data-sku="' + esc(i.sku) + '">' +
@@ -690,7 +692,7 @@
     byId('shDetailBrand').textContent = item.brand;
     byId('shDetailName').textContent = item.name;
     byId('shDetailSku').textContent = item.sku;
-    byId('shDetailBadges').innerHTML = (item.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('')
+    byId('shDetailBadges').innerHTML = (item.freeDelivery === true ? '<span class="sh-badge sh-badge-free">Free delivery</span><small class="sh-free-note">Free delivery anywhere in South Africa on this item. In a basket with other items, delivery is worked out at checkout.</small>' : '') + (item.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('')
       + (item.attributes || []).map(function(a){ return '<span class="sh-badge is-best">' + esc(a) + '</span>'; }).join('');
     byId('shDetailPrice').innerHTML = money(item.price);
     var st = byId('shDetailStock'); st.className = 'sh-stock ' + stockState(item); st.textContent = stockLabel(item);
