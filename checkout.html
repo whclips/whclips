@@ -113,7 +113,7 @@
           <p class="ck-fine" id="ckDeliveryNote"></p>
           </div>
           <div class="ck-total"><span>Total</span><strong id="ckTotal">R0.00</strong></div>
-          <p class="ck-fine">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged. The delivery charge is not included in the item prices; it is worked out from your province and the weight of your order and added to the total before you pay. Stock and price are checked again when you pay.</p>
+          <p class="ck-fine">Orders are limited to 10 of any one item. Need more? Email <a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> and we will quote you. Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged. The delivery charge is not included in the item prices; it is worked out from your province and the weight of your order and added to the total before you pay. Stock and price are checked again when you pay.</p>
           <p class="ck-fine"><a href="store.html">&larr; Continue shopping</a></p>
         </div>
 
@@ -240,7 +240,8 @@
   function saveCart(){ try { localStorage.setItem(CART_KEY, JSON.stringify(state.cart)); } catch(e){} }
   function isListable(i){ return !!i && i.stock !== 'out' && Number(i.price) > 0; }
   function findItem(sku){ return state.items.filter(function(i){ return i.sku === sku; })[0] || null; }
-  function maxQty(sku){ var it = findItem(sku); return it && Number.isInteger(it.available) ? Math.max(0, it.available) : 10; }
+  var MAX_PER_LINE = 10;   // the most of one item an online order takes (Director 15 Oct 2026); more is a quote by email. Keep equal to CHECKOUT_MAX_QTY in the Worker.
+  function maxQty(sku){ var it = findItem(sku); return Math.min(MAX_PER_LINE, it && Number.isInteger(it.available) ? Math.max(0, it.available) : MAX_PER_LINE); }
   function cartLines(){
     return Object.keys(state.cart).map(function(sku){ var item = findItem(sku); return item ? { item: item, qty: state.cart[sku] } : null; }).filter(Boolean);
   }

@@ -559,6 +559,7 @@
       renderChips();
       renderGrid();
       loadCart();
+      Object.keys(state.cart).forEach(function(k){ if (state.cart[k] > maxQty(k)) state.cart[k] = maxQty(k); });   // a cart saved before the limit
       returnFromPayFast();
       renderCart();
       openFromHash();
@@ -586,7 +587,7 @@
 
   // ---- filters ------------------------------------------------------------
   // Search, category and brand together. `skip` leaves one filter out so each list can show the counts it would give.
-  var SPECIALS = ['On promotion', 'Deal ending soon', 'Best seller', 'New', 'Free delivery'];
+  var SPECIALS = ['On promotion', 'Deal ending soon', 'Best seller', 'New'];
   function hasSpecial(i, k){ return k === 'Free delivery' ? i.freeDelivery === true : (i.badges || []).indexOf(k) >= 0; }
   function renderChips(){
     var base = state.items.filter(function(i){ return matches(i, 'special'); });
@@ -696,7 +697,8 @@
   var detail = { item: null, qty: 1, img: 0 };
   function findItem(sku){ return state.items.filter(function(i){ return i.sku === sku; })[0] || null; }
   // The most one order may take: the catalogue's `available` (supplier stock minus one). The Worker enforces the same number.
-  function maxQty(sku){ var it = findItem(sku); return it && Number.isInteger(it.available) ? Math.max(0, it.available) : 10; }
+  var MAX_PER_LINE = 10;   // the most of one item an online order takes (Director 15 Oct 2026); more is a quote by email. Keep equal to CHECKOUT_MAX_QTY in the Worker.
+  function maxQty(sku){ var it = findItem(sku); return Math.min(MAX_PER_LINE, it && Number.isInteger(it.available) ? Math.max(0, it.available) : MAX_PER_LINE); }
   // Stock display (JC, 10 Oct 2026): no unit counts. Fewer than 5 available = low stock; 5 or more = in stock.
   function stockState(i){ if (i.stock === 'out') return 'out'; if (Number.isInteger(i.available)) return i.available < 5 ? 'low' : 'in'; return i.stock === 'low' ? 'low' : 'in'; }
   function stockLabel(i){ var s = stockState(i); return s === 'out' ? 'Out of stock' : (s === 'low' ? 'Low stock' : 'In stock'); }
