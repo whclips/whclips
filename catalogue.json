@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-14T22:15:13+00:00",
- "pricedAt": "2026-10-14T22:15:13+00:00",
- "priceValidUntil": "2026-10-15T00:15:13+00:00",
+ "generatedAt": "2026-10-14T22:35:02+00:00",
+ "pricedAt": "2026-10-14T22:35:02+00:00",
+ "priceValidUntil": "2026-10-15T00:35:02+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -7201,7 +7201,7 @@
   },
   {
    "sku": "400-BDVG",
-   "name": "Dell 1.92TB SSD SATA Mixed Use 6Gbps 512e 2.5in Hot plug 3.5in HYB CARR DriveS4610 CK Compatible R640/R740/R740xd/C6420/R440/R540/R6415/R7415/R7425/R240/R740xd2/R6515/R6525/R7515/R7525",
+   "name": "Dell 1.92TB SSD SATA Mixed Use 6Gbps 512e 2.5in Hot plug 3.5in HYB CARR DriveS4610",
    "brand": "Dell",
    "category": "Accessories",
    "price": 46994,
@@ -7216,7 +7216,6 @@
    "attributes": [],
    "promo": false,
    "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990695/400-BDVG_0.jpg",
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990695/400-BDVG_1.jpg",
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990695/400-BDVG_2.jpg"
    ],
