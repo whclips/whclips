@@ -383,8 +383,7 @@
         <span class="st-rule"></span>
         <span class="st-label">Shop</span>
       </div>
-      <h2>In stock and ready to order.</h2>
-      <p style="margin-bottom:1.5rem;" id="shVatNote">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.</p>
+      <h2 style="margin-bottom:1.5rem;">In stock and ready to order.</h2>
 
       <div class="sh-notice" id="shNotice" hidden></div>
 
@@ -579,10 +578,7 @@
       n.hidden = false; n.className = 'sh-notice is-warn';
       n.textContent = 'Prices are being refreshed. Browse freely - checkout reopens in a few minutes.';
       state.stale = true;
-    } else if (anyPromo){
-      n.hidden = false; n.className = 'sh-notice';
-      n.textContent = 'Some items are on promotion. Promo prices hold until our next hourly refresh.';
-    }
+    }   // no promo notice on the page (Director 15 Oct 2026); only the stale-price warning above remains
   }
 
   // ---- filters ------------------------------------------------------------
