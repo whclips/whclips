@@ -187,6 +187,12 @@
     .sh-facet li{ border:1px solid var(--border); border-radius:999px; padding:.35rem .8rem; }
   }
   .sh-count{ margin-right:auto; font-size:.82rem; color:var(--text-dim-55); }
+  .sh-chips{ display:flex; flex-wrap:wrap; gap:.5rem; margin:0 0 1rem; }
+  .sh-chip{ font:inherit; font-size:.8rem; font-weight:600; letter-spacing:.03em; padding:.45rem .85rem; border-radius:999px; border:1px solid var(--text-dim-30); background:transparent; color:var(--text); cursor:pointer; }
+  .sh-chip .n{ opacity:.6; margin-left:.35rem; font-weight:500; }
+  .sh-chip:hover{ border-color:var(--accent); }
+  .sh-chip.is-on{ background:var(--accent); border-color:var(--accent); color:#fff; }
+  .sh-chip:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
   .sh-sortbar{ display:flex; align-items:center; justify-content:flex-end; gap:.6rem; margin:0 0 1.25rem; }
   .sh-sortbar label{ font-size:.78rem; font-weight:600; letter-spacing:.04em; color:var(--text-dim-55); }
   .sh-sortbar select{
@@ -393,6 +399,7 @@
         <button type="button" class="sh-clear" id="shClear">Clear filters</button>
       </aside>
       <div class="sh-main">
+      <div class="sh-chips" id="shChips" role="group" aria-label="Specials"></div>
       <div class="sh-sortbar">
         <span class="sh-count" id="shCount" aria-live="polite"></span>
         <label for="shSort">Sort by</label>
@@ -526,7 +533,7 @@
   var CART_KEY = 'whc-cart-v1';
   // On localhost the store talks to wrangler dev; live, to the Worker. Checkout
   // on the live site stays off until WHC_CHECKOUT_LIVE is set on checkout.html - the go-live gate.
-  var state = { items: [], filter: 'All', brand: 'All', q: '', sort: 'featured', cart: {} };
+  var state = { items: [], filter: 'All', brand: 'All', special: 'All', q: '', sort: 'featured', cart: {} };
   // The shop categories, in the order customers see them (Director, 10 Oct 2026). Any other name sorts after these.
   var CATEGORY_ORDER = ['Laptops & desktops', 'Monitors & stands', 'Keyboards & mice', 'Headsets, audio & webcams', 'Bags & cases',
     'Cables, power & docks', 'Storage & memory', 'Servers & networking', 'Software & warranties', 'Accessories'];
@@ -549,6 +556,7 @@
       state.items = (cat.items || []).filter(isListable);
       staleCheck(cat);
       renderFilters();
+      renderChips();
       renderGrid();
       loadCart();
       returnFromPayFast();
@@ -578,9 +586,22 @@
 
   // ---- filters ------------------------------------------------------------
   // Search, category and brand together. `skip` leaves one filter out so each list can show the counts it would give.
+  var SPECIALS = ['On promotion', 'Deal ending soon', 'Best seller', 'New', 'Free delivery'];
+  function hasSpecial(i, k){ return k === 'Free delivery' ? i.freeDelivery === true : (i.badges || []).indexOf(k) >= 0; }
+  function renderChips(){
+    var base = state.items.filter(function(i){ return matches(i, 'special'); });
+    var h = '<button type="button" class="sh-chip' + (state.special === 'All' ? ' is-on' : '') + '" data-v="All">All<span class="n">' + base.length + '</span></button>';
+    SPECIALS.forEach(function(k){
+      var n = base.filter(function(i){ return hasSpecial(i, k); }).length;
+      if (!n && state.special !== k) return;
+      h += '<button type="button" class="sh-chip' + (state.special === k ? ' is-on' : '') + '" data-v="' + esc(k) + '">' + esc(k) + '<span class="n">' + n + '</span></button>';
+    });
+    byId('shChips').innerHTML = h;
+  }
   function matches(i, skip){
     if (skip !== 'cat' && state.filter !== 'All' && i.category !== state.filter) return false;
     if (skip !== 'brand' && state.brand !== 'All' && i.brand !== state.brand) return false;
+    if (skip !== 'special' && state.special !== 'All' && !hasSpecial(i, state.special)) return false;
     if (state.q){
       var q = state.q.toLowerCase();
       if ((i.name + ' ' + i.brand + ' ' + i.sku).toLowerCase().indexOf(q) < 0) return false;
@@ -610,7 +631,10 @@
     byId('shCats').innerHTML = facetHtml(cc, catOrder, state.filter);
     byId('shBrands').innerHTML = facetHtml(bc, brandOrder, state.brand);
   }
-  function refresh(){ renderFilters(); renderGrid(); }
+  function refresh(){ renderFilters(); renderChips(); renderGrid(); }
+  byId('shChips').addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return; state.special = b.getAttribute('data-v'); refresh();
+  });
   byId('shSort').addEventListener('change', function(){ state.sort = this.value; renderGrid(); });
   byId('shSearch').addEventListener('input', function(){ state.q = this.value.trim(); refresh(); });
   byId('shCats').addEventListener('click', function(e){
@@ -620,7 +644,7 @@
     var li = e.target.closest('li'); if (!li) return; state.brand = li.getAttribute('data-v'); refresh();
   });
   byId('shClear').addEventListener('click', function(){
-    state.q = ''; state.filter = 'All'; state.brand = 'All'; byId('shSearch').value = ''; refresh();
+    state.q = ''; state.filter = 'All'; state.brand = 'All'; state.special = 'All'; byId('shSearch').value = ''; refresh();
   });
 
   // ---- grid ---------------------------------------------------------------
