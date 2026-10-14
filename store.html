@@ -649,7 +649,7 @@
             '<span class="sh-name">' + esc(i.name) + '</span>' +
             '<span class="sh-sku">' + esc(i.sku) + '</span>' +
             '<div class="sh-row">' +
-              '<span class="sh-price">' + money(i.price) + (i.freeDelivery === true ? '<small class="sh-free" title="Free delivery anywhere in South Africa on this item. In a basket with other items, delivery is worked out at checkout.">Free delivery</small>' : '') + '</span>' +
+              '<span class="sh-price">' + money(i.price) + (i.freeDelivery === true ? '<small class="sh-free">Free delivery</small>' : '') + '</span>' +
               '<span class="sh-stock ' + stockState(i) + '">' + stockLabel(i) + '</span>' +
             '</div>' +
             '<button type="button" class="sh-add" data-add="' + esc(i.sku) + '"' + (out ? ' disabled' : '') + '>' + (out ? 'Unavailable' : 'Add to cart') + '</button>' +
@@ -693,7 +693,7 @@
     byId('shDetailSku').textContent = item.sku;
     byId('shDetailBadges').innerHTML = (item.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('')
       + (item.attributes || []).map(function(a){ return '<span class="sh-badge is-best">' + esc(a) + '</span>'; }).join('');
-    byId('shDetailPrice').innerHTML = money(item.price) + (item.freeDelivery === true ? '<small class="sh-free">Free delivery anywhere in South Africa on this item. In a basket with other items, delivery is worked out at checkout.</small>' : '');
+    byId('shDetailPrice').innerHTML = money(item.price) + (item.freeDelivery === true ? '<small class="sh-free">Free delivery</small>' : '');
     var st = byId('shDetailStock'); st.className = 'sh-stock ' + stockState(item); st.textContent = stockLabel(item);
     byId('shDetailQty').textContent = '1';
     var add = byId('shDetailAdd'); add.disabled = out; add.textContent = out ? 'Unavailable' : 'Add to cart';
