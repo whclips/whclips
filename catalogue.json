@@ -1,514 +1,201 @@
 {
- "generatedAt": "2026-10-14T14:35:03+00:00",
- "pricedAt": "2026-10-14T14:35:03+00:00",
- "priceValidUntil": "2026-10-14T16:35:03+00:00",
+ "generatedAt": "2026-10-14T15:05:03+00:00",
+ "pricedAt": "2026-10-14T15:05:03+00:00",
+ "priceValidUntil": "2026-10-14T17:05:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 14,
+ "count": 104,
  "items": [
   {
-   "sku": "210-BVKM",
-   "name": "Dell Pro P 24 Monitor - P2426H",
-   "brand": "Dell",
-   "category": "Monitors",
-   "price": 3510,
-   "stock": "in",
-   "available": 276,
-   "shipKg": 4.9,
+   "sku": "1P3K6AA",
+   "name": "HP Accessories 65W USB C LC Power Adapter",
+   "brand": "HP",
+   "category": "Accessories",
+   "price": 372,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566245/210-BVKM_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566248/210-BVKM_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566241/210-BVKM_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566239/210-BVKM_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566239/210-BVKM_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566239/210-BVKM_5.jpg"
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/hpic_1p3k6aa.jpg"
    ],
-   "description": "Equipped for seamless productivity, this 23.8-inch FHD monitor offers extensive connectivity, high refresh rate and TÜV-certified 4-star eye comfort.",
-   "strap": "61 cm (24\"), 1920 x 1080 pixels, Full HD, LCD, 8 ms, Black",
-   "warranty": "3 Years Advance Exchange Service",
-   "highlights": [
-    [
-     "Display diagonal",
-     "61 cm (24\")"
-    ],
-    [
-     "Display resolution",
-     "1920 x 1080 pixels"
-    ],
-    [
-     "Maximum refresh rate",
-     "120 Hz"
-    ],
-    [
-     "Panel type",
-     "IPS"
-    ],
-    [
-     "Response time",
-     "8 ms"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ]
-   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
    "specs": [],
-   "specGroups": [
-    [
-     "Display",
-     [
-      [
-       "Display diagonal",
-       "61 cm (24\")"
-      ],
-      [
-       "Display resolution",
-       "1920 x 1080 pixels"
-      ],
-      [
-       "HD type",
-       "Full HD"
-      ],
-      [
-       "Native aspect ratio",
-       "16:9"
-      ],
-      [
-       "Display technology",
-       "LCD"
-      ],
-      [
-       "Panel type",
-       "IPS"
-      ],
-      [
-       "LED backlight",
-       "Yes"
-      ],
-      [
-       "Backlight type",
-       "Edge LED"
-      ],
-      [
-       "Touchscreen",
-       "No"
-      ],
-      [
-       "Display brightness (typical)",
-       "300 cd/m²"
-      ],
-      [
-       "Response time",
-       "8 ms"
-      ],
-      [
-       "Response time measurement type",
-       "GTG (Gray to Gray)"
-      ],
-      [
-       "Anti-glare screen",
-       "Yes"
-      ],
-      [
-       "Screen shape",
-       "Flat"
-      ],
-      [
-       "Supported graphics resolutions",
-       "640 x 480 (VGA), 720 x 400, 800 x 600 (SVGA), 1024 x 768 (XGA), 1152 x 864 (XGA+), 1280 x 720 (HD 720), 1280 x 1024 (SXGA), 1600 x 900, 1920 x 1080 (HD 1080)"
-      ],
-      [
-       "Supported video modes",
-       "1080p, 720p, 576p, 480p"
-      ],
-      [
-       "Contrast ratio (typical)",
-       "1500:1"
-      ],
-      [
-       "Maximum refresh rate",
-       "120 Hz"
-      ],
-      [
-       "Viewing angle, horizontal",
-       "178°"
-      ],
-      [
-       "Viewing angle, vertical",
-       "178°"
-      ],
-      [
-       "Display number of colours",
-       "16.7 million colours"
-      ],
-      [
-       "Response time (fast)",
-       "5 ms"
-      ],
-      [
-       "Pixel pitch",
-       "0.2745 x 0.2745 mm"
-      ],
-      [
-       "Pixel density",
-       "93 ppi"
-      ],
-      [
-       "Horizontal scan range",
-       "30 - 135 kHz"
-      ],
-      [
-       "Vertical scan range",
-       "48 - 120 Hz"
-      ],
-      [
-       "Viewable size, horizontal",
-       "52.7 cm"
-      ],
-      [
-       "Viewable size, vertical",
-       "29.6 cm"
-      ],
-      [
-       "Viewable size diagonal",
-       "60.5 cm"
-      ],
-      [
-       "Surface hardness",
-       "3H"
-      ],
-      [
-       "sRGB coverage (typical)",
-       "99%"
-      ]
-     ]
-    ],
-    [
-     "Performance",
-     [
-      [
-       "NVIDIA G-SYNC",
-       "No"
-      ],
-      [
-       "AMD FreeSync",
-       "No"
-      ],
-      [
-       "Flicker-free technology",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Multimedia",
-     [
-      [
-       "Built-in speaker(s)",
-       "No"
-      ],
-      [
-       "Built-in camera",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Product colour",
-       "Black"
-      ]
-     ]
-    ],
-    [
-     "Ports & interfaces",
-     [
-      [
-       "Built-in USB hub",
-       "Yes"
-      ],
-      [
-       "USB hub version",
-       "2.0 / 3.2 Gen 1 (3.1 Gen 1)"
-      ],
-      [
-       "USB upstream port type",
-       "USB Type-B"
-      ],
-      [
-       "Number of downstream ports",
-       "4"
-      ],
-      [
-       "Number of USB Type-B upstream ports quantity",
-       "1"
-      ],
-      [
-       "USB Type-A downstream ports quantity",
-       "2"
-      ],
-      [
-       "USB Type-C downstream ports quantity",
-       "2"
-      ],
-      [
-       "HDMI",
-       "Yes"
-      ],
-      [
-       "HDMI ports quantity",
-       "1"
-      ],
-      [
-       "HDMI version",
-       "1.4"
-      ],
-      [
-       "DisplayPorts quantity",
-       "1"
-      ],
-      [
-       "DisplayPort version",
-       "1.4"
-      ],
-      [
-       "Headphone out",
-       "No"
-      ],
-      [
-       "HDCP",
-       "Yes"
-      ],
-      [
-       "HDCP version",
-       "1.4"
-      ],
-      [
-       "Charging port type",
-       "USB Type-C"
-      ]
-     ]
-    ],
-    [
-     "Ergonomics",
-     [
-      [
-       "VESA mounting",
-       "Yes"
-      ],
-      [
-       "Panel mounting interface",
-       "100 x 100 mm"
-      ],
-      [
-       "Cable management",
-       "Yes"
-      ],
-      [
-       "Cable lock slot",
-       "Yes"
-      ],
-      [
-       "Cable lock slot type",
-       "Kensington"
-      ],
-      [
-       "Height adjustment",
-       "Yes"
-      ],
-      [
-       "Adjustable height (max)",
-       "15 cm"
-      ],
-      [
-       "Pivot",
-       "Yes"
-      ],
-      [
-       "Pivot angle",
-       "-90 - 90°"
-      ],
-      [
-       "Swivelling",
-       "Yes"
-      ],
-      [
-       "Swivel angle range",
-       "-45 - 45°"
-      ],
-      [
-       "Tilt adjustment",
-       "Yes"
-      ],
-      [
-       "Tilt angle range",
-       "-5 - 21°"
-      ],
-      [
-       "On Screen Display (OSD)",
-       "Yes"
-      ],
-      [
-       "Plug and Play",
-       "Yes"
-      ],
-      [
-       "LED indicators",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Energy efficiency class (SDR)",
-       "C"
-      ],
-      [
-       "Energy efficiency class (HDR)",
-       "Not available"
-      ],
-      [
-       "Energy consumption (SDR) per 1000 hours",
-       "12 kWh"
-      ],
-      [
-       "Power consumption (typical)",
-       "11.7 W"
-      ],
-      [
-       "Power consumption (standby)",
-       "0.3 W"
-      ],
-      [
-       "Power consumption (max)",
-       "74 W"
-      ],
-      [
-       "Power consumption (off)",
-       "0.3 W"
-      ],
-      [
-       "AC input voltage",
-       "100 - 240 V"
-      ],
-      [
-       "AC input frequency",
-       "50/60 Hz"
-      ],
-      [
-       "Power supply type",
-       "Internal"
-      ],
-      [
-       "Energy efficiency scale",
-       "A to G"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "0 - 40 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-20 - 60 °C"
-      ],
-      [
-       "Operating relative humidity (H-H)",
-       "10 - 80%"
-      ],
-      [
-       "Storage relative humidity (H-H)",
-       "5 - 90%"
-      ],
-      [
-       "Operating altitude",
-       "0 - 5000 m"
-      ],
-      [
-       "Non-operating altitude",
-       "0 - 12192 m"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width (with stand)",
-       "538.6 mm"
-      ],
-      [
-       "Depth (with stand)",
-       "181.8 mm"
-      ],
-      [
-       "Height (with stand)",
-       "410.8 mm"
-      ],
-      [
-       "Weight (with stand)",
-       "4.84 kg"
-      ],
-      [
-       "Width (without stand)",
-       "538.6 mm"
-      ],
-      [
-       "Depth (without stand)",
-       "50 mm"
-      ],
-      [
-       "Height (without stand)",
-       "314.2 mm"
-      ],
-      [
-       "Weight (without stand)",
-       "3.34 kg"
-      ],
-      [
-       "Bezel width (side)",
-       "5.8 mm"
-      ],
-      [
-       "Bezel width (top)",
-       "5.8 mm"
-      ],
-      [
-       "Bezel width (bottom)",
-       "1.2 cm"
-      ]
-     ]
-    ],
-    [
-     "Other features",
-     [
-      [
-       "Compliance certificates",
-       "RoHS"
-      ]
-     ]
-    ]
-   ]
+   "specGroups": []
+  },
+  {
+   "sku": "210-ASMT-16675907",
+   "name": "Dell Wyse 5470 CTO/Wyse 5470 Intel Celeron N4100/8GB 2x4GB 2400MHz DDR416GB eMMC/PCoIP enabled Wyse ThinOS 9.X/1Y Partner Led Carry In Service",
+   "brand": "Dell",
+   "category": "DESKTOP-THIN CLIENT",
+   "price": 10300,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-asmt-16675907.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BFIS",
+   "name": "Dell UltraSharp 43 4K USB-C Hub Monitor-U4323QE - 107.9cm (42.5)",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 22880,
+   "stock": "in",
+   "available": 6,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bfis.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BMHD",
+   "name": "Dell Pro 22 Plus Monitor - P2225H",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 2950,
+   "stock": "in",
+   "available": 91,
+   "shipKg": 0,
+   "badges": [
+    "On promotion",
+    "Deal ending soon"
+   ],
+   "attributes": [],
+   "promo": true,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bmhd.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BNHT",
+   "name": "Alienware 27 4K Dual-Resolution Gaming Monitor",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 11730,
+   "stock": "in",
+   "available": 9,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bnht.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BQMX",
+   "name": "Dell Pro 24 Plus QHD Monitor - P2425D",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 5230,
+   "stock": "in",
+   "available": 7,
+   "shipKg": 0,
+   "badges": [
+    "On promotion",
+    "Deal ending soon"
+   ],
+   "attributes": [],
+   "promo": true,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqmx.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BQSZ",
+   "name": "Dell Pro 27 Plus QHD USB-C Hub Monitor - P2725DE",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 7720,
+   "stock": "in",
+   "available": 33,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqsz.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BQZY",
+   "name": "Dell Pro 32 Plus 4K USB-C Hub Monitor - P3225QE",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 13270,
+   "stock": "in",
+   "available": 10,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bqzy.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "210-BRDQ",
    "name": "Dell Pro 27 Monitor E2725HM",
    "brand": "Dell",
    "category": "Monitors",
-   "price": 2830,
+   "price": 2910,
    "stock": "in",
    "available": 311,
    "shipKg": 4.6,
@@ -943,11 +630,1740 @@
    ]
   },
   {
+   "sku": "210-BSVN",
+   "name": "Dell 27 Plus QHD Monitor - S2725DSM",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 5570,
+   "stock": "in",
+   "available": 12,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bsvn.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BTHY",
+   "name": "Dell Pro Thunderbolt 4 Dock - WD25TB4",
+   "brand": "Dell",
+   "category": "Docks (Port Replicators)",
+   "price": 5610,
+   "stock": "in",
+   "available": 14,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bthy.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BTPZ",
+   "name": "Dell Pro 27 Adjustable Stand Monitor",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 3430,
+   "stock": "in",
+   "available": 45,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-btpz.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BTQB",
+   "name": "Dell Pro 27 QHD Monitor",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 4610,
+   "stock": "in",
+   "available": 31,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-btqb.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BVHR",
+   "name": "Dell Pro P 27 USB-C Hub Conferencing Monitor - P2726DEB",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 9110,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvhr.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BVHS",
+   "name": "Dell Pro P 24 USB-C Hub Conferencing Monitor - P2426HEB",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 7210,
+   "stock": "in",
+   "available": 8,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvhs.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BVHT",
+   "name": "Dell Pro P 34 USB-C Hub Webcam Monitor - P3426WEV",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 14140,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvht.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BVJR",
+   "name": "Dell Pro P 24 16:10 Monitor- P2426",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 4440,
+   "stock": "in",
+   "available": 134,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvjr.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BVJT",
+   "name": "Dell Pro P 24 16:10 USB-C Hub Monitor - P2426E",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 6010,
+   "stock": "in",
+   "available": 29,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-bvjt.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "345-BDSG",
+   "name": "1.92TB SSD SATA Read Intensive 6Gbps 512e 2.5in with 3.5in HYB CARR, Hot-Plug, CUS Kit",
+   "brand": "Dell",
+   "category": "Enterprise Kits",
+   "price": 48380,
+   "stock": "in",
+   "available": 9,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/delle_345-bdsg.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "345-BGSY",
+   "name": "960GB SSD SATA Read Intensive 6Gbps 512e 2.5in with 3.5in HYB CARR, Hot-plug, CK",
+   "brand": "Dell",
+   "category": "STORAGE-ACCESSORY",
+   "price": 10860,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/delle_345-bgsy.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "400-BDVG",
+   "name": "Dell 1.92TB SSD SATA Mixed Use 6Gbps 512e 2.5in Hot plug 3.5in HYB CARR DriveS4610 CK Compatible R640/R740/R740xd/C6420/R440/R540/R6415/R7415/R7425/R240/R740xd2/R6515/R6525/R7515/R7525",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 43630,
+   "stock": "low",
+   "available": 1,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/ea/b4/eab4fc07-4d4d-46d5-b077-9b1a813aa7e3.jpg",
+    "https://cdn.cs.1worldsync.com/b6/ae/b6ae0b8a-85b3-4743-b222-6d92fbaa1aa5.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "400-BGED",
+   "name": "4TB 5.4K RPM SATA 6Gbps 512n 3.5in Cabled Hard Drive CK",
+   "brand": "Dell",
+   "category": "Enterprise Kits",
+   "price": 4640,
+   "stock": "in",
+   "available": 9,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/delle_400-bged.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "400-BLCL",
+   "name": "Dell 240GB SSD M.2 SATA 6Gbps 512e Hard Drive Single Stick",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 7870,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/delle_400-blcl.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "429-AAOX-SLIM",
+   "name": "Dell 8X DVD ROM/Internal/slim",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 760,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/delle_429-aaox-slim.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "450-AFLE",
+   "name": "Dell Laptop Car and Airplane 65W DC Power Adapter - USB-C",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 1240,
+   "stock": "in",
+   "available": 78,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/69/6c/696cfd1f-ee56-4c7c-b022-74d586b6bd86.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "450-BGJW",
+   "name": "Dell E5 130W USB-C AC Adapter with Red Top Plug Power Cord - South Africa",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 1350,
+   "stock": "in",
+   "available": 29,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_450-bgjw.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "460-BCQL",
+   "name": "Dell Premier Briefcase (M) Fits Most Screen Sizes Up to 15.6 PE1520C",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 1410,
+   "stock": "in",
+   "available": 12,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/57/c9/57c9a833-d311-473c-b1d6-27bb8cd52bcc.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "460-BDSR",
+   "name": "Dell Pro 13-14 Plus EcoLoop Briefcase - CC5425C",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 715,
+   "stock": "in",
+   "available": 53,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/f0/39/f0396794-bf24-4005-9e59-478ae285cd28.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "460-BDVL",
+   "name": "Dell EcoLoop Protective Case for Latitude 7350 Detachable CG7325L",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 1090,
+   "stock": "low",
+   "available": 1,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdvl.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "460-BDWQ",
+   "name": "Dell Pro 11-14 EcoLoop Urban Sleeve - CV4425",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 410,
+   "stock": "in",
+   "available": 43,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdwq.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "460-BDXV",
+   "name": "Dell EcoLoop Premier Slim Backpack 14 16 (CP7625S)",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 1220,
+   "stock": "in",
+   "available": 29,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bdxv.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "460-BFCJ",
+   "name": "Dell Pro 13-14 Plus EcoLoop Backpack CP5426G",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 662,
+   "stock": "in",
+   "available": 67,
+   "shipKg": 0.5,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_3.jpg"
+   ],
+   "description": "Compact backpack to carry essentials in style. Crafted for sustainability and durably built, it helps reduce impact to the environment and your tech.",
+   "strap": "Backpack, 35.6 cm (14\"), Shoulder strap, 450 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Foam, Polyethylene, Polyurethane"
+    ],
+    [
+     "Weight",
+     "450 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Compatibility",
+       "l"
+      ],
+      [
+       "Maximum screen size",
+       "35.6 cm (14\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Foam, Polyethylene, Polyurethane"
+      ],
+      [
+       "Product main colour",
+       "Grey"
+      ],
+      [
+       "Gender",
+       "Unisex"
+      ],
+      [
+       "Tablet compartment",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Interior pockets",
+       "Zip pocket"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Front pocket, Side pocket"
+      ],
+      [
+       "Number of front pockets",
+       "1"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Scratch resistant"
+      ],
+      [
+       "Overall recycled content",
+       "57%"
+      ],
+      [
+       "Closure type",
+       "Zipper"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "270 mm"
+      ],
+      [
+       "Depth",
+       "165 mm"
+      ],
+      [
+       "Height",
+       "400 mm"
+      ],
+      [
+       "Weight",
+       "450 g"
+      ],
+      [
+       "Notebook compartment dimensions (W x D x H)",
+       "340 x 240 x 20 mm"
+      ],
+      [
+       "Volume",
+       "21 L"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "460-BFCR",
+   "name": "Alienware 16 Backpack AW5625P",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 1100,
+   "stock": "in",
+   "available": 17,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bfcr.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "460-BFDD",
+   "name": "Dell Pro 14-16 Plus EcoLoop Urban Backpack - CP5625G",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 496,
+   "stock": "in",
+   "available": 339,
+   "shipKg": 0.6,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566273/460-BFDD_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566261/460-BFDD_3.jpg"
+   ],
+   "description": "Neatly carry all you need while on the go with this spacious backpack. With a 27-liter capacity and organised pockets, it's durable, stylish and made with recycled materials.",
+   "strap": "Backpack, 40.6 cm (16\"), Shoulder strap, 550 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Fabric, Polyester"
+    ],
+    [
+     "Weight",
+     "550 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Maximum screen size",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Fabric, Polyester"
+      ],
+      [
+       "Product main colour",
+       "Grey"
+      ],
+      [
+       "Integrated compartment(s)",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Side pocket"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Dirt resistant, Water resistant"
+      ],
+      [
+       "Product made with recycled materials",
+       "Yes"
+      ],
+      [
+       "Overall recycled content",
+       "52%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "315 mm"
+      ],
+      [
+       "Depth",
+       "210 mm"
+      ],
+      [
+       "Height",
+       "480 mm"
+      ],
+      [
+       "Weight",
+       "550 g"
+      ],
+      [
+       "Volume",
+       "27 L"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "460-BFFV",
+   "name": "Dell Pro 14-16 Plus EcoLoop Backpack CP5626",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 937,
+   "stock": "in",
+   "available": 48,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bffv.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "460-BFFY",
+   "name": "Dell Pro 14 16 Plus EcoLoop Briefcase CC5626",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 850,
+   "stock": "in",
+   "available": 6,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_460-bffy.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "470-ACFH",
+   "name": "Kit - Type C dongle (7.4mm)",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 590,
+   "stock": "in",
+   "available": 24,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/34/c1/34c176a1-2f4e-4467-932c-dcb28b38cb2f.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "470-BCFW",
+   "name": "Dell Adapter - USB-C to HDMI 2.1",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 587,
+   "stock": "in",
+   "available": 74,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bcfw.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "470-BDNL",
+   "name": "Dell DisplayPort 1.4 Cable - CB325D",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 261,
+   "stock": "in",
+   "available": 88,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNL_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNL_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNL_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/470-BDNL_3.jpg"
+   ],
+   "description": "DELL CB325D. Cable length: 1.8 m, Connector 1: DisplayPort, Connector 2: DisplayPort. Weight: 91 g",
+   "strap": "1.8 m, DisplayPort, DisplayPort, Male, Male, 7680 x 4320 pixels",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Maximum refresh rate",
+     "120 Hz"
+    ],
+    [
+     "Cable length",
+     "1.8 m"
+    ],
+    [
+     "Connector 1",
+     "DisplayPort"
+    ],
+    [
+     "Connector 2",
+     "DisplayPort"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "91 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Connector 1 form factor",
+       "Straight"
+      ],
+      [
+       "Connector 2 form factor",
+       "Straight"
+      ],
+      [
+       "DisplayPort version",
+       "1.4"
+      ],
+      [
+       "Maximum resolution",
+       "7680 x 4320 pixels"
+      ],
+      [
+       "Maximum refresh rate",
+       "120 Hz"
+      ],
+      [
+       "Cable length",
+       "1.8 m"
+      ],
+      [
+       "Connector 1",
+       "DisplayPort"
+      ],
+      [
+       "Connector 2",
+       "DisplayPort"
+      ],
+      [
+       "Connector 1 gender",
+       "Male"
+      ],
+      [
+       "Connector 2 gender",
+       "Male"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "91 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "470-BFBN",
+   "name": "Dell Pro 4-in-1 USB-C Travel Hub-DA225",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 703,
+   "stock": "in",
+   "available": 67,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bfbn.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "470-BGCG",
+   "name": "Dell Pro 7-in-1 USB-C Travel Hub - DA326",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 1620,
+   "stock": "in",
+   "available": 52,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_470-bgcg.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "482-BBDJ",
+   "name": "Dell Pro Single Monitor Arm - MSA20",
+   "brand": "Dell",
+   "category": "Monitor Arms & Stands",
+   "price": 3050,
+   "stock": "in",
+   "available": 7,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/48/5c/485c1dff-d6a2-432a-add0-f2fb4ac70b5b.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "482-BBFP",
+   "name": "Dell Pro Slim All In One - OSS25",
+   "brand": "Dell",
+   "category": "Monitor Arms & Stands",
+   "price": 2950,
+   "stock": "low",
+   "available": 3,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_482-bbfp.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "492-BDSB",
+   "name": "Dell 100W USB-C GaN Ultra Slim AC Adapter with Power Cord - South Africa",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 1660,
+   "stock": "in",
+   "available": 39,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_492-bdsb.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "520-AAVQ",
+   "name": "Dell Pro Desktop Speakerphone - SP3022",
+   "brand": "Dell",
+   "category": "Headsets & audio",
+   "price": 1300,
+   "stock": "in",
+   "available": 7,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/b5/eb/b5eb657e-f223-46e6-a22d-ce26532bde7b.jpg",
+    "https://cdn.cs.1worldsync.com/07/38/073835ce-b1c2-4944-b026-b2121838f969.jpg",
+    "https://cdn.cs.1worldsync.com/d5/71/d571fa33-8b2f-462f-a8e5-1d511cb9b284.jpg",
+    "https://cdn.cs.1worldsync.com/c6/a3/c6a334b6-2ca1-4eaf-8e7d-1e4374c351ee.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "520-BBDQ",
+   "name": "Dell Wireless Audio Receiver - HR024",
+   "brand": "Dell",
+   "category": "Headsets & audio",
+   "price": 1330,
+   "stock": "low",
+   "available": 1,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/13/d9/13d936b1-28f7-44a1-9956-72f1f93836c9.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "520-BBGN",
+   "name": "Dell Pro Plus Wireless Headset Charging Stand - HC524",
+   "brand": "Dell",
+   "category": "Headsets & audio",
+   "price": 1050,
+   "stock": "low",
+   "available": 1,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bbgn.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "520-BBLY",
+   "name": "Dell Pro Premium Conferencing Soundbar - SB725",
+   "brand": "Dell",
+   "category": "Soundbars",
+   "price": 1410,
+   "stock": "low",
+   "available": 1,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bbly.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "520-BBMP",
+   "name": "Dell Pro Wired Speakerphone SP325",
+   "brand": "Dell",
+   "category": "Headsets & audio",
+   "price": 1570,
+   "stock": "low",
+   "available": 3,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_520-bbmp.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "545-BBCL",
+   "name": "Alienware 510K Low-profile RGB Mechanical Gaming Keyboard - AW510K (Dark Side of the Moon)",
+   "brand": "Dell",
+   "category": "Gaming accessories",
+   "price": 2440,
+   "stock": "in",
+   "available": 7,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_545-bbcl.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "545-BBDS",
+   "name": "Alienware Wired Gaming Mouse - AW320M",
+   "brand": "Dell",
+   "category": "Gaming accessories",
+   "price": 945,
+   "stock": "low",
+   "available": 1,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/9b/ae/9bae405f-2d05-48df-82e9-71e51b9f3c93.jpg",
+    "https://cdn.cs.1worldsync.com/cb/84/cb841962-28de-4fb6-bb69-7b536deb1f76.jpg",
+    "https://cdn.cs.1worldsync.com/48/ee/48eea895-83e6-41cf-a512-e18eadcf7e5f.jpg",
+    "https://cdn.cs.1worldsync.com/d6/d1/d6d16fc9-a2a8-4f2a-abb4-02f8287b3176.jpg",
+    "https://cdn.cs.1worldsync.com/a6/a7/a6a7ba90-755c-4eca-a01c-2015be2d8b17.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "545-BBDY",
+   "name": "Alienware Tenkeyless Gaming Keyboard - AW420K - US (QWERTY)",
+   "brand": "Dell",
+   "category": "Gaming accessories",
+   "price": 1990,
+   "stock": "in",
+   "available": 9,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_545-bbdy.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "545-BBFB",
+   "name": "Alienware Wireless Gaming Mouse - AW620M (Dark Side of the Moon)",
+   "brand": "Dell",
+   "category": "Gaming accessories",
+   "price": 1580,
+   "stock": "in",
+   "available": 6,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/c4/c6/c4c690be-e15c-4514-8fc1-a1b301e888e1.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "545-BBFH",
+   "name": "Alienware Wired Gaming Headset - AW520H (Dark Side of the Moon)",
+   "brand": "Dell",
+   "category": "Gaming accessories",
+   "price": 1660,
+   "stock": "low",
+   "available": 5,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/6b/79/6b792eb9-6dbe-48f7-a482-7570d86ea44a.jpg",
+    "https://cdn.cs.1worldsync.com/2c/1d/2c1d834d-5b7a-4198-8c97-42e3ce062540.jpg",
+    "https://cdn.cs.1worldsync.com/57/ab/57aba395-4aec-40a6-947c-e73c15c8ee66.jpg",
+    "https://cdn.cs.1worldsync.com/66/ac/66ac1557-d225-4be5-ad79-e0248c0df749.jpg",
+    "https://cdn.cs.1worldsync.com/3a/ea/3aea4bf9-d9e0-4cb9-8abf-f590b243097b.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "545-BBFS",
+   "name": "Alienware Pro Wireless Gaming Headset - Dark Side of the Moon",
+   "brand": "Dell",
+   "category": "Gaming accessories",
+   "price": 4530,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_545-bbfs.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "545-BBFW",
+   "name": "Alienware Tri-Mode Wireless Gaming Headset AW725H - Dark Side of the Moon",
+   "brand": "Dell",
+   "category": "Gaming accessories",
+   "price": 3310,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_545-bbfw.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-ABHI",
+   "name": "Dell Pro Plus Mouse - MS5320W",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 801,
+   "stock": "in",
+   "available": 38,
+   "shipKg": 0,
+   "badges": [
+    "Best seller"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/85/39/853916e1-9efc-417d-84e7-182fd2b92184.jpg",
+    "https://cdn.cs.1worldsync.com/1e/b2/1eb28301-e105-4364-b556-6ed0fceb1af7.jpg",
+    "https://cdn.cs.1worldsync.com/51/e8/51e873de-2b7a-4113-8403-71aaf1cc7e1f.jpg",
+    "https://cdn.cs.1worldsync.com/91/2a/912a6051-91db-4963-b399-7e04735413b9.jpg",
+    "https://cdn.cs.1worldsync.com/62/6f/626f5909-811b-4856-b4e1-6a153b9f114d.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-ABLO",
+   "name": "Dell Pro Premium Compact Mouse - MS7421W - Platinum Silver",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 748,
+   "stock": "in",
+   "available": 58,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/62/59/625994d2-5670-487c-8e30-d034aa42214d.jpg",
+    "https://cdn.cs.1worldsync.com/8e/33/8e333521-c8a5-4c3a-94d6-d40a25227500.jpg",
+    "https://cdn.cs.1worldsync.com/96/da/96daba5d-3cc1-4088-9a11-76fa5af92d1d.jpg",
+    "https://cdn.cs.1worldsync.com/c6/da/c6da2022-f30a-4c17-be9c-72b492bf0221.jpg",
+    "https://cdn.cs.1worldsync.com/e1/94/e194d1b0-a9ae-4fa7-a170-b456628a7420.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-ABQN",
+   "name": "Dell Bluetooth Travel Mouse - MS700 - Black",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1020,
+   "stock": "in",
+   "available": 23,
+   "shipKg": 0,
+   "badges": [
+    "Best seller"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/41/41/4141aef3-758b-443a-8a64-1156e890e5fa.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-BBCB",
+   "name": "Dell Pro Premium Mouse - MS900",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1730,
+   "stock": "in",
+   "available": 12,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/00/75/0075f0b8-d6d7-4f40-9d2b-e37491e136bd.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-BBDM",
+   "name": "Dell Pro Premium Compact Mouse - MS7421W - Graphite Black",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 888,
+   "stock": "in",
+   "available": 36,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bbdm.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-BBFX",
+   "name": "Dell Bluetooth Travel Mouse_ MS700_Misty Blue",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1070,
+   "stock": "in",
+   "available": 8,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bbfx.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-BBJH",
+   "name": "Dell Pro Compact Silent Mouse - MS355",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 514,
+   "stock": "in",
+   "available": 102,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bbjh.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-BBLH",
+   "name": "Dell Pro 7 Silent Mouse - MS726",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 686,
+   "stock": "in",
+   "available": 92,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_570-bblh.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "570-BBMJ",
+   "name": "Dell Mouse - WM118",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 202,
+   "stock": "in",
+   "available": 237,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/570-BBMJ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/570-BBMJ_1.jpg"
+   ],
+   "description": "The WM118 Wireless Optical Mouse from Dell offers you everyday wireless performance with excellent battery life. It is designed to create a clutter-free workspace with a reliable, plug-and-play RF wireless connection. This wireless mouse provides reliable performance and a stable wireless connection through the USB anchored RF wireless dongle. Its Plug and play feature allows for easy installation so users can get started using their mouse within minutes, with no confusing software or setup requirements. The small size and wireless performance help to make WM118 wireless optical mouse a great option for on-the-go users.",
+   "strap": "Ambidextrous, Optical, RF Wireless, 1000 DPI, Black",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Movement resolution",
+     "1000 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "82 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical"
+      ],
+      [
+       "Purpose",
+       "Universal"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "RF Wireless"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "1000 DPI"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Batteries"
+      ],
+      [
+       "Number of batteries supported",
+       "1"
+      ],
+      [
+       "Battery type",
+       "AA"
+      ],
+      [
+       "Service life of battery",
+       "18 month(s)"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "63 mm"
+      ],
+      [
+       "Depth",
+       "101.5 mm"
+      ],
+      [
+       "Height",
+       "34.4 mm"
+      ],
+      [
+       "Weight",
+       "82 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "580-17667",
    "name": "Dell Business Multimedia Keyboard - KB522 - US International (QWERTY)",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 651,
+   "price": 540,
    "stock": "in",
    "available": 325,
    "shipKg": 0.6,
@@ -1126,11 +2542,33 @@
    ]
   },
   {
+   "sku": "580-18366",
+   "name": "Dell Pro Smartcard Keyboard - KB813 - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 799,
+   "stock": "in",
+   "available": 18,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/14/01/14018150-c655-4e14-97a9-2e7da2b5971a.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
    "sku": "580-AKOO",
    "name": "Dell Pro Keyboard - KB500 - US International (QWERTY)",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 576,
+   "price": 478,
    "stock": "in",
    "available": 289,
    "shipKg": 0.5,
@@ -1350,142 +2788,915 @@
    ]
   },
   {
-   "sku": "570-ABOC",
-   "name": "Dell Pro Mouse - MS300",
+   "sku": "580-AKPT",
+   "name": "Dell Pro Plus Keyboard - KB700 - US International (QWERTY)",
    "brand": "Dell",
    "category": "Keyboards & mice",
-   "price": 498,
+   "price": 1170,
    "stock": "in",
-   "available": 185,
-   "shipKg": 0.1,
+   "available": 20,
+   "shipKg": 0,
    "badges": [],
    "attributes": [],
    "promo": false,
    "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/570-ABOC_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/570-ABOC_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/570-ABOC_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566260/570-ABOC_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566260/570-ABOC_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566255/570-ABOC_5.jpg"
+    "https://cdn.cs.1worldsync.com/d3/64/d3649e40-b581-4991-93bc-cb5aa36b45c6.jpg",
+    "https://cdn.cs.1worldsync.com/7c/1d/7c1d1567-a6b7-4341-9bf1-f61a11ee4dc3.jpg",
+    "https://cdn.cs.1worldsync.com/22/b1/22b1fb17-6d76-41c3-90c6-e18fdfb2f8bb.jpg",
+    "https://cdn.cs.1worldsync.com/1c/cb/1ccb4c07-5541-4a5a-a634-914c85db4ecd.jpg",
+    "https://cdn.cs.1worldsync.com/f3/d8/f3d85dbe-d0d4-43d8-8efe-5d0588ba8a9d.jpg"
    ],
-   "description": "Enhance productivity with this expertly designed mouse, powered by one of the industry's leading battery lives of up to 36 months.",
-   "strap": "Ambidextrous, Optical, RF Wireless, 4000 DPI, Black",
-   "warranty": "3 Years NBD Advance Exchange",
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "580-BBDH",
+   "name": "Dell Pro Premium Collaboration Keyboard - KB900 - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 2670,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/5d/50/5d50a1b5-133c-46c5-a113-29fea1d00f9b.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "580-BBVV",
+   "name": "Dell Pro Compact Silent Keyboard and Mouse - KM555 - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 874,
+   "stock": "in",
+   "available": 54,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_580-bbvv.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "580-BDKV",
+   "name": "Dell Pro 5 Keyboard and Mouse - KM526 - US International (QWERTY) - Black",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 724,
+   "stock": "in",
+   "available": 102,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_580-bdkv.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "634-BYKY",
+   "name": "Windows Server 2022 Standard Edition Add License16CORE NO MEDIA/KEY Cus Kit",
+   "brand": "Dell",
+   "category": "OPERATING SYSTEM-LICENSE",
+   "price": 22720,
+   "stock": "in",
+   "available": 7,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/delle_634-byky.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "634-BYLI",
+   "name": "Dell Windows Server 2022 Essentials Ed 2SKT ROK (for Distributor sale only)",
+   "brand": "Dell",
+   "category": "OPERATING SYSTEM-LICENSE",
+   "price": 8200,
+   "stock": "low",
+   "available": 5,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/delle_634-byli.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "634-CVDV",
+   "name": "Windows Server 2025 Standard Edition, Add License,2CORE, NO MEDIA/KEY, Cus Kit",
+   "brand": "Dell",
+   "category": "OPERATING SYSTEM-LICENSE",
+   "price": 3060,
+   "stock": "in",
+   "available": 8,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/delle_634-cvdv.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "634-CVFK",
+   "name": "10-pack of Windows Server 2025/2022 User CALs (STD or DC), Cus Kit",
+   "brand": "Dell",
+   "category": "Software Kits",
+   "price": 10660,
+   "stock": "in",
+   "available": 9,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/delle_634-cvfk.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "722-BBBI",
+   "name": "Dell UltraSharp Webcam - WB7022",
+   "brand": "Dell",
+   "category": "Webcams",
+   "price": 2650,
+   "stock": "in",
+   "available": 14,
+   "shipKg": 0,
+   "badges": [
+    "Best seller"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/5c/9c/5c9ca267-f7cf-48da-acab-dbcefc3e2d51.jpg",
+    "https://cdn.cs.1worldsync.com/ac/a2/aca2f04b-3964-4e98-92d8-3c9703e25afe.jpg",
+    "https://cdn.cs.1worldsync.com/3b/10/3b107e09-b650-4948-a90b-40541150da7a.jpg",
+    "https://cdn.cs.1worldsync.com/19/7a/197a2cc3-9c16-414d-96eb-f03ce438b2be.jpg",
+    "https://cdn.cs.1worldsync.com/aa/9a/aa9a3afe-e337-4b82-accf-29f607580870.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "722-BBCV",
+   "name": "Dell Pro 7 Webcam 4K - WB726",
+   "brand": "Dell",
+   "category": "Webcams",
+   "price": 3760,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_722-bbcv.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "750-ADRC",
+   "name": "Dell Pro Premium Active Pen - PN7522W",
+   "brand": "Dell",
+   "category": "Stylus and Digitizers",
+   "price": 1720,
+   "stock": "in",
+   "available": 8,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/57/3d/573d1589-7bd1-4320-85a9-4f52b660cdc8.jpg",
+    "https://cdn.cs.1worldsync.com/8f/34/8f349283-0f1c-4bec-979f-52e7aae32aea.jpg",
+    "https://cdn.cs.1worldsync.com/ba/98/ba980917-d636-4ec4-a9b0-28d0c8545227.jpg",
+    "https://cdn.cs.1worldsync.com/b0/0f/b00f50ea-2b42-486f-93db-694931cbc968.jpg",
+    "https://cdn.cs.1worldsync.com/5e/d3/5ed32401-d9bd-4c6a-88e7-21708bae8387.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "750-BBWW",
+   "name": "Dell Pro Active Pen - PN526",
+   "brand": "Dell",
+   "category": "Stylus and Digitizers",
+   "price": 1040,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_750-bbww.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "A59Z0AA",
+   "name": "HyperX Cloud III S Wireless Black Red Gaming Headset",
+   "brand": "HP",
+   "category": "Accessories",
+   "price": 2380,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/hpic_a59z0aa.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "AB663419",
+   "name": "Dell Memory Upgrade 8GB 1RX8 DDR4 UDIMM 3200MHz ECC Compatibility R240/R250/R340/R350/T40/T140/T150/T340/T350",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 3480,
+   "stock": "low",
+   "available": 1,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://cdn.cs.1worldsync.com/1c/3e/1c3e06fe-6955-49b1-8485-379f120aba83.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "AC16250_RPLH-R_014_HOM",
+   "name": "Alienware 16 Aurora AC16250|C9-270H|32GB|1TB SSD|Nvidia RTX 5070|W11 Home|WLAN + BT|16.0” WQXGA|Backlit Kb|6 Cell Basic Onsite Service after remote diagnosis with Hardware-Only Support, 12 Month(s)",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 70140,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_ac16250_rplh-r_014_hom.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO105_PB16250_EMEA",
+   "name": "Dell Pro 16 Plus|U7 255U|16GB|512GB SSD|FgrPr, RJ-45|W11 Pro|IR Cam & Mic|WLAN + BT|16.0” FHD+|Backlit Kb|3 Cell ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 43780,
+   "stock": "in",
+   "available": 26,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [
+    "AI-Ready"
+   ],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto105_pb16250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO106_QCM1250_EMEA",
+   "name": "Dell Pro Micro QCM1250|U5 235T|16GB|512GB SSD|W11 Pro|WLAN + BT|Kb|90W|TPM ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 27780,
+   "stock": "in",
+   "available": 306,
+   "shipKg": 0,
+   "badges": [
+    "On promotion"
+   ],
+   "attributes": [
+    "DeskPro"
+   ],
+   "promo": true,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto106_qcm1250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO109_PC14250_EMEA",
+   "name": "Dell Pro 14|U7-265U|16GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|14.0” FHD+|Backlit Kb|3 Cell ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 42160,
+   "stock": "in",
+   "available": 22,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto109_pc14250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO203_PA13250_EMEA",
+   "name": "Dell Pro 13 Premium PA13250 Ultra 5 236V | Copilot+ | Win 11 Pro | vPro | 13.3”” FHD+\n16GB RAM | 512GB SSD Gen4 | Intel Arc | FP Reader\nCams & Mic | Wi-Fi + BT | Backlit KB | 3-Cell | 3Y Pro Support",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 38840,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [
+    "Copilot+ PC",
+    "Windows 11 Pro"
+   ],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto203_pa13250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO203_PA13250_EMEA-5G",
+   "name": "Dell Pro 13 Premium PA13250/Ultra 5 236V/Copilot+/16GB/Cant Upg/512GB SSD Gen4/13.3” FHD+/Arc/FgrPr/Cams & Mic/WLAN + BT/Backlit Kb/5G/3 Cell/W11Pro/vPro/3Y ProSpt",
+   "brand": "Dell",
+   "category": "Notebooks",
+   "price": 41970,
+   "stock": "in",
+   "available": 11,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto203_pa13250_emea-5g.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO206_PA13250_EMEA",
+   "name": "Dell Pro 13 Premium|U7-266V|16GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|13.3” FHD+|Backlit Kb|3 Cell|vPro ProSupport Next Business Day Onsite Service after remote diagnosis with HW-SW Support, 36 Month(s)",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 44150,
+   "stock": "low",
+   "available": 3,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto206_pa13250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO207_PB16250_EMEA",
+   "name": "Dell Pro 16 Plus|U7-268V|32GB|1TB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|16.0” FHD+|Backlit Kb|3 Cell|vPro ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 59600,
+   "stock": "in",
+   "available": 14,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto207_pb16250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO209_PB13250_EMEA",
+   "name": "Dell Pro 13 Plus|U5-236V|16GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|13.3” FHD+|Backlit Kb|3 Cell ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 36950,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto209_pb13250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO212_PB13250_EMEA",
+   "name": "Dell Pro 13 Plus|U7-266V|16GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|13.3” FHD+|Backlit Kb|3 Cell ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 40330,
+   "stock": "in",
+   "available": 24,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto212_pb13250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO216_PB16250_EMEA",
+   "name": "Dell Pro 16 Plus|U5-238V|32GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|16.0” FHD+|Backlit Kb|3 Cell|vPro ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 44260,
+   "stock": "in",
+   "available": 52,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto216_pb16250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "BTO217_PB14250_EMEA",
+   "name": "Dell Pro 14 Plus|U7-268V|32GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|14.0” FHD+|Backlit Kb|3 Cell|vPro ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 56790,
+   "stock": "in",
+   "available": 36,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_bto217_pb14250_emea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "CF8Q5EA",
+   "name": "HP EliteBook 8 G1i 14 inch Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 14WUXGAAGLED300UWVAf5MPIRISP+LP60HzbLCD Windows 11 Pro 64 Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
+   "brand": "HP",
+   "category": "Notebooks",
+   "price": 41410,
+   "stock": "in",
+   "available": 47,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/hpic_cf8q5ea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "CK8G4EA",
+   "name": "HP EliteBook 6 G1i 16 inch LTE Notebook AI Ultra 7 255U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 16.0WUXGAAG300UWVAf5MPIR60HzbntLCD Windows 11 Pro 64 Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
+   "brand": "HP",
+   "category": "Notebooks",
+   "price": 45290,
+   "stock": "in",
+   "available": 130,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/hpic_ck8g4ea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "CK8H0EA",
+   "name": "HP EliteBook 6 G1i 16 inch LTE Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 16.0WUXGAAG300UWVAf5MPIR60HzbntLCD Windows 11 Pro 64 Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
+   "brand": "HP",
+   "category": "Notebooks",
+   "price": 39870,
+   "stock": "in",
+   "available": 45,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/hpic_ck8h0ea.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "DA16250_ARLH_008",
+   "name": "Dell 16 Premium (DA16250)|U9-285H|32GB|1TB SSD|Nvidia GeForce RTX 5060|W11 Pro|WLAN + BT|16.3” OLED Touch|Backlit Kb|6 Cell Basic Onsite Service after remote diagnosis with Hardware-Only Support, 36 Month(s)",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 101280,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_da16250_arlh_008.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "DA16250_ARLH_011",
+   "name": "Dell 16 Premium (DA16250)|U7-255H|32GB|1TB SSD|Nvidia GeForce RTX 5060|W11 Pro|WLAN + BT|16.3” OLED Touch|Backlit Kb|6 Cell Basic Onsite Service after remote diagnosis with Hardware-Only Support, 36 Month(s)",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 95360,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_da16250_arlh_011.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "PV14250_RPLR_008",
+   "name": "Dell Pro 14 Essential PV14250|C7-150U|16GB|512GB SSD|Intel Graphics|FgrPr|W11 Pro|WLAN + BT|14.0” FHD+|Backlit Kb|4 Cell|65W ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 25890,
+   "stock": "in",
+   "available": 91,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_pv14250_rplr_008.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "PV15250_RPLU_005_P8L",
+   "name": "Dell Pro 15 Essential PV15250|I5-1334U|16GB|512GB SSD|Intel Graphics|FgrPr|W11 Pro|WLAN + BT|15.6” FHD|Kb|3 Cell|65W ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 22970,
+   "stock": "low",
+   "available": 5,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_pv15250_rplu_005_p8l.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "PV15250_RPLU_008_P8L",
+   "name": "Dell Pro 15 Essential PV15250|i7-1355U|16GB|1TB SSD|Intel Graphics|FgrPr|W11 Pro|WLAN + BT|15.6” FHD|Kb|4 Cell|65W ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 27740,
+   "stock": "in",
+   "available": 150,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_pv15250_rplu_008_p8l.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "SNV3S/1000G",
+   "name": "Kingston 1000G NV3 M.2 2280 PCIe 4.0 NVMe SSD",
+   "brand": "Kingston",
+   "category": "Accessories",
+   "price": 3540,
+   "stock": "in",
+   "available": 49,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/kingston_snv3s-1000g.jpg"
+   ],
+   "description": "",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "SNV3S/500G",
+   "name": "Kingston 500G NV3 M.2 2280 PCIe 4.0 NVMe SSD",
+   "brand": "Kingston",
+   "category": "Accessories",
+   "price": 2310,
+   "stock": "in",
+   "available": 36,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/SNV3S-500G_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/SNV3S-500G_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/SNV3S-500G_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566269/SNV3S-500G_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/SNV3S-500G_4.jpg"
+   ],
+   "description": "For high-speed, low-power storage needs Kingston’s NV3 PCIe 4.0 NVMe SSDs are next-gen storage solutions powered by a Gen 4x4 NVMe controller, delivering read/write speeds of up to 6,000/5,000MB/s*. They come in both compact, single-sided M.2 2280 (22x80mm) and 2230 (22x30mm) sizes to expand storage in small-form-factor systems like laptops and handheld gaming consoles*****. They offer lower power consumption and reduced heat, optimising your system's performance without compromising value. Available in capacities from 500GB– 4TB** to give you all the space you need for applications, documents, photos, videos, games and more. Gen 4x4 NVMe PCIe performance Upgrade your system with read/write speeds up to 6,000/5,000MB/s*. Small size, big performance NV3 2280 and 2230 easily integrate into thin laptops and ultra-small PCs with M.2 connectors and limited space. Increased storage space Available in a variety of high capacities up to 4TB**, providing ample space to store files, videos, documents, and games with room to spare. Store more, play more With NV3 2230 upgrade compatible handheld gaming systems to get in the game faster*****.",
+   "strap": "500 GB, M.2, 5000 MB/s",
+   "warranty": "Limited 5-year warranty with free technical support",
    "highlights": [
     [
-     "Form factor",
-     "Ambidextrous"
+     "SSD capacity",
+     "500 GB"
     ],
     [
-     "Movement resolution",
-     "4000 DPI"
+     "SSD form factor",
+     "M.2"
     ],
     [
-     "Buttons quantity",
-     "3"
+     "Read speed",
+     "5000 MB/s"
     ],
     [
-     "Product colour",
-     "Black"
+     "Write speed",
+     "3000 MB/s"
+    ],
+    [
+     "Interface",
+     "PCI Express 4.0"
     ],
     [
      "Weight",
-     "65 g"
+     "5.7 g"
     ]
    ],
    "specs": [],
    "specGroups": [
     [
-     "Mouse",
+     "Features",
      [
       [
-       "Number of scroll wheels",
-       "1"
+       "SSD capacity",
+       "500 GB"
       ],
       [
-       "Purpose",
-       "Office"
+       "SSD form factor",
+       "M.2"
       ],
       [
-       "Device interface",
-       "RF Wireless"
+       "Interface",
+       "PCI Express 4.0"
       ],
       [
-       "Movement detection technology",
-       "Optical"
-      ],
-      [
-       "Movement resolution",
-       "4000 DPI"
-      ],
-      [
-       "Scroll type",
-       "Wheel"
-      ],
-      [
-       "Buttons quantity",
-       "3"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Form factor",
-       "Ambidextrous"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ]
-     ]
-    ],
-    [
-     "Ergonomics",
-     [
-      [
-       "Wireless range",
-       "10 m"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Power source",
-       "Batteries"
-      ],
-      [
-       "Battery type",
-       "AA"
-      ],
-      [
-       "Service life of battery",
-       "36 month(s)"
-      ]
-     ]
-    ],
-    [
-     "System requirements",
-     [
-      [
-       "Windows operating systems supported",
-       "Windows 10, Windows 11, Windows 8, Windows 8 x64"
-      ],
-      [
-       "Linux operating systems supported",
+       "NVMe",
        "Yes"
       ],
       [
-       "Mobile operating systems supported",
-       "Android"
+       "Memory type",
+       "3D NAND"
       ],
       [
-       "Other operating systems supported",
-       "ChromeOS, DOS"
+       "Component for",
+       "PC/Laptop"
+      ],
+      [
+       "M.2 SSD size",
+       "2280 (22 x 80 mm)"
+      ],
+      [
+       "Read speed",
+       "5000 MB/s"
+      ],
+      [
+       "Write speed",
+       "3000 MB/s"
+      ],
+      [
+       "Mean time between failures (MTBF)",
+       "2000000 h"
+      ],
+      [
+       "TBW rating",
+       "160"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "22 mm"
+      ],
+      [
+       "Depth",
+       "80 mm"
+      ],
+      [
+       "Height",
+       "2.3 mm"
+      ],
+      [
+       "Weight",
+       "5.7 g"
       ]
      ]
     ],
@@ -1494,1161 +3705,15 @@
      [
       [
        "Operating temperature (T-T)",
-       "-10 - 65 °C"
+       "0 - 70 °C"
       ],
       [
        "Storage temperature (T-T)",
-       "-40 - 65 °C"
+       "-40 - 85 °C"
       ],
       [
-       "Storage relative humidity (H-H)",
-       "0 - 95%"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "62 mm"
-      ],
-      [
-       "Depth",
-       "115 mm"
-      ],
-      [
-       "Height",
-       "39 mm"
-      ],
-      [
-       "Weight",
-       "65 g"
-      ]
-     ]
-    ],
-    [
-     "Battery",
-     [
-      [
-       "Battery capacity",
-       "2850 mAh"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "520-BBLV",
-   "name": "Dell Wired Headset - WH125",
-   "brand": "Dell",
-   "category": "Headsets & audio",
-   "price": 574,
-   "stock": "in",
-   "available": 202,
-   "shipKg": 0.5,
-   "badges": [],
-   "attributes": [
-    "DeskPro"
-   ],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566256/520-BBLV_0.jpg"
-   ],
-   "description": "Wired on-ear stereo headset with a rotatable boom microphone, in-line mute and volume controls, and a 2.1 m cable. Compatible with Windows and Mac. Black.",
-   "strap": "",
-   "warranty": "",
-   "highlights": [],
-   "specs": [],
-   "specGroups": []
-  },
-  {
-   "sku": "520-BBNM",
-   "name": "Dell Pro Plus Earbuds - EB525",
-   "brand": "Dell",
-   "category": "Headsets & audio",
-   "price": 3490,
-   "stock": "in",
-   "available": 135,
-   "shipKg": 0.1,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566263/520-BBNM_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/520-BBNM_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/520-BBNM_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566260/520-BBNM_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566260/520-BBNM_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/520-BBNM_5.jpg"
-   ],
-   "description": "Redefine audio clarity with an AI-based noise-cancelling mic and Adaptive ANC, designed for modern professionals.",
-   "strap": "True Wireless Stereo (TWS), Calls/Music, Headset, Black",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Connectivity technology",
-     "True Wireless Stereo (TWS)"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Product type",
-     "Headset"
-    ],
-    [
-     "Wearing style",
-     "In-ear"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Performance",
-     [
-      [
-       "Product type",
-       "Headset"
-      ],
-      [
-       "Wearing style",
-       "In-ear"
-      ],
-      [
-       "Recommended usage",
-       "Calls/Music"
-      ],
-      [
-       "Headset type",
-       "Binaural"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "Operating keys",
-       "Bluetooth pairing"
-      ],
-      [
-       "Protection features",
-       "Dustproof, Waterproof"
-      ],
-      [
-       "International Protection (IP) code",
-       "IP54"
-      ],
-      [
-       "Signal-to-Noise Ratio (SNR)",
-       "66 dB"
-      ],
-      [
-       "Number of paired devices remembered",
-       "8"
-      ],
-      [
-       "Number of simultaneously connected devices (max)",
-       "2"
-      ],
-      [
-       "Hearing protection",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Ports & interfaces",
-     [
-      [
-       "Connectivity technology",
-       "True Wireless Stereo (TWS)"
-      ],
-      [
-       "Bluetooth",
-       "Yes"
-      ],
-      [
-       "Bluetooth version",
-       "5.3"
-      ],
-      [
-       "Frequency response (music mode)",
-       "20 - 20000 Hz"
-      ],
-      [
-       "Wireless range",
-       "30 m"
-      ]
-     ]
-    ],
-    [
-     "Headphones",
-     [
-      [
-       "Ear coupling",
-       "Intraaural"
-      ],
-      [
-       "Headphone sensitivity",
-       "106 dB"
-      ],
-      [
-       "Noise canceling",
-       "Yes"
-      ],
-      [
-       "Noise canceling type",
-       "Active"
-      ]
-     ]
-    ],
-    [
-     "Microphone",
-     [
-      [
-       "Microphone type",
-       "Built-in"
-      ],
-      [
-       "Microphone frequency",
-       "100 - 8000 Hz"
-      ],
-      [
-       "Microphone sensitivity",
-       "-35 dB"
-      ],
-      [
-       "MEMS (Micro-Electro-Mechanical System) microphone",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Battery",
-     [
-      [
-       "Battery operated",
-       "Yes"
-      ],
-      [
-       "Battery type",
-       "Built-in battery"
-      ],
-      [
-       "Battery capacity",
-       "66 mAh"
-      ],
-      [
-       "Talk time (with charging case)",
-       "16.5 h"
-      ],
-      [
-       "Battery capacity (charging case)",
-       "500 mAh"
-      ],
-      [
-       "Continuous audio playback time (charging case/ANC on)",
-       "33 h"
-      ],
-      [
-       "Continuous audio playback time (ANC on)",
-       "8 h"
-      ],
-      [
-       "Battery recharge time",
-       "2 h"
-      ],
-      [
-       "Fast charging",
-       "Yes"
-      ],
-      [
-       "Fast charging time",
-       "5 min"
-      ],
-      [
-       "Talk time (ANC on)",
-       "5 h"
-      ],
-      [
-       "Wireless charging",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "System requirements",
-     [
-      [
-       "Windows operating systems supported",
-       "Windows 10, Windows 11"
-      ],
-      [
-       "Mac operating systems supported",
-       "Yes"
-      ],
-      [
-       "Mobile operating systems supported",
-       "Android, iOS"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "24.6 mm"
-      ],
-      [
-       "Depth",
-       "23.5 mm"
-      ],
-      [
-       "Height",
-       "32.2 mm"
-      ],
-      [
-       "Left earpiece weight",
-       "6 g"
-      ],
-      [
-       "Right earpiece weight",
-       "6 g"
-      ],
-      [
-       "Charging case dimensions (W x D x H)",
-       "30.86 x 58 x 63.87 mm"
-      ],
-      [
-       "Charging case weight",
-       "50.4 g"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "USB Type-C charging port",
-       "Yes"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "460-BDSS",
-   "name": "Dell 14-16 EcoLoop Backpack CP3724",
-   "brand": "Dell",
-   "category": "Bags & cases",
-   "price": 599,
-   "stock": "in",
-   "available": 595,
-   "shipKg": 0.5,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/460-BDSS_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566270/460-BDSS_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BDSS_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/460-BDSS_3.jpg"
-   ],
-   "description": "A sustainably made, everyday backpack with a large, full-access front opening and protection features that shield your laptop and essentials.",
-   "strap": "Backpack, 40.6 cm (16\"), 500 g",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Case type",
-     "Backpack"
-    ],
-    [
-     "Material",
-     "Polyester"
-    ],
-    [
-     "Weight",
-     "500 g"
-    ],
-    [
-     "Surface coloration",
-     "Monochromatic"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ],
-      [
-       "Maximum screen size",
-       "40.6 cm (16\")"
-      ],
-      [
-       "Case type",
-       "Backpack"
-      ],
-      [
-       "Material",
-       "Polyester"
-      ],
-      [
-       "Product main colour",
-       "Black"
-      ],
-      [
-       "Brand compatibility",
-       "Universal"
-      ],
-      [
-       "Interior pockets",
-       "Document pocket"
-      ],
-      [
-       "Front pocket",
-       "Yes"
-      ],
-      [
-       "Exterior pockets",
-       "Side pocket"
-      ],
-      [
-       "Carrying handle(s)",
-       "Yes"
-      ],
-      [
-       "Protection features",
-       "Water repellent"
-      ],
-      [
-       "Product made with recycled materials",
-       "Yes"
-      ],
-      [
-       "Product recycled materials",
-       "Recycled plastic"
-      ],
-      [
-       "Overall recycled content",
-       "100%"
-      ],
-      [
-       "Quantity",
-       "1"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "310 mm"
-      ],
-      [
-       "Depth",
-       "140 mm"
-      ],
-      [
-       "Height",
-       "440 mm"
-      ],
-      [
-       "Weight",
-       "500 g"
-      ],
-      [
-       "Notebook compartment dimensions (W x D x H)",
-       "270 x 25 x 400 mm"
-      ],
-      [
-       "Volume",
-       "18 L"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "460-BDQP",
-   "name": "Dell Pro 14-16 Plus EcoLoop Slim Backpack - CP5724S",
-   "brand": "Dell",
-   "category": "Bags & cases",
-   "price": 787,
-   "stock": "in",
-   "available": 183,
-   "shipKg": 0.6,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/460-BDQP_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/460-BDQP_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/460-BDQP_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/460-BDQP_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566259/460-BDQP_4.jpg"
-   ],
-   "description": "Get the Dell EcoLoop Pro Slim Backpack 15 that protects your gear on-the-go and helps reduce environmental impact.",
-   "strap": "Backpack, 39.6 cm (15.6\"), Shoulder strap, 590 g",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Case type",
-     "Backpack"
-    ],
-    [
-     "Material",
-     "Fabric, Plastic, Polyester"
-    ],
-    [
-     "Weight",
-     "590 g"
-    ],
-    [
-     "Surface coloration",
-     "Monochromatic"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ],
-      [
-       "Maximum screen size",
-       "39.6 cm (15.6\")"
-      ],
-      [
-       "Case type",
-       "Backpack"
-      ],
-      [
-       "Material",
-       "Fabric, Plastic, Polyester"
-      ],
-      [
-       "Product main colour",
-       "Black"
-      ],
-      [
-       "Gender",
-       "Unisex"
-      ],
-      [
-       "Tablet compartment",
-       "Yes"
-      ],
-      [
-       "Brand compatibility",
-       "Dell"
-      ],
-      [
-       "Interior pockets",
-       "Zip pocket"
-      ],
-      [
-       "Front pocket",
-       "Yes"
-      ],
-      [
-       "Exterior pockets",
-       "Front pocket, Side pocket"
-      ],
-      [
-       "Number of front pockets",
-       "1"
-      ],
-      [
-       "Carrying handle(s)",
-       "Yes"
-      ],
-      [
-       "Shoulder strap",
-       "Yes"
-      ],
-      [
-       "Protection features",
-       "Dirt resistant, Waterproof"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "315 mm"
-      ],
-      [
-       "Depth",
-       "140 mm"
-      ],
-      [
-       "Height",
-       "445 mm"
-      ],
-      [
-       "Weight",
-       "590 g"
-      ],
-      [
-       "Notebook compartment dimensions (W x D x H)",
-       "400 x 270 x 25 mm"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "460-BFDD",
-   "name": "Dell Pro 14-16 Plus EcoLoop Urban Backpack - CP5625G",
-   "brand": "Dell",
-   "category": "Bags & cases",
-   "price": 750,
-   "stock": "in",
-   "available": 339,
-   "shipKg": 0.6,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566273/460-BFDD_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566261/460-BFDD_3.jpg"
-   ],
-   "description": "Neatly carry all you need while on the go with this spacious backpack. With a 27-liter capacity and organised pockets, it's durable, stylish and made with recycled materials.",
-   "strap": "Backpack, 40.6 cm (16\"), Shoulder strap, 550 g",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Case type",
-     "Backpack"
-    ],
-    [
-     "Material",
-     "Fabric, Polyester"
-    ],
-    [
-     "Weight",
-     "550 g"
-    ],
-    [
-     "Surface coloration",
-     "Monochromatic"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ],
-      [
-       "Maximum screen size",
-       "40.6 cm (16\")"
-      ],
-      [
-       "Case type",
-       "Backpack"
-      ],
-      [
-       "Material",
-       "Fabric, Polyester"
-      ],
-      [
-       "Product main colour",
-       "Grey"
-      ],
-      [
-       "Integrated compartment(s)",
-       "Yes"
-      ],
-      [
-       "Brand compatibility",
-       "Dell"
-      ],
-      [
-       "Front pocket",
-       "Yes"
-      ],
-      [
-       "Exterior pockets",
-       "Side pocket"
-      ],
-      [
-       "Carrying handle(s)",
-       "Yes"
-      ],
-      [
-       "Shoulder strap",
-       "Yes"
-      ],
-      [
-       "Protection features",
-       "Dirt resistant, Water resistant"
-      ],
-      [
-       "Product made with recycled materials",
-       "Yes"
-      ],
-      [
-       "Overall recycled content",
-       "52%"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "315 mm"
-      ],
-      [
-       "Depth",
-       "210 mm"
-      ],
-      [
-       "Height",
-       "480 mm"
-      ],
-      [
-       "Weight",
-       "550 g"
-      ],
-      [
-       "Volume",
-       "27 L"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "460-BFCJ",
-   "name": "Dell Pro 13-14 Plus EcoLoop Backpack CP5426G",
-   "brand": "Dell",
-   "category": "Bags & cases",
-   "price": 1300,
-   "stock": "in",
-   "available": 67,
-   "shipKg": 0.5,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566262/460-BFCJ_3.jpg"
-   ],
-   "description": "Compact backpack to carry essentials in style. Crafted for sustainability and durably built, it helps reduce impact to the environment and your tech.",
-   "strap": "Backpack, 35.6 cm (14\"), Shoulder strap, 450 g",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Case type",
-     "Backpack"
-    ],
-    [
-     "Material",
-     "Foam, Polyethylene, Polyurethane"
-    ],
-    [
-     "Weight",
-     "450 g"
-    ],
-    [
-     "Surface coloration",
-     "Monochromatic"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ],
-      [
-       "Compatibility",
-       "l"
-      ],
-      [
-       "Maximum screen size",
-       "35.6 cm (14\")"
-      ],
-      [
-       "Case type",
-       "Backpack"
-      ],
-      [
-       "Material",
-       "Foam, Polyethylene, Polyurethane"
-      ],
-      [
-       "Product main colour",
-       "Grey"
-      ],
-      [
-       "Gender",
-       "Unisex"
-      ],
-      [
-       "Tablet compartment",
-       "Yes"
-      ],
-      [
-       "Brand compatibility",
-       "Dell"
-      ],
-      [
-       "Interior pockets",
-       "Zip pocket"
-      ],
-      [
-       "Front pocket",
-       "Yes"
-      ],
-      [
-       "Exterior pockets",
-       "Front pocket, Side pocket"
-      ],
-      [
-       "Number of front pockets",
-       "1"
-      ],
-      [
-       "Carrying handle(s)",
-       "Yes"
-      ],
-      [
-       "Shoulder strap",
-       "Yes"
-      ],
-      [
-       "Protection features",
-       "Scratch resistant"
-      ],
-      [
-       "Overall recycled content",
-       "57%"
-      ],
-      [
-       "Closure type",
-       "Zipper"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "270 mm"
-      ],
-      [
-       "Depth",
-       "165 mm"
-      ],
-      [
-       "Height",
-       "400 mm"
-      ],
-      [
-       "Weight",
-       "450 g"
-      ],
-      [
-       "Notebook compartment dimensions (W x D x H)",
-       "340 x 240 x 20 mm"
-      ],
-      [
-       "Volume",
-       "21 L"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "450-BFFM",
-   "name": "Dell 65W USB-C AC Adapter with Power Cord - South Africa",
-   "brand": "Dell",
-   "category": "Cables & adapters",
-   "price": 799,
-   "stock": "out",
-   "available": 0,
-   "shipKg": 0.6,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/450-BFFM_0.jpg"
-   ],
-   "description": "65 W USB-C power adapter for compatible Dell notebooks, supplied with a 1 m power cord (South African plug). Built-in cable strap and an LED ring on the connector.",
-   "strap": "",
-   "warranty": "",
-   "highlights": [],
-   "specs": [],
-   "specGroups": []
-  },
-  {
-   "sku": "470-BDNM",
-   "name": "Dell HDMI 2.0 Cable - CB325H",
-   "brand": "Dell",
-   "category": "Cables & adapters",
-   "price": 397,
-   "stock": "out",
-   "available": 0,
-   "shipKg": 0.1,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/470-BDNM_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/470-BDNM_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566264/470-BDNM_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNM_3.jpg"
-   ],
-   "description": "DELL CB325H. Cable length: 1.8 m, Connector 1: HDMI Type A (Standard), Connector 1 gender: Male, Connector 2: HDMI Type A (Standard), Connector 2 gender: Male, HDMI version: 2.0, Product colour: Black",
-   "strap": "1.8 m, HDMI Type A (Standard), HDMI Type A (Standard), Black",
-   "warranty": "1 Year",
-   "highlights": [
-    [
-     "Maximum refresh rate",
-     "60 Hz"
-    ],
-    [
-     "Cable length",
-     "1.8 m"
-    ],
-    [
-     "Connector 1",
-     "HDMI Type A (Standard)"
-    ],
-    [
-     "Connector 2",
-     "HDMI Type A (Standard)"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "95 g"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Cable length",
-       "1.8 m"
-      ],
-      [
-       "Connector 1",
-       "HDMI Type A (Standard)"
-      ],
-      [
-       "Connector 2",
-       "HDMI Type A (Standard)"
-      ],
-      [
-       "Connector 1 gender",
-       "Male"
-      ],
-      [
-       "Connector 2 gender",
-       "Male"
-      ],
-      [
-       "Connector 1 form factor",
-       "Straight"
-      ],
-      [
-       "Connector 2 form factor",
-       "Straight"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "HDMI version",
-       "2.0"
-      ],
-      [
-       "Supported graphics resolutions",
-       "5120 x 2880"
-      ],
-      [
-       "HDMI Ethernet channel",
-       "Yes"
-      ],
-      [
-       "Maximum refresh rate",
-       "60 Hz"
-      ],
-      [
-       "Plug and Play",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Weight",
-       "95 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "TEB01",
-   "name": "Targus Campus Backpack, 15-16\" Notebook, Nylon, Black",
-   "brand": "Targus",
-   "category": "Accessories",
-   "price": 934,
-   "stock": "in",
-   "available": 492,
-   "shipKg": 1.1,
-   "badges": [
-    "Best seller"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/TEB01_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566267/TEB01_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/TEB01_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/TEB01_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/TEB01_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566268/TEB01_5.jpg"
-   ],
-   "description": "The Campus Notebook Backpack is ideal for students at school or university and also appeals to today’s mobile professionals with an active lifestyle and a more casual work environment. The padded computer compartment is specifically designed to protect laptops with standard 15 - 16 inch screens. There's plenty of storage space: an extra large zippered storage compartment with internal pockets including zippered mesh pockets - perfect for personal (iPod, CD player, PDA, etc.) or computing accessories. Other features include pen loops and student / business card holder. Finally, for your ultimate carrying comfort, there's a 3D contoured air-mesh back padding which helps alleviate stress and strain on your back. - Compartment for notebooks with 15\" to 16” screens - 3D contoured air-mesh back padding which helps alleviate back stress/strain - Multiple pockets for maximum storage capacity (Mobile phone, CD player, smartphone, iPod, pens, business/student card...) and many more! - Hidden rear pocket for your personal belongings - Adjustable fasteners on each side of the backpack - Neoprene comfort grip handle - Mesh pockets for your loose accessories - Removable waist strap included",
-   "strap": "40.6 cm (16\"), Notebook compartment, Nylon",
-   "warranty": "Limited lifetime warranty",
-   "highlights": [
-    [
-     "Material",
-     "Nylon"
-    ],
-    [
-     "Weight",
-     "1.01 kg"
-    ],
-    [
-     "Product main colour",
-     "Black"
-    ],
-    [
-     "Coloration",
-     "Monochromatic"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Product main colour",
-       "Black"
-      ],
-      [
-       "Coloration",
-       "Monochromatic"
-      ],
-      [
-       "Notebook compartment",
-       "Yes"
-      ],
-      [
-       "Minimum screen size",
-       "39.1 cm (15.4\")"
-      ],
-      [
-       "Maximum screen size",
-       "40.6 cm (16\")"
-      ],
-      [
-       "Handle(s)",
-       "Yes"
-      ],
-      [
-       "Carrying handle(s)",
-       "Yes"
-      ],
-      [
-       "Country of origin",
-       "CHN"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "130 mm"
-      ],
-      [
-       "Depth",
-       "370 mm"
-      ],
-      [
-       "Height",
-       "460 mm"
-      ],
-      [
-       "Weight",
-       "1.01 kg"
-      ],
-      [
-       "Notebook compartment dimensions (W x D x H)",
-       "300 x 43 x 374 mm"
-      ]
-     ]
-    ],
-    [
-     "Material",
-     [
-      [
-       "Material",
-       "Nylon"
-      ]
-     ]
-    ],
-    [
-     "Other features",
-     [
-      [
-       "Dimensions (WxDxH)",
-       "381 x 200 x 480 mm"
+       "Operating vibration",
+       "10 G"
       ]
      ]
     ]
