@@ -624,6 +624,8 @@
   });
 
   // ---- grid ---------------------------------------------------------------
+  var BADGE_ORDER = ['On promotion', 'Deal ending soon', 'Best seller', 'New'];   // fixed order on every card (Director 14 Oct 2026); Axiz's tag order is not ours
+  function sortedBadges(list){ return (list || []).slice().sort(function(a, b){ var x = BADGE_ORDER.indexOf(a), y = BADGE_ORDER.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y); }); }
   function badgeClass(b){ return /deal/i.test(b) ? ' is-deal' : /best/i.test(b) ? ' is-best' : ''; }
   function renderGrid(){
     var list = state.items.filter(function(i){ return matches(i); });
@@ -639,7 +641,7 @@
       var img = i.images && i.images[0]
         ? '<img src="' + esc(i.images[0]) + '" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'sh-noimg\',textContent:\'Image to follow\'}))">'
         : '<span class="sh-noimg">Image to follow</span>';
-      var badges = (i.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('');
+      var badges = sortedBadges(i.badges).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('');
       var out = i.stock === 'out';
       return '' +
         '<article class="sh-card" data-sku="' + esc(i.sku) + '">' +
@@ -691,7 +693,7 @@
     byId('shDetailBrand').textContent = item.brand;
     byId('shDetailName').textContent = item.name;
     byId('shDetailSku').textContent = item.sku;
-    byId('shDetailBadges').innerHTML = (item.badges || []).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('')
+    byId('shDetailBadges').innerHTML = sortedBadges(item.badges).map(function(b){ return '<span class="sh-badge' + badgeClass(b) + '">' + esc(b) + '</span>'; }).join('')
       + (item.attributes || []).map(function(a){ return '<span class="sh-badge is-best">' + esc(a) + '</span>'; }).join('');
     byId('shDetailPrice').innerHTML = money(item.price) + (item.freeDelivery === true ? '<small class="sh-free">Free delivery</small>' : '');
     var st = byId('shDetailStock'); st.className = 'sh-stock ' + stockState(item); st.textContent = stockLabel(item);
