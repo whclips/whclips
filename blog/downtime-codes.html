@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="../assets/logo.png">
+<title>Why downtime codes are unreliable, and what to do about it — WH Clips</title>
+<meta name="description" content="The downtime report is one of the most-read documents on a mine. It is also one of the least trustworthy, for reasons that have nothing to do with honesty.">
+<meta property="og:title" content="Why downtime codes are unreliable, and what to do about it — WH Clips">
+<meta property="og:description" content="The downtime report is one of the most-read documents on a mine. It is also one of the least trustworthy, for reasons that have nothing to do with honesty.">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  /* Blog pages. Scoped under .bl- so nothing here can touch styles.css. */
+  .bl-hero{ padding:5rem 0 3rem; border-bottom:1px solid var(--border); }
+  .bl-hero h1{ font-size:2.1rem; font-weight:800; line-height:1.12; letter-spacing:-.03em; margin:.75rem 0 1.1rem; max-width:22ch; text-wrap:balance; color:var(--text); }
+  .bl-stand{ color:var(--text-dim-55); font-size:1.05rem; line-height:1.7; max-width:62ch; margin:0; }
+  @media (min-width:768px){ .bl-hero{ padding:6.5rem 0 3.5rem; } .bl-hero h1{ font-size:3rem; } }
+  .bl-body{ padding:3rem 0 4rem; }
+  .bl-prose{ max-width:720px; }
+  .bl-body h2{ font-size:1.35rem; font-weight:700; letter-spacing:-.02em; margin:2.4rem 0 .7rem; color:var(--text); text-wrap:balance; }
+  .bl-body p, .bl-body li{ color:var(--text-dim-55); font-size:1rem; line-height:1.75; }
+  .bl-body p{ margin:0 0 1.15rem; }
+  .bl-body ul{ margin:0 0 1.25rem; padding-left:1.2rem; }
+  .bl-body li{ margin-bottom:.55rem; }
+  .bl-body strong{ color:var(--text); font-weight:600; }
+  .bl-body a{ color:var(--accent); }
+  .bl-sign{ margin-top:2.5rem !important; padding-top:1.5rem; border-top:1px solid var(--border); font-size:.9rem !important; color:var(--text-dim-40) !important; }
+  .bl-back{ display:inline-block; margin-top:1rem; font-size:.9rem; }
+  .bl-list{ display:grid; grid-template-columns:1fr; gap:1.25rem; margin-top:0; }
+  @media (min-width:768px){ .bl-list{ grid-template-columns:1fr 1fr; gap:1.5rem; } }
+  .bl-card{ display:flex; flex-direction:column; background:var(--bg-alt); border:1px solid var(--border); border-radius:14px; padding:1.7rem 1.5rem; text-decoration:none; transition:border-color .15s; }
+  .bl-card:hover{ border-color:var(--accent); }
+  .bl-card h2{ font-size:1.15rem; font-weight:700; line-height:1.3; margin:0 0 .7rem; color:var(--text); }
+  .bl-card p{ margin:0 0 1.2rem; font-size:.92rem; line-height:1.65; color:var(--text-dim-55); }
+  .bl-more{ margin-top:auto; font-size:.8rem; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .bl-talk{ margin-top:2.5rem; color:var(--text-dim-55); }
+</style>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xhn6f6xk36");
+</script>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="WH Clips" class="logo-img">White Horse<span> Clips</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="../index.html#services" class="nav-link">Services</a>
+        <a href="../index.html#industries" class="nav-link">Industries</a>
+        <a href="../about.html" class="nav-link">About</a>
+        <a href="../clips.html" class="nav-link">Recent Work</a>
+        <a href="../baseline.html" class="nav-link">What We Do</a>
+        
+        <a href="../blog.html" class="nav-link" aria-current="page">Blog</a>
+        <a href="../contact.html" class="btn-contact">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+        <svg class="icon-close" hidden width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="bl-hero">
+    <div class="container">
+      <p class="eyebrow">Notes from the field</p>
+      <h1>Why downtime codes are unreliable, and what to do about it</h1>
+      <p class="bl-stand">The downtime report is one of the most-read documents on a mine. It is also one of the least trustworthy, for reasons that have nothing to do with honesty.</p>
+    </div>
+  </section>
+  <article class="bl-body">
+    <div class="container"><div class="bl-prose">
+<p>Ask where a plant is losing production and the answer usually comes from downtime codes: a drop-down list the operator picks from when something stops. The Pareto chart built from those codes drives maintenance priorities, capital requests and bonus conversations. It deserves scrutiny. Here is why the codes drift from reality, and what a better approach looks like.</p>
+<h2>The code is chosen after the event, by someone busy</h2>
+<p>A stoppage happens. The priority is to restart. The code gets entered later, often at shift end, from memory, by someone who may not have seen the original cause. The longer the gap, the more the entry becomes a best guess. This is human behaviour under pressure, not negligence.</p>
+<h2>The list does not fit the world</h2>
+<p>Code lists are written once, then grow. A list of 150 reasons is too long to scan under pressure, so people learn the five codes that cover most things. "Mechanical other" and "Operational delay" collect a large share of stops, because they are always available and rarely questioned. What you end up measuring is the operator's habit, not the failure.</p>
+<h2>One stop, many causes</h2>
+<p>A conveyor trips. The belt was loaded, because the feeder was running, because upstream was ahead, because a downstream bin was low. Which of those is the downtime reason? Code lists force a single choice for a chain of causes. Two equally careful people will pick different ones, and both are defensible.</p>
+<h2>Different systems, different clocks</h2>
+<p>The stop start time in SCADA, the time on the paper log and the time on the work order rarely match. When the three records are compared, durations differ by minutes or hours. Short stops, the ones that add up over a month, often never get a code at all because nobody wrote them down.</p>
+<h2>The incentive is not neutral</h2>
+<p>If a code decides whether a stop counts against your area, it will be chosen with that in mind. Again, this does not need bad faith. A reasonable person puts an ambiguous event in the bucket that hurts least. Over thousands of events, that bias is the shape of your Pareto chart.</p>
+<h2>The Pareto chart hides the short stops</h2>
+<p>Because short stops are the least likely to be coded, a chart built from codes tends to over-represent the long, memorable breakdowns and under-represent the two-minute trips that happen forty times a month. The chart looks authoritative, so the maintenance plan follows it, and the loss that was never recorded carries on.</p>
+<h2>What helps</h2>
+<p>The point is not to abolish downtime codes. It is to stop treating them as the only evidence.</p>
+<ul>
+<li><strong>Start from the signal, not the code.</strong> The machine states and alarms in SCADA record when something actually stopped and for how long, with no memory involved. Let those set the start time and duration, and let the code add the reason on top.</li>
+<li><strong>Prompt at the time, with a short list.</strong> Ask for the reason when the stop is detected, offer a handful of choices, and keep "other" visible so it can be audited.</li>
+<li><strong>Link the stop to the asset and the work order.</strong> A stop that can be traced to the equipment and any maintenance raised against it can be checked against what actually happened.</li>
+<li><strong>Review the "other" bucket.</strong> If more than a small share of downtime sits in a catch-all code, the list or the process needs work.</li>
+<li><strong>Compare the sources.</strong> Where SCADA duration, work order time and reported code disagree, that gap is information, not noise.</li>
+</ul>
+<h2>The larger point</h2>
+<p>Downtime codes are a layer of human interpretation on top of machine events. Neither is wrong, but they answer different questions. Joined up, on one live, organised view of each asset, they let you ask which stops cost the most, and why, using evidence that does not depend on who filled in the form.</p>
+<p>If you want to see how reliable your own downtime picture is, an assessment on one part of your operation is where we start. To talk it through, go to <a href="../contact.html">whclips.co.za/contact.html</a>.</p>
+<p class="bl-sign"><em>White Horse Clips builds the layer a mine's systems never had.</em></p>
+      <a class="bl-back" href="../blog.html">&larr; All notes</a>
+    </div></div>
+  </article>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="footer-logo"><img src="../assets/logo.png" alt="WH Clips" class="footer-logo-img">White Horse<span> Clips</span></span>
+        <a href="https://www.linkedin.com/company/wh-clips" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </a>
+        <p class="footer-tagline">Industrial automation, AI &amp; data integration for mining and manufacturing.</p>
+        <p class="copyright">© 2026 White Horse Clips (Pty) Ltd, registration 2026/545579/07.<br>All rights reserved.</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Contact</h4>
+        <p>214 Caperbush Street, Hartbeespoort, 0216, North West, South Africa</p>
+        <p>General information:<br><a href="mailto:info@whclips.co.za" class="footer-email">info@whclips.co.za</a></p>
+        <p>Shop related:<br><a href="mailto:enquiries@whclips.co.za" class="footer-email">enquiries@whclips.co.za</a></p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigation</h4>
+        <nav class="footer-nav">
+          <a href="../index.html#about">About Us</a>
+          <a href="../index.html#services">Services</a>
+          <a href="../index.html#industries">Industries</a>
+          <a href="../clips.html">Recent Work</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Terms and Conditions</h4>
+        <nav class="footer-nav" aria-label="Store policies">
+          <a href="../terms.html">Terms of sale</a>
+          <a href="../delivery.html">Delivery</a>
+          <a href="../cancellation.html">Cancellation</a>
+          <a href="../returns.html">Returns &amp; refunds</a>
+          <a href="../privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../nav.js"></script>
+</body>
+</html>
