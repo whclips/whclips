@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-14T15:35:03+00:00",
- "pricedAt": "2026-10-14T15:35:03+00:00",
- "priceValidUntil": "2026-10-14T17:35:03+00:00",
+ "generatedAt": "2026-10-14T16:05:03+00:00",
+ "pricedAt": "2026-10-14T16:05:03+00:00",
+ "priceValidUntil": "2026-10-14T18:05:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 79,
+ "count": 100,
  "items": [
   {
    "sku": "1P3K6AA",
@@ -170,6 +170,28 @@
      ]
     ]
    ]
+  },
+  {
+   "sku": "210-ASMT-16675907",
+   "name": "Dell Wyse 5470 CTO/Wyse 5470 Intel Celeron N4100/8GB 2x4GB 2400MHz DDR416GB eMMC/PCoIP enabled Wyse ThinOS 9.X/1Y Partner Led Carry In Service",
+   "brand": "Dell",
+   "category": "DESKTOP-THIN CLIENT",
+   "price": 9841.97,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 1.8,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990688/210-ASMT-16675907_0.jpg"
+   ],
+   "description": "Dell Wyse 5470 CTO/Wyse 5470 Intel Celeron N4100/8GB 2x4GB 2400MHz DDR416GB eMMC/PCoIP enabled Wyse ThinOS 9.X/1Y Partner Led Carry In Service",
+   "strap": "",
+   "warranty": "1-year manufacturer warranty",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "210-BFIS",
@@ -4524,6 +4546,50 @@
    ]
   },
   {
+   "sku": "210-BTPZ",
+   "name": "Dell Pro 27 Adjustable Stand Monitor",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 3594,
+   "stock": "in",
+   "available": 45,
+   "shipKg": 4.83,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-btpz.jpg"
+   ],
+   "description": "Dell Pro 27 Adjustable Stand Monitor",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "210-BTQB",
+   "name": "Dell Pro 27 QHD Monitor",
+   "brand": "Dell",
+   "category": "Monitors",
+   "price": 4794,
+   "stock": "in",
+   "available": 31,
+   "shipKg": 4.92,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_210-btqb.jpg"
+   ],
+   "description": "Dell Pro 27 QHD Monitor",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
    "sku": "210-BVHR",
    "name": "Dell Pro P 27 USB-C Hub Conferencing Monitor - P2726DEB",
    "brand": "Dell",
@@ -6895,6 +6961,528 @@
    ]
   },
   {
+   "sku": "345-BDSG",
+   "name": "1.92TB SSD SATA Read Intensive 6Gbps 512e 2.5in with 3.5in HYB CARR, Hot-Plug, CUS Kit",
+   "brand": "Dell",
+   "category": "Enterprise Kits",
+   "price": 51994,
+   "stock": "in",
+   "available": 9,
+   "shipKg": 0.907,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990694/345-BDSG_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990695/345-BDSG_1.jpg"
+   ],
+   "description": "Increase the storage capacity of your Dell™ System with 1.92TB Solid State Drive from Dell. It boasts a storage capacity of up to 1.92TB, enabling users to store large amounts of data. This drive delivers enhanced data transfer speed of up to 6Gbit/s.",
+   "strap": "1.92 TB, 2.5\", 6 Gbit/s",
+   "warranty": "Inherit the warranty of the Dell system OR one year hardware warranty",
+   "highlights": [
+    [
+     "SSD capacity",
+     "1.92 TB"
+    ],
+    [
+     "SSD form factor",
+     "2.5\""
+    ],
+    [
+     "Interface",
+     "Serial ATA III"
+    ],
+    [
+     "Component for",
+     "Server/workstation"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "SSD capacity",
+       "1.92 TB"
+      ],
+      [
+       "SSD form factor",
+       "2.5\""
+      ],
+      [
+       "Interface",
+       "Serial ATA III"
+      ],
+      [
+       "Component for",
+       "Server/workstation"
+      ],
+      [
+       "Target workload",
+       "Read Intensive (RI)"
+      ],
+      [
+       "Data transfer rate",
+       "6 Gbit/s"
+      ],
+      [
+       "Bytes per sector",
+       "512e"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compatible products",
+       "PowerEdge C6420 PowerEdge C6525 PowerEdge R240 PowerEdge R250 PowerEdge R340 PowerEdge R350 PowerEdge R440 PowerEdge R540 PowerEdge R6515 PowerEdge R6525 PowerEdge R740 PowerEdge R740xd2 PowerEdge R7425 PowerEdge R7515 PowerEdge R7525 PowerEdge T350"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "345-BGSY",
+   "name": "960GB SSD SATA Read Intensive 6Gbps 512e 2.5in with 3.5in HYB CARR, Hot-plug, CK",
+   "brand": "Dell",
+   "category": "STORAGE-ACCESSORY",
+   "price": 11694,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0.11,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990695/345-BGSY_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990695/345-BGSY_1.jpg"
+   ],
+   "description": "Increase the storage capacity of your Dell™ System with 960GB Solid State Drive from Dell. It boasts a storage capacity of up to 960GB, enabling users to store large amounts of data. This drive delivers enhanced data transfer speed of up to 6Gbit/s.",
+   "strap": "960 GB, 2.5\", 6 Gbit/s",
+   "warranty": "Inherit the warranty of the Dell system OR one year hardware warranty",
+   "highlights": [
+    [
+     "SSD capacity",
+     "960 GB"
+    ],
+    [
+     "SSD form factor",
+     "2.5\""
+    ],
+    [
+     "Interface",
+     "Serial ATA"
+    ],
+    [
+     "Component for",
+     "Server"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "SSD capacity",
+       "960 GB"
+      ],
+      [
+       "SSD form factor",
+       "2.5\""
+      ],
+      [
+       "Interface",
+       "Serial ATA"
+      ],
+      [
+       "Component for",
+       "Server"
+      ],
+      [
+       "Target workload",
+       "Read Intensive (RI)"
+      ],
+      [
+       "Data transfer rate",
+       "6 Gbit/s"
+      ],
+      [
+       "Bytes per sector",
+       "512e"
+      ],
+      [
+       "Hot-Plug support",
+       "Yes"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "400-BDVG",
+   "name": "Dell 1.92TB SSD SATA Mixed Use 6Gbps 512e 2.5in Hot plug 3.5in HYB CARR DriveS4610 CK Compatible R640/R740/R740xd/C6420/R440/R540/R6415/R7415/R7425/R240/R740xd2/R6515/R6525/R7515/R7525",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 46994,
+   "stock": "low",
+   "available": 1,
+   "shipKg": 0.181,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990695/400-BDVG_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990695/400-BDVG_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990695/400-BDVG_2.jpg"
+   ],
+   "description": "Increase the storage capacity of your Dell™ System with 1.92TB Solid State Drive from Dell. It boasts a storage capacity of up to 1.92TB, enabling users to store large amounts of data. This drive delivers enhanced data transfer speed of up to 6Gbps.",
+   "strap": "1.92 TB, 2.5\", 6 Gbit/s",
+   "warranty": "",
+   "highlights": [
+    [
+     "SSD capacity",
+     "1.92 TB"
+    ],
+    [
+     "SSD form factor",
+     "2.5\""
+    ],
+    [
+     "Interface",
+     "Serial ATA III"
+    ],
+    [
+     "NVMe",
+     "No"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "SSD capacity",
+       "1.92 TB"
+      ],
+      [
+       "SSD form factor",
+       "2.5\""
+      ],
+      [
+       "Interface",
+       "Serial ATA III"
+      ],
+      [
+       "NVMe",
+       "No"
+      ],
+      [
+       "Component for",
+       "Server/workstation"
+      ],
+      [
+       "Data transfer rate",
+       "6 Gbit/s"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compatible products",
+       "- PowerEdge C6420 - BSN Recorder Node - PowerEdge R740 - PowerEdge R7515 - PowerEdge R740XD - PowerEdge R6515 - PowerEdge R640 - PowerEdge R440 - PowerEdge R740xd2 - PowerEdge R240 - PowerEdge R7415 - PowerEdge R6415 - PowerEdge R7425 - PowerEdge R540"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "400-BGED",
+   "name": "4TB 5.4K RPM SATA 6Gbps 512n 3.5in Cabled Hard Drive CK",
+   "brand": "Dell",
+   "category": "Enterprise Kits",
+   "price": 4994,
+   "stock": "in",
+   "available": 9,
+   "shipKg": 0.669,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990696/400-BGED_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990697/400-BGED_1.jpg"
+   ],
+   "description": "Increase the storage capacity of your system with the 4TB Hard Drive from Dell. Offering a rotational speed of 5400 RPM, this drive provides fast disk access.",
+   "strap": "4 TB, 5400 RPM, 3.5\", Serial ATA",
+   "warranty": "Inherit the warranty of the Dell system OR one year hardware warranty",
+   "highlights": [
+    [
+     "Interface",
+     "Serial ATA"
+    ],
+    [
+     "HDD capacity",
+     "4 TB"
+    ],
+    [
+     "HDD speed",
+     "5400 RPM"
+    ],
+    [
+     "HDD size",
+     "3.5\""
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "HDD capacity",
+       "4 TB"
+      ],
+      [
+       "HDD speed",
+       "5400 RPM"
+      ],
+      [
+       "HDD size",
+       "3.5\""
+      ],
+      [
+       "Interface",
+       "Serial ATA"
+      ],
+      [
+       "Type",
+       "HDD"
+      ],
+      [
+       "HDD interface transfer rate",
+       "6 Gbit/s"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "400-BLCL",
+   "name": "Dell 240GB SSD M.2 SATA 6Gbps 512e Hard Drive Single Stick",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 8394,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 1,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991031/400-BLCL_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991031/400-BLCL_1.jpg"
+   ],
+   "description": "Increase the storage capacity of your Dell™ System with 240GB Solid State Drive from Dell. It boasts a storage capacity of up to 240GB, enabling users to store large amounts of data.",
+   "strap": "240 GB, M.2, 6 Gbit/s",
+   "warranty": "Inherit the warranty of the Dell system OR one year hardware warranty",
+   "highlights": [
+    [
+     "SSD capacity",
+     "240 GB"
+    ],
+    [
+     "SSD form factor",
+     "M.2"
+    ],
+    [
+     "Interface",
+     "Serial ATA III"
+    ],
+    [
+     "NVMe",
+     "No"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "SSD capacity",
+       "240 GB"
+      ],
+      [
+       "SSD form factor",
+       "M.2"
+      ],
+      [
+       "Interface",
+       "Serial ATA III"
+      ],
+      [
+       "NVMe",
+       "No"
+      ],
+      [
+       "Component for",
+       "Server/workstation"
+      ],
+      [
+       "M.2 SSD size",
+       "2280 (22 x 80 mm)"
+      ],
+      [
+       "Data transfer rate",
+       "6 Gbit/s"
+      ],
+      [
+       "Bytes per sector",
+       "512e"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compatible products",
+       "PowerEdge R250 PowerEdge R450 PowerEdge R550 PowerEdge R650 PowerEdge R650XS PowerEdge R750XA PowerEdge T150 PowerEdge T350 PowerEdge XR11 PowerEdge XR12"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "429-AAOX-SLIM",
+   "name": "Dell 8X DVD ROM/Internal/slim",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 754,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 1,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990697/429-AAOX-SLIM_0.jpg"
+   ],
+   "description": "Dell 8X DVD ROM/Internal/slim",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "450-AFLE",
+   "name": "Dell Laptop Car and Airplane 65W DC Power Adapter - USB-C",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 1294,
+   "stock": "in",
+   "available": 78,
+   "shipKg": 0.118,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991031/450-AFLE_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991031/450-AFLE_1.jpg"
+   ],
+   "description": "DELL 450-AFLE. Purpose: Laptop, Power supply type: Auto, Output power: 65 W. Connector(s): USB-C. Product colour: Black. Quantity per pack: 1 pc(s)",
+   "strap": "Laptop, Auto, 65 W, USB-C, Black, 1 pc(s)",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Output power",
+     "65 W"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Purpose",
+     "Laptop"
+    ],
+    [
+     "Power supply type",
+     "Auto"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Purpose",
+       "Laptop"
+      ],
+      [
+       "Power supply type",
+       "Auto"
+      ],
+      [
+       "Output power",
+       "65 W"
+      ],
+      [
+       "Adjustable output voltage",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "Connector(s)",
+       "USB-C"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "450-BGJW",
+   "name": "Dell E5 130W USB-C AC Adapter with Red Top Plug Power Cord - South Africa",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 1294,
+   "stock": "in",
+   "available": 29,
+   "shipKg": 1,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/dell_450-bgjw.jpg"
+   ],
+   "description": "Dell E5 130W USB-C AC Adapter with Red Top Plug Power Cord - South Africa",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
    "sku": "460-BCQL",
    "name": "Dell Premier Briefcase (M) Fits Most Screen Sizes Up to 15.6 PE1520C",
    "brand": "Dell",
@@ -7708,6 +8296,28 @@
    ]
   },
   {
+   "sku": "460-BFCR",
+   "name": "Alienware 16 Backpack AW5625P",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 1069,
+   "stock": "in",
+   "available": 17,
+   "shipKg": 0.762,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991040/460-BFCR_0.jpg"
+   ],
+   "description": "Alienware 16 Backpack AW5625P",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
    "sku": "460-BFDD",
    "name": "Dell Pro 14-16 Plus EcoLoop Urban Backpack - CP5625G",
    "brand": "Dell",
@@ -8197,6 +8807,121 @@
    ]
   },
   {
+   "sku": "470-BCFW",
+   "name": "Dell Adapter - USB-C to HDMI 2.1",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 585,
+   "stock": "in",
+   "available": 74,
+   "shipKg": 0.03,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990700/470-BCFW_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990703/470-BCFW_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990700/470-BCFW_2.jpg"
+   ],
+   "description": "Conveniently view content from your laptop with USB-C video output on an HDMI-compliant display.",
+   "strap": "USB Type-C, HDMI, Male, Female, Straight, Straight",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Maximum refresh rate",
+     "144 Hz"
+    ],
+    [
+     "Connector 1",
+     "USB Type-C"
+    ],
+    [
+     "Connector 2",
+     "HDMI"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Connector 1 form factor",
+       "Straight"
+      ],
+      [
+       "Connector 2 form factor",
+       "Straight"
+      ],
+      [
+       "Connector 1",
+       "USB Type-C"
+      ],
+      [
+       "Connector 2",
+       "HDMI"
+      ],
+      [
+       "Connector 1 gender",
+       "Male"
+      ],
+      [
+       "Connector 2 gender",
+       "Female"
+      ],
+      [
+       "HDMI version",
+       "2.1"
+      ],
+      [
+       "HDCP",
+       "Yes"
+      ],
+      [
+       "HDCP version",
+       "1.4/2.3"
+      ],
+      [
+       "USB Type-C DisplayPort Alternate Mode",
+       "Yes"
+      ],
+      [
+       "Maximum resolution",
+       "7680 x 4320 pixels"
+      ],
+      [
+       "Maximum refresh rate",
+       "144 Hz"
+      ],
+      [
+       "Refresh rate at maximum resolution",
+       "60 Hz"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Colour depth",
+       "10 bit"
+      ],
+      [
+       "Plug and Play",
+       "Yes"
+      ],
+      [
+       "Windows operating systems supported",
+       "Windows 10, Windows 11 x64"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "470-BDNL",
    "name": "Dell DisplayPort 1.4 Cable - CB325D",
    "brand": "Dell",
@@ -8308,6 +9033,28 @@
      ]
     ]
    ]
+  },
+  {
+   "sku": "470-BFBN",
+   "name": "Dell Pro 4-in-1 USB-C Travel Hub-DA225",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 735,
+   "stock": "in",
+   "available": 67,
+   "shipKg": 0.047,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991046/470-BFBN_0.jpg"
+   ],
+   "description": "Dell Pro 4-in-1 USB-C Travel Hub-DA225",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "470-BGCG",
@@ -8781,6 +9528,28 @@
      ]
     ]
    ]
+  },
+  {
+   "sku": "492-BDSB",
+   "name": "Dell 100W USB-C GaN Ultra Slim AC Adapter with Power Cord - South Africa",
+   "brand": "Dell",
+   "category": "Cables & adapters",
+   "price": 1694,
+   "stock": "in",
+   "available": 39,
+   "shipKg": 1,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990703/492-BDSB_0.jpg"
+   ],
+   "description": "Dell 100W USB-C GaN Ultra Slim AC Adapter with Power Cord - South Africa",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "520-AAVQ",
@@ -10360,6 +11129,50 @@
      ]
     ]
    ]
+  },
+  {
+   "sku": "545-BBFS",
+   "name": "Alienware Pro Wireless Gaming Headset - Dark Side of the Moon",
+   "brand": "Dell",
+   "category": "Gaming accessories",
+   "price": 4545,
+   "stock": "low",
+   "available": 4,
+   "shipKg": 0.315,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990706/545-BBFS_0.jpg"
+   ],
+   "description": "Alienware Pro Wireless Gaming Headset - Dark Side of the Moon",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "545-BBFW",
+   "name": "Alienware Tri-Mode Wireless Gaming Headset AW725H - Dark Side of the Moon",
+   "brand": "Dell",
+   "category": "Gaming accessories",
+   "price": 3304,
+   "stock": "low",
+   "available": 2,
+   "shipKg": 0.348,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990707/545-BBFW_0.jpg"
+   ],
+   "description": "Alienware Tri-Mode Wireless Gaming Headset AW725H - Dark Side of the Moon",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "570-ABHI",
@@ -13767,6 +14580,141 @@
    ]
   },
   {
+   "sku": "722-BBBI",
+   "name": "Dell UltraSharp Webcam - WB7022",
+   "brand": "Dell",
+   "category": "Webcams",
+   "price": 2745,
+   "stock": "in",
+   "available": 14,
+   "shipKg": 0.299,
+   "badges": [
+    "Best seller"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990718/722-BBBI_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990721/722-BBBI_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990718/722-BBBI_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990722/722-BBBI_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990722/722-BBBI_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990721/722-BBBI_5.jpg"
+   ],
+   "description": "Dell UltraSharp Webcam Experience best image quality in its class with the world’s most intelligent 4K webcam.",
+   "strap": "8.3 MP, 3840 x 2160 pixels, Full HD, 60 fps, 5x, USB",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Interface",
+     "USB"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Megapixel (approx.)",
+     "8.3 MP"
+    ],
+    [
+     "Maximum video resolution",
+     "3840 x 2160 pixels"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Performance",
+     [
+      [
+       "Megapixel (approx.)",
+       "8.3 MP"
+      ],
+      [
+       "Maximum video resolution",
+       "3840 x 2160 pixels"
+      ],
+      [
+       "Maximum frame rate",
+       "60 fps"
+      ],
+      [
+       "Camera HD type",
+       "Full HD"
+      ],
+      [
+       "Auto focus",
+       "Yes"
+      ],
+      [
+       "Zoom capability",
+       "Yes"
+      ],
+      [
+       "Digital zoom",
+       "5x"
+      ],
+      [
+       "Noise reduction",
+       "Yes"
+      ],
+      [
+       "Automatic light correction",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Interface",
+       "USB"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Housing material",
+       "Aluminium"
+      ],
+      [
+       "Mounting type",
+       "Clip"
+      ],
+      [
+       "Sensor type",
+       "CMOS"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "42 mm"
+      ],
+      [
+       "Depth",
+       "90 mm"
+      ]
+     ]
+    ],
+    [
+     "Microphone",
+     [
+      [
+       "Built-in microphone",
+       "No"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "722-BBCV",
    "name": "Dell Pro 7 Webcam 4K - WB726",
    "brand": "Dell",
@@ -14403,6 +15351,97 @@
       [
        "UNSPSC-code",
        "52161514"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "AB663419",
+   "name": "Dell Memory Upgrade 8GB 1RX8 DDR4 UDIMM 3200MHz ECC Compatibility R240/R250/R340/R350/T40/T140/T150/T340/T350",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 3354,
+   "stock": "low",
+   "available": 1,
+   "shipKg": 0.05,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990717/AB663419_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990717/AB663419_1.jpg"
+   ],
+   "description": "DELL AB663419. Component for: PC/Server, Internal memory: 8 GB, Memory layout (modules x size): 1 x 8 GB, Internal memory type: DDR4, Memory clock speed: 3200 MHz, Memory form factor: 288-pin DIMM, ECC",
+   "strap": "8 GB, 1 x 8 GB, DDR4, 3200 MHz, 288-pin DIMM",
+   "warranty": "Lifetime Limited Warranty",
+   "highlights": [
+    [
+     "Internal memory",
+     "8 GB"
+    ],
+    [
+     "Memory layout (modules x size)",
+     "1 x 8 GB"
+    ],
+    [
+     "Internal memory type",
+     "DDR4"
+    ],
+    [
+     "Memory clock speed",
+     "3200 MHz"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Internal memory",
+       "8 GB"
+      ],
+      [
+       "Memory layout (modules x size)",
+       "1 x 8 GB"
+      ],
+      [
+       "Internal memory type",
+       "DDR4"
+      ],
+      [
+       "Memory clock speed",
+       "3200 MHz"
+      ],
+      [
+       "Component for",
+       "PC/Server"
+      ],
+      [
+       "Memory form factor",
+       "288-pin DIMM"
+      ],
+      [
+       "ECC",
+       "Yes"
+      ],
+      [
+       "Buffered memory type",
+       "Unregistered (unbuffered)"
+      ],
+      [
+       "Memory voltage",
+       "1.2 V"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Chips organisation",
+       "1Rx8"
       ]
      ]
     ]
@@ -17696,6 +18735,28 @@
      ]
     ]
    ]
+  },
+  {
+   "sku": "BTO203_PA13250_EMEA-5G",
+   "name": "Dell Pro 13 Premium PA13250/Ultra 5 236V/Copilot+/16GB/Cant Upg/512GB SSD Gen4/13.3” FHD+/Arc/FgrPr/Cams & Mic/WLAN + BT/Backlit Kb/5G/3 Cell/W11Pro/vPro/3Y ProSpt",
+   "brand": "Dell",
+   "category": "Notebooks",
+   "price": 40494,
+   "stock": "in",
+   "available": 11,
+   "shipKg": 1.07,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990726/BTO203_PA13250_EMEA-5G_0.jpg"
+   ],
+   "description": "Dell Pro 13 Premium PA13250/Ultra 5 236V/Copilot+/16GB/Cant Upg/512GB SSD Gen4/13.3\" FHD+/Arc/FgrPr/Cams & Mic/WLAN + BT/Backlit Kb/5G/3 Cell/W11Pro/vPro/3Y ProSpt",
+   "strap": "",
+   "warranty": "3-year manufacturer warranty",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "BTO206_PA13250_EMEA",
@@ -21890,6 +22951,28 @@
      ]
     ]
    ]
+  },
+  {
+   "sku": "CF8Q5EA",
+   "name": "HP EliteBook 8 G1i 14 inch Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 14WUXGAAGLED300UWVAf5MPIRISP+LP60HzbLCD Windows 11 Pro 64 Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
+   "brand": "HP",
+   "category": "Notebooks",
+   "price": 42494,
+   "stock": "in",
+   "available": 47,
+   "shipKg": 1.39,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://staxdstoragecdn.blob.core.windows.net/axd-live/hpic_cf8q5ea.jpg"
+   ],
+   "description": "HP EliteBook 8 G1i 14 inch Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 14WUXGAAGLED300UWVAf5MPIRISP+LP60HzbLCD Windows 11 Pro 64 Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
+   "strap": "",
+   "warranty": "3-year manufacturer warranty",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "CK8G4EA",
