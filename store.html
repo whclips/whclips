@@ -339,8 +339,8 @@
   .sh-specs .sh-spec-group:first-child{ margin-top:0; }
   .sh-drawer .btn-submit:disabled{ opacity:.4; cursor:not-allowed; }
   /* Mini-cart drawer (Director 15 Oct 2026, after Dell Online): slides in on Add to cart and from the cart icon */
-  .sh-added{ position:fixed; top:0; right:0; bottom:0; width:min(94vw,430px); z-index:90; background:#0b0b0b; border-left:1px solid var(--border);
-             padding:1.25rem 1.25rem 1.1rem; display:flex; flex-direction:column; box-shadow:-24px 0 60px rgba(0,0,0,.6); animation:shSlide .22s ease-out; }
+  .sh-added{ position:fixed; top:5rem; right:1rem; width:min(94vw,400px); max-height:calc(100vh - 6rem); z-index:95; background:#0b0b0b; border:1px solid var(--border); border-radius:14px;
+             padding:1.1rem 1.1rem 1rem; display:flex; flex-direction:column; box-shadow:0 18px 50px rgba(0,0,0,.65); animation:shSlide .22s ease-out; }
   @keyframes shSlide{ from{ transform:translateX(100%); } to{ transform:none; } }
   @media (prefers-reduced-motion:reduce){ .sh-added{ animation:none; } }
   .sh-added[hidden]{ display:none; }
@@ -349,7 +349,7 @@
   .sh-cd-x{ background:none; border:0; color:var(--text-dim-55); cursor:pointer; font:inherit; font-size:.82rem; }
   .sh-cd-x:hover{ color:#fff; }
   .sh-added-name{ font-size:.82rem; color:var(--text-dim-55); margin:0 0 .6rem; }
-  .sh-cd-lines{ flex:1; overflow:auto; }
+  .sh-cd-lines{ overflow:auto; min-height:0; }
   .sh-cd-line{ display:grid; grid-template-columns:64px 1fr auto; gap:.8rem; padding:.9rem 0; border-top:1px solid var(--border); align-items:start; }
   .sh-cd-line img, .sh-cd-line .sh-cd-ph{ width:64px; height:64px; object-fit:contain; background:#fff; border-radius:8px; }
   .sh-cd-name{ font-size:.85rem; font-weight:600; line-height:1.35; }
@@ -442,7 +442,7 @@
   </section>
 
   <div class="sh-scrim" id="shScrim" hidden></div>
-  <aside class="sh-added" id="shAdded" role="dialog" aria-modal="true" aria-labelledby="shAddedTitle" hidden>
+  <aside class="sh-added" id="shAdded" role="dialog" aria-modal="false" aria-labelledby="shAddedTitle" hidden>
     <div class="sh-cd-head">
       <p class="sh-added-title" id="shAddedTitle">Your cart</p>
       <button type="button" class="sh-cd-x" id="shAddedMore" aria-label="Close the cart">Close &#10005;</button>
@@ -801,7 +801,7 @@
   byId('shDetailAdd').addEventListener('click', function(){
     if (!detail.item) return;
     state.cart[detail.item.sku] = Math.min(maxQty(detail.item.sku), (state.cart[detail.item.sku] || 0) + detail.qty);
-    saveCart(); renderCart(); closeDetail(); showAdded(detail.item);
+    saveCart(); renderCart(); showAdded(detail.item);
   });
   byId('shDetailClose').addEventListener('click', function(){ closeDetail(); });
   byId('shDetail').addEventListener('click', function(e){ if (e.target === byId('shDetail')) closeDetail(); });
@@ -842,11 +842,10 @@
     byId('shAddedTitle').textContent = item ? 'Added to your cart' : 'Your cart';
     byId('shAddedName').textContent = item ? item.name : '';
     renderDrawer();
-    byId('shAdded').hidden = false; byId('shScrim').hidden = false;
-    var go = byId('shAddedGo'); if (!byId('shCdFoot').hidden) go.focus();
+    byId('shAdded').hidden = false;
   }
   function showAdded(item){ if (item) openCart(item); }
-  function closeAdded(){ byId('shAdded').hidden = true; byId('shScrim').hidden = true; }
+  function closeAdded(){ byId('shAdded').hidden = true; }
 
   // ---- checkout -----------------------------------------------------------
   // Back from PayFast: ?order=WHC-...&status=paid|cancelled. "paid" here means
@@ -887,9 +886,8 @@
     saveCart(); renderCart(); renderDrawer();
   });
   byId('navCart').addEventListener('click', function(e){ if (e.ctrlKey || e.metaKey || e.shiftKey) return; e.preventDefault(); openCart(null); });
-  document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && !byId('shAdded').hidden) closeAdded(); });
-  byId('shScrim').addEventListener('click', function(){ closeDetail(); closeAdded(); });
-  document.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ closeDetail(); closeAdded(); } });
+  byId('shScrim').addEventListener('click', function(){ closeDetail(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ if (!byId('shAdded').hidden) closeAdded(); else closeDetail(); } });
 })();
 </script>
 
