@@ -338,13 +338,32 @@
   .sh-specs .sh-spec-group{ grid-column:1 / -1; margin-top:.5rem; padding-bottom:.2rem; border-bottom:1px solid var(--border, rgba(255,255,255,.08)); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; color:var(--text-dim-55); }
   .sh-specs .sh-spec-group:first-child{ margin-top:0; }
   .sh-drawer .btn-submit:disabled{ opacity:.4; cursor:not-allowed; }
-  .sh-added{ position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:90; width:min(92vw,400px);
-             background:#0b0b0b; border:1px solid var(--border); border-radius:16px; padding:1.5rem; text-align:center; box-shadow:0 24px 60px rgba(0,0,0,.6); }
+  /* Mini-cart drawer (Director 15 Oct 2026, after Dell Online): slides in on Add to cart and from the cart icon */
+  .sh-added{ position:fixed; top:0; right:0; bottom:0; width:min(94vw,430px); z-index:90; background:#0b0b0b; border-left:1px solid var(--border);
+             padding:1.25rem 1.25rem 1.1rem; display:flex; flex-direction:column; box-shadow:-24px 0 60px rgba(0,0,0,.6); animation:shSlide .22s ease-out; }
+  @keyframes shSlide{ from{ transform:translateX(100%); } to{ transform:none; } }
+  @media (prefers-reduced-motion:reduce){ .sh-added{ animation:none; } }
   .sh-added[hidden]{ display:none; }
-  .sh-added-title{ font-size:.75rem; letter-spacing:.14em; text-transform:uppercase; color:#34d399; margin:0 0 .6rem; }
-  .sh-added-name{ font-weight:700; font-size:1rem; line-height:1.4; margin:0 0 .35rem; color:var(--text); }
-  .sh-added-sum{ font-size:.82rem; color:var(--text-dim-55); margin:0 0 1.25rem; }
-  .sh-added-actions{ display:flex; gap:.75rem; justify-content:center; flex-wrap:wrap; }
+  .sh-cd-head{ display:flex; justify-content:space-between; align-items:center; margin-bottom:.4rem; }
+  .sh-added-title{ font-size:.75rem; letter-spacing:.14em; text-transform:uppercase; color:#34d399; margin:0; }
+  .sh-cd-x{ background:none; border:0; color:var(--text-dim-55); cursor:pointer; font:inherit; font-size:.82rem; }
+  .sh-cd-x:hover{ color:#fff; }
+  .sh-added-name{ font-size:.82rem; color:var(--text-dim-55); margin:0 0 .6rem; }
+  .sh-cd-lines{ flex:1; overflow:auto; }
+  .sh-cd-line{ display:grid; grid-template-columns:64px 1fr auto; gap:.8rem; padding:.9rem 0; border-top:1px solid var(--border); align-items:start; }
+  .sh-cd-line img, .sh-cd-line .sh-cd-ph{ width:64px; height:64px; object-fit:contain; background:#fff; border-radius:8px; }
+  .sh-cd-name{ font-size:.85rem; font-weight:600; line-height:1.35; }
+  .sh-cd-sku{ font-size:.7rem; color:var(--text-dim-40); margin-top:.15rem; }
+  .sh-cd-qty{ display:flex; align-items:center; gap:.45rem; margin-top:.5rem; }
+  .sh-cd-qty button{ width:26px; height:26px; border-radius:6px; border:1px solid var(--border); background:transparent; color:var(--text); cursor:pointer; font-size:.95rem; line-height:1; }
+  .sh-cd-qty span{ min-width:1.4rem; text-align:center; font-variant-numeric:tabular-nums; font-size:.85rem; }
+  .sh-cd-price{ font-weight:700; font-size:.9rem; text-align:right; white-space:nowrap; }
+  .sh-cd-rm{ display:block; margin:.35rem 0 0 auto; background:none; border:0; color:var(--text-dim-40); font-size:.72rem; text-decoration:underline; cursor:pointer; }
+  .sh-cd-empty{ padding:2rem 0; color:var(--text-dim-55); font-size:.9rem; }
+  .sh-cd-foot{ border-top:1px solid var(--border); padding-top:1rem; }
+  .sh-cd-sub{ display:flex; justify-content:space-between; align-items:baseline; margin-bottom:.9rem; font-size:1rem; }
+  .sh-cd-foot .btn-solid{ display:block; text-align:center; width:100%; box-sizing:border-box; }
+  .sh-cd-fine{ font-size:.74rem; color:var(--text-dim-40); text-align:center; margin:.7rem 0 0; }
 </style>
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -423,15 +442,19 @@
   </section>
 
   <div class="sh-scrim" id="shScrim" hidden></div>
-  <div class="sh-added" id="shAdded" role="dialog" aria-modal="true" aria-labelledby="shAddedTitle" hidden>
-    <p class="sh-added-title" id="shAddedTitle">Added to your cart</p>
-    <p class="sh-added-name" id="shAddedName"></p>
-    <p class="sh-added-sum" id="shAddedSum"></p>
-    <div class="sh-added-actions">
-      <button type="button" class="btn-outline" id="shAddedMore">Continue shopping</button>
-      <a class="btn-solid" id="shAddedGo" href="checkout.html">Go to cart</a>
+  <aside class="sh-added" id="shAdded" role="dialog" aria-modal="true" aria-labelledby="shAddedTitle" hidden>
+    <div class="sh-cd-head">
+      <p class="sh-added-title" id="shAddedTitle">Your cart</p>
+      <button type="button" class="sh-cd-x" id="shAddedMore" aria-label="Close the cart">Close &#10005;</button>
     </div>
-  </div>
+    <p class="sh-added-name" id="shAddedName"></p>
+    <div class="sh-cd-lines" id="shCdLines"></div>
+    <div class="sh-cd-foot" id="shCdFoot">
+      <div class="sh-cd-sub"><span>Subtotal</span><strong id="shCdSub">R0</strong></div>
+      <a class="btn-solid" id="shAddedGo" href="checkout.html">Check out</a>
+      <p class="sh-cd-fine">Delivery is worked out at checkout.</p>
+    </div>
+  </aside>
 
   <!-- product detail panel -->
   <div class="sh-detail" id="shDetail" role="dialog" aria-modal="true" aria-labelledby="shDetailName" hidden>
@@ -799,19 +822,30 @@
     var count = cartLines().reduce(function(n, l){ return n + l.qty; }, 0);
     var c = byId('navCartCount'); c.textContent = count; c.hidden = count === 0;
   }
-  // Adding to the cart updates the cart icon in the top bar and shows this prompt. The cart itself, the
-  // delivery details and the payment are on checkout.html.
-  function showAdded(item){
-    if (!item) return;
+  // Adding to the cart updates the cart icon and slides in the mini-cart (Director 15 Oct 2026). The cart icon opens it too.
+  // The delivery details and the payment are on checkout.html.
+  function renderDrawer(){
     var lines = cartLines();
-    var count = lines.reduce(function(n, l){ return n + l.qty; }, 0);
     var total = lines.reduce(function(n, l){ return n + l.qty * l.item.price; }, 0);
-    byId('shAddedName').textContent = item.name;
-    byId('shAddedSum').textContent = count + (count === 1 ? ' item' : ' items') + ' in your cart \u00b7 ' + money(total);
-    // The store is closed to the public (Director, 10 Oct 2026): keep the private opening link when going to the cart.
-    byId('shAddedGo').setAttribute('href', 'checkout.html');
-    byId('shAdded').hidden = false; byId('shScrim').hidden = false; byId('shAddedGo').focus();
+    byId('shCdLines').innerHTML = lines.length ? lines.map(function(l){
+      var it = l.item;
+      var im = it.images && it.images[0] ? '<img src="' + esc(it.images[0]) + '" alt="">' : '<div class="sh-cd-ph"></div>';
+      return '<div class="sh-cd-line">' + im +
+        '<div><div class="sh-cd-name">' + esc(it.name) + '</div><div class="sh-cd-sku">' + esc(it.sku) + '</div>' +
+        '<div class="sh-cd-qty"><button type="button" data-cd-dec="' + esc(it.sku) + '" aria-label="One fewer">&minus;</button><span>' + l.qty + '</span><button type="button" data-cd-inc="' + esc(it.sku) + '" aria-label="One more">+</button></div></div>' +
+        '<div><div class="sh-cd-price">' + money(l.qty * it.price) + '</div><button type="button" class="sh-cd-rm" data-cd-rm="' + esc(it.sku) + '">Remove</button></div></div>';
+    }).join('') : '<p class="sh-cd-empty">Your cart is empty.</p>';
+    byId('shCdSub').textContent = money(total);
+    byId('shCdFoot').hidden = !lines.length;
   }
+  function openCart(item){
+    byId('shAddedTitle').textContent = item ? 'Added to your cart' : 'Your cart';
+    byId('shAddedName').textContent = item ? item.name : '';
+    renderDrawer();
+    byId('shAdded').hidden = false; byId('shScrim').hidden = false;
+    var go = byId('shAddedGo'); if (!byId('shCdFoot').hidden) go.focus();
+  }
+  function showAdded(item){ if (item) openCart(item); }
   function closeAdded(){ byId('shAdded').hidden = true; byId('shScrim').hidden = true; }
 
   // ---- checkout -----------------------------------------------------------
@@ -844,6 +878,16 @@
 
 
   byId('shAddedMore').addEventListener('click', closeAdded);
+  byId('shCdLines').addEventListener('click', function(e){
+    var t = e.target, sku = t.getAttribute('data-cd-inc') || t.getAttribute('data-cd-dec') || t.getAttribute('data-cd-rm');
+    if (!sku) return;
+    if (t.hasAttribute('data-cd-inc')) state.cart[sku] = Math.min(maxQty(sku), (state.cart[sku] || 0) + 1);
+    else if (t.hasAttribute('data-cd-dec')) { state.cart[sku] = Math.max(0, (state.cart[sku] || 0) - 1); if (!state.cart[sku]) delete state.cart[sku]; }
+    else delete state.cart[sku];
+    saveCart(); renderCart(); renderDrawer();
+  });
+  byId('navCart').addEventListener('click', function(e){ if (e.ctrlKey || e.metaKey || e.shiftKey) return; e.preventDefault(); openCart(null); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && !byId('shAdded').hidden) closeAdded(); });
   byId('shScrim').addEventListener('click', function(){ closeDetail(); closeAdded(); });
   document.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ closeDetail(); closeAdded(); } });
 })();
