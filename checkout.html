@@ -391,6 +391,15 @@
   restoreDetails();
   byId('ckForm').addEventListener('input', saveDetails);
   byId('ckForm').addEventListener('change', saveDetails);
+  // Link from the abandoned-checkout reminder: checkout.html?cart=SKU:qty,SKU:qty puts that cart back (Director 15 Oct 2026). Quantities are clamped to 1..10 and unknown SKUs drop out when the page checks the catalogue.
+  try {
+    var qc = new URLSearchParams(location.search).get('cart');
+    if (qc) {
+      var c0 = {};
+      qc.split(',').forEach(function(pair){ var a = pair.split(':'); var q = parseInt(a[1], 10); if (a[0] && q >= 1) c0[decodeURIComponent(a[0]).toUpperCase()] = Math.min(q, 10); });
+      if (Object.keys(c0).length) localStorage.setItem(CART_KEY, JSON.stringify(c0));
+    }
+  } catch(e){}
   loadCart(); render();
 })();
 </script>

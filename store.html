@@ -832,6 +832,12 @@
     } else {
       n.className = 'sh-notice is-warn';
       n.textContent = 'Payment for order ' + order + ' was not completed. Your cart is still here if you want to try again.';
+      if (Object.keys(state.cart || {}).length) {   // a Check out button right in the notice (Director 15 Oct 2026)
+        var goCk = document.createElement('a');
+        goCk.href = 'checkout.html'; goCk.className = 'btn-solid'; goCk.textContent = 'Check out';
+        goCk.style.cssText = 'display:inline-block;margin-left:1rem;padding:.45rem 1.1rem;font-size:.85rem;border-radius:999px;text-decoration:none';
+        n.appendChild(goCk);
+      }
     }
     history.replaceState(null, '', location.pathname);
   }
