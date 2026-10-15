@@ -20,6 +20,21 @@
   .ck-hero h1{ font-size:2.25rem; font-weight:800; letter-spacing:-.03em; margin:.75rem 0 0; color:var(--text); }
   @media (min-width:768px){ .ck-hero{ padding:5.5rem 0 2.5rem; } .ck-hero h1{ font-size:3rem; } }
   .ck-body{ padding:1rem 0 5rem; }
+  .ck-q{ display:inline-flex; align-items:center; justify-content:center; width:1.15rem; height:1.15rem; margin-left:.3rem; border-radius:50%; border:1px solid var(--text-dim-40); background:transparent; color:var(--text-dim-55); font-size:.7rem; line-height:1; cursor:pointer; vertical-align:middle; }
+  .ck-q:hover{ color:#fff; border-color:#fff; }
+  .ck-modal{ position:fixed; inset:0; z-index:200; background:rgba(0,0,0,.65); display:flex; align-items:flex-start; justify-content:center; overflow:auto; padding:5vh 1rem; }
+  .ck-modal[hidden]{ display:none; }
+  .ck-modal-box{ width:min(100%,46rem); background:#0b0b0b; border:1px solid var(--border); border-radius:16px; padding:1.6rem 1.75rem 1.9rem; box-shadow:0 24px 60px rgba(0,0,0,.6); }
+  .ck-modal-head{ display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; margin-bottom:.6rem; }
+  .ck-modal-head h2{ font-size:1.25rem; margin:0; color:var(--text); }
+  .ck-modal-x{ background:none; border:0; color:var(--text-dim-55); cursor:pointer; font:inherit; font-size:.85rem; white-space:nowrap; }
+  .ck-modal-x:hover{ color:#fff; }
+  .ck-modal-box h3{ font-size:.95rem; margin:1.3rem 0 .35rem; color:var(--text); }
+  .ck-modal-box p{ font-size:.88rem; line-height:1.65; color:var(--text-dim-55); margin:0 0 .6rem; }
+  .ck-modal-box a{ color:#818cf8; text-decoration:underline; }
+  .ck-modal-table{ width:100%; border-collapse:collapse; margin:.2rem 0 .8rem; font-size:.86rem; }
+  .ck-modal-table th, .ck-modal-table td{ text-align:left; padding:.55rem .6rem; border-top:1px solid var(--border); vertical-align:top; color:var(--text-dim-55); }
+  .ck-modal-table th{ width:38%; color:var(--text); font-weight:600; }
   .ck-notice{ margin:0 0 1.5rem; padding:.8rem 1rem; border:1px solid var(--border); border-radius:10px; font-size:.85rem; color:var(--text-dim-55); background:rgba(255,255,255,.03); }
   .ck-notice.is-warn{ background:rgba(248,113,113,.1); border-color:rgba(248,113,113,.4); color:#fca5a5; }
   .ck-grid{ display:grid; gap:2rem; grid-template-columns:1fr; align-items:start; }
@@ -96,6 +111,30 @@
     </div>
   </section>
 
+  <div class="ck-modal" id="ckDelInfo" role="dialog" aria-modal="true" aria-labelledby="ckDelInfoTitle" hidden>
+    <div class="ck-modal-box">
+      <div class="ck-modal-head"><h2 id="ckDelInfoTitle">Shipping &amp; delivery information</h2><button type="button" class="ck-modal-x" id="ckDelInfoX" aria-label="Close">Close &#10005;</button></div>
+      <p>This is how delivery works at White Horse Clips. The full wording is in our <a href="delivery.html">Delivery Policy</a>.</p>
+      <h3>The delivery charge</h3>
+      <p>The delivery charge is not included in the item prices. It is worked out at checkout from the province you are delivering to and the weight of your order, and it is shown to you with the total before you pay. You are never charged more than the total shown when you confirm payment. When your cart qualifies for free delivery, the delivery line shows R0.00. Items delivered by email, such as software licences, have no delivery charge.</p>
+      <h3>Where we deliver</h3>
+      <p>By courier to the address you give at checkout, anywhere in South Africa. We do not deliver outside South Africa.</p>
+      <h3>How long delivery takes</h3>
+      <table class="ck-modal-table">
+        <tr><th>Handling</th><td>1 to 2 working days (Monday to Friday) from the day your payment is confirmed</td></tr>
+        <tr><th>Delivery to Gauteng</th><td>2 to 3 working days after dispatch</td></tr>
+        <tr><th>Delivery to any other province</th><td>2 to 10 working days after dispatch</td></tr>
+      </table>
+      <p>Payments confirmed after 15:00 SAST, or on a weekend or public holiday, start counting on the next working day. An order with several items may arrive in more than one parcel. These times are estimates, not guaranteed dates, but we fulfil every accepted order within 30 days unless we agree a later date with you. If we cannot, you may cancel and we refund you in full within 30 days.</p>
+      <h3>Order confirmation and tracking</h3>
+      <p>After you pay you receive an order confirmation email. When your order is dispatched we email you the courier's name and your tracking or waybill reference.</p>
+      <h3>When your parcel arrives</h3>
+      <p>Please check the parcel when it arrives, and email us within 5 working days of delivery at <a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> if it is damaged, faulty or not what you ordered. The courier delivers during normal working hours and will contact you if delivery fails.</p>
+      <h3>Need help?</h3>
+      <p><a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> &middot; Monday to Friday, 08:00 to 17:00 (SAST)</p>
+    </div>
+  </div>
+
   <section class="ck-body">
     <div class="container">
       <div class="ck-notice" id="ckNotice" hidden></div>
@@ -111,7 +150,7 @@
           <div id="ckLines"></div>
           <div id="ckDelRows">
           <div class="ck-sum"><span>Items</span><span id="ckItems">R0.00</span></div>
-          <div class="ck-sum"><span>Delivery</span><span id="ckDelivery">Choose your province</span></div>
+          <div class="ck-sum"><span>Delivery <button type="button" class="ck-q" id="ckDelInfoBtn" aria-label="Delivery information" aria-haspopup="dialog">?</button></span><span id="ckDelivery">Choose your province</span></div>
           <p class="ck-fine" id="ckDeliveryNote"></p>
           </div>
           <div class="ck-total"><span>Total</span><strong id="ckTotal">R0.00</strong></div>
@@ -400,6 +439,16 @@
       if (Object.keys(c0).length) localStorage.setItem(CART_KEY, JSON.stringify(c0));
     }
   } catch(e){}
+  // Delivery information popup (Director 15 Oct 2026): the ? beside Delivery, as on Dell Online. Text follows delivery.html.
+  (function(){
+    var box = byId('ckDelInfo');
+    function openInfo(){ box.hidden = false; document.body.style.overflow = 'hidden'; byId('ckDelInfoX').focus(); }
+    function closeInfo(){ box.hidden = true; document.body.style.overflow = ''; byId('ckDelInfoBtn').focus(); }
+    byId('ckDelInfoBtn').addEventListener('click', openInfo);
+    byId('ckDelInfoX').addEventListener('click', closeInfo);
+    box.addEventListener('click', function(e){ if (e.target === box) closeInfo(); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && !box.hidden) closeInfo(); });
+  })();
   loadCart(); render();
 })();
 </script>
