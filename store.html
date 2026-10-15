@@ -193,6 +193,10 @@
   .sh-chip:hover{ border-color:var(--accent); }
   .sh-chip.is-on{ background:var(--accent); border-color:var(--accent); color:#fff; }
   .sh-chip:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .sh-chip.c-promo{ background:var(--accent); border-color:var(--accent); color:#fff; }
+  .sh-chip.c-deal{ background:#dc2626; border-color:#dc2626; color:#fff; }
+  .sh-chip.c-best{ background:#111; border-color:var(--text-dim-30); color:var(--text); }
+  .sh-chip.c-promo.is-on, .sh-chip.c-deal.is-on, .sh-chip.c-best.is-on{ box-shadow:0 0 0 2px #fff; }
   .sh-sortbar{ display:flex; align-items:center; justify-content:flex-end; gap:.6rem; margin:0 0 1.25rem; }
   .sh-sortbar label{ font-size:.78rem; font-weight:600; letter-spacing:.04em; color:var(--text-dim-55); }
   .sh-sortbar select{
@@ -585,13 +589,14 @@
   // Search, category and brand together. `skip` leaves one filter out so each list can show the counts it would give.
   var SPECIALS = ['On promotion', 'Deal ending soon', 'Best seller', 'New', 'Bargain', 'Store opening special'];
   function hasSpecial(i, k){ return k === 'Free delivery' ? i.freeDelivery === true : (i.badges || []).indexOf(k) >= 0; }
+  function chipColour(k){ return k === 'On promotion' ? ' c-promo' : k === 'Deal ending soon' ? ' c-deal' : k === 'Best seller' ? ' c-best' : ''; }
   function renderChips(){
     var base = state.items.filter(function(i){ return matches(i, 'special'); });
     var h = '<button type="button" class="sh-chip' + (state.special === 'All' ? ' is-on' : '') + '" data-v="All">All<span class="n">' + base.length + '</span></button>';
     SPECIALS.forEach(function(k){
       var n = base.filter(function(i){ return hasSpecial(i, k); }).length;
       if (!n && state.special !== k) return;
-      h += '<button type="button" class="sh-chip' + (state.special === k ? ' is-on' : '') + '" data-v="' + esc(k) + '">' + esc(k) + '<span class="n">' + n + '</span></button>';
+      h += '<button type="button" class="sh-chip' + chipColour(k) + (state.special === k ? ' is-on' : '') + '" data-v="' + esc(k) + '">' + esc(k) + '<span class="n">' + n + '</span></button>';
     });
     byId('shChips').innerHTML = h;
   }
