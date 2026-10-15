@@ -550,7 +550,9 @@
   function byId(id){ return document.getElementById(id); }
 
   // ---- catalogue ----------------------------------------------------------
-  function isListable(i){ return !!i && i.stock !== 'out' && Number(i.price) > 0; }
+  // The WHC test item (Director 15 Oct 2026) shows only through the private opening link; the public never sees it.
+  var PRIVATE_LINK = /[?&]checkout=whc-open-4c9e(&|$)/.test(location.search);
+  function isListable(i){ return !!i && i.stock !== 'out' && Number(i.price) > 0 && (i.test !== true || PRIVATE_LINK); }
   fetch(CATALOGUE_URL + '?t=' + Date.now(), { cache: 'no-store' })
     .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(function(cat){
