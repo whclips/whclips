@@ -12,6 +12,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css?v=20261001c">
 <style>
+  /* Scales with the screen (Director 15 Oct 2026): rem-based sizes grow from 16px on a laptop to about 27px on a 4K screen, and the column grows with them */
+  html{ font-size:clamp(16px, 0.5vw + 8px, 30px); }
+  .ck-hero .container, .ck-body .container{ max-width:90rem; }
   .ck-hero{ padding:4.5rem 0 2rem; }
   .ck-back{ display:inline-block; margin-bottom:1.25rem; }
   .ck-hero h1{ font-size:2.25rem; font-weight:800; letter-spacing:-.03em; margin:.75rem 0 0; color:var(--text); }
