@@ -56,6 +56,8 @@
      never by a hardcoded href, which highlighted Recent Work on every page.
      baseline.html carries a scoped copy of these header rules: mirror changes there. */
   .main-nav > a.nav-link[aria-current="page"]{ color:var(--accent); }
+  .main-nav > a.nav-link.nav-store{ color:var(--accent); }   /* Store stands out in the accent purple (Director 15 Oct 2026) */
+  .main-nav > a.nav-link.nav-store:hover{ color:#fff; }
   .btn-contact{
     font-size:.875rem; font-weight:600; letter-spacing:.12em;
     color:#fff; background:transparent; padding:.5rem 0;
