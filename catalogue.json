@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-15T06:35:04+00:00",
- "pricedAt": "2026-10-15T06:35:04+00:00",
- "priceValidUntil": "2026-10-15T08:35:04+00:00",
+ "generatedAt": "2026-10-15T06:39:21+00:00",
+ "pricedAt": "2026-10-15T06:39:21+00:00",
+ "priceValidUntil": "2026-10-15T08:39:21+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 96,
+ "count": 97,
  "items": [
   {
    "sku": "142257-006",
@@ -25821,6 +25821,29 @@
      ]
     ]
    ]
+  },
+  {
+   "sku": "WHC-TEST-R5",
+   "name": "WHC test item (R5)",
+   "brand": "WHC",
+   "category": "Accessories",
+   "price": 5,
+   "stock": "in",
+   "available": 10,
+   "freeDelivery": false,
+   "digital": true,
+   "shipKg": 0,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [],
+   "description": "Internal end-to-end test of the order workflow. Not for sale.",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": [],
+   "test": true
   }
  ]
 }
