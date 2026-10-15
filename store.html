@@ -809,8 +809,7 @@
     byId('shAddedName').textContent = item.name;
     byId('shAddedSum').textContent = count + (count === 1 ? ' item' : ' items') + ' in your cart \u00b7 ' + money(total);
     // The store is closed to the public (Director, 10 Oct 2026): keep the private opening link when going to the cart.
-    var keep = /[?&]checkout=whc-open-4c9e(&|$)/.test(location.search) ? '?checkout=whc-open-4c9e' : '';
-    byId('shAddedGo').setAttribute('href', 'checkout.html' + keep);
+    byId('shAddedGo').setAttribute('href', 'checkout.html');
     byId('shAdded').hidden = false; byId('shScrim').hidden = false; byId('shAddedGo').focus();
   }
   function closeAdded(){ byId('shAdded').hidden = true; byId('shScrim').hidden = true; }
@@ -827,6 +826,7 @@
     n.hidden = false;
     if (status === 'paid'){
       state.cart = {}; saveCart();
+      try { localStorage.removeItem('whc_checkout_details_v1'); } catch(e){}   // paid: the saved delivery details are cleared
       n.className = 'sh-notice';
       n.textContent = 'Thank you - order ' + order + ' received. Your PayFast receipt is on its way, and we will confirm dispatch by email.';
     } else {

@@ -73,9 +73,8 @@
         <a href="about.html" class="nav-link">About</a>
         <a href="clips.html" class="nav-link">Recent Work</a>
         <a href="baseline.html" class="nav-link">What We Do</a>
-        <a href="blog.html" class="nav-link">Blog</a>
-        <a href="contact.html" class="btn-contact">Contact</a>
         <a href="store.html" class="nav-link">Store</a>
+        <a href="contact.html" class="btn-contact">Contact</a>
       </nav>
       <a href="checkout.html" class="nav-cart" id="navCart" aria-label="Your cart"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg><span class="nav-cart-count" id="navCartCount" hidden>0</span></a>
       <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
@@ -113,7 +112,7 @@
           <p class="ck-fine" id="ckDeliveryNote"></p>
           </div>
           <div class="ck-total"><span>Total</span><strong id="ckTotal">R0.00</strong></div>
-          <p class="ck-fine">Orders are limited to 10 of any one item. Need more? Email <a href="mailto:enquiries@whclips.co.za">enquiries@whclips.co.za</a> and we will quote you. Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged. The delivery charge is not included in the item prices; it is worked out from your province and the weight of your order and added to the total before you pay. Stock and price are checked again when you pay.</p>
+          <p class="ck-fine">Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged. The delivery charge is not included in the item prices; it is worked out from your province and the weight of your order and added to the total before you pay. Stock and price are checked again when you pay.</p>
           <p class="ck-fine"><a href="store.html">&larr; Continue shopping</a></p>
         </div>
 
@@ -223,9 +222,7 @@
   // CLOSED TO THE PUBLIC (Director, 10 Oct 2026): the checkout opens only on this PC (localhost) or with the
   // private link ?checkout=whc-open-4c9e. This hides the Pay button; it is not a lock on the Worker. To open the
   // shop for everyone, replace the next three lines with: window.WHC_CHECKOUT_LIVE = true;
-  if (LOCAL) window.WHC_CHECKOUT_LIVE = true;
-  if (!LOCAL && /[?&]checkout=whc-open-4c9e(&|$)/.test(location.search)) window.WHC_CHECKOUT_LIVE = true;
-  if (/[?&]checkout=whc-open-4c9e(&|$)/.test(location.search)) { var ckb = document.getElementById('ckBack'); if (ckb) ckb.setAttribute('href', 'store.html?checkout=whc-open-4c9e'); }
+  window.WHC_CHECKOUT_LIVE = true;   // the checkout is live for everyone (go-live switch)
   // The policy version shown on terms.html and the other four pages (their "Effective" date). The Worker
   // refuses a different value and stores the accepted one with the order. Change both together.
   var POLICY_VERSION = '2026-10-09';
@@ -240,8 +237,7 @@
   function saveCart(){ try { localStorage.setItem(CART_KEY, JSON.stringify(state.cart)); } catch(e){} }
   function isListable(i){ return !!i && i.stock !== 'out' && Number(i.price) > 0; }
   function findItem(sku){ return state.items.filter(function(i){ return i.sku === sku; })[0] || null; }
-  var MAX_PER_LINE = 10;   // the most of one item an online order takes (Director 15 Oct 2026); more is a quote by email. Keep equal to CHECKOUT_MAX_QTY in the Worker.
-  function maxQty(sku){ var it = findItem(sku); return Math.min(MAX_PER_LINE, it && Number.isInteger(it.available) ? Math.max(0, it.available) : MAX_PER_LINE); }
+  function maxQty(sku){ var it = findItem(sku); return it && Number.isInteger(it.available) ? Math.max(0, it.available) : 10; }
   function cartLines(){
     return Object.keys(state.cart).map(function(sku){ var item = findItem(sku); return item ? { item: item, qty: state.cart[sku] } : null; }).filter(Boolean);
   }
@@ -255,10 +251,8 @@
     if (!DELIVERY_ON) { byId('ckTotal').textContent = money2(itemsTotal); return; }
     var q = state.quote, lines = cartLines();
     if (q && q.key === cartKey(lines)) {
-      byId('ckDelivery').textContent = q.free ? 'R0.00' : money2(q.delivery);
-      byId('ckDeliveryNote').textContent = q.free
-        ? 'Your delivery is free.' + (q.service === 'Email delivery' ? ' Your licence is sent by email.' : ' ' + (q.service === 'ECO' ? 'Delivery within Gauteng' : 'Delivery to ' + byId('shProvince').value) + ', about ' + q.days + ' after we dispatch.')
-        : (q.service === 'ECO' ? 'Delivery within Gauteng' : 'Delivery to ' + byId('shProvince').value) + ', about ' + q.days + ' after we dispatch. Parcel billed at ' + q.billedKg + ' kg.';
+      byId('ckDelivery').textContent = money2(q.delivery);
+      byId('ckDeliveryNote').textContent = (q.service === 'ECO' ? 'Delivery within Gauteng' : 'Delivery to ' + byId('shProvince').value) + ', about ' + q.days + ' after we dispatch. Parcel billed at ' + q.billedKg + ' kg.';
       byId('ckTotal').textContent = money2(q.total);
     } else {
       byId('ckDelivery').textContent = byId('shProvince').value ? 'Calculating…' : 'Choose your province';
@@ -385,6 +379,15 @@
     if (open) box.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   });
   byId('ckForm').addEventListener('submit', function(e){ e.preventDefault(); checkout(); });
+  // Delivery details survive a cancelled or abandoned payment (Director 15 Oct 2026): everything except the Terms and Privacy ticks
+  // stays in this browser for 7 days and is cleared when the order is paid (store.html, status=paid).
+  var DETAILS_KEY = 'whc_checkout_details_v1';
+  var DETAIL_IDS = ['shFirst','shLast','shCompany','shEmail','shEmail2','shCell','shStreet','shLine2','shSuburb','shCity','shProvince','shPostal','shNotes'];
+  function saveDetails(){ try { var o = { at: Date.now(), marketing: byId('shMarketing').checked }; DETAIL_IDS.forEach(function(id){ o[id] = byId(id).value; }); localStorage.setItem(DETAILS_KEY, JSON.stringify(o)); } catch(e){} }
+  function restoreDetails(){ try { var o = JSON.parse(localStorage.getItem(DETAILS_KEY) || 'null'); if (!o) return; if (!(Date.now() - o.at < 7 * 24 * 3600 * 1000)) { localStorage.removeItem(DETAILS_KEY); return; } DETAIL_IDS.forEach(function(id){ if (typeof o[id] === 'string') byId(id).value = o[id]; }); if (typeof o.marketing === 'boolean') byId('shMarketing').checked = o.marketing; } catch(e){} }
+  restoreDetails();
+  byId('ckForm').addEventListener('input', saveDetails);
+  byId('ckForm').addEventListener('change', saveDetails);
   loadCart(); render();
 })();
 </script>
