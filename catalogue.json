@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-16T07:05:03+00:00",
- "pricedAt": "2026-10-16T07:05:03+00:00",
- "priceValidUntil": "2026-10-16T09:05:03+00:00",
+ "generatedAt": "2026-10-16T07:35:04+00:00",
+ "pricedAt": "2026-10-16T07:35:04+00:00",
+ "priceValidUntil": "2026-10-16T09:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 91,
+ "count": 102,
  "items": [
   {
    "sku": "142257-006",
@@ -8215,6 +8215,147 @@
    ]
   },
   {
+   "sku": "460-BDXV",
+   "name": "Dell EcoLoop Premier Slim Backpack 14 16 (CP7625S)",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 1194,
+   "stock": "in",
+   "available": 41,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.92,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990712/460-BDXV_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990712/460-BDXV_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990712/460-BDXV_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990699/460-BDXV_3.jpg"
+   ],
+   "description": "A premium quality slim backpack that’s made for fast-paced corporate life, offering 360° laptop protection, smart organization and all-day comfort.",
+   "strap": "Backpack, 40.6 cm (16\"), Shoulder strap, 920 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Foam, Plastic, Polyester, Fabric"
+    ],
+    [
+     "Weight",
+     "920 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Maximum screen size",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Foam, Plastic, Polyester, Fabric"
+      ],
+      [
+       "Product main colour",
+       "Black"
+      ],
+      [
+       "Tablet compartment",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Interior pockets",
+       "Zip pocket"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Side pocket"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Impact resistant, Water resistant, Scratch resistant"
+      ],
+      [
+       "Product made with recycled materials",
+       "Yes"
+      ],
+      [
+       "Product recycled materials",
+       "Recycled plastic"
+      ],
+      [
+       "Overall recycled content",
+       "100%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "299.7 mm"
+      ],
+      [
+       "Depth",
+       "139.7 mm"
+      ],
+      [
+       "Height",
+       "449.6 mm"
+      ],
+      [
+       "Weight",
+       "920 g"
+      ],
+      [
+       "Volume",
+       "18 L"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "460-BFCJ",
    "name": "Dell Pro 13-14 Plus EcoLoop Backpack CP5426G",
    "brand": "Dell",
@@ -8392,6 +8533,139 @@
    "highlights": [],
    "specs": [],
    "specGroups": []
+  },
+  {
+   "sku": "460-BFDD",
+   "name": "Dell Pro 14-16 Plus EcoLoop Urban Backpack - CP5625G",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 515,
+   "stock": "in",
+   "available": 338,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.6,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566273/460-BFDD_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566261/460-BFDD_3.jpg"
+   ],
+   "description": "Neatly carry all you need while on the go with this spacious backpack. With a 27-liter capacity and organised pockets, it's durable, stylish and made with recycled materials.",
+   "strap": "Backpack, 40.6 cm (16\"), Shoulder strap, 550 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Fabric, Polyester"
+    ],
+    [
+     "Weight",
+     "550 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Maximum screen size",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Fabric, Polyester"
+      ],
+      [
+       "Product main colour",
+       "Grey"
+      ],
+      [
+       "Integrated compartment(s)",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Side pocket"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Dirt resistant, Water resistant"
+      ],
+      [
+       "Product made with recycled materials",
+       "Yes"
+      ],
+      [
+       "Overall recycled content",
+       "52%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "315 mm"
+      ],
+      [
+       "Depth",
+       "210 mm"
+      ],
+      [
+       "Height",
+       "480 mm"
+      ],
+      [
+       "Weight",
+       "550 g"
+      ],
+      [
+       "Volume",
+       "27 L"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "460-BFFV",
@@ -8659,6 +8933,107 @@
       [
        "Volume",
        "17 L"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "470-ACFH",
+   "name": "Kit - Type C dongle (7.4mm)",
+   "brand": "Dell",
+   "category": "Cables, power & docks",
+   "price": 614,
+   "stock": "in",
+   "available": 24,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.023,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991043/470-ACFH_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991044/470-ACFH_1.jpg"
+   ],
+   "description": "DELL 7CY7K. Connector 1: Power DC jack 7.4 mm, Connector 2: 24 pin USB-C. Product colour: Black",
+   "strap": "Power DC jack 7.4 mm, 24 pin USB-C, Black",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Connector 1",
+     "Power DC jack 7.4 mm"
+    ],
+    [
+     "Connector 2",
+     "24 pin USB-C"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "23 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Connector 1",
+       "Power DC jack 7.4 mm"
+      ],
+      [
+       "Connector 2",
+       "24 pin USB-C"
+      ],
+      [
+       "Connector 1 gender",
+       "Female"
+      ],
+      [
+       "Connector 2 gender",
+       "Male"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Compatible products",
+       "Latitude 7370 XPS 13 (9365) 2-in-1 Chromebook 13 3380 Latitude 5285 2-in-1 Latitude 5289 2-in-1 Latitude 7285 2-in-1 Latitude 7389 2-in-1 Latitude 12 Rugged 7212 Extreme XPS 13 (9370) Latitude 7390 2-in-1 Latitude 5290 2-in-1 Chromebook 11 5190 Chromebook 11 5190 2-In-1 XPS 13 (9380) Latitude 7200 2-In-1 XPS 13 (7390) 2-in-1 Latitude 5310 2-in-1 Latitude 7210 2-in-1 Latitude 9510 Latitude 7310 Latitude 7410 2-in-1 Latitude 7330 Latitude 7430 Latitude 7530"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Input voltage",
+       "5/20 V"
+      ],
+      [
+       "Output voltage",
+       "5/20 V"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "23 g"
       ]
      ]
     ]
@@ -9686,6 +10061,292 @@
    ]
   },
   {
+   "sku": "520-BBGN",
+   "name": "Dell Pro Plus Wireless Headset Charging Stand - HC524",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 1094,
+   "stock": "low",
+   "available": 1,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.205,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991053/520-BBGN_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991054/520-BBGN_1.jpg"
+   ],
+   "description": "Wirelessly charge your Dell Pro Wireless ANC Headset - WL5024 with the charging stand that supports convenient rapid charging.",
+   "strap": "Indoor, USB, 1.2 m, Black",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Cable length",
+     "1.2 m"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "205 g"
+    ],
+    [
+     "Charger compatibility",
+     "Headset"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Performance",
+     [
+      [
+       "Charger compatibility",
+       "Headset"
+      ],
+      [
+       "Power source type",
+       "USB"
+      ],
+      [
+       "Charger type",
+       "Indoor"
+      ],
+      [
+       "Number of simultaneously connected devices (max)",
+       "1"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Compatibility",
+       "WL5024"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Cable length",
+       "1.2 m"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "91.7 mm"
+      ],
+      [
+       "Depth",
+       "90.3 mm"
+      ],
+      [
+       "Height",
+       "111 mm"
+      ],
+      [
+       "Weight",
+       "205 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "520-BBLY",
+   "name": "Dell Pro Premium Conferencing Soundbar - SB725",
+   "brand": "Dell",
+   "category": "Headsets, audio & webcams",
+   "price": 1459,
+   "stock": "low",
+   "available": 1,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.25,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991056/520-BBLY_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991054/520-BBLY_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991058/520-BBLY_2.jpg"
+   ],
+   "description": "Experience exceptional conferencing audio clarity with this AI-based premium soundbar equipped with enhanced noise-cancellation technology.",
+   "strap": "3.6 W, 90 dB, 3.6 W, Black, Buttons, 0 - 40 °C",
+   "warranty": "3 Years Base Adv Ex",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wired"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "250 g"
+    ],
+    [
+     "RMS rated power",
+     "3.6 W"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Audio",
+     [
+      [
+       "RMS rated power",
+       "3.6 W"
+      ],
+      [
+       "Sound pressure level",
+       "90 dB"
+      ]
+     ]
+    ],
+    [
+     "Soundbar speaker",
+     [
+      [
+       "Soundbar speaker RMS power",
+       "3.6 W"
+      ]
+     ]
+    ],
+    [
+     "Subwoofer",
+     [
+      [
+       "Subwoofer included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Volume control",
+       "Buttons"
+      ],
+      [
+       "Wall mountable",
+       "No"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ],
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Connectivity technology",
+       "Wired"
+      ],
+      [
+       "Bluetooth",
+       "No"
+      ],
+      [
+       "Wi-Fi",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "298 mm"
+      ],
+      [
+       "Depth",
+       "34.5 mm"
+      ],
+      [
+       "Height",
+       "40 mm"
+      ],
+      [
+       "Weight",
+       "250 g"
+      ],
+      [
+       "Cord length",
+       "1.5 m"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Mac operating systems supported",
+       "MacOS"
+      ],
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Built-in microphone",
+       "Yes"
+      ],
+      [
+       "Mute button",
+       "Yes"
+      ],
+      [
+       "Frequency range",
+       "150 - 20000 Hz"
+      ],
+      [
+       "Voltage",
+       "5 V"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "520-BBMP",
    "name": "Dell Pro Wired Speakerphone SP325",
    "brand": "Dell",
@@ -9869,6 +10530,218 @@
    ]
   },
   {
+   "sku": "545-BBCL",
+   "name": "Alienware 510K Low-profile RGB Mechanical Gaming Keyboard - AW510K (Dark Side of the Moon)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 2344,
+   "stock": "in",
+   "available": 6,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.91,
+   "badges": [
+    "Bargain",
+    "Store opening special"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990706/545-BBCL_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990708/545-BBCL_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990708/545-BBCL_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990706/545-BBCL_3.jpg"
+   ],
+   "description": "The Alienware Low-Profile RGB Mechanical Gaming Keyboard Maximum Performance in a Sleek Form Factor For over two decades, Alienware has been dedicated to creating iconic and meticulously designed products to provide the ultimate gaming experience. Driven by our passion and guided by our fans, Alienware is now excited to announce the arrival of a sleek, powerful and fully featured gaming keyboard – the Alienware Low-Profile RGB Mechanical Gaming Keyboard. The Alienware Low-profile RGB Mechanical Gaming Keyboard is a full featured, maximum performance keyboard that incorporates the latest generation low-profile Cherry MX keys in a floating key architecture with anti-ghosting and per-key lighting. Designed for gamer-centric personalization, this gaming keyboard features fully programmable keys for macros and key assignments, while dedicated audio controls allow for quick and accurate adjustments to be made. Gamers can now enjoy better control with smooth and responsive triggering thanks to the latest generation low-profile Cherry MX Red keys which combine linear switching characteristics with a low actuation force. They can also fully customize their setup and get the most immersive gaming experience with the AlienFX per-key RGB lighting, choosing from 16.8m colors for a fully bespoke gaming experience. The Alienware Low-Profile RGB Mechanical Gaming Keyboard also features the Signature Alienware ergonomic design and a more natural palm posture while the redesigned three section layout allows for easy navigation",
+   "strap": "Full-size (100%), Wired, USB, Mechanical, RGB LED, Black, Grey",
+   "warranty": "2 years",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wired"
+    ],
+    [
+     "Cable length",
+     "2 m"
+    ],
+    [
+     "Product colour",
+     "Black, Grey"
+    ],
+    [
+     "Keyboard key switch technology",
+     "Cherry MX Red"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Keyboard key switch technology",
+       "Cherry MX Red"
+      ],
+      [
+       "Recommended usage",
+       "Gaming"
+      ],
+      [
+       "Connectivity technology",
+       "Wired"
+      ],
+      [
+       "Device interface",
+       "USB"
+      ],
+      [
+       "Keyboard key switch",
+       "Mechanical"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Keyboard keys operating life",
+       "50 million characters"
+      ],
+      [
+       "Keyboard key profile",
+       "Low-profile"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "Programmable hot keys",
+       "Yes"
+      ],
+      [
+       "Multimedia keys",
+       "Yes"
+      ],
+      [
+       "Rollover",
+       "N-key rollover"
+      ],
+      [
+       "Polling rate",
+       "1000 Hz"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "Yes"
+      ],
+      [
+       "Backlight type",
+       "RGB LED"
+      ],
+      [
+       "Adjustable backlight",
+       "Yes"
+      ],
+      [
+       "Keyboard style",
+       "Straight"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Adjustable keyboard height",
+       "Yes"
+      ],
+      [
+       "Product colour",
+       "Black, Grey"
+      ],
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Cable length",
+       "2 m"
+      ],
+      [
+       "Anti-ghosting",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "USB"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Windows 10"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "467 x 156.2 x 29.4 mm"
+      ],
+      [
+       "Keyboard weight",
+       "910 g"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compatibility",
+       "Alienware M15, M17, Area-51, Aurora, Aurora Ryzen Edition"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "545-BBDS",
    "name": "Alienware Wired Gaming Mouse - AW320M",
    "brand": "Dell",
@@ -10022,6 +10895,158 @@
       [
        "Weight",
        "80 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "545-BBDY",
+   "name": "Alienware Tenkeyless Gaming Keyboard - AW420K - US (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1912,
+   "stock": "in",
+   "available": 9,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.787,
+   "badges": [
+    "Bargain",
+    "Store opening special"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014708/545-BBDY_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014710/545-BBDY_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014711/545-BBDY_2.jpg"
+   ],
+   "description": "Alienware Tenkeyless Gaming Keyboard - AW420K - US (QWERTY)",
+   "strap": "",
+   "warranty": "Limited warranty - 2 years",
+   "highlights": [
+    [
+     "Interface",
+     "USB"
+    ],
+    [
+     "Cable Length",
+     "2 m"
+    ],
+    [
+     "Weight",
+     "787 g"
+    ],
+    [
+     "Device Type",
+     "Keyboard"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "General",
+     [
+      [
+       "Device Type",
+       "Keyboard"
+      ],
+      [
+       "Backlit",
+       "AlienFX RGB / 16.8 million colours"
+      ],
+      [
+       "Interface",
+       "USB"
+      ]
+     ]
+    ],
+    [
+     "Input Device",
+     [
+      [
+       "Hot Keys Function",
+       "Programmable"
+      ],
+      [
+       "Keyboard Technology",
+       "Mechanical"
+      ],
+      [
+       "Key Switch Type",
+       "CHERRY MX Red"
+      ],
+      [
+       "Anti-ghosting",
+       "Yes"
+      ],
+      [
+       "Gaming",
+       "Yes"
+      ],
+      [
+       "Adjustable Height",
+       "Yes"
+      ],
+      [
+       "Detachable Cable",
+       "Yes"
+      ],
+      [
+       "Width",
+       "36.73 cm"
+      ],
+      [
+       "Depth",
+       "14.77 cm"
+      ],
+      [
+       "Height",
+       "5.57 cm"
+      ],
+      [
+       "Weight",
+       "787 g"
+      ]
+     ]
+    ],
+    [
+     "Miscellaneous",
+     [
+      [
+       "Colour",
+       "Dark Side of the Moon"
+      ],
+      [
+       "Cable Length",
+       "2 m"
+      ],
+      [
+       "Included Accessories",
+       "USB-C to USB-A cable (2m)"
+      ]
+     ]
+    ],
+    [
+     "Software & System Requirements",
+     [
+      [
+       "Included Software",
+       "Alienware Command Center, AlienFX"
+      ],
+      [
+       "OS Required",
+       "Windows 11 or later"
+      ]
+     ]
+    ],
+    [
+     "Manufacturer Warranty",
+     [
+      [
+       "Service & Support",
+       "Limited warranty - 2 years"
       ]
      ]
     ]
@@ -12138,6 +13163,178 @@
    ]
   },
   {
+   "sku": "570-BBMJ",
+   "name": "Dell Mouse - WM118",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 340,
+   "stock": "in",
+   "available": 236,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.082,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/570-BBMJ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566254/570-BBMJ_1.jpg"
+   ],
+   "description": "The WM118 Wireless Optical Mouse from Dell offers you everyday wireless performance with excellent battery life. It is designed to create a clutter-free workspace with a reliable, plug-and-play RF wireless connection. This wireless mouse provides reliable performance and a stable wireless connection through the USB anchored RF wireless dongle. Its Plug and play feature allows for easy installation so users can get started using their mouse within minutes, with no confusing software or setup requirements. The small size and wireless performance help to make WM118 wireless optical mouse a great option for on-the-go users.",
+   "strap": "Ambidextrous, Optical, RF Wireless, 1000 DPI, Black",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Movement resolution",
+     "1000 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "82 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical"
+      ],
+      [
+       "Purpose",
+       "Universal"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "RF Wireless"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "1000 DPI"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Batteries"
+      ],
+      [
+       "Number of batteries supported",
+       "1"
+      ],
+      [
+       "Battery type",
+       "AA"
+      ],
+      [
+       "Service life of battery",
+       "18 month(s)"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "63 mm"
+      ],
+      [
+       "Depth",
+       "101.5 mm"
+      ],
+      [
+       "Height",
+       "34.4 mm"
+      ],
+      [
+       "Weight",
+       "82 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "580-17667",
    "name": "Dell Business Multimedia Keyboard - KB522 - US International (QWERTY)",
    "brand": "Dell",
@@ -14245,6 +15442,238 @@
       [
        "Microphone pick-up range",
        "3 m"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "750-ADRC",
+   "name": "Dell Pro Premium Active Pen - PN7522W",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 1794,
+   "stock": "in",
+   "available": 7,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 0.016,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991090/750-ADRC_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991090/750-ADRC_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991091/750-ADRC_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991094/750-ADRC_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991095/750-ADRC_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991099/750-ADRC_5.jpg"
+   ],
+   "description": "Write naturally and create with precision with a rechargeable premium active pen featuring up to 40 days battery life on a single charge and a tile location function for complete peace of mind.",
+   "strap": "Laptop, Dell, Black, Latitude 9520 2-in-1, Latitude 9510 2-in-1, Latitude 9430 2in1, Latitude 9420 2-in-1, Latitude..., 960 h, 45 mAh",
+   "warranty": "3 Years Advance Exchange Service",
+   "highlights": [
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "15.5 g"
+    ],
+    [
+     "Device compatibility",
+     "Laptop"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Device compatibility",
+       "Laptop"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Compatibility",
+       "Latitude 9520 2-in-1, Latitude 9510 2-in-1, Latitude 9430 2in1, Latitude 9420 2-in-1, Latitude 9410 2-in-1, Latitude 7430 2in1, Latitude 7420 2-in-1, Latitude 7410 2-in-1, Latitude 7410 2-in-1 Chrome Enterprise*, Latitude 7330 2in1, Latitude 7320 Detachable, Latitude 7320 2-in-1, Latitude 7310 2-in-1, Latitude 7210 2-in-1, Latitude 5330 2in, Latitude 5320 2-in-1, Latitude 5310 2-in-1, Latitude 5300 2-in-1 Chrome, Latitude 3330 2in1, XPS 9310 2-in-1, Inspiron 7620 2in1, Inspiron 7420 2in1, Inspiron 7425 2in1"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Bluetooth",
+       "Yes"
+      ],
+      [
+       "Bluetooth version",
+       "5.1"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery life",
+       "960 h"
+      ],
+      [
+       "Battery capacity",
+       "45 mAh"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "15.5 g"
+      ],
+      [
+       "Width",
+       "10.2 mm"
+      ],
+      [
+       "Depth",
+       "10.2 mm"
+      ],
+      [
+       "Height",
+       "155 mm"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "750-BBWW",
+   "name": "Dell Pro Active Pen - PN526",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 1029,
+   "stock": "low",
+   "available": 4,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.01,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991092/750-BBWW_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991093/750-BBWW_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991093/750-BBWW_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991092/750-BBWW_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991093/750-BBWW_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991093/750-BBWW_5.jpg"
+   ],
+   "description": "Seamless precision, multiprotocol compatibility, and smooth operation, designed to elevate creativity, productivity, and comfort for professionals, students, and everyday users.",
+   "strap": "Laptop, Dell, Black, Black, AES 1.0 AES 2.0 WGP USI 2.0 MPP 2.0, AAAA",
+   "warranty": "3 Years Advance Exchange Service",
+   "highlights": [
+    [
+     "Buttons quantity",
+     "2"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "10.4 g"
+    ],
+    [
+     "Device compatibility",
+     "Laptop"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Device compatibility",
+       "Laptop"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Tip colour",
+       "Black"
+      ],
+      [
+       "Number of batteries supported",
+       "1"
+      ],
+      [
+       "Buttons quantity",
+       "2"
+      ],
+      [
+       "Supported protocols",
+       "AES 1.0 AES 2.0 WGP USI 2.0 MPP 2.0"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery type",
+       "AAAA"
+      ],
+      [
+       "Battery life",
+       "12 month(s)"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "10.4 g"
+      ],
+      [
+       "Width",
+       "9.5 mm"
+      ],
+      [
+       "Depth",
+       "140 mm"
+      ],
+      [
+       "Height",
+       "9.5 mm"
       ]
      ]
     ]
@@ -18639,6 +20068,717 @@
       [
        "Weight",
        "1.07 kg"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "BTO209_PB13250_EMEA",
+   "name": "Dell Pro 13 Plus|U5-236V|16GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|13.3\" FHD+|Backlit Kb|3 Cell ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Laptops & desktops",
+   "price": 38494,
+   "stock": "low",
+   "available": 2,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 1.34,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990733/BTO209_PB13250_EMEA_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990733/BTO209_PB13250_EMEA_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990739/BTO209_PB13250_EMEA_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990733/BTO209_PB13250_EMEA_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990732/BTO209_PB13250_EMEA_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990731/BTO209_PB13250_EMEA_5.jpg"
+   ],
+   "description": "DELL Pro 13 Plus PB13250. Product type: Laptop, Form factor: Clamshell. Processor family: Intel Core Ultra 5, Processor model: 236V. Display diagonal: 33.8 cm (13.3\"), HD type: Full HD+, Display resolution: 1920 x 1200 pixels. Internal memory: 16 GB, Internal memory type: LPDDR5x-SDRAM. Total storage capacity: 512 GB, Storage media: SSD. On-board graphics card model: Intel Arc Graphics 130V. Operating system installed: Windows 11 Pro. Product colour: Silver. Weight: 1.34 kg",
+   "strap": "Intel Core Ultra 5, 33.8 cm (13.3\"), 1920 x 1200 pixels, 16 GB, 512 GB, Windows 11 Pro",
+   "warranty": "",
+   "highlights": [
+    [
+     "Display diagonal",
+     "33.8 cm (13.3\")"
+    ],
+    [
+     "Display resolution",
+     "1920 x 1200 pixels"
+    ],
+    [
+     "Maximum refresh rate",
+     "60 Hz"
+    ],
+    [
+     "Panel type",
+     "IPS"
+    ],
+    [
+     "SSD capacity",
+     "512 GB"
+    ],
+    [
+     "Form factor",
+     "Clamshell"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Design",
+     [
+      [
+       "Product type",
+       "Laptop"
+      ],
+      [
+       "Product colour",
+       "Silver"
+      ],
+      [
+       "Form factor",
+       "Clamshell"
+      ],
+      [
+       "Intel® vPro™ Platform Eligibility",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "33.8 cm (13.3\")"
+      ],
+      [
+       "Display resolution",
+       "1920 x 1200 pixels"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "HD type",
+       "Full HD+"
+      ],
+      [
+       "Panel type",
+       "IPS"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "Native aspect ratio",
+       "16:10"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ],
+      [
+       "Display brightness",
+       "300 cd/m²"
+      ],
+      [
+       "Pixel pitch",
+       "0.149 x 0.149 mm"
+      ],
+      [
+       "Pixel density",
+       "170 ppi"
+      ],
+      [
+       "RGB colour space",
+       "NTSC"
+      ],
+      [
+       "Colour gamut",
+       "45%"
+      ],
+      [
+       "Display response rise/fall",
+       "35 ms"
+      ],
+      [
+       "Maximum refresh rate",
+       "60 Hz"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "800:1"
+      ]
+     ]
+    ],
+    [
+     "Processor",
+     [
+      [
+       "Processor manufacturer",
+       "Intel"
+      ],
+      [
+       "Processor family",
+       "Intel Core Ultra 5"
+      ],
+      [
+       "Processor generation",
+       "Intel Core Ultra (Series 2)"
+      ],
+      [
+       "Processor model",
+       "236V"
+      ],
+      [
+       "Processor cores",
+       "8"
+      ],
+      [
+       "Processor threads",
+       "8"
+      ],
+      [
+       "Processor boost frequency",
+       "4.7 GHz"
+      ],
+      [
+       "Performance cores",
+       "4"
+      ],
+      [
+       "Low Power Efficient-cores",
+       "4"
+      ],
+      [
+       "Performance-core Max Turbo Frequency",
+       "4.7 GHz"
+      ],
+      [
+       "Low Power Efficient-core Max Turbo Frequency",
+       "3.5 GHz"
+      ],
+      [
+       "Performance-core base frequency",
+       "2.1 GHz"
+      ],
+      [
+       "Low Power Efficient-core Base Frequency",
+       "2100 MHz"
+      ],
+      [
+       "Processor cache",
+       "8 MB"
+      ],
+      [
+       "Processor cache type",
+       "Smart Cache"
+      ],
+      [
+       "Processor base power",
+       "17 W"
+      ],
+      [
+       "Maximum turbo power",
+       "37 W"
+      ]
+     ]
+    ],
+    [
+     "Neural processor unit (NPU)",
+     [
+      [
+       "Neural processor unit (NPU)",
+       "Intel AI Boost"
+      ],
+      [
+       "Sparsity support",
+       "Yes"
+      ],
+      [
+       "Windows Studio effects support",
+       "Yes"
+      ],
+      [
+       "AI software frameworks supported by NPU",
+       "DirectML, OpenVINO, Windows ML, ONNX RT, WebNN"
+      ],
+      [
+       "Total processor performance up to",
+       "97 TOPs"
+      ],
+      [
+       "NPU performance up to",
+       "40 TOPs"
+      ],
+      [
+       "GPU performance up to",
+       "53 TOPs"
+      ]
+     ]
+    ],
+    [
+     "Memory",
+     [
+      [
+       "Internal memory",
+       "16 GB"
+      ],
+      [
+       "Internal memory type",
+       "LPDDR5x-SDRAM"
+      ],
+      [
+       "Memory form factor",
+       "On-board"
+      ],
+      [
+       "Maximum internal memory",
+       "16 GB"
+      ],
+      [
+       "Memory channels",
+       "Dual-channel"
+      ],
+      [
+       "Memory data transfer rate",
+       "8533 MT/s"
+      ]
+     ]
+    ],
+    [
+     "Storage",
+     [
+      [
+       "Total storage capacity",
+       "512 GB"
+      ],
+      [
+       "Storage media",
+       "SSD"
+      ],
+      [
+       "Total SSDs capacity",
+       "512 GB"
+      ],
+      [
+       "Number of SSDs installed",
+       "1"
+      ],
+      [
+       "SSD capacity",
+       "512 GB"
+      ],
+      [
+       "SSD interface",
+       "PCI Express 4.0"
+      ],
+      [
+       "NVMe",
+       "Yes"
+      ],
+      [
+       "SSD form factor",
+       "M.2"
+      ],
+      [
+       "M.2 SSD size",
+       "2280 (22 x 80 mm)"
+      ],
+      [
+       "Optical drive type",
+       "No"
+      ],
+      [
+       "Card reader integrated",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Graphics",
+     [
+      [
+       "Discrete graphics card model",
+       "Not available"
+      ],
+      [
+       "On-board graphics card",
+       "Yes"
+      ],
+      [
+       "On-board GPU manufacturer",
+       "Intel"
+      ],
+      [
+       "Discrete graphics card",
+       "No"
+      ],
+      [
+       "On-board graphics card family",
+       "Intel Arc Graphics"
+      ],
+      [
+       "On-board graphics card model",
+       "Intel Arc Graphics 130V"
+      ]
+     ]
+    ],
+    [
+     "Audio",
+     [
+      [
+       "Audio chip",
+       "Cirrus Logic CS42L43"
+      ],
+      [
+       "Number of built-in speakers",
+       "2"
+      ],
+      [
+       "Speaker power",
+       "2 W"
+      ],
+      [
+       "Built-in microphone",
+       "Yes"
+      ],
+      [
+       "Number of microphones",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Camera",
+     [
+      [
+       "Front camera",
+       "Yes"
+      ],
+      [
+       "Front camera resolution (numeric)",
+       "5.2 MP"
+      ],
+      [
+       "Front camera resolution",
+       "2560 x 1440 pixels"
+      ],
+      [
+       "Front camera HD type",
+       "Quad HD"
+      ],
+      [
+       "Video capturing speed",
+       "30 fps"
+      ],
+      [
+       "Infrared (IR) camera",
+       "Yes"
+      ],
+      [
+       "Privacy camera",
+       "Yes"
+      ],
+      [
+       "Privacy type",
+       "Privacy shutter"
+      ]
+     ]
+    ],
+    [
+     "Network",
+     [
+      [
+       "Top Wi-Fi standard",
+       "Wi-Fi 7 (802.11be)"
+      ],
+      [
+       "Wi-Fi standards",
+       "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac), Wi-Fi 6 (802.11ax), Wi-Fi 7 (802.11be)"
+      ],
+      [
+       "Mobile network connection",
+       "No"
+      ],
+      [
+       "Wi-Fi band",
+       "Tri-band (2.4 GHz / 5 GHz / 6 GHz)"
+      ],
+      [
+       "Wi-Fi data rate (max)",
+       "5760 Mbit/s"
+      ],
+      [
+       "WLAN controller model",
+       "Intel Wi-Fi 7 BE201"
+      ],
+      [
+       "WLAN controller manufacturer",
+       "Intel"
+      ],
+      [
+       "Ethernet LAN",
+       "No"
+      ],
+      [
+       "Bluetooth",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "USB 3.2 Gen 1 (3.1 Gen 1) Type-A ports quantity",
+       "2"
+      ],
+      [
+       "HDMI ports quantity",
+       "1"
+      ],
+      [
+       "HDMI version",
+       "2.1"
+      ],
+      [
+       "Thunderbolt 4 ports quantity",
+       "2"
+      ],
+      [
+       "Intel® Thunderbolt 4",
+       "Yes"
+      ],
+      [
+       "Combo headphone/mic port",
+       "Yes"
+      ],
+      [
+       "USB Type-C DisplayPort Alternate Mode",
+       "Yes"
+      ],
+      [
+       "PowerShare",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "Motherboard chipset",
+       "Intel SoC"
+      ]
+     ]
+    ],
+    [
+     "Keyboard",
+     [
+      [
+       "Pointing device",
+       "Touchpad"
+      ],
+      [
+       "Numeric keypad",
+       "No"
+      ],
+      [
+       "Keyboard backlit",
+       "Yes"
+      ],
+      [
+       "Copilot key",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Software",
+     [
+      [
+       "Operating system architecture",
+       "64-bit"
+      ],
+      [
+       "Trial software",
+       "Activate Your Microsoft 365 For A 30 Day Trial,McAfee® Business Protection 1-year"
+      ],
+      [
+       "Operating system installed",
+       "Windows 11 Pro"
+      ]
+     ]
+    ],
+    [
+     "Brand-specific features",
+     [
+      [
+       "Brand specific technologies",
+       "Express Charge Boost capable, TNR"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Number of battery cells",
+       "3"
+      ],
+      [
+       "Battery capacity",
+       "55 Wh"
+      ],
+      [
+       "Battery recharge time",
+       "4 h"
+      ],
+      [
+       "Fast charging",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "AC adapter power",
+       "65 W"
+      ],
+      [
+       "AC adapter frequency",
+       "50/60 Hz"
+      ],
+      [
+       "AC adapter input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "USB Type-C charging port",
+       "Yes"
+      ],
+      [
+       "USB Type-C required charging power (min)",
+       "27 W"
+      ],
+      [
+       "USB Power Delivery (USB PD)",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Security",
+     [
+      [
+       "Cable lock slot",
+       "Yes"
+      ],
+      [
+       "Cable lock slot type",
+       "Wedge"
+      ],
+      [
+       "Fingerprint reader",
+       "Yes"
+      ],
+      [
+       "Smart card reader",
+       "Yes"
+      ],
+      [
+       "Face recognition",
+       "Yes"
+      ],
+      [
+       "Trusted Platform Module (TPM)",
+       "Yes"
+      ],
+      [
+       "Trusted Platform Module (TPM) version",
+       "2.0"
+      ],
+      [
+       "Dell ControlVault",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 35 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 90%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ],
+      [
+       "Operating altitude",
+       "-15.2 - 3048 m"
+      ],
+      [
+       "Non-operating altitude",
+       "-15.2 - 10668 m"
+      ],
+      [
+       "Operating shock",
+       "110 G"
+      ],
+      [
+       "Non-operating shock",
+       "160 G"
+      ],
+      [
+       "Operating vibration",
+       "0.66 G"
+      ],
+      [
+       "Non-operating vibration",
+       "1.3 G"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "300 mm"
+      ],
+      [
+       "Depth",
+       "215 mm"
+      ],
+      [
+       "Height (front)",
+       "1.98 cm"
+      ],
+      [
+       "Height (rear)",
+       "1.98 cm"
+      ],
+      [
+       "Weight",
+       "1.34 kg"
       ]
      ]
     ]
