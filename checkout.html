@@ -159,7 +159,7 @@
         </div>
 
         <div class="ck-card">
-          <h2>Delivery details</h2>
+          <h2 id="ckDetailsHead">Delivery details</h2>
           <form class="ck-form" id="ckForm" novalidate>
             <div class="ck-two">
               <div class="form-row"><label for="shFirst">First name</label><input id="shFirst" name="name_first" type="text" autocomplete="given-name" required maxlength="100"></div>
@@ -169,6 +169,7 @@
             <div class="form-row"><label for="shEmail">Email for the receipt</label><input id="shEmail" name="email" type="email" autocomplete="email" required maxlength="200"></div>
             <div class="form-row"><label for="shEmail2">Confirm your email</label><input id="shEmail2" name="email_confirm" type="email" autocomplete="off" required maxlength="200"></div>
             <div class="form-row"><label for="shCell">Mobile number (for the delivery)</label><input id="shCell" name="cell" type="tel" autocomplete="tel" required maxlength="20"></div>
+            <div id="ckAddr">
             <p class="ck-h3">Delivery address (South Africa)</p>
             <div class="form-row"><label for="shStreet">Street address</label><input id="shStreet" name="address_street" type="text" autocomplete="address-line1" required maxlength="150"></div>
             <div class="form-row"><label for="shLine2">Complex, building or unit (optional)</label><input id="shLine2" name="address_line2" type="text" autocomplete="address-line2" maxlength="100"></div>
@@ -182,6 +183,7 @@
               <div class="form-row"><label for="shPostal">Postal code</label><input id="shPostal" name="address_postal_code" type="text" inputmode="numeric" autocomplete="postal-code" required maxlength="4" pattern="[0-9]{4}"></div>
             </div>
             <div class="form-row"><label for="shNotes">Delivery instructions (optional)</label><textarea id="shNotes" name="delivery_instructions" rows="3" maxlength="300" placeholder="For example: gate code, or leave with security"></textarea></div>
+            </div>
             <div class="ck-terms" id="ckTerms" hidden>
               <h3>Before you pay: the key terms</h3>
               <ul>
@@ -287,17 +289,20 @@
   function showErr(msg){ var e = byId('ckErr'); e.hidden = !msg; e.textContent = msg || ''; }
 
   // Delivery is worked out by the Worker (rate card, province, packed weight) so the browser never holds the price list.
-  function cartKey(lines){ return lines.map(function(l){ return l.item.sku + 'x' + l.qty; }).join(',') + '|' + byId('shProvince').value; }
+  // Director 16 Oct 2026: a cart of only digital items (licences, delivered by email) has no parcel, so no address or province is asked for.
+  function digitalOnly(lines){ return lines.length > 0 && lines.every(function(l){ return l.item.digital === true; }); }
+  var ADDR_IDS = ['shStreet','shLine2','shSuburb','shCity','shProvince','shPostal','shNotes'];
+  function cartKey(lines){ return lines.map(function(l){ return l.item.sku + 'x' + l.qty; }).join(',') + '|' + (digitalOnly(lines) ? 'email' : byId('shProvince').value); }
   function quoteIsCurrent(lines){ if (!DELIVERY_ON) return true; return !!state.quote && state.quote.key === cartKey(lines); }
   function updateTotals(itemsTotal){
     if (!DELIVERY_ON) { byId('ckTotal').textContent = money2(itemsTotal); return; }
     var q = state.quote, lines = cartLines();
     if (q && q.key === cartKey(lines)) {
       byId('ckDelivery').textContent = money2(q.delivery);
-      byId('ckDeliveryNote').textContent = (q.service === 'ECO' ? 'Delivery within Gauteng' : 'Delivery to ' + byId('shProvince').value) + ', about ' + q.days + ' after we dispatch. Parcel billed at ' + q.billedKg + ' kg.';
+      byId('ckDeliveryNote').textContent = q.service === 'Email delivery' ? 'Delivered by email. There is no parcel and no delivery charge.' : (q.service === 'ECO' ? 'Delivery within Gauteng' : 'Delivery to ' + byId('shProvince').value) + ', about ' + q.days + ' after we dispatch. Parcel billed at ' + q.billedKg + ' kg.';
       byId('ckTotal').textContent = money2(q.total);
     } else {
-      byId('ckDelivery').textContent = byId('shProvince').value ? 'Calculating…' : 'Choose your province';
+      byId('ckDelivery').textContent = (byId('shProvince').value || digitalOnly(lines)) ? 'Calculating…' : 'Choose your province';
       byId('ckDeliveryNote').textContent = '';
       byId('ckTotal').textContent = money2(itemsTotal);
     }
@@ -305,8 +310,8 @@
   var quoteSeq = 0, quoteAsked = '';
   function requestQuote(lines){
     if (!DELIVERY_ON) return;
-    var prov = byId('shProvince').value, key = cartKey(lines);
-    if (!lines.length || !prov || quoteIsCurrent(lines) || quoteAsked === key) return;
+    var dig = digitalOnly(lines), prov = dig ? '' : byId('shProvince').value, key = cartKey(lines);
+    if (!lines.length || (!prov && !dig) || quoteIsCurrent(lines) || quoteAsked === key) return;
     quoteAsked = key; var mine = ++quoteSeq;
     fetch(API + '/api/delivery-quote', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items: lines.map(function(l){ return { sku: l.item.sku, qty: l.qty }; }), province: prov }) })
       .then(function(r){ return r.json().then(function(b){ return { ok: r.ok, body: b }; }); })
@@ -327,6 +332,10 @@
     byId('ckEmpty').hidden = !(state.loaded && lines.length === 0);
     byId('ckGrid').hidden = lines.length === 0;
     byId('ckItems').textContent = money2(total);
+    var dig = digitalOnly(lines);
+    byId('ckAddr').hidden = dig;
+    byId('ckDetailsHead').textContent = dig ? 'Your details' : 'Delivery details';
+    ADDR_IDS.forEach(function(id){ byId(id).disabled = dig; });
     updateTotals(total);
     requestQuote(lines);
     byId('ckLines').innerHTML = lines.map(function(l){
@@ -338,7 +347,7 @@
     }).join('');
     var ready = lines.length > 0 && !state.stale && window.WHC_CHECKOUT_LIVE === true && quoteIsCurrent(lines);
     byId('ckPay').disabled = !ready;
-    byId('ckPayNote').textContent = state.stale ? 'Checkout paused while prices refresh.' : (window.WHC_CHECKOUT_LIVE ? (quoteIsCurrent(lines) || !lines.length ? '' : 'Choose your province to see the delivery charge.') : 'Checkout opens once payments go live.');
+    byId('ckPayNote').textContent = state.stale ? 'Checkout paused while prices refresh.' : (window.WHC_CHECKOUT_LIVE ? (quoteIsCurrent(lines) || !lines.length || dig ? '' : 'Choose your province to see the delivery charge.') : 'Checkout opens once payments go live.');
   }
 
   byId('ckLines').addEventListener('click', function(e){
@@ -369,12 +378,13 @@
     .catch(function(){ state.loaded = true; notice('The catalogue could not be loaded. Email enquiries@whclips.co.za and we will help by hand.', true); render(); });
 
   function checkout(){
-    var v = function(id){ return byId(id).value.trim(); };
+    var dig = digitalOnly(cartLines());
+    var v = function(id){ return dig && ADDR_IDS.indexOf(id) >= 0 ? '' : byId(id).value.trim(); };
     var customer = {
       name_first: v('shFirst'), name_last: v('shLast'),
       email: v('shEmail'), email_confirm: v('shEmail2'), cell: v('shCell'),
       address_street: v('shStreet'), address_line2: v('shLine2'), address_suburb: v('shSuburb'),
-      address_city: v('shCity'), address_province: byId('shProvince').value, address_postal_code: v('shPostal'),
+      address_city: v('shCity'), address_province: dig ? '' : byId('shProvince').value, address_postal_code: v('shPostal'),
       company: v('shCompany'), delivery_instructions: v('shNotes'),
       accepted_terms: byId('shTerms').checked, accepted_privacy: byId('shPrivacy').checked, marketing_opt_in: byId('shMarketing').checked,
       policy_version: POLICY_VERSION,
@@ -386,11 +396,11 @@
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customer.email)) return showErr('A valid email is needed for the receipt.');
     if (customer.email.toLowerCase() !== customer.email_confirm.toLowerCase()) return showErr('The two email addresses do not match.');
     if (!/^\+?\d{9,15}$/.test(cellDigits)) return showErr('Please give us a mobile number for the delivery.');
-    if (customer.address_street.length < 3) return showErr('Please give us your street address.');
-    if (customer.address_suburb.length < 2) return showErr('Please give us your suburb.');
-    if (customer.address_city.length < 2) return showErr('Please give us your city or town.');
-    if (!customer.address_province) return showErr('Please choose your province.');
-    if (!/^\d{4}$/.test(customer.address_postal_code)) return showErr('Please give us a 4-digit postal code.');
+    if (!dig && customer.address_street.length < 3) return showErr('Please give us your street address.');
+    if (!dig && customer.address_suburb.length < 2) return showErr('Please give us your suburb.');
+    if (!dig && customer.address_city.length < 2) return showErr('Please give us your city or town.');
+    if (!dig && !customer.address_province) return showErr('Please choose your province.');
+    if (!dig && !/^\d{4}$/.test(customer.address_postal_code)) return showErr('Please give us a 4-digit postal code.');
     if (!customer.accepted_terms) return showErr('Please accept the Terms & Conditions.');
     if (!customer.accepted_privacy) return showErr('Please confirm that you have read the Privacy Policy.');
     showErr('');
