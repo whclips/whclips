@@ -55,6 +55,12 @@
   :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
   .page{display:grid;grid-template-columns:240px minmax(0,1fr);gap:56px;max-width:1180px;margin:0 auto;padding:40px 32px 96px}
   @media (max-width:900px){.page{grid-template-columns:1fr;gap:24px;padding:24px 18px 72px}}
+  /* Director 16 Oct 2026: scale with the screen. On a wide display the whole page body (menu, text, cards, diagram) grows in steps, so it fills the space instead of sitting in a narrow column. */
+  @media (min-width:1500px){.page{zoom:1.2}}
+  @media (min-width:1800px){.page{zoom:1.45}}
+  @media (min-width:2200px){.page{zoom:1.75}}
+  @media (min-width:2800px){.page{zoom:2.2}}
+  @media (min-width:3600px){.page{zoom:2.9}}
   nav.toc{position:sticky;top:28px;align-self:start;font-size:14px}
   @media (max-width:900px){nav.toc{position:static}}
   nav.toc .brand{display:flex;align-items:center;gap:10px;margin-bottom:22px}
