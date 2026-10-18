@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-18T07:05:03+00:00",
- "pricedAt": "2026-10-18T07:05:03+00:00",
- "priceValidUntil": "2026-10-18T09:05:03+00:00",
+ "generatedAt": "2026-10-18T07:35:04+00:00",
+ "pricedAt": "2026-10-18T07:35:04+00:00",
+ "priceValidUntil": "2026-10-18T09:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 98,
+ "count": 102,
  "items": [
   {
    "sku": "142257-006",
@@ -4735,6 +4735,443 @@
    "specGroups": []
   },
   {
+   "sku": "210-BVHR",
+   "name": "Dell Pro P 27 USB-C Hub Conferencing Monitor - P2726DEB",
+   "brand": "Dell",
+   "category": "Monitors & stands",
+   "price": 8674,
+   "stock": "low",
+   "available": 5,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 6.74,
+   "badges": [
+    "Bargain",
+    "Store opening special"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991030/210-BVHR_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991032/210-BVHR_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991027/210-BVHR_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991024/210-BVHR_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991024/210-BVHR_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991025/210-BVHR_5.jpg"
+   ],
+   "description": "Experience effortless collaboration with a 27-inch QHD IPS monitor, featuring a built-in webcam, speakers, and microphone for enhanced productivity.",
+   "strap": "68.6 cm (27\"), LCD, 2560 x 1440 pixels, Quad HD, 16:9, IPS",
+   "warranty": "3 Years Base Adv Ex",
+   "highlights": [
+    [
+     "Display diagonal",
+     "68.6 cm (27\")"
+    ],
+    [
+     "Display resolution",
+     "2560 x 1440 pixels"
+    ],
+    [
+     "Panel type",
+     "IPS"
+    ],
+    [
+     "Response time",
+     "8 ms"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "68.6 cm (27\")"
+      ],
+      [
+       "Display technology",
+       "LCD"
+      ],
+      [
+       "Panel type",
+       "IPS"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "LED backlighting type",
+       "Edge-LED"
+      ],
+      [
+       "Display resolution",
+       "2560 x 1440 pixels"
+      ],
+      [
+       "Display brightness",
+       "350 cd/m²"
+      ],
+      [
+       "HD type",
+       "Quad HD"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "Native aspect ratio",
+       "16:9"
+      ],
+      [
+       "Native refresh rate",
+       "60 Hz"
+      ],
+      [
+       "Response time",
+       "8 ms"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "1500:1"
+      ],
+      [
+       "Viewing angle, horizontal",
+       "178°"
+      ],
+      [
+       "Viewing angle, vertical",
+       "178°"
+      ],
+      [
+       "Display number of colours",
+       "16.78 million colours"
+      ],
+      [
+       "sRGB coverage (typical)",
+       "99%"
+      ],
+      [
+       "Pixel pitch",
+       "0.2331 x 0.2331 mm"
+      ],
+      [
+       "Active display area (W x H)",
+       "596.74 x 335.66 mm"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Camera",
+     [
+      [
+       "Built-in camera",
+       "Yes"
+      ],
+      [
+       "Megapixel (approx.)",
+       "4 MP"
+      ]
+     ]
+    ],
+    [
+     "Audio",
+     [
+      [
+       "Built-in speaker(s)",
+       "Yes"
+      ],
+      [
+       "Number of built-in speakers",
+       "2"
+      ],
+      [
+       "RMS rated power",
+       "10 W"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Screen shape",
+       "Flat"
+      ],
+      [
+       "VESA mounting",
+       "Yes"
+      ],
+      [
+       "Panel mounting interface",
+       "100 x 100 mm"
+      ],
+      [
+       "Bezel width (bottom)",
+       "1.7 cm"
+      ],
+      [
+       "Bezel width (side)",
+       "7.8 mm"
+      ],
+      [
+       "Bezel width (top)",
+       "7.8 mm"
+      ],
+      [
+       "Mounting type",
+       "Desk"
+      ],
+      [
+       "Height adjustment",
+       "Yes"
+      ],
+      [
+       "Height adjustment",
+       "15 cm"
+      ],
+      [
+       "Pivot",
+       "Yes"
+      ],
+      [
+       "Pivot angle",
+       "-90 - 90°"
+      ],
+      [
+       "Swivelling",
+       "Yes"
+      ],
+      [
+       "Swivel angle range",
+       "-45 - 45°"
+      ],
+      [
+       "Tilt angle range",
+       "-5 - 21°"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "HDMI ports quantity",
+       "1"
+      ],
+      [
+       "HDMI version",
+       "2.1"
+      ],
+      [
+       "DVI port",
+       "No"
+      ],
+      [
+       "DisplayPorts quantity",
+       "2"
+      ],
+      [
+       "Number of USB Type-B upstream ports quantity",
+       "1"
+      ],
+      [
+       "Number of USB Type-C upstream ports quantity",
+       "1"
+      ],
+      [
+       "USB Type-A downstream ports quantity",
+       "2"
+      ],
+      [
+       "USB port",
+       "Yes"
+      ],
+      [
+       "USB Type-C DisplayPort Alternate Mode",
+       "Yes"
+      ],
+      [
+       "USB Power Delivery (USB PD)",
+       "Yes"
+      ],
+      [
+       "USB Power Delivery up to",
+       "90 W"
+      ],
+      [
+       "USB charging port",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Computer system",
+     [
+      [
+       "Computer system",
+       "No"
+      ],
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "On Screen Display (OSD)",
+       "Yes"
+      ],
+      [
+       "HDCP",
+       "Yes"
+      ],
+      [
+       "HDCP version",
+       "1.4"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power consumption (typical)",
+       "20.9 W"
+      ],
+      [
+       "Power consumption (max)",
+       "205 W"
+      ],
+      [
+       "Power consumption (standby)",
+       "0.5 W"
+      ],
+      [
+       "AC input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "AC input frequency",
+       "50/60 Hz"
+      ],
+      [
+       "Energy efficiency scale",
+       "A to G"
+      ],
+      [
+       "Energy efficiency class (SDR)",
+       "E"
+      ],
+      [
+       "Energy consumption (SDR) per 1000 hours",
+       "21 kWh"
+      ],
+      [
+       "Power supply type",
+       "Internal"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-20 - 60 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 80%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "5 - 90%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Display width",
+       "612.3 mm"
+      ],
+      [
+       "Display depth",
+       "60.1 mm"
+      ],
+      [
+       "Display height",
+       "392.6 mm"
+      ],
+      [
+       "Display weight",
+       "5.16 kg"
+      ],
+      [
+       "Width (with stand)",
+       "612.3 mm"
+      ],
+      [
+       "Depth (with stand)",
+       "192.3 mm"
+      ],
+      [
+       "Height (with stand)",
+       "567.8 mm"
+      ],
+      [
+       "Weight (with stand)",
+       "6.74 kg"
+      ]
+     ]
+    ],
+    [
+     "Network",
+     [
+      [
+       "Ethernet LAN",
+       "Yes"
+      ],
+      [
+       "Ethernet LAN (RJ-45) ports",
+       "1"
+      ],
+      [
+       "Wi-Fi",
+       "No"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "210-BVHS",
    "name": "Dell Pro P 24 USB-C Hub Conferencing Monitor - P2426HEB",
    "brand": "Dell",
@@ -5166,6 +5603,526 @@
       [
        "Wi-Fi",
        "No"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "210-BVHT",
+   "name": "Dell Pro P 34 USB-C Hub Webcam Monitor - P3426WEV",
+   "brand": "Dell",
+   "category": "Monitors & stands",
+   "price": 14744,
+   "stock": "low",
+   "available": 4,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 9.41,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990700/210-BVHT_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990701/210-BVHT_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990701/210-BVHT_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990700/210-BVHT_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990697/210-BVHT_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990698/210-BVHT_5.jpg"
+   ],
+   "description": "Elevate collaboration in open workspaces with a 34-inch WQHD IPS curved monitor featuring a built-in webcam.",
+   "strap": "86.6 cm (34.1\"), 3440 x 1440 pixels, Wide Quad HD, LCD, 8 ms, Black, Silver",
+   "warranty": "3 Years Base Adv Ex",
+   "highlights": [
+    [
+     "Display diagonal",
+     "86.6 cm (34.1\")"
+    ],
+    [
+     "Display resolution",
+     "3440 x 1440 pixels"
+    ],
+    [
+     "Maximum refresh rate",
+     "100 Hz"
+    ],
+    [
+     "Panel type",
+     "IPS"
+    ],
+    [
+     "Response time",
+     "8 ms"
+    ],
+    [
+     "Product colour",
+     "Black, Silver"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "86.6 cm (34.1\")"
+      ],
+      [
+       "Display resolution",
+       "3440 x 1440 pixels"
+      ],
+      [
+       "HD type",
+       "Wide Quad HD"
+      ],
+      [
+       "Native aspect ratio",
+       "21:9"
+      ],
+      [
+       "Display technology",
+       "LCD"
+      ],
+      [
+       "Panel type",
+       "IPS"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "Backlight type",
+       "Edge LED"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "Display brightness (typical)",
+       "350 cd/m²"
+      ],
+      [
+       "Response time",
+       "8 ms"
+      ],
+      [
+       "Response time measurement type",
+       "GTG (Gray to Gray)"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ],
+      [
+       "Screen shape",
+       "Curved"
+      ],
+      [
+       "Screen curvature rating",
+       "3800R"
+      ],
+      [
+       "Supported graphics resolutions",
+       "640 x 480 (VGA), 800 x 600 (SVGA), 1024 x 768 (XGA), 1152 x 864 (XGA+), 1280 x 720 (HD 720), 1280 x 1024 (SXGA), 1600 x 900, 1920 x 1080 (HD 1080), 2560 x 1440, 3440 x 1440"
+      ],
+      [
+       "Supported video modes",
+       "1080p, 480p, 576p, 720p"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "1500:1"
+      ],
+      [
+       "Maximum refresh rate",
+       "100 Hz"
+      ],
+      [
+       "Viewing angle, horizontal",
+       "178°"
+      ],
+      [
+       "Viewing angle, vertical",
+       "178°"
+      ],
+      [
+       "Display number of colours",
+       "1.07 billion colours"
+      ],
+      [
+       "Response time (fast)",
+       "5 ms"
+      ],
+      [
+       "Pixel pitch",
+       "0.2325 x 0.2325 mm"
+      ],
+      [
+       "Pixel density",
+       "109 ppi"
+      ],
+      [
+       "Viewable size, horizontal",
+       "80 cm"
+      ],
+      [
+       "Viewable size, vertical",
+       "33.5 cm"
+      ],
+      [
+       "Viewable size diagonal",
+       "86.7 cm"
+      ],
+      [
+       "Digital horizontal frequency",
+       "30 - 160 kHz"
+      ],
+      [
+       "Digital vertical frequency",
+       "48 - 100 Hz"
+      ],
+      [
+       "Surface hardness",
+       "3H"
+      ],
+      [
+       "sRGB coverage (typical)",
+       "99%"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "Flicker-free technology",
+       "Yes"
+      ],
+      [
+       "Low Blue Light technology",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Multimedia",
+     [
+      [
+       "Built-in speaker(s)",
+       "No"
+      ],
+      [
+       "Megapixel (approx.)",
+       "4 MP"
+      ],
+      [
+       "Built-in camera",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Market positioning",
+       "Business"
+      ],
+      [
+       "Product colour",
+       "Black, Silver"
+      ],
+      [
+       "Front bezel colour",
+       "Black"
+      ],
+      [
+       "Detachable stand",
+       "Yes"
+      ],
+      [
+       "Feet colour",
+       "Silver"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Built-in USB hub",
+       "Yes"
+      ],
+      [
+       "USB upstream port type",
+       "USB Type-C, USB Type-B"
+      ],
+      [
+       "Number of USB Type-B upstream ports quantity",
+       "1"
+      ],
+      [
+       "Number of USB Type-C upstream ports quantity",
+       "1"
+      ],
+      [
+       "USB Type-A downstream ports quantity",
+       "2"
+      ],
+      [
+       "USB Type-C DisplayPort Alternate Mode",
+       "Yes"
+      ],
+      [
+       "USB Power Delivery (USB PD)",
+       "Yes"
+      ],
+      [
+       "USB Power Delivery up to",
+       "90 W"
+      ],
+      [
+       "HDMI",
+       "Yes"
+      ],
+      [
+       "HDMI ports quantity",
+       "1"
+      ],
+      [
+       "HDMI version",
+       "2.1"
+      ],
+      [
+       "DisplayPorts quantity",
+       "1"
+      ],
+      [
+       "DisplayPort out version",
+       "1.4"
+      ],
+      [
+       "Headphone out",
+       "No"
+      ],
+      [
+       "HDCP",
+       "Yes"
+      ],
+      [
+       "HDCP version",
+       "1.4"
+      ]
+     ]
+    ],
+    [
+     "Network",
+     [
+      [
+       "Ethernet LAN",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "VESA mounting",
+       "Yes"
+      ],
+      [
+       "Panel mounting interface",
+       "100 x 100 mm"
+      ],
+      [
+       "Cable management",
+       "Yes"
+      ],
+      [
+       "Cable lock slot",
+       "Yes"
+      ],
+      [
+       "Cable lock slot type",
+       "Kensington"
+      ],
+      [
+       "Height adjustment",
+       "Yes"
+      ],
+      [
+       "Adjustable height (max)",
+       "15 cm"
+      ],
+      [
+       "Swivelling",
+       "Yes"
+      ],
+      [
+       "Swivel angle range",
+       "-30 - 30°"
+      ],
+      [
+       "Tilt adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt angle range",
+       "-5 - 21°"
+      ],
+      [
+       "On Screen Display (OSD)",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Energy efficiency class (SDR)",
+       "F"
+      ],
+      [
+       "Energy efficiency class (HDR)",
+       "Not available"
+      ],
+      [
+       "Energy consumption (SDR) per 1000 hours",
+       "27 kWh"
+      ],
+      [
+       "Power consumption (typical)",
+       "27 W"
+      ],
+      [
+       "Power consumption (standby)",
+       "0.5 W"
+      ],
+      [
+       "Power consumption (max)",
+       "205 W"
+      ],
+      [
+       "Power consumption (off)",
+       "0.3 W"
+      ],
+      [
+       "AC input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "AC input frequency",
+       "50/60 Hz"
+      ],
+      [
+       "Input current",
+       "2.5 A"
+      ],
+      [
+       "Power supply type",
+       "Internal"
+      ],
+      [
+       "Energy efficiency scale",
+       "A to G"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-20 - 60 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 80%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "5 - 90%"
+      ],
+      [
+       "Operating altitude",
+       "0 - 5000 m"
+      ],
+      [
+       "Non-operating altitude",
+       "5000 - 12192 m"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width (with stand)",
+       "815.6 mm"
+      ],
+      [
+       "Depth (with stand)",
+       "229.4 mm"
+      ],
+      [
+       "Height (with stand)",
+       "573.2 mm"
+      ],
+      [
+       "Weight (with stand)",
+       "9.41 kg"
+      ],
+      [
+       "Width (without stand)",
+       "815.6 mm"
+      ],
+      [
+       "Depth (without stand)",
+       "85.9 mm"
+      ],
+      [
+       "Height (without stand)",
+       "392.8 mm"
+      ],
+      [
+       "Weight (without stand)",
+       "6.98 kg"
+      ],
+      [
+       "Bezel width (side)",
+       "8.66 mm"
+      ],
+      [
+       "Bezel width (top)",
+       "8.7 mm"
+      ],
+      [
+       "Bezel width (bottom)",
+       "1.71 cm"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compliance certificates",
+       "RoHS"
+      ],
+      [
+       "Certification",
+       "Teams, Zoom"
       ]
      ]
     ]
@@ -12003,6 +12960,209 @@
    ]
   },
   {
+   "sku": "570-BBLH",
+   "name": "Dell Pro 7 Silent Mouse - MS726",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 731,
+   "stock": "in",
+   "available": 90,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.073,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991079/570-BBLH_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991076/570-BBLH_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991077/570-BBLH_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991079/570-BBLH_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991077/570-BBLH_4.jpg"
+   ],
+   "description": "Enjoy all-day comfort, precision, and long-lasting battery life for an elevated workflow with a premium, full-size, silent mouse that features customisable buttons.",
+   "strap": "Ambidextrous, Optical, RF Wireless + Bluetooth, 6000 DPI, Black",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Movement resolution",
+     "6000 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "73 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical"
+      ],
+      [
+       "Purpose",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "RF Wireless + Bluetooth"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "6000 DPI"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Batteries"
+      ],
+      [
+       "Number of batteries supported",
+       "1"
+      ],
+      [
+       "Battery type",
+       "AA"
+      ],
+      [
+       "USB Type-C charging port",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "-10 - 50 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "20 - 90%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "62.4 mm"
+      ],
+      [
+       "Depth",
+       "115.6 mm"
+      ],
+      [
+       "Height",
+       "39.4 mm"
+      ],
+      [
+       "Weight",
+       "73 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "570-BBMJ",
    "name": "Dell Mouse - WM118",
    "brand": "Dell",
@@ -12753,6 +13913,232 @@
       [
        "Keyboard weight",
        "421 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "580-AKPT",
+   "name": "Dell Pro Plus Keyboard - KB700 - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1194,
+   "stock": "in",
+   "available": 20,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.56,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991082/580-AKPT_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991080/580-AKPT_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991085/580-AKPT_5.jpg"
+   ],
+   "description": "Experience superior multitasking features with a stylish and comfortable premium keyboard. Complete your tasks powered by one of the industry’s leading battery lives at up to 36 months.",
+   "strap": "Full-size (100%), Wireless, Bluetooth, Scissor key switch, QWERTY, Grey",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Product colour",
+     "Grey"
+    ],
+    [
+     "Recommended usage",
+     "Office"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "Bluetooth"
+      ],
+      [
+       "Keyboard key switch",
+       "Scissor key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "Hot keys",
+       "Yes"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ],
+      [
+       "Bluetooth version",
+       "5.0"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "No"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Product colour",
+       "Grey"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "Battery"
+      ],
+      [
+       "Keyboard battery type",
+       "AAA"
+      ],
+      [
+       "Number of batteries (keyboard)",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Alkaline"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "433.3 x 121.5 x 25.34 mm"
+      ],
+      [
+       "Keyboard weight",
+       "560 g"
       ]
      ]
     ]
