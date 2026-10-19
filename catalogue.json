@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-19T08:05:05+00:00",
- "pricedAt": "2026-10-19T08:05:05+00:00",
- "priceValidUntil": "2026-10-19T10:05:05+00:00",
+ "generatedAt": "2026-10-19T08:35:04+00:00",
+ "pricedAt": "2026-10-19T08:35:04+00:00",
+ "priceValidUntil": "2026-10-19T10:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 102,
+ "count": 101,
  "items": [
   {
    "sku": "142257-006",
@@ -4741,7 +4741,7 @@
    "category": "Monitors & stands",
    "price": 8674,
    "stock": "low",
-   "available": 5,
+   "available": 4,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 6.74,
@@ -7380,7 +7380,7 @@
    "category": "Storage & memory",
    "price": 4994,
    "stock": "in",
-   "available": 9,
+   "available": 8,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.669,
@@ -7567,7 +7567,7 @@
    "category": "Cables, power & docks",
    "price": 1294,
    "stock": "in",
-   "available": 78,
+   "available": 77,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.118,
@@ -8674,7 +8674,7 @@
    "category": "Bags & cases",
    "price": 928,
    "stock": "in",
-   "available": 48,
+   "available": 46,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.762,
@@ -9816,8 +9816,8 @@
    "brand": "Dell",
    "category": "Headsets, audio & webcams",
    "price": 1345,
-   "stock": "in",
-   "available": 6,
+   "stock": "low",
+   "available": 4,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.324,
@@ -10163,184 +10163,6 @@
       [
        "Weight",
        "205 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "520-BBLY",
-   "name": "Dell Pro Premium Conferencing Soundbar - SB725",
-   "brand": "Dell",
-   "category": "Headsets, audio & webcams",
-   "price": 1459,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.25,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991056/520-BBLY_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991054/520-BBLY_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991058/520-BBLY_2.jpg"
-   ],
-   "description": "Experience exceptional conferencing audio clarity with this AI-based premium soundbar equipped with enhanced noise-cancellation technology.",
-   "strap": "3.6 W, 90 dB, 3.6 W, Black, Buttons, 0 - 40 °C",
-   "warranty": "3 Years Base Adv Ex",
-   "highlights": [
-    [
-     "Connectivity technology",
-     "Wired"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "250 g"
-    ],
-    [
-     "RMS rated power",
-     "3.6 W"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Audio",
-     [
-      [
-       "RMS rated power",
-       "3.6 W"
-      ],
-      [
-       "Sound pressure level",
-       "90 dB"
-      ]
-     ]
-    ],
-    [
-     "Soundbar speaker",
-     [
-      [
-       "Soundbar speaker RMS power",
-       "3.6 W"
-      ]
-     ]
-    ],
-    [
-     "Subwoofer",
-     [
-      [
-       "Subwoofer included",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "Features",
-     [
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "Volume control",
-       "Buttons"
-      ],
-      [
-       "Wall mountable",
-       "No"
-      ],
-      [
-       "LED indicators",
-       "Yes"
-      ],
-      [
-       "Operating temperature (T-T)",
-       "0 - 40 °C"
-      ]
-     ]
-    ],
-    [
-     "Ports & interfaces",
-     [
-      [
-       "Connectivity technology",
-       "Wired"
-      ],
-      [
-       "Bluetooth",
-       "No"
-      ],
-      [
-       "Wi-Fi",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "298 mm"
-      ],
-      [
-       "Depth",
-       "34.5 mm"
-      ],
-      [
-       "Height",
-       "40 mm"
-      ],
-      [
-       "Weight",
-       "250 g"
-      ],
-      [
-       "Cord length",
-       "1.5 m"
-      ]
-     ]
-    ],
-    [
-     "System requirements",
-     [
-      [
-       "Mac operating systems supported",
-       "MacOS"
-      ],
-      [
-       "Windows operating systems supported",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Other features",
-     [
-      [
-       "Built-in microphone",
-       "Yes"
-      ],
-      [
-       "Mute button",
-       "Yes"
-      ],
-      [
-       "Frequency range",
-       "150 - 20000 Hz"
-      ],
-      [
-       "Voltage",
-       "5 V"
       ]
      ]
     ]
@@ -14413,7 +14235,7 @@
    "category": "Keyboards & mice",
    "price": 905,
    "stock": "in",
-   "available": 51,
+   "available": 50,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
@@ -22810,7 +22632,7 @@
    "category": "Laptops & desktops",
    "price": 40594,
    "stock": "in",
-   "available": 42,
+   "available": 41,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.75,
@@ -25591,7 +25413,7 @@
    "category": "Accessories",
    "price": 7934,
    "stock": "in",
-   "available": 48,
+   "available": 58,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.006,
