@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-20T10:05:04+00:00",
- "pricedAt": "2026-10-20T10:05:04+00:00",
- "priceValidUntil": "2026-10-20T12:05:04+00:00",
+ "generatedAt": "2026-10-20T10:35:04+00:00",
+ "pricedAt": "2026-10-20T10:35:04+00:00",
+ "priceValidUntil": "2026-10-20T12:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 101,
+ "count": 100,
  "items": [
   {
    "sku": "142257-006",
@@ -8541,7 +8541,7 @@
    "category": "Bags & cases",
    "price": 515,
    "stock": "in",
-   "available": 329,
+   "available": 328,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.6,
@@ -9306,7 +9306,7 @@
    "category": "Cables, power & docks",
    "price": 1614,
    "stock": "in",
-   "available": 89,
+   "available": 88,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.094,
@@ -10881,7 +10881,7 @@
    "category": "Keyboards & mice",
    "price": 1644,
    "stock": "low",
-   "available": 5,
+   "available": 4,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.091,
@@ -15502,267 +15502,6 @@
    ]
   },
   {
-   "sku": "A59Z0AA",
-   "name": "HyperX Cloud III S Wireless Black Red Gaming Headset",
-   "brand": "HP",
-   "category": "Headsets, audio & webcams",
-   "price": 2294,
-   "stock": "low",
-   "available": 4,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.34,
-   "badges": [
-    "Bargain",
-    "Store opening special"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990718/A59Z0AA_0.jpg"
-   ],
-   "description": "A Legend Evolved. The Cloud III S Wireless represents the next evolution of Cloud III Wireless, retaining all the beloved features of its predecessor. In addition to the 2.4GHz wireless connectivity, users can connect to more devices via Bluetooth or an Instant Pair2 mode that is compatible with select OMEN laptops. It also boasts extended battery life and multiple customization options. With HyperX signature comfort, this headset delivers luxurious comfort for all-day gaming or marathon streaming sessions. With up to 120 hours1 of battery life, you can enjoy hours of uninterrupted gaming fun via 2.4GHz. Push the limits even further with up to 200 hours in Bluetooth mode. Equipped with 53mm angled drivers, it delivers crystal-clear sound and enhanced audio positioning, precisely identifying critical audio cues like footsteps. The 10mm microphone provides clear communication with teammates, crisp call quality, and effortless conversations with friends. With easy-to-use audio controls, you can swiftly mute or unmute the microphone, adjust volume levels, and switch between wireless modes effortlessly. Whether you're gaming, listening to music, watching YouTube, browsing Twitch, or completing assignments, the Cloud III S Wireless ensures you never miss a beat or crucial shot!",
-   "strap": "Wireless, Gaming, 20 - 20000 Hz, 340 g, Headset, Red",
-   "warranty": "2 years",
-   "highlights": [
-    [
-     "Connectivity technology",
-     "Wireless"
-    ],
-    [
-     "Product colour",
-     "Red"
-    ],
-    [
-     "Weight",
-     "340 g"
-    ],
-    [
-     "Product type",
-     "Headset"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Performance",
-     [
-      [
-       "Product type",
-       "Headset"
-      ],
-      [
-       "Wearing style",
-       "Head-band"
-      ],
-      [
-       "Recommended usage",
-       "Gaming"
-      ],
-      [
-       "Headset type",
-       "Binaural"
-      ],
-      [
-       "Product colour",
-       "Red"
-      ],
-      [
-       "Colour name",
-       "Red"
-      ],
-      [
-       "Control type",
-       "Buttons, Rotary"
-      ],
-      [
-       "Foldable",
-       "No"
-      ],
-      [
-       "Detachable cable",
-       "No"
-      ],
-      [
-       "Country of origin",
-       "China"
-      ]
-     ]
-    ],
-    [
-     "Ports & interfaces",
-     [
-      [
-       "Connectivity technology",
-       "Wireless"
-      ],
-      [
-       "USB connectivity",
-       "Yes"
-      ],
-      [
-       "Bluetooth",
-       "Yes"
-      ],
-      [
-       "Bluetooth profiles",
-       "A2DP, AVCTP, AVDTP, AVRCP, DID, GAVDP, HFP, HID, HSP, PBAP, SPP"
-      ],
-      [
-       "Bluetooth version",
-       "5.3"
-      ],
-      [
-       "RF connectivity",
-       "Yes"
-      ],
-      [
-       "Frequency band",
-       "2.4 GHz"
-      ],
-      [
-       "Wireless range",
-       "20 m"
-      ]
-     ]
-    ],
-    [
-     "Headphones",
-     [
-      [
-       "Ear coupling",
-       "Circumaural"
-      ],
-      [
-       "Acoustic system",
-       "Closed"
-      ],
-      [
-       "Headphone frequency",
-       "20 - 20000 Hz"
-      ],
-      [
-       "Impedance",
-       "64 Ω"
-      ],
-      [
-       "Headphone sensitivity",
-       "111.94 dB"
-      ],
-      [
-       "Driver unit",
-       "5.3 cm"
-      ],
-      [
-       "Driver type",
-       "Dynamic"
-      ],
-      [
-       "Total Harmonic Distortion (THD)",
-       "2%"
-      ]
-     ]
-    ],
-    [
-     "Microphone",
-     [
-      [
-       "Microphone type",
-       "Boom"
-      ],
-      [
-       "Microphone frequency",
-       "100 - 10000 Hz"
-      ],
-      [
-       "Microphone sensitivity",
-       "-42 dB"
-      ],
-      [
-       "Microphone direction type",
-       "Unidirectional/Omnidirectional microphone"
-      ],
-      [
-       "Detachable microphone",
-       "Yes"
-      ],
-      [
-       "MEMS (Micro-Electro-Mechanical System) microphone",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Battery",
-     [
-      [
-       "Battery operated",
-       "Yes"
-      ],
-      [
-       "Continuous audio playback time",
-       "120 h"
-      ],
-      [
-       "Battery recharge time",
-       "5 h"
-      ],
-      [
-       "Charging source",
-       "USB"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "115 mm"
-      ],
-      [
-       "Depth",
-       "210 mm"
-      ],
-      [
-       "Height",
-       "223 mm"
-      ],
-      [
-       "Weight",
-       "340 g"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "USB Type-C charging port",
-       "Yes"
-      ],
-      [
-       "USB Type-C required charging power (min)",
-       "3 W"
-      ],
-      [
-       "USB Type-C required charging power (max)",
-       "15 W"
-      ]
-     ]
-    ],
-    [
-     "Other features",
-     [
-      [
-       "UNSPSC-code",
-       "52161514"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
    "sku": "AB663419",
    "name": "Dell Memory Upgrade 8GB 1RX8 DDR4 UDIMM 3200MHz ECC Compatibility R240/R250/R340/R350/T40/T140/T150/T340/T350",
    "brand": "Dell",
@@ -15865,7 +15604,7 @@
    "category": "Laptops & desktops",
    "price": 72994,
    "stock": "low",
-   "available": 2,
+   "available": 1,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.351,
