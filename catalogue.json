@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-21T10:05:04+00:00",
- "pricedAt": "2026-10-21T10:05:04+00:00",
- "priceValidUntil": "2026-10-21T12:05:04+00:00",
+ "generatedAt": "2026-10-21T10:35:04+00:00",
+ "pricedAt": "2026-10-21T10:35:04+00:00",
+ "priceValidUntil": "2026-10-21T12:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 100,
+ "count": 99,
  "items": [
   {
    "sku": "142257-006",
@@ -9811,152 +9811,6 @@
    "specGroups": []
   },
   {
-   "sku": "520-AAVQ",
-   "name": "Dell Pro Desktop Speakerphone - SP3022",
-   "brand": "Dell",
-   "category": "Headsets, audio & webcams",
-   "price": 1345,
-   "stock": "low",
-   "available": 3,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.324,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991055/520-AAVQ_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991063/520-AAVQ_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991051/520-AAVQ_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991052/520-AAVQ_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991052/520-AAVQ_5.jpg"
-   ],
-   "description": "DELL Pro Desktop Speakerphone - SP3022. Device type: Universal, Signal-to-Noise Ratio (SNR): 80 dB, Cable length: 0.85 m. Frequency range: 90 - 20000 Hz. Microphone frequency: 120 - 7000 Hz, Microphone direction type: Omnidirectional, Microphone sensitivity: 72 dB. Connectivity technology: Wired, USB connector type: USB Type-C. Width: 71 mm, Depth: 226 mm, Height: 58.7 mm",
-   "strap": "Universal, 80 dB, 0.85 m, 90 - 20000 Hz, 120 - 7000 Hz, Omnidirectional",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Connectivity technology",
-     "Wired"
-    ],
-    [
-     "Cable length",
-     "0.85 m"
-    ],
-    [
-     "Weight",
-     "324 g"
-    ],
-    [
-     "Device type",
-     "Universal"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Device type",
-       "Universal"
-      ],
-      [
-       "Signal-to-Noise Ratio (SNR)",
-       "80 dB"
-      ],
-      [
-       "Cable length",
-       "0.85 m"
-      ]
-     ]
-    ],
-    [
-     "Loudspeakers",
-     [
-      [
-       "Frequency range",
-       "90 - 20000 Hz"
-      ]
-     ]
-    ],
-    [
-     "Microphone",
-     [
-      [
-       "Microphone frequency",
-       "120 - 7000 Hz"
-      ],
-      [
-       "Microphone direction type",
-       "Omnidirectional"
-      ],
-      [
-       "Microphone sensitivity",
-       "72 dB"
-      ]
-     ]
-    ],
-    [
-     "Ports & interfaces",
-     [
-      [
-       "Connectivity technology",
-       "Wired"
-      ],
-      [
-       "USB connector type",
-       "USB Type-C"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "0 - 40 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-40 - 65 °C"
-      ],
-      [
-       "Operating relative humidity (H-H)",
-       "0 - 90%"
-      ],
-      [
-       "Storage relative humidity (H-H)",
-       "0 - 90%"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "71 mm"
-      ],
-      [
-       "Depth",
-       "226 mm"
-      ],
-      [
-       "Height",
-       "58.7 mm"
-      ],
-      [
-       "Weight",
-       "324 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
    "sku": "520-BBDQ",
    "name": "Dell Wireless Audio Receiver - HR024",
    "brand": "Dell",
@@ -11533,7 +11387,7 @@
    "category": "Keyboards & mice",
    "price": 775,
    "stock": "in",
-   "available": 55,
+   "available": 54,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.08,
@@ -16926,7 +16780,7 @@
    "category": "Laptops & desktops",
    "price": 28894,
    "stock": "in",
-   "available": 302,
+   "available": 301,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.16,
@@ -20352,7 +20206,7 @@
    "category": "Laptops & desktops",
    "price": 41994,
    "stock": "in",
-   "available": 22,
+   "available": 21,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.34,
@@ -25151,8 +25005,8 @@
    "brand": "Kingston",
    "category": "Accessories",
    "price": 7934,
-   "stock": "low",
-   "available": 1,
+   "stock": "in",
+   "available": 51,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.006,
