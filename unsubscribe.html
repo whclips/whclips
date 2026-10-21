@@ -20,10 +20,19 @@
   <p>We are processing your request. If nothing happens, email <a href="mailto:info@whclips.co.za">info@whclips.co.za</a> and we will remove you by hand.</p>
 </main>
 <script>
-  // The unsubscribe link in our emails points here, on our own domain; the Worker records the opt-out and shows the result.
+  // The unsubscribe link in our emails points here, on our own domain. Masked form (21 Oct 2026): ?u=<anonymous code>&s=<signature>, no address in the link or on this page.
+  // The older ?e=&s= form (reminder emails already sent) still goes to the Worker as before.
   (function(){
-    var q = location.search;
-    if (!/[?&]e=/.test(q) || !/[&?]s=/.test(q)) { document.querySelector('h1').textContent = 'This link is not valid'; return; }
+    var q = location.search, h = document.querySelector('h1'), p = document.querySelector('p');
+    function say(t, b){ h.textContent = t; p.textContent = b; }
+    if (/[?&]u=/.test(q) && /[&?]s=/.test(q)) {
+      fetch('https://whclips-access-gate.green-mouse-5a6e.workers.dev/api/unsubscribe' + q, { method: 'POST' })
+        .then(function(r){ return r.json().catch(function(){ return {}; }); })
+        .then(function(j){ if (j && j.ok) say('You are unsubscribed', 'We will not send you news or invitation emails from White Horse Clips. Receipts and delivery emails for orders you place are still sent.'); else say('This link is not valid', 'Please email info@whclips.co.za and we will remove you by hand.'); })
+        .catch(function(){ say('Something went wrong', 'Please try the link again, or email info@whclips.co.za and we will remove you by hand.'); });
+      return;
+    }
+    if (!/[?&]e=/.test(q) || !/[&?]s=/.test(q)) { say('This link is not valid', 'Please email info@whclips.co.za and we will remove you by hand.'); return; }
     location.replace('https://whclips-access-gate.green-mouse-5a6e.workers.dev/api/unsubscribe' + q);
   })();
 </script>
