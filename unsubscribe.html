@@ -28,7 +28,10 @@
     if (/[?&]u=/.test(q) && /[&?]s=/.test(q)) {
       fetch('https://whclips-access-gate.green-mouse-5a6e.workers.dev/api/unsubscribe' + q, { method: 'POST' })
         .then(function(r){ return r.json().catch(function(){ return {}; }); })
-        .then(function(j){ if (j && j.ok) say('You are unsubscribed', 'We will not send you news or invitation emails from White Horse Clips. Receipts and delivery emails for orders you place are still sent.'); else say('This link is not valid', 'Please email info@whclips.co.za and we will remove you by hand.'); })
+        .then(function(j){ if (j && j.ok) { say('You are unsubscribed', 'We will not send you news or invitation emails from White Horse Clips. Receipts and delivery emails for orders you place are still sent.');
+            var b = document.createElement('button'); b.textContent = 'Changed your mind? Subscribe again'; b.style.cssText = 'margin-top:1rem;padding:.7rem 1.2rem;border:0;border-radius:6px;background:#4f46e5;color:#fff;font-size:1rem;cursor:pointer';
+            b.onclick = function(){ b.disabled = true; fetch('https://whclips-access-gate.green-mouse-5a6e.workers.dev/api/unsubscribe' + q + '&a=resub', { method: 'POST' }).then(function(r){ return r.json(); }).then(function(k){ if (k && k.ok) { say('You are subscribed again', 'Thank you. You will receive our news and invitation emails again.'); b.remove(); } else { b.disabled = false; b.textContent = 'Could not subscribe - try again'; } }).catch(function(){ b.disabled = false; b.textContent = 'Could not subscribe - try again'; }); };
+            p.parentNode.appendChild(b); } else say('This link is not valid', 'Please email info@whclips.co.za and we will remove you by hand.'); })
         .catch(function(){ say('Something went wrong', 'Please try the link again, or email info@whclips.co.za and we will remove you by hand.'); });
       return;
     }
