@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-21T07:05:04+00:00",
- "pricedAt": "2026-10-21T07:05:04+00:00",
- "priceValidUntil": "2026-10-21T09:05:04+00:00",
+ "generatedAt": "2026-10-21T07:35:04+00:00",
+ "pricedAt": "2026-10-21T07:35:04+00:00",
+ "priceValidUntil": "2026-10-21T09:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 98,
+ "count": 100,
  "items": [
   {
    "sku": "142257-006",
@@ -9506,6 +9506,127 @@
    ]
   },
   {
+   "sku": "482-BBDJ",
+   "name": "Dell Pro Single Monitor Arm - MSA20",
+   "brand": "Dell",
+   "category": "Monitors & stands",
+   "price": 3194,
+   "stock": "in",
+   "available": 8,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 10,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991049/482-BBDJ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991050/482-BBDJ_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991050/482-BBDJ_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991050/482-BBDJ_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991050/482-BBDJ_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991051/482-BBDJ_5.jpg"
+   ],
+   "description": "Enjoy a virtually tool-free assembly and easy installation with this Dell Single Monitor Arm – MSA20.",
+   "strap": "10 kg, 48.3 cm (19\"), 96.5 cm (38\"), Height adjustment, Black",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "4.06 kg"
+    ],
+    [
+     "Maximum weight capacity",
+     "10 kg"
+    ],
+    [
+     "Minimum screen size",
+     "48.3 cm (19\")"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mounting",
+     [
+      [
+       "Maximum weight capacity",
+       "10 kg"
+      ],
+      [
+       "Minimum screen size",
+       "48.3 cm (19\")"
+      ],
+      [
+       "Number of displays supported",
+       "1"
+      ],
+      [
+       "Maximum screen size",
+       "96.5 cm (38\")"
+      ],
+      [
+       "Mounting type",
+       "Desk"
+      ],
+      [
+       "Panel mounting interface",
+       "100 x 100 mm"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "Height adjustment",
+       "Yes"
+      ],
+      [
+       "Adjustable depth",
+       "Yes"
+      ],
+      [
+       "Tilt angle range",
+       "-35 - 80°"
+      ],
+      [
+       "Swivel angle",
+       "180°"
+      ],
+      [
+       "Pivot angle",
+       "-90 - 90°"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "4.06 kg"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "482-BBFP",
    "name": "Dell Pro Slim All In One - OSS25",
    "brand": "Dell",
@@ -9688,6 +9809,152 @@
    "highlights": [],
    "specs": [],
    "specGroups": []
+  },
+  {
+   "sku": "520-AAVQ",
+   "name": "Dell Pro Desktop Speakerphone - SP3022",
+   "brand": "Dell",
+   "category": "Headsets, audio & webcams",
+   "price": 1345,
+   "stock": "low",
+   "available": 3,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.324,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991055/520-AAVQ_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991063/520-AAVQ_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991051/520-AAVQ_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991052/520-AAVQ_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991052/520-AAVQ_5.jpg"
+   ],
+   "description": "DELL Pro Desktop Speakerphone - SP3022. Device type: Universal, Signal-to-Noise Ratio (SNR): 80 dB, Cable length: 0.85 m. Frequency range: 90 - 20000 Hz. Microphone frequency: 120 - 7000 Hz, Microphone direction type: Omnidirectional, Microphone sensitivity: 72 dB. Connectivity technology: Wired, USB connector type: USB Type-C. Width: 71 mm, Depth: 226 mm, Height: 58.7 mm",
+   "strap": "Universal, 80 dB, 0.85 m, 90 - 20000 Hz, 120 - 7000 Hz, Omnidirectional",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wired"
+    ],
+    [
+     "Cable length",
+     "0.85 m"
+    ],
+    [
+     "Weight",
+     "324 g"
+    ],
+    [
+     "Device type",
+     "Universal"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Device type",
+       "Universal"
+      ],
+      [
+       "Signal-to-Noise Ratio (SNR)",
+       "80 dB"
+      ],
+      [
+       "Cable length",
+       "0.85 m"
+      ]
+     ]
+    ],
+    [
+     "Loudspeakers",
+     [
+      [
+       "Frequency range",
+       "90 - 20000 Hz"
+      ]
+     ]
+    ],
+    [
+     "Microphone",
+     [
+      [
+       "Microphone frequency",
+       "120 - 7000 Hz"
+      ],
+      [
+       "Microphone direction type",
+       "Omnidirectional"
+      ],
+      [
+       "Microphone sensitivity",
+       "72 dB"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Connectivity technology",
+       "Wired"
+      ],
+      [
+       "USB connector type",
+       "USB Type-C"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "0 - 90%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 90%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "71 mm"
+      ],
+      [
+       "Depth",
+       "226 mm"
+      ],
+      [
+       "Height",
+       "58.7 mm"
+      ],
+      [
+       "Weight",
+       "324 g"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "520-BBDQ",
