@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-22T06:05:04+00:00",
- "pricedAt": "2026-10-22T06:05:04+00:00",
- "priceValidUntil": "2026-10-22T08:05:04+00:00",
+ "generatedAt": "2026-10-22T06:35:03+00:00",
+ "pricedAt": "2026-10-22T06:35:03+00:00",
+ "priceValidUntil": "2026-10-22T08:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 98,
+ "count": 97,
  "items": [
   {
    "sku": "1P3K6AA",
@@ -7577,144 +7577,6 @@
    "highlights": [],
    "specs": [],
    "specGroups": []
-  },
-  {
-   "sku": "460-BCQL",
-   "name": "Dell Premier Briefcase (M) Fits Most Screen Sizes Up to 15.6 PE1520C",
-   "brand": "Dell",
-   "category": "Bags & cases",
-   "price": 1394,
-   "stock": "in",
-   "available": 12,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 1.13,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991047/460-BCQL_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991047/460-BCQL_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991047/460-BCQL_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991047/460-BCQL_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991050/460-BCQL_4.jpg"
-   ],
-   "description": "DELL PE1520C. Case type: Briefcase, Maximum screen size: 38.1 cm (15\"), Carrying handle(s), Shoulder strap. Weight: 1.13 kg. Surface coloration: Monochromatic",
-   "strap": "Briefcase, 38.1 cm (15\"), Shoulder strap, 1.13 kg",
-   "warranty": "",
-   "highlights": [
-    [
-     "Case type",
-     "Briefcase"
-    ],
-    [
-     "Material",
-     "EVA (Ethylene Vinyl Acetate), Polyester"
-    ],
-    [
-     "Weight",
-     "1.13 kg"
-    ],
-    [
-     "Surface coloration",
-     "Monochromatic"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ],
-      [
-       "Lining colour",
-       "Grey"
-      ],
-      [
-       "Maximum screen size",
-       "38.1 cm (15\")"
-      ],
-      [
-       "Case type",
-       "Briefcase"
-      ],
-      [
-       "Material",
-       "EVA (Ethylene Vinyl Acetate), Polyester"
-      ],
-      [
-       "Product main colour",
-       "Black"
-      ],
-      [
-       "Integrated compartment(s)",
-       "Yes"
-      ],
-      [
-       "Brand compatibility",
-       "Dell"
-      ],
-      [
-       "Back pocket(s)",
-       "Yes"
-      ],
-      [
-       "Carrying handle(s)",
-       "Yes"
-      ],
-      [
-       "Shoulder strap",
-       "Yes"
-      ],
-      [
-       "Removable shoulder strap",
-       "Yes"
-      ],
-      [
-       "Trolley retainer strap",
-       "Yes"
-      ],
-      [
-       "Protection features",
-       "Scratch resistant, Shock resistant, Water resistant"
-      ],
-      [
-       "TSA checkpoint",
-       "Yes"
-      ],
-      [
-       "Quantity",
-       "1"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "391.2 mm"
-      ],
-      [
-       "Depth",
-       "134.6 mm"
-      ],
-      [
-       "Height",
-       "289.6 mm"
-      ],
-      [
-       "Weight",
-       "1.13 kg"
-      ]
-     ]
-    ]
-   ]
   },
   {
    "sku": "460-BDSR",
