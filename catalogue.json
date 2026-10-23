@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-23T08:05:05+00:00",
- "pricedAt": "2026-10-23T08:05:05+00:00",
- "priceValidUntil": "2026-10-23T10:05:05+00:00",
+ "generatedAt": "2026-10-23T08:35:05+00:00",
+ "pricedAt": "2026-10-23T08:35:05+00:00",
+ "priceValidUntil": "2026-10-23T10:35:05+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 91,
+ "count": 95,
  "items": [
   {
    "sku": "1P3K6AA",
@@ -15,7 +15,7 @@
    "category": "Cables, power & docks",
    "price": 621,
    "stock": "low",
-   "available": 2,
+   "available": 1,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.235,
@@ -172,6 +172,33 @@
      ]
     ]
    ]
+  },
+  {
+   "sku": "210-ASMT-16675907",
+   "name": "Dell Wyse 5470 CTO/Wyse 5470 Intel Celeron N4100/8GB 2x4GB 2400MHz DDR416GB eMMC/PCoIP enabled Wyse ThinOS 9.X/1Y Partner Led Carry In Service",
+   "brand": "Dell",
+   "category": "Laptops & desktops",
+   "price": 9839,
+   "stock": "low",
+   "available": 4,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 1.8,
+   "badges": [
+    "Bargain",
+    "Store opening special"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990688/210-ASMT-16675907_0.jpg"
+   ],
+   "description": "Dell Wyse 5470 CTO/Wyse 5470 Intel Celeron N4100/8GB 2x4GB 2400MHz DDR416GB eMMC/PCoIP enabled Wyse ThinOS 9.X/1Y Partner Led Carry In Service",
+   "strap": "",
+   "warranty": "1-year manufacturer warranty",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "210-BFIS",
@@ -10609,6 +10636,180 @@
    ]
   },
   {
+   "sku": "545-BBFB",
+   "name": "Alienware Wireless Gaming Mouse - AW620M (Dark Side of the Moon)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1644,
+   "stock": "low",
+   "available": 3,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.091,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/545-BBFB_0.jpg"
+   ],
+   "description": "Alienware Wireless Gaming Mouse - AW620M (Dark Side of the Moon)",
+   "strap": "",
+   "warranty": "Limited warranty - 2 years",
+   "highlights": [
+    [
+     "Interface",
+     "USB, 2.4 GHz"
+    ],
+    [
+     "Connectivity Technology",
+     "Wireless, wired"
+    ],
+    [
+     "Movement Resolution",
+     "26000 dpi"
+    ],
+    [
+     "Buttons Qty",
+     "7"
+    ],
+    [
+     "Cable Length",
+     "2 m"
+    ],
+    [
+     "Weight",
+     "91 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "General",
+     [
+      [
+       "Device Type",
+       "Mouse"
+      ],
+      [
+       "Orientation",
+       "Right-handed"
+      ],
+      [
+       "Gaming",
+       "Yes"
+      ],
+      [
+       "Width",
+       "7.78 cm"
+      ],
+      [
+       "Depth",
+       "13.15 cm"
+      ],
+      [
+       "Height",
+       "4.15 cm"
+      ],
+      [
+       "Weight",
+       "91 g"
+      ],
+      [
+       "Colour",
+       "Dark Side of the Moon"
+      ],
+      [
+       "Available Colours",
+       "Lunar light, dark side of the moon"
+      ]
+     ]
+    ],
+    [
+     "Input Device",
+     [
+      [
+       "Connectivity Technology",
+       "Wireless, wired"
+      ],
+      [
+       "Interface",
+       "USB, 2.4 GHz"
+      ],
+      [
+       "Movement Detection Technology",
+       "Optical"
+      ],
+      [
+       "Buttons Qty",
+       "7"
+      ],
+      [
+       "Movement Resolution",
+       "26000 dpi"
+      ],
+      [
+       "Performance",
+       "50 G maximum acceleration, polling rate: 1000 Hz, 650 inches per second"
+      ],
+      [
+       "Cable Length",
+       "2 m"
+      ],
+      [
+       "Features",
+       "Auto-calibration, braided cable, 7 programmable buttons, magnetic snap, 5 on-the-fly DPI settings, detachable cable, 16.8 million AlienFX lighting, fast charging, 70 million clicks"
+      ]
+     ]
+    ],
+    [
+     "Expansion / Connectivity",
+     [
+      [
+       "Interfaces",
+       "1 x USB - 4 pin USB Type A"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Technology",
+       "Lithium polymer"
+      ],
+      [
+       "Run Time (Up To)",
+       "140 hour(s)"
+      ]
+     ]
+    ],
+    [
+     "Software / System Requirements",
+     [
+      [
+       "Software Included",
+       "Alienware Command Center"
+      ],
+      [
+       "OS Required",
+       "Windows 10 or later"
+      ]
+     ]
+    ],
+    [
+     "Manufacturer Warranty",
+     [
+      [
+       "Service & Support",
+       "Limited warranty - 2 years"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "545-BBFH",
    "name": "Alienware Wired Gaming Headset - AW520H (Dark Side of the Moon)",
    "brand": "Dell",
@@ -10876,7 +11077,7 @@
    "category": "Keyboards & mice",
    "price": 835,
    "stock": "in",
-   "available": 37,
+   "available": 36,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.084,
@@ -11498,6 +11699,254 @@
       [
        "Battery technology",
        "Alkaline"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "570-BBCB",
+   "name": "Dell Pro Premium Mouse - MS900",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1794,
+   "stock": "in",
+   "available": 11,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.128,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991068/570-BBCB_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991068/570-BBCB_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991071/570-BBCB_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991069/570-BBCB_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991066/570-BBCB_4.jpg"
+   ],
+   "description": "This premium mouse was designed with a surreal level of detail to be extremely comfortable and easy to use thanks to its sculpted curves, innovative scroll wheel and powerful battery.",
+   "strap": "Right-hand, RF Wireless + Bluetooth, 8000 DPI, Graphite",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Form factor",
+     "Right-hand"
+    ],
+    [
+     "Movement resolution",
+     "8000 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "7"
+    ],
+    [
+     "Product colour",
+     "Graphite"
+    ],
+    [
+     "Weight",
+     "128.4 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "2"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical/Horizontal"
+      ],
+      [
+       "Purpose",
+       "Office"
+      ],
+      [
+       "Device interface",
+       "RF Wireless + Bluetooth"
+      ],
+      [
+       "Movement resolution",
+       "8000 DPI"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Programmable mouse buttons",
+       "Yes"
+      ],
+      [
+       "Buttons quantity",
+       "7"
+      ],
+      [
+       "Number of programmable buttons",
+       "3"
+      ],
+      [
+       "Number of movement resolution modes",
+       "3"
+      ],
+      [
+       "Multi-device support",
+       "Yes"
+      ],
+      [
+       "Bluetooth version",
+       "5.1"
+      ],
+      [
+       "Bluetooth",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Right-hand"
+      ],
+      [
+       "Ergonomic design",
+       "Yes"
+      ],
+      [
+       "Product colour",
+       "Graphite"
+      ],
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Batteries"
+      ],
+      [
+       "Rechargeable",
+       "Yes"
+      ],
+      [
+       "Battery type",
+       "Built-in battery"
+      ],
+      [
+       "Service life of battery",
+       "3 month(s)"
+      ],
+      [
+       "USB Type-C charging port",
+       "Yes"
+      ],
+      [
+       "USB Type-C required charging power (min)",
+       "2.5 W"
+      ],
+      [
+       "USB Type-C required charging power (max)",
+       "2.5 W"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "20 - 90%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "89.8 mm"
+      ],
+      [
+       "Depth",
+       "126.7 mm"
+      ],
+      [
+       "Height",
+       "45.8 mm"
+      ],
+      [
+       "Weight",
+       "128.4 g"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Lithium-Ion (Li-Ion)"
+      ],
+      [
+       "Battery capacity",
+       "500 mAh"
       ]
      ]
     ]
@@ -12303,7 +12752,7 @@
    "category": "Keyboards & mice",
    "price": 340,
    "stock": "in",
-   "available": 229,
+   "available": 228,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.082,
@@ -13047,6 +13496,494 @@
       [
        "Keyboard weight",
        "421 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "580-AKPT",
+   "name": "Dell Pro Plus Keyboard - KB700 - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1194,
+   "stock": "in",
+   "available": 20,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.56,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991082/580-AKPT_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991080/580-AKPT_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991085/580-AKPT_5.jpg"
+   ],
+   "description": "Experience superior multitasking features with a stylish and comfortable premium keyboard. Complete your tasks powered by one of the industry’s leading battery lives at up to 36 months.",
+   "strap": "Full-size (100%), Wireless, Bluetooth, Scissor key switch, QWERTY, Grey",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Product colour",
+     "Grey"
+    ],
+    [
+     "Recommended usage",
+     "Office"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "Bluetooth"
+      ],
+      [
+       "Keyboard key switch",
+       "Scissor key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "Hot keys",
+       "Yes"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ],
+      [
+       "Bluetooth version",
+       "5.0"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "No"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Product colour",
+       "Grey"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "Battery"
+      ],
+      [
+       "Keyboard battery type",
+       "AAA"
+      ],
+      [
+       "Number of batteries (keyboard)",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Alkaline"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "433.3 x 121.5 x 25.34 mm"
+      ],
+      [
+       "Keyboard weight",
+       "560 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "580-BBDH",
+   "name": "Dell Pro Premium Collaboration Keyboard - KB900 - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 2614,
+   "stock": "low",
+   "available": 2,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.73,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991083/580-BBDH_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991082/580-BBDH_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991083/580-BBDH_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-BBDH_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991089/580-BBDH_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-BBDH_5.jpg"
+   ],
+   "description": "This is the World's first Zoom-certified rechargeable keyboard, built to transform collaboration, enhance productivity and provide all-day comfort.",
+   "strap": "Full-size (100%), Wireless, RF Wireless + Bluetooth, Scissor key switch, QWERTY, Graphite",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Product colour",
+     "Graphite"
+    ],
+    [
+     "Recommended usage",
+     "Office"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "RF Wireless + Bluetooth"
+      ],
+      [
+       "Keyboard key switch",
+       "Scissor key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Multi-device support",
+       "Yes"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "Hot keys",
+       "Yes"
+      ],
+      [
+       "Number of hot keys",
+       "15"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ],
+      [
+       "Bluetooth version",
+       "5.1"
+      ],
+      [
+       "Security algorithms",
+       "128-bit AES"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "Yes"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Adjustable keyboard height",
+       "Yes"
+      ],
+      [
+       "Product colour",
+       "Graphite"
+      ],
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "LED indicators",
+       "Keyboard low battery"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "Battery"
+      ],
+      [
+       "Keyboard battery type",
+       "Built-in battery"
+      ],
+      [
+       "Service life of battery",
+       "20 month(s)"
+      ],
+      [
+       "Charging source",
+       "USB Type-C"
+      ],
+      [
+       "USB Type-C charging port",
+       "Yes"
+      ],
+      [
+       "USB Type-C required charging power (min)",
+       "3.25 W"
+      ],
+      [
+       "USB Type-C required charging power (max)",
+       "15 W"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Lithium-Ion (Li-Ion)"
+      ],
+      [
+       "Battery capacity",
+       "3000 mAh"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android, iOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "20 - 90%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "121.5 x 439.55 x 20.7 mm"
+      ],
+      [
+       "Keyboard weight",
+       "730 g"
       ]
      ]
     ]
@@ -15750,7 +16687,7 @@
    "category": "Laptops & desktops",
    "price": 28894,
    "stock": "in",
-   "available": 296,
+   "available": 295,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.16,
@@ -19130,717 +20067,6 @@
       [
        "Weight",
        "1.84 kg"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "BTO209_PB13250_EMEA",
-   "name": "Dell Pro 13 Plus|U5-236V|16GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|13.3” FHD+|Backlit Kb|3 Cell ProSupport and Next Business Day Onsite Service 36 Months",
-   "brand": "Dell",
-   "category": "Laptops & desktops",
-   "price": 38494,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": true,
-   "digital": false,
-   "shipKg": 1.34,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990733/BTO209_PB13250_EMEA_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990733/BTO209_PB13250_EMEA_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990739/BTO209_PB13250_EMEA_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990733/BTO209_PB13250_EMEA_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990732/BTO209_PB13250_EMEA_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990731/BTO209_PB13250_EMEA_5.jpg"
-   ],
-   "description": "DELL Pro 13 Plus PB13250. Product type: Laptop, Form factor: Clamshell. Processor family: Intel Core Ultra 5, Processor model: 236V. Display diagonal: 33.8 cm (13.3\"), HD type: Full HD+, Display resolution: 1920 x 1200 pixels. Internal memory: 16 GB, Internal memory type: LPDDR5x-SDRAM. Total storage capacity: 512 GB, Storage media: SSD. On-board graphics card model: Intel Arc Graphics 130V. Operating system installed: Windows 11 Pro. Product colour: Silver. Weight: 1.34 kg",
-   "strap": "Intel Core Ultra 5, 33.8 cm (13.3\"), 1920 x 1200 pixels, 16 GB, 512 GB, Windows 11 Pro",
-   "warranty": "",
-   "highlights": [
-    [
-     "Display diagonal",
-     "33.8 cm (13.3\")"
-    ],
-    [
-     "Display resolution",
-     "1920 x 1200 pixels"
-    ],
-    [
-     "Maximum refresh rate",
-     "60 Hz"
-    ],
-    [
-     "Panel type",
-     "IPS"
-    ],
-    [
-     "SSD capacity",
-     "512 GB"
-    ],
-    [
-     "Form factor",
-     "Clamshell"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Design",
-     [
-      [
-       "Product type",
-       "Laptop"
-      ],
-      [
-       "Product colour",
-       "Silver"
-      ],
-      [
-       "Form factor",
-       "Clamshell"
-      ],
-      [
-       "Intel® vPro™ Platform Eligibility",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Display",
-     [
-      [
-       "Display diagonal",
-       "33.8 cm (13.3\")"
-      ],
-      [
-       "Display resolution",
-       "1920 x 1200 pixels"
-      ],
-      [
-       "Touchscreen",
-       "No"
-      ],
-      [
-       "HD type",
-       "Full HD+"
-      ],
-      [
-       "Panel type",
-       "IPS"
-      ],
-      [
-       "LED backlight",
-       "Yes"
-      ],
-      [
-       "Native aspect ratio",
-       "16:10"
-      ],
-      [
-       "Anti-glare screen",
-       "Yes"
-      ],
-      [
-       "Display brightness",
-       "300 cd/m²"
-      ],
-      [
-       "Pixel pitch",
-       "0.149 x 0.149 mm"
-      ],
-      [
-       "Pixel density",
-       "170 ppi"
-      ],
-      [
-       "RGB colour space",
-       "NTSC"
-      ],
-      [
-       "Colour gamut",
-       "45%"
-      ],
-      [
-       "Display response rise/fall",
-       "35 ms"
-      ],
-      [
-       "Maximum refresh rate",
-       "60 Hz"
-      ],
-      [
-       "Contrast ratio (typical)",
-       "800:1"
-      ]
-     ]
-    ],
-    [
-     "Processor",
-     [
-      [
-       "Processor manufacturer",
-       "Intel"
-      ],
-      [
-       "Processor family",
-       "Intel Core Ultra 5"
-      ],
-      [
-       "Processor generation",
-       "Intel Core Ultra (Series 2)"
-      ],
-      [
-       "Processor model",
-       "236V"
-      ],
-      [
-       "Processor cores",
-       "8"
-      ],
-      [
-       "Processor threads",
-       "8"
-      ],
-      [
-       "Processor boost frequency",
-       "4.7 GHz"
-      ],
-      [
-       "Performance cores",
-       "4"
-      ],
-      [
-       "Low Power Efficient-cores",
-       "4"
-      ],
-      [
-       "Performance-core Max Turbo Frequency",
-       "4.7 GHz"
-      ],
-      [
-       "Low Power Efficient-core Max Turbo Frequency",
-       "3.5 GHz"
-      ],
-      [
-       "Performance-core base frequency",
-       "2.1 GHz"
-      ],
-      [
-       "Low Power Efficient-core Base Frequency",
-       "2100 MHz"
-      ],
-      [
-       "Processor cache",
-       "8 MB"
-      ],
-      [
-       "Processor cache type",
-       "Smart Cache"
-      ],
-      [
-       "Processor base power",
-       "17 W"
-      ],
-      [
-       "Maximum turbo power",
-       "37 W"
-      ]
-     ]
-    ],
-    [
-     "Neural processor unit (NPU)",
-     [
-      [
-       "Neural processor unit (NPU)",
-       "Intel AI Boost"
-      ],
-      [
-       "Sparsity support",
-       "Yes"
-      ],
-      [
-       "Windows Studio effects support",
-       "Yes"
-      ],
-      [
-       "AI software frameworks supported by NPU",
-       "DirectML, OpenVINO, Windows ML, ONNX RT, WebNN"
-      ],
-      [
-       "Total processor performance up to",
-       "97 TOPs"
-      ],
-      [
-       "NPU performance up to",
-       "40 TOPs"
-      ],
-      [
-       "GPU performance up to",
-       "53 TOPs"
-      ]
-     ]
-    ],
-    [
-     "Memory",
-     [
-      [
-       "Internal memory",
-       "16 GB"
-      ],
-      [
-       "Internal memory type",
-       "LPDDR5x-SDRAM"
-      ],
-      [
-       "Memory form factor",
-       "On-board"
-      ],
-      [
-       "Maximum internal memory",
-       "16 GB"
-      ],
-      [
-       "Memory channels",
-       "Dual-channel"
-      ],
-      [
-       "Memory data transfer rate",
-       "8533 MT/s"
-      ]
-     ]
-    ],
-    [
-     "Storage",
-     [
-      [
-       "Total storage capacity",
-       "512 GB"
-      ],
-      [
-       "Storage media",
-       "SSD"
-      ],
-      [
-       "Total SSDs capacity",
-       "512 GB"
-      ],
-      [
-       "Number of SSDs installed",
-       "1"
-      ],
-      [
-       "SSD capacity",
-       "512 GB"
-      ],
-      [
-       "SSD interface",
-       "PCI Express 4.0"
-      ],
-      [
-       "NVMe",
-       "Yes"
-      ],
-      [
-       "SSD form factor",
-       "M.2"
-      ],
-      [
-       "M.2 SSD size",
-       "2280 (22 x 80 mm)"
-      ],
-      [
-       "Optical drive type",
-       "No"
-      ],
-      [
-       "Card reader integrated",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "Graphics",
-     [
-      [
-       "Discrete graphics card model",
-       "Not available"
-      ],
-      [
-       "On-board graphics card",
-       "Yes"
-      ],
-      [
-       "On-board GPU manufacturer",
-       "Intel"
-      ],
-      [
-       "Discrete graphics card",
-       "No"
-      ],
-      [
-       "On-board graphics card family",
-       "Intel Arc Graphics"
-      ],
-      [
-       "On-board graphics card model",
-       "Intel Arc Graphics 130V"
-      ]
-     ]
-    ],
-    [
-     "Audio",
-     [
-      [
-       "Audio chip",
-       "Cirrus Logic CS42L43"
-      ],
-      [
-       "Number of built-in speakers",
-       "2"
-      ],
-      [
-       "Speaker power",
-       "2 W"
-      ],
-      [
-       "Built-in microphone",
-       "Yes"
-      ],
-      [
-       "Number of microphones",
-       "2"
-      ]
-     ]
-    ],
-    [
-     "Camera",
-     [
-      [
-       "Front camera",
-       "Yes"
-      ],
-      [
-       "Front camera resolution (numeric)",
-       "5.2 MP"
-      ],
-      [
-       "Front camera resolution",
-       "2560 x 1440 pixels"
-      ],
-      [
-       "Front camera HD type",
-       "Quad HD"
-      ],
-      [
-       "Video capturing speed",
-       "30 fps"
-      ],
-      [
-       "Infrared (IR) camera",
-       "Yes"
-      ],
-      [
-       "Privacy camera",
-       "Yes"
-      ],
-      [
-       "Privacy type",
-       "Privacy shutter"
-      ]
-     ]
-    ],
-    [
-     "Network",
-     [
-      [
-       "Top Wi-Fi standard",
-       "Wi-Fi 7 (802.11be)"
-      ],
-      [
-       "Wi-Fi standards",
-       "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac), Wi-Fi 6 (802.11ax), Wi-Fi 7 (802.11be)"
-      ],
-      [
-       "Mobile network connection",
-       "No"
-      ],
-      [
-       "Wi-Fi band",
-       "Tri-band (2.4 GHz / 5 GHz / 6 GHz)"
-      ],
-      [
-       "Wi-Fi data rate (max)",
-       "5760 Mbit/s"
-      ],
-      [
-       "WLAN controller model",
-       "Intel Wi-Fi 7 BE201"
-      ],
-      [
-       "WLAN controller manufacturer",
-       "Intel"
-      ],
-      [
-       "Ethernet LAN",
-       "No"
-      ],
-      [
-       "Bluetooth",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Ports & interfaces",
-     [
-      [
-       "USB 3.2 Gen 1 (3.1 Gen 1) Type-A ports quantity",
-       "2"
-      ],
-      [
-       "HDMI ports quantity",
-       "1"
-      ],
-      [
-       "HDMI version",
-       "2.1"
-      ],
-      [
-       "Thunderbolt 4 ports quantity",
-       "2"
-      ],
-      [
-       "Intel® Thunderbolt 4",
-       "Yes"
-      ],
-      [
-       "Combo headphone/mic port",
-       "Yes"
-      ],
-      [
-       "USB Type-C DisplayPort Alternate Mode",
-       "Yes"
-      ],
-      [
-       "PowerShare",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Performance",
-     [
-      [
-       "Motherboard chipset",
-       "Intel SoC"
-      ]
-     ]
-    ],
-    [
-     "Keyboard",
-     [
-      [
-       "Pointing device",
-       "Touchpad"
-      ],
-      [
-       "Numeric keypad",
-       "No"
-      ],
-      [
-       "Keyboard backlit",
-       "Yes"
-      ],
-      [
-       "Copilot key",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Software",
-     [
-      [
-       "Operating system architecture",
-       "64-bit"
-      ],
-      [
-       "Trial software",
-       "Activate Your Microsoft 365 For A 30 Day Trial,McAfee® Business Protection 1-year"
-      ],
-      [
-       "Operating system installed",
-       "Windows 11 Pro"
-      ]
-     ]
-    ],
-    [
-     "Brand-specific features",
-     [
-      [
-       "Brand specific technologies",
-       "Express Charge Boost capable, TNR"
-      ]
-     ]
-    ],
-    [
-     "Battery",
-     [
-      [
-       "Number of battery cells",
-       "3"
-      ],
-      [
-       "Battery capacity",
-       "55 Wh"
-      ],
-      [
-       "Battery recharge time",
-       "4 h"
-      ],
-      [
-       "Fast charging",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "AC adapter power",
-       "65 W"
-      ],
-      [
-       "AC adapter frequency",
-       "50/60 Hz"
-      ],
-      [
-       "AC adapter input voltage",
-       "100 - 240 V"
-      ],
-      [
-       "USB Type-C charging port",
-       "Yes"
-      ],
-      [
-       "USB Type-C required charging power (min)",
-       "27 W"
-      ],
-      [
-       "USB Power Delivery (USB PD)",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Security",
-     [
-      [
-       "Cable lock slot",
-       "Yes"
-      ],
-      [
-       "Cable lock slot type",
-       "Wedge"
-      ],
-      [
-       "Fingerprint reader",
-       "Yes"
-      ],
-      [
-       "Smart card reader",
-       "Yes"
-      ],
-      [
-       "Face recognition",
-       "Yes"
-      ],
-      [
-       "Trusted Platform Module (TPM)",
-       "Yes"
-      ],
-      [
-       "Trusted Platform Module (TPM) version",
-       "2.0"
-      ],
-      [
-       "Dell ControlVault",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "0 - 35 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-40 - 65 °C"
-      ],
-      [
-       "Operating relative humidity (H-H)",
-       "10 - 90%"
-      ],
-      [
-       "Storage relative humidity (H-H)",
-       "0 - 95%"
-      ],
-      [
-       "Operating altitude",
-       "-15.2 - 3048 m"
-      ],
-      [
-       "Non-operating altitude",
-       "-15.2 - 10668 m"
-      ],
-      [
-       "Operating shock",
-       "110 G"
-      ],
-      [
-       "Non-operating shock",
-       "160 G"
-      ],
-      [
-       "Operating vibration",
-       "0.66 G"
-      ],
-      [
-       "Non-operating vibration",
-       "1.3 G"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "300 mm"
-      ],
-      [
-       "Depth",
-       "215 mm"
-      ],
-      [
-       "Height (front)",
-       "1.98 cm"
-      ],
-      [
-       "Height (rear)",
-       "1.98 cm"
-      ],
-      [
-       "Weight",
-       "1.34 kg"
       ]
      ]
     ]
