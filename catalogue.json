@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-23T10:05:03+00:00",
- "pricedAt": "2026-10-23T10:05:03+00:00",
- "priceValidUntil": "2026-10-23T12:05:03+00:00",
+ "generatedAt": "2026-10-23T10:35:04+00:00",
+ "pricedAt": "2026-10-23T10:35:04+00:00",
+ "priceValidUntil": "2026-10-23T12:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 95,
+ "count": 92,
  "items": [
   {
    "sku": "1P3K6AA",
@@ -4621,7 +4621,7 @@
    "category": "Monitors & stands",
    "price": 4794,
    "stock": "in",
-   "available": 22,
+   "available": 18,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.92,
@@ -7863,137 +7863,6 @@
    ]
   },
   {
-   "sku": "460-BDVL",
-   "name": "Dell EcoLoop Protective Case for Latitude 7350 Detachable CG7325L",
-   "brand": "Dell",
-   "category": "Bags & cases",
-   "price": 1134,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.268,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990710/460-BDVL_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990702/460-BDVL_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990700/460-BDVL_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990707/460-BDVL_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990708/460-BDVL_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990698/460-BDVL_5.jpg"
-   ],
-   "description": "Get top protection with this custom-fit case that lasts through every project with a sustainable, lightweight design and exceptional usability.",
-   "strap": "Cover, 33.8 cm (13.3\"), Shoulder strap, 268 g",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Case type",
-     "Cover"
-    ],
-    [
-     "Material",
-     "Thermoplastic polyurethane (TPU)"
-    ],
-    [
-     "Weight",
-     "268 g"
-    ],
-    [
-     "Surface coloration",
-     "Monochromatic"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ],
-      [
-       "Compatibility",
-       "Latitude 7350"
-      ],
-      [
-       "Maximum screen size",
-       "33.8 cm (13.3\")"
-      ],
-      [
-       "Case type",
-       "Cover"
-      ],
-      [
-       "Material",
-       "Thermoplastic polyurethane (TPU)"
-      ],
-      [
-       "Product main colour",
-       "Black"
-      ],
-      [
-       "Brand compatibility",
-       "Dell"
-      ],
-      [
-       "Lockable",
-       "Yes"
-      ],
-      [
-       "Pen holder",
-       "Yes"
-      ],
-      [
-       "Shoulder strap",
-       "Yes"
-      ],
-      [
-       "Removable shoulder strap",
-       "Yes"
-      ],
-      [
-       "Protection features",
-       "Shock resistant"
-      ],
-      [
-       "Product made with recycled materials",
-       "Yes"
-      ],
-      [
-       "Overall recycled content",
-       "49%"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "303 mm"
-      ],
-      [
-       "Depth",
-       "220 mm"
-      ],
-      [
-       "Height",
-       "21 mm"
-      ],
-      [
-       "Weight",
-       "268 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
    "sku": "460-BDWQ",
    "name": "Dell Pro 11-14 EcoLoop Urban Sleeve - CV4425",
    "brand": "Dell",
@@ -8569,139 +8438,6 @@
       [
        "Volume",
        "27 L"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "460-BFFV",
-   "name": "Dell Pro 14-16 Plus EcoLoop Backpack CP5626",
-   "brand": "Dell",
-   "category": "Bags & cases",
-   "price": 928,
-   "stock": "in",
-   "available": 45,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.762,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991053/460-BFFV_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991055/460-BFFV_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991055/460-BFFV_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991056/460-BFFV_3.jpg"
-   ],
-   "description": "Professional backpack that carries all your work essentials with style. Sustainably crafted and durably built, it reduces impact to the environment and your tech.",
-   "strap": "Backpack, 40.6 cm (16\"), Shoulder strap, 762 g",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Case type",
-     "Backpack"
-    ],
-    [
-     "Weight",
-     "762 g"
-    ],
-    [
-     "Surface coloration",
-     "Monochromatic"
-    ],
-    [
-     "Maximum screen size",
-     "40.6 cm (16\")"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ],
-      [
-       "Maximum screen size",
-       "40.6 cm (16\")"
-      ],
-      [
-       "Case type",
-       "Backpack"
-      ],
-      [
-       "Material",
-       "Fabric, Foam, Plastic, Polyethylene, Polyurethane"
-      ],
-      [
-       "Product main colour",
-       "Black"
-      ],
-      [
-       "Tablet compartment",
-       "Yes"
-      ],
-      [
-       "Brand compatibility",
-       "Dell"
-      ],
-      [
-       "Front pocket",
-       "Yes"
-      ],
-      [
-       "Shoulder strap",
-       "Yes"
-      ],
-      [
-       "Protection features",
-       "Dirt resistant, Scratch resistant, Waterproof, Weather resistant"
-      ],
-      [
-       "Product made with recycled materials",
-       "Yes"
-      ],
-      [
-       "Overall recycled content",
-       "53%"
-      ],
-      [
-       "Closure type",
-       "Zipper"
-      ],
-      [
-       "Quantity",
-       "1"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "295 mm"
-      ],
-      [
-       "Depth",
-       "150 mm"
-      ],
-      [
-       "Height",
-       "450 mm"
-      ],
-      [
-       "Weight",
-       "762 g"
-      ],
-      [
-       "Volume",
-       "23 L"
       ]
      ]
     ]
@@ -11294,7 +11030,7 @@
    "category": "Keyboards & mice",
    "price": 775,
    "stock": "in",
-   "available": 52,
+   "available": 51,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.08,
@@ -11505,7 +11241,7 @@
    "category": "Keyboards & mice",
    "price": 1045,
    "stock": "in",
-   "available": 51,
+   "available": 31,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.057,
@@ -11711,7 +11447,7 @@
    "category": "Keyboards & mice",
    "price": 1794,
    "stock": "in",
-   "available": 11,
+   "available": 9,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.128,
@@ -12364,179 +12100,6 @@
       [
        "Battery technology",
        "Alkaline"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "570-BBJH",
-   "name": "Dell Pro Compact Silent Mouse - MS355",
-   "brand": "Dell",
-   "category": "Keyboards & mice",
-   "price": 535,
-   "stock": "in",
-   "available": 98,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.067,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991085/570-BBJH_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991083/570-BBJH_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991078/570-BBJH_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991083/570-BBJH_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991072/570-BBJH_4.jpg"
-   ],
-   "description": "Work quietly in any space with a compact mouse that clicks, scrolls, and glides silently and connects seamlessly via RF dongle or Bluetooth®.",
-   "strap": "Ambidextrous, Optical, RF Wireless + Bluetooth, 4020 DPI, Black",
-   "warranty": "3 Years NBD Advance Exchange",
-   "highlights": [
-    [
-     "Form factor",
-     "Ambidextrous"
-    ],
-    [
-     "Movement resolution",
-     "4020 DPI"
-    ],
-    [
-     "Buttons quantity",
-     "3"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "67 g"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Mouse",
-     [
-      [
-       "Number of scroll wheels",
-       "1"
-      ],
-      [
-       "Purpose",
-       "Universal"
-      ],
-      [
-       "Device interface",
-       "RF Wireless + Bluetooth"
-      ],
-      [
-       "Movement detection technology",
-       "Optical"
-      ],
-      [
-       "Movement resolution",
-       "4020 DPI"
-      ],
-      [
-       "Scroll type",
-       "Wheel"
-      ],
-      [
-       "Buttons quantity",
-       "3"
-      ],
-      [
-       "Customizable movement resolution",
-       "Yes"
-      ],
-      [
-       "Polling rate",
-       "333 Hz"
-      ],
-      [
-       "Frequency band",
-       "2.4 GHz"
-      ],
-      [
-       "Bluetooth version",
-       "5.1"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Form factor",
-       "Ambidextrous"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Power source",
-       "Batteries"
-      ]
-     ]
-    ],
-    [
-     "System requirements",
-     [
-      [
-       "Windows operating systems supported",
-       "Windows 10, Windows 11, Windows 7, Windows 8.1"
-      ],
-      [
-       "Mac operating systems supported",
-       "Yes"
-      ],
-      [
-       "Linux operating systems supported",
-       "Red Hat Enterprise Linux 8.0"
-      ],
-      [
-       "Mobile operating systems supported",
-       "Android"
-      ],
-      [
-       "Other operating systems supported",
-       "ChromeOS"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "60.3 mm"
-      ],
-      [
-       "Depth",
-       "104.5 mm"
-      ],
-      [
-       "Height",
-       "38 mm"
-      ],
-      [
-       "Weight",
-       "67 g"
       ]
      ]
     ]
@@ -13508,7 +13071,7 @@
    "category": "Keyboards & mice",
    "price": 1194,
    "stock": "in",
-   "available": 20,
+   "available": 19,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.56,
@@ -23465,7 +23028,7 @@
    "category": "Accessories",
    "price": 7934,
    "stock": "in",
-   "available": 45,
+   "available": 44,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.006,
