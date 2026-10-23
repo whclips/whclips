@@ -1,178 +1,13 @@
 {
- "generatedAt": "2026-10-23T12:05:04+00:00",
- "pricedAt": "2026-10-23T12:05:04+00:00",
- "priceValidUntil": "2026-10-23T14:05:04+00:00",
+ "generatedAt": "2026-10-23T12:35:04+00:00",
+ "pricedAt": "2026-10-23T12:35:04+00:00",
+ "priceValidUntil": "2026-10-23T14:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 92,
+ "count": 91,
  "items": [
-  {
-   "sku": "1P3K6AA",
-   "name": "HP Accessories 65W USB C LC Power Adapter",
-   "brand": "HP",
-   "category": "Cables, power & docks",
-   "price": 621,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": true,
-   "digital": false,
-   "shipKg": 0.235,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991007/1P3K6AA_0.jpg"
-   ],
-   "description": "Powerful USB-C charging Charge your laptop in the office or on the go with the HP USB-C LC Power Adapter.",
-   "strap": "Laptop, Indoor, 65 W, AC-to-DC, HP, Compatible with HP Chromebox G3; HP Chromebox G4; HP Dragonfly Folio 13.5 inch G3 2-in-1 Notebook...",
-   "warranty": "One-year limited warranty.",
-   "highlights": [
-    [
-     "Output power",
-     "65 W"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "235 g"
-    ],
-    [
-     "Purpose",
-     "Laptop"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Purpose",
-       "Laptop"
-      ],
-      [
-       "Power supply type",
-       "Indoor"
-      ],
-      [
-       "Power current type",
-       "AC-to-DC"
-      ],
-      [
-       "Output power",
-       "65 W"
-      ],
-      [
-       "Adjustable output voltage",
-       "No"
-      ],
-      [
-       "Brand compatibility",
-       "HP"
-      ],
-      [
-       "Compatibility",
-       "Compatible with HP Chromebox G3; HP Chromebox G4; HP Dragonfly Folio 13.5 inch G3 2-in-1 Notebook PC; HP Elite c640 14 inch G3 Chromebook; HP Elite c645 14 inch G2 Chromebook; HP Elite Dragonfly 13.5 inch Chromebook; HP Elite Dragonfly 13.5 inch G3 Notebook PC; HP Elite x360 1040 14 inch G9 2-in-1 Notebook PC; HP Elite x360 830 13 inch G9 2-in-1 Notebook PC; HP EliteBook 1040 14 inch G9 Notebook PC; HP EliteBook 830 13 inch G9 Notebook PC; HP EliteBook 835 G7 Notebook PC; HP EliteBook 840 14 inch G9 Notebook PC; HP EliteBook 845 G7 Notebook PC; HP EliteBook 855 G7 Notebook PC; HP EliteBook 860 16 inch G9 Notebook PC; HP EliteBook x360 1030 G7 Notebook PC; HP EliteBook x360 1040 G7 Notebook PC; HP EliteBook x360 830 G7 Notebook PC; HP Fortis 11 inch G9 Q Chromebook; HP Pro c640 G2 Chromebook; HP Pro x360 Fortis 11 inch G11 Notebook PC; HP ProBook 440 14 inch G10 Notebook PC; HP ProBook 440 14 inch G9 Notebook PC; HP ProBook 445 14 inch G9 Notebook PC; HP ProBook 445 G7 Notebook PC; HP ProBook 450 15.6 inch G10 Notebook PC; HP ProBook 455 G7 Notebook PC; HP ProBook 635 Aero G7 Notebook PC; HP ProBook Fortis 14 inch G10 Notebook PC; HP ProBook Fortis 14 inch G11 Notebook PC; HP ProBook Fortis 14 inch G9 Notebook PC;"
-      ],
-      [
-       "HP segment",
-       "Business"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "Built-in display",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "0 - 35 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-20 - 85 °C"
-      ],
-      [
-       "Operating relative humidity (H-H)",
-       "20 - 95%"
-      ]
-     ]
-    ],
-    [
-     "Certificates",
-     [
-      [
-       "Compliance certificates",
-       "CCC, Federal Communications Commission (FCC), CE"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "90 mm"
-      ],
-      [
-       "Depth",
-       "51 mm"
-      ],
-      [
-       "Height",
-       "28.5 mm"
-      ],
-      [
-       "Weight",
-       "235 g"
-      ]
-     ]
-    ],
-    [
-     "Brand-specific features",
-     [
-      [
-       "HP GTIN (EAN/UPC) with options",
-       "(ABB) 195122442972; (ABU) 195122443030"
-      ],
-      [
-       "HP GTIN (EAN/UPC)",
-       "195122442972, 195122443030"
-      ]
-     ]
-    ],
-    [
-     "Other features",
-     [
-      [
-       "UNSPSC-code",
-       "39121006"
-      ],
-      [
-       "Type",
-       "AC adapters"
-      ]
-     ]
-    ]
-   ]
-  },
   {
    "sku": "210-ASMT-16675907",
    "name": "Dell Wyse 5470 CTO/Wyse 5470 Intel Celeron N4100/8GB 2x4GB 2400MHz DDR416GB eMMC/PCoIP enabled Wyse ThinOS 9.X/1Y Partner Led Carry In Service",
@@ -10813,7 +10648,7 @@
    "category": "Keyboards & mice",
    "price": 835,
    "stock": "in",
-   "available": 36,
+   "available": 35,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.084,
@@ -16250,7 +16085,7 @@
    "category": "Laptops & desktops",
    "price": 28894,
    "stock": "in",
-   "available": 295,
+   "available": 265,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.16,
