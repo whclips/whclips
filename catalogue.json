@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-24T08:05:04+00:00",
- "pricedAt": "2026-10-24T08:05:04+00:00",
- "priceValidUntil": "2026-10-24T10:05:04+00:00",
+ "generatedAt": "2026-10-24T08:35:04+00:00",
+ "pricedAt": "2026-10-24T08:35:04+00:00",
+ "priceValidUntil": "2026-10-24T10:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 89,
+ "count": 91,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -9896,6 +9896,165 @@
    ]
   },
   {
+   "sku": "545-BBDS",
+   "name": "Alienware Wired Gaming Mouse - AW320M",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 923,
+   "stock": "low",
+   "available": 1,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.08,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991059/545-BBDS_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991060/545-BBDS_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991060/545-BBDS_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991060/545-BBDS_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991059/545-BBDS_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991062/545-BBDS_5.jpg"
+   ],
+   "description": "Speed, comfort and firepower never lack on a slimmed-down, wired gaming mouse with 19,000 native DPI and tracking of up to 400 inches per second.",
+   "strap": "Ambidextrous, Optical, USB Type-A, 3200 DPI, Black",
+   "warranty": "2 Years",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Movement resolution",
+     "3200 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "6"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "80 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Purpose",
+       "Gaming"
+      ],
+      [
+       "Device interface",
+       "USB Type-A"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "3200 DPI"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Buttons quantity",
+       "6"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Cable"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Windows 10, Windows 11, Windows 7, Windows 8, Windows 8.1"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "62.5 mm"
+      ],
+      [
+       "Depth",
+       "125 mm"
+      ],
+      [
+       "Height",
+       "38.5 mm"
+      ],
+      [
+       "Weight",
+       "80 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "545-BBDY",
    "name": "Alienware Tenkeyless Gaming Keyboard - AW420K - US (QWERTY)",
    "brand": "Dell",
@@ -14264,6 +14423,122 @@
       [
        "Microphone pick-up range",
        "3 m"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "750-ADRC",
+   "name": "Dell Pro Premium Active Pen - PN7522W",
+   "brand": "Dell",
+   "category": "Accessories",
+   "price": 1794,
+   "stock": "low",
+   "available": 4,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 0.016,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991090/750-ADRC_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991090/750-ADRC_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991091/750-ADRC_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991094/750-ADRC_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991095/750-ADRC_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991099/750-ADRC_5.jpg"
+   ],
+   "description": "Write naturally and create with precision with a rechargeable premium active pen featuring up to 40 days battery life on a single charge and a tile location function for complete peace of mind.",
+   "strap": "Laptop, Dell, Black, Latitude 9520 2-in-1, Latitude 9510 2-in-1, Latitude 9430 2in1, Latitude 9420 2-in-1, Latitude..., 960 h, 45 mAh",
+   "warranty": "3 Years Advance Exchange Service",
+   "highlights": [
+    [
+     "Buttons quantity",
+     "3"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "15.5 g"
+    ],
+    [
+     "Device compatibility",
+     "Laptop"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Device compatibility",
+       "Laptop"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Compatibility",
+       "Latitude 9520 2-in-1, Latitude 9510 2-in-1, Latitude 9430 2in1, Latitude 9420 2-in-1, Latitude 9410 2-in-1, Latitude 7430 2in1, Latitude 7420 2-in-1, Latitude 7410 2-in-1, Latitude 7410 2-in-1 Chrome Enterprise*, Latitude 7330 2in1, Latitude 7320 Detachable, Latitude 7320 2-in-1, Latitude 7310 2-in-1, Latitude 7210 2-in-1, Latitude 5330 2in, Latitude 5320 2-in-1, Latitude 5310 2-in-1, Latitude 5300 2-in-1 Chrome, Latitude 3330 2in1, XPS 9310 2-in-1, Inspiron 7620 2in1, Inspiron 7420 2in1, Inspiron 7425 2in1"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Bluetooth",
+       "Yes"
+      ],
+      [
+       "Bluetooth version",
+       "5.1"
+      ],
+      [
+       "Buttons quantity",
+       "3"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery life",
+       "960 h"
+      ],
+      [
+       "Battery capacity",
+       "45 mAh"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "15.5 g"
+      ],
+      [
+       "Width",
+       "10.2 mm"
+      ],
+      [
+       "Depth",
+       "10.2 mm"
+      ],
+      [
+       "Height",
+       "155 mm"
       ]
      ]
     ]
