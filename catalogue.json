@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-28T12:05:04+00:00",
- "pricedAt": "2026-10-28T12:05:04+00:00",
- "priceValidUntil": "2026-10-28T14:05:04+00:00",
+ "generatedAt": "2026-10-28T12:35:05+00:00",
+ "pricedAt": "2026-10-28T12:35:05+00:00",
+ "priceValidUntil": "2026-10-28T14:35:05+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 91,
+ "count": 90,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -574,7 +574,7 @@
    "category": "Monitors & stands",
    "price": 2979,
    "stock": "in",
-   "available": 90,
+   "available": 87,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.04,
@@ -4456,7 +4456,7 @@
    "category": "Monitors & stands",
    "price": 4794,
    "stock": "in",
-   "available": 13,
+   "available": 12,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.92,
@@ -8125,7 +8125,7 @@
    "category": "Bags & cases",
    "price": 515,
    "stock": "in",
-   "available": 311,
+   "available": 301,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.6,
@@ -13630,7 +13630,7 @@
    "category": "Keyboards & mice",
    "price": 755,
    "stock": "in",
-   "available": 91,
+   "available": 90,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
@@ -14512,122 +14512,6 @@
       [
        "Height",
        "155 mm"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "750-BBWW",
-   "name": "Dell Pro Active Pen - PN526",
-   "brand": "Dell",
-   "category": "Accessories",
-   "price": 1029,
-   "stock": "low",
-   "available": 2,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.01,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991092/750-BBWW_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991093/750-BBWW_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991093/750-BBWW_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991092/750-BBWW_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991093/750-BBWW_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991093/750-BBWW_5.jpg"
-   ],
-   "description": "Seamless precision, multiprotocol compatibility, and smooth operation, designed to elevate creativity, productivity, and comfort for professionals, students, and everyday users.",
-   "strap": "Laptop, Dell, Black, Black, AES 1.0 AES 2.0 WGP USI 2.0 MPP 2.0, AAAA",
-   "warranty": "3 Years Advance Exchange Service",
-   "highlights": [
-    [
-     "Buttons quantity",
-     "2"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "10.4 g"
-    ],
-    [
-     "Device compatibility",
-     "Laptop"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Device compatibility",
-       "Laptop"
-      ],
-      [
-       "Brand compatibility",
-       "Dell"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "Tip colour",
-       "Black"
-      ],
-      [
-       "Number of batteries supported",
-       "1"
-      ],
-      [
-       "Buttons quantity",
-       "2"
-      ],
-      [
-       "Supported protocols",
-       "AES 1.0 AES 2.0 WGP USI 2.0 MPP 2.0"
-      ]
-     ]
-    ],
-    [
-     "Battery",
-     [
-      [
-       "Battery type",
-       "AAAA"
-      ],
-      [
-       "Battery life",
-       "12 month(s)"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Weight",
-       "10.4 g"
-      ],
-      [
-       "Width",
-       "9.5 mm"
-      ],
-      [
-       "Depth",
-       "140 mm"
-      ],
-      [
-       "Height",
-       "9.5 mm"
       ]
      ]
     ]
@@ -18773,7 +18657,7 @@
    "category": "Laptops & desktops",
    "price": 61994,
    "stock": "in",
-   "available": 10,
+   "available": 9,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.84,
@@ -22052,7 +21936,7 @@
    "category": "Laptops & desktops",
    "price": 95994,
    "stock": "low",
-   "available": 2,
+   "available": 1,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.38,
