@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-26T18:35:05+00:00",
- "pricedAt": "2026-10-26T18:35:05+00:00",
- "priceValidUntil": "2026-10-26T20:35:05+00:00",
+ "generatedAt": "2026-10-28T08:05:04+00:00",
+ "pricedAt": "2026-10-28T08:05:04+00:00",
+ "priceValidUntil": "2026-10-28T10:05:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -2718,7 +2718,7 @@
    "category": "Monitors & stands",
    "price": 12994,
    "stock": "low",
-   "available": 3,
+   "available": 5,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 9.16,
@@ -4208,7 +4208,7 @@
    "category": "Cables, power & docks",
    "price": 5987,
    "stock": "in",
-   "available": 62,
+   "available": 61,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.567,
@@ -4456,7 +4456,7 @@
    "category": "Monitors & stands",
    "price": 4794,
    "stock": "in",
-   "available": 18,
+   "available": 16,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.92,
@@ -7387,33 +7387,6 @@
    ]
   },
   {
-   "sku": "450-BGJW",
-   "name": "Dell E5 130W USB-C AC Adapter with Red Top Plug Power Cord - South Africa",
-   "brand": "Dell",
-   "category": "Cables, power & docks",
-   "price": 1294,
-   "stock": "in",
-   "available": 15,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 1,
-   "badges": [
-    "Bargain",
-    "Store opening special"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://cdn.shopify.com/s/files/1/0569/0307/3947/files/4139e4b6-e7c9-43f7-90dc-addb6705c494-1.jpg?v=1789998129"
-   ],
-   "description": "Dell E5 130W USB-C AC Adapter with Red Top Plug Power Cord - South Africa",
-   "strap": "",
-   "warranty": "",
-   "highlights": [],
-   "specs": [],
-   "specGroups": []
-  },
-  {
    "sku": "460-BCQL",
    "name": "Dell Premier Briefcase (M) Fits Most Screen Sizes Up to 15.6 PE1520C",
    "brand": "Dell",
@@ -8989,8 +8962,8 @@
    "brand": "Dell",
    "category": "Monitors & stands",
    "price": 3194,
-   "stock": "in",
-   "available": 6,
+   "stock": "low",
+   "available": 5,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 10,
@@ -10865,7 +10838,7 @@
    "category": "Keyboards & mice",
    "price": 775,
    "stock": "in",
-   "available": 51,
+   "available": 53,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.08,
@@ -11947,7 +11920,7 @@
    "category": "Keyboards & mice",
    "price": 731,
    "stock": "in",
-   "available": 89,
+   "available": 88,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.073,
@@ -13657,7 +13630,7 @@
    "category": "Keyboards & mice",
    "price": 755,
    "stock": "in",
-   "available": 92,
+   "available": 91,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
@@ -14435,7 +14408,7 @@
    "category": "Accessories",
    "price": 1794,
    "stock": "low",
-   "available": 4,
+   "available": 5,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.016,
@@ -16085,7 +16058,7 @@
    "category": "Laptops & desktops",
    "price": 28894,
    "stock": "in",
-   "available": 263,
+   "available": 261,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.16,
@@ -16638,7 +16611,7 @@
    "category": "Laptops & desktops",
    "price": 43994,
    "stock": "in",
-   "available": 21,
+   "available": 20,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.36,
@@ -18062,7 +18035,7 @@
    "category": "Laptops & desktops",
    "price": 40494,
    "stock": "in",
-   "available": 11,
+   "available": 10,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.07,
@@ -21490,6 +21463,589 @@
    ]
   },
   {
+   "sku": "CK8H0EA",
+   "name": "HP EliteBook 6 G1i 16 inch LTE Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 16.0WUXGAAG300UWVAf5MPIR60HzbntLCD Windows 11 Pro 64 Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
+   "brand": "HP",
+   "category": "Laptops & desktops",
+   "price": 40594,
+   "stock": "in",
+   "available": 34,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 1.75,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014726/CK8H0EA_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014727/CK8H0EA_1.webp",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014728/CK8H0EA_2.webp",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014729/CK8H0EA_3.webp"
+   ],
+   "description": "HP CK8H0EA. Product type: Laptop, Form factor: Clamshell. Processor family: Intel Core Ultra 5, Processor model: 225U. Display diagonal: 40.6 cm (16\"), HD type: WUXGA, Display resolution: 1920 x 1200 pixels. Internal memory: 16 GB, Internal memory type: DDR5-SDRAM. Total storage capacity: 512 GB, Storage media: SSD. On-board graphics card model: Intel® Graphics. Mobile network generation: 4G. Operating system installed: Windows 11 Pro. Product colour: Silver",
+   "strap": "Intel Core Ultra 5, 40.6 cm (16\"), 1920 x 1200 pixels, 16 GB, 512 GB, Windows 11 Pro",
+   "warranty": "3-year manufacturer warranty",
+   "highlights": [
+    [
+     "Display diagonal",
+     "40.6 cm (16\")"
+    ],
+    [
+     "Display resolution",
+     "1920 x 1200 pixels"
+    ],
+    [
+     "Panel type",
+     "IPS"
+    ],
+    [
+     "SSD capacity",
+     "512 GB"
+    ],
+    [
+     "Form factor",
+     "Clamshell"
+    ],
+    [
+     "SSD interface",
+     "PCI Express"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Design",
+     [
+      [
+       "Colour name",
+       "Pike silver"
+      ],
+      [
+       "Product type",
+       "Laptop"
+      ],
+      [
+       "Product colour",
+       "Silver"
+      ],
+      [
+       "Form factor",
+       "Clamshell"
+      ],
+      [
+       "Market positioning",
+       "Premium"
+      ],
+      [
+       "Intel® vPro™ Platform Eligibility",
+       "No"
+      ],
+      [
+       "Country of origin",
+       "China"
+      ],
+      [
+       "Original brand name",
+       "HP"
+      ]
+     ]
+    ],
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Display resolution",
+       "1920 x 1200 pixels"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "HD type",
+       "WUXGA"
+      ],
+      [
+       "Panel type",
+       "IPS"
+      ],
+      [
+       "Display brightness",
+       "300 cd/m²"
+      ],
+      [
+       "Display diagonal (metric)",
+       "40.6 cm"
+      ],
+      [
+       "RGB colour space",
+       "sRGB"
+      ],
+      [
+       "Colour gamut",
+       "62.5%"
+      ],
+      [
+       "sRGB coverage (typical)",
+       "62.5%"
+      ]
+     ]
+    ],
+    [
+     "Processor",
+     [
+      [
+       "Processor manufacturer",
+       "Intel"
+      ],
+      [
+       "Processor family",
+       "Intel Core Ultra 5"
+      ],
+      [
+       "Processor model",
+       "225U"
+      ],
+      [
+       "Processor cores",
+       "12"
+      ],
+      [
+       "Processor threads",
+       "14"
+      ],
+      [
+       "Processor boost frequency",
+       "4.8 GHz"
+      ],
+      [
+       "Processor cache",
+       "12 MB"
+      ],
+      [
+       "Processor cache type",
+       "L3"
+      ]
+     ]
+    ],
+    [
+     "Neural processor unit (NPU)",
+     [
+      [
+       "Neural processor unit (NPU)",
+       "Intel AI Boost"
+      ],
+      [
+       "NPU performance up to",
+       "12 TOPs"
+      ]
+     ]
+    ],
+    [
+     "Memory",
+     [
+      [
+       "Internal memory",
+       "16 GB"
+      ],
+      [
+       "Internal memory type",
+       "DDR5-SDRAM"
+      ],
+      [
+       "Memory clock speed",
+       "5600 MHz"
+      ],
+      [
+       "Memory form factor",
+       "SO-DIMM"
+      ],
+      [
+       "Memory layout (slots x size)",
+       "1 x 16 GB"
+      ],
+      [
+       "Memory slots",
+       "2x SO-DIMM"
+      ],
+      [
+       "Maximum internal memory",
+       "16 GB"
+      ]
+     ]
+    ],
+    [
+     "Storage",
+     [
+      [
+       "Total storage capacity",
+       "512 GB"
+      ],
+      [
+       "Storage media",
+       "SSD"
+      ],
+      [
+       "Total SSDs capacity",
+       "512 GB"
+      ],
+      [
+       "Number of SSDs installed",
+       "1"
+      ],
+      [
+       "SSD capacity",
+       "512 GB"
+      ],
+      [
+       "SSD interface",
+       "PCI Express"
+      ],
+      [
+       "NVMe",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Graphics",
+     [
+      [
+       "On-board graphics card",
+       "Yes"
+      ],
+      [
+       "On-board GPU manufacturer",
+       "Intel"
+      ],
+      [
+       "On-board graphics card family",
+       "Intel® Graphics"
+      ],
+      [
+       "On-board graphics card model",
+       "Intel® Graphics"
+      ]
+     ]
+    ],
+    [
+     "Audio",
+     [
+      [
+       "Built-in speaker(s)",
+       "Yes"
+      ],
+      [
+       "Number of built-in speakers",
+       "2"
+      ],
+      [
+       "Number of microphones",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Camera",
+     [
+      [
+       "Front camera",
+       "Yes"
+      ],
+      [
+       "Front camera resolution (numeric)",
+       "5 MP"
+      ],
+      [
+       "Infrared (IR) camera",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Network",
+     [
+      [
+       "Mobile network generation",
+       "4G"
+      ],
+      [
+       "4G standard",
+       "LTE"
+      ],
+      [
+       "Wi-Fi",
+       "Yes"
+      ],
+      [
+       "Top Wi-Fi standard",
+       "Wi-Fi 7 (802.11be)"
+      ],
+      [
+       "Wi-Fi standards",
+       "Wi-Fi 7 (802.11be)"
+      ],
+      [
+       "Mobile network connection",
+       "Yes"
+      ],
+      [
+       "Antenna type",
+       "2x2"
+      ],
+      [
+       "WLAN controller model",
+       "Intel Wi-Fi 7 BE201"
+      ],
+      [
+       "WLAN controller manufacturer",
+       "Intel"
+      ],
+      [
+       "Ethernet LAN",
+       "Yes"
+      ],
+      [
+       "Bluetooth",
+       "Yes"
+      ],
+      [
+       "Bluetooth version",
+       "5.4"
+      ],
+      [
+       "WWAN controller",
+       "HP R15 4G LTE Advanced"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "USB 3.2 Gen 1 (3.1 Gen 1) Type-A ports quantity",
+       "2"
+      ],
+      [
+       "USB4 Gen 3x2 ports quantity",
+       "2"
+      ],
+      [
+       "HDMI ports quantity",
+       "1"
+      ],
+      [
+       "HDMI version",
+       "2.1"
+      ],
+      [
+       "Thunderbolt 4 ports quantity",
+       "2"
+      ],
+      [
+       "Intel® Thunderbolt 4",
+       "Yes"
+      ],
+      [
+       "Microphone in",
+       "Yes"
+      ],
+      [
+       "USB Type-C DisplayPort Alternate Mode",
+       "Yes"
+      ],
+      [
+       "USB Sleep-and-Charge",
+       "Yes"
+      ],
+      [
+       "USB Sleep-and-Charge ports",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "Temperature sensor",
+       "Yes"
+      ],
+      [
+       "Hall sensor",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Keyboard",
+     [
+      [
+       "Pointing device",
+       "Clickpad"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Keyboard backlit",
+       "Yes"
+      ],
+      [
+       "Spill-resistant keyboard",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Software",
+     [
+      [
+       "Operating system installed",
+       "Windows 11 Pro"
+      ]
+     ]
+    ],
+    [
+     "Processor special features",
+     [
+      [
+       "Intel® Turbo Boost Technology",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Brand-specific features",
+     [
+      [
+       "HP speaker type",
+       "HP Dual Speakers"
+      ],
+      [
+       "HP Artificial Intelligence",
+       "AI PC"
+      ],
+      [
+       "HP segment",
+       "Business"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Lithium Polymer (LiPo)"
+      ],
+      [
+       "Number of battery cells",
+       "3"
+      ],
+      [
+       "Battery capacity",
+       "56 Wh"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "AC adapter power",
+       "65 W"
+      ],
+      [
+       "AC adapter frequency",
+       "50 - 60 Hz"
+      ],
+      [
+       "AC adapter input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "USB Type-C charging port",
+       "Yes"
+      ],
+      [
+       "USB Power Delivery (USB PD)",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Security",
+     [
+      [
+       "Fingerprint reader",
+       "Yes"
+      ],
+      [
+       "Password protection",
+       "Yes"
+      ],
+      [
+       "Password protection type",
+       "BIOS, Power on"
+      ]
+     ]
+    ],
+    [
+     "Certificates",
+     [
+      [
+       "Compliance certificates",
+       "CECP, GS mark, CCC, RoHS, Federal Communications Commission (FCC), CE, BSMI"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "359.4 mm"
+      ],
+      [
+       "Depth",
+       "251 mm"
+      ],
+      [
+       "Height (front)",
+       "1.09 cm"
+      ],
+      [
+       "Height (rear)",
+       "1.7 cm"
+      ],
+      [
+       "Weight",
+       "1.75 kg"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "UNSPSC-code",
+       "43211503"
+      ],
+      [
+       "Memory module type",
+       "SODIMM"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "DA16250_ARLH_011",
    "name": "Dell 16 Premium (DA16250)|U7-255H|32GB|1TB SSD|Nvidia GeForce RTX 5060|W11 Pro|WLAN + BT|16.3” OLED Touch|Backlit Kb|6 Cell Basic Onsite Service after remote diagnosis with Hardware-Only Support, 36 Month(s)",
    "brand": "Dell",
@@ -22209,7 +22765,7 @@
    "category": "Laptops & desktops",
    "price": 28794,
    "stock": "in",
-   "available": 144,
+   "available": 138,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.24,
