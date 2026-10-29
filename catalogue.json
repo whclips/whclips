@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-29T10:05:04+00:00",
- "pricedAt": "2026-10-29T10:05:04+00:00",
- "priceValidUntil": "2026-10-29T12:05:04+00:00",
+ "generatedAt": "2026-10-29T10:35:04+00:00",
+ "pricedAt": "2026-10-29T10:35:04+00:00",
+ "priceValidUntil": "2026-10-29T12:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 90,
+ "count": 89,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -12652,7 +12652,7 @@
    "category": "Keyboards & mice",
    "price": 494,
    "stock": "in",
-   "available": 252,
+   "available": 255,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.5,
@@ -21353,7 +21353,7 @@
    "category": "Laptops & desktops",
    "price": 40594,
    "stock": "in",
-   "available": 34,
+   "available": 33,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.75,
@@ -23291,147 +23291,6 @@
       [
        "Weight",
        "1.94 kg"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "SNV3S/1000G",
-   "name": "Kingston 1000G NV3 M.2 2280 PCIe 4.0 NVMe SSD",
-   "brand": "Kingston",
-   "category": "Accessories",
-   "price": 7934,
-   "stock": "in",
-   "available": 39,
-   "freeDelivery": true,
-   "digital": false,
-   "shipKg": 0.006,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990744/SNV3S-1000G_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990745/SNV3S-1000G_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990745/SNV3S-1000G_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990746/SNV3S-1000G_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990745/SNV3S-1000G_4.jpg"
-   ],
-   "description": "For high-speed, low-power storage needs Kingston’s NV3 PCIe 4.0 NVMe SSDs are next-gen storage solutions powered by a Gen 4x4 NVMe controller, delivering read/write speeds of up to 6,000/5,000MB/s*. They come in both compact, single-sided M.2 2280 (22x80mm) and 2230 (22x30mm) sizes to expand storage in small-form-factor systems like laptops and handheld gaming consoles*****. They offer lower power consumption and reduced heat, optimising your system's performance without compromising value. Available in capacities from 500GB– 4TB** to give you all the space you need for applications, documents, photos, videos, games and more. Gen 4x4 NVMe PCIe performance Upgrade your system with read/write speeds up to 6,000/5,000MB/s*. Small size, big performance NV3 2280 and 2230 easily integrate into thin laptops and ultra-small PCs with M.2 connectors and limited space. Increased storage space Available in a variety of high capacities up to 4TB**, providing ample space to store files, videos, documents, and games with room to spare. Store more, play more With NV3 2230 upgrade compatible handheld gaming systems to get in the game faster*****.",
-   "strap": "1 TB, M.2, 6000 MB/s",
-   "warranty": "Limited 5-year warranty with free technical support",
-   "highlights": [
-    [
-     "SSD capacity",
-     "1 TB"
-    ],
-    [
-     "SSD form factor",
-     "M.2"
-    ],
-    [
-     "Read speed",
-     "6000 MB/s"
-    ],
-    [
-     "Write speed",
-     "4000 MB/s"
-    ],
-    [
-     "Interface",
-     "PCI Express 4.0"
-    ],
-    [
-     "Weight",
-     "5.7 g"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "SSD capacity",
-       "1 TB"
-      ],
-      [
-       "SSD form factor",
-       "M.2"
-      ],
-      [
-       "Interface",
-       "PCI Express 4.0"
-      ],
-      [
-       "NVMe",
-       "Yes"
-      ],
-      [
-       "Memory type",
-       "3D NAND"
-      ],
-      [
-       "Component for",
-       "PC/Laptop"
-      ],
-      [
-       "M.2 SSD size",
-       "2280 (22 x 80 mm)"
-      ],
-      [
-       "Read speed",
-       "6000 MB/s"
-      ],
-      [
-       "Write speed",
-       "4000 MB/s"
-      ],
-      [
-       "Mean time between failures (MTBF)",
-       "2000000 h"
-      ],
-      [
-       "TBW rating",
-       "320"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "22 mm"
-      ],
-      [
-       "Depth",
-       "80 mm"
-      ],
-      [
-       "Height",
-       "2.3 mm"
-      ],
-      [
-       "Weight",
-       "5.7 g"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "0 - 70 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-40 - 85 °C"
-      ],
-      [
-       "Operating vibration",
-       "10 G"
       ]
      ]
     ]
