@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-29T14:05:04+00:00",
- "pricedAt": "2026-10-29T14:05:04+00:00",
- "priceValidUntil": "2026-10-29T16:05:04+00:00",
+ "generatedAt": "2026-10-29T14:35:04+00:00",
+ "pricedAt": "2026-10-29T14:35:04+00:00",
+ "priceValidUntil": "2026-10-29T16:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 89,
+ "count": 88,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -3266,7 +3266,7 @@
    "category": "Monitors & stands",
    "price": 2794,
    "stock": "in",
-   "available": 307,
+   "available": 304,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 4.6,
@@ -4456,7 +4456,7 @@
    "category": "Monitors & stands",
    "price": 4794,
    "stock": "in",
-   "available": 12,
+   "available": 11,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.92,
@@ -8125,7 +8125,7 @@
    "category": "Bags & cases",
    "price": 515,
    "stock": "in",
-   "available": 298,
+   "available": 328,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.6,
@@ -9468,189 +9468,6 @@
       [
        "Weight",
        "205 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "520-BBMP",
-   "name": "Dell Pro Wired Speakerphone SP325",
-   "brand": "Dell",
-   "category": "Headsets, audio & webcams",
-   "price": 1514,
-   "stock": "low",
-   "available": 2,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.295,
-   "badges": [
-    "Bargain",
-    "Store opening special"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991055/520-BBMP_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991055/520-BBMP_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991057/520-BBMP_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991056/520-BBMP_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991056/520-BBMP_4.jpg"
-   ],
-   "description": "Our wired speakerphone combines portability, reliable connectivity, and AI-based dual-directional noise-canceling microphones to deliver clear, distraction-free audio in any setting - whether at home, in a shared workspace, or on the go.",
-   "strap": "Universal, Black, 0.75 m, Buttons, IP64, 82 dB",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Interface",
-     "USB Type-C"
-    ],
-    [
-     "Connectivity technology",
-     "Wired"
-    ],
-    [
-     "Cable length",
-     "0.75 m"
-    ],
-    [
-     "Output power",
-     "3.2 W"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "295 g"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Device type",
-       "Universal"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "Noise canceling",
-       "Yes"
-      ],
-      [
-       "Cable length",
-       "0.75 m"
-      ],
-      [
-       "LED indicators",
-       "Yes"
-      ],
-      [
-       "Control type",
-       "Buttons"
-      ],
-      [
-       "International Protection (IP) code",
-       "IP64"
-      ],
-      [
-       "Plug and Play",
-       "Yes"
-      ],
-      [
-       "Sound pressure level (max)",
-       "82 dB"
-      ],
-      [
-       "Linux operating systems supported",
-       "Yes"
-      ],
-      [
-       "Windows operating systems supported",
-       "Windows 10, Windows 11"
-      ],
-      [
-       "Mac operating systems supported",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Loudspeakers",
-     [
-      [
-       "Output power",
-       "3.2 W"
-      ],
-      [
-       "Frequency range",
-       "90 - 20000 Hz"
-      ]
-     ]
-    ],
-    [
-     "Microphone",
-     [
-      [
-       "Microphone frequency",
-       "100 - 14000 Hz"
-      ],
-      [
-       "Number of microphones",
-       "4"
-      ],
-      [
-       "Microphone direction type",
-       "Omnidirectional"
-      ],
-      [
-       "Microphone sensitivity",
-       "-37 dB"
-      ]
-     ]
-    ],
-    [
-     "Ports & interfaces",
-     [
-      [
-       "Interface",
-       "USB Type-C"
-      ],
-      [
-       "Connectivity technology",
-       "Wired"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Operating voltage",
-       "5 V"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "125 mm"
-      ],
-      [
-       "Depth",
-       "39 mm"
-      ],
-      [
-       "Weight",
-       "295 g"
       ]
      ]
     ]
@@ -13367,7 +13184,7 @@
    "category": "Keyboards & mice",
    "price": 905,
    "stock": "in",
-   "available": 99,
+   "available": 94,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
@@ -15942,7 +15759,7 @@
    "category": "Laptops & desktops",
    "price": 28894,
    "stock": "in",
-   "available": 59,
+   "available": 56,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.16,
