@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-29T08:05:04+00:00",
- "pricedAt": "2026-10-29T08:05:04+00:00",
- "priceValidUntil": "2026-10-29T10:05:04+00:00",
+ "generatedAt": "2026-10-29T08:35:05+00:00",
+ "pricedAt": "2026-10-29T08:35:05+00:00",
+ "priceValidUntil": "2026-10-29T10:35:05+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 86,
+ "count": 90,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -574,7 +574,7 @@
    "category": "Monitors & stands",
    "price": 2979,
    "stock": "in",
-   "available": 87,
+   "available": 86,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.04,
@@ -8119,6 +8119,139 @@
    "specGroups": []
   },
   {
+   "sku": "460-BFDD",
+   "name": "Dell Pro 14-16 Plus EcoLoop Urban Backpack - CP5625G",
+   "brand": "Dell",
+   "category": "Bags & cases",
+   "price": 515,
+   "stock": "in",
+   "available": 298,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.6,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566272/460-BFDD_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566273/460-BFDD_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566261/460-BFDD_3.jpg"
+   ],
+   "description": "Neatly carry all you need while on the go with this spacious backpack. With a 27-liter capacity and organised pockets, it's durable, stylish and made with recycled materials.",
+   "strap": "Backpack, 40.6 cm (16\"), Shoulder strap, 550 g",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Case type",
+     "Backpack"
+    ],
+    [
+     "Material",
+     "Fabric, Polyester"
+    ],
+    [
+     "Weight",
+     "550 g"
+    ],
+    [
+     "Surface coloration",
+     "Monochromatic"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Maximum screen size",
+       "40.6 cm (16\")"
+      ],
+      [
+       "Case type",
+       "Backpack"
+      ],
+      [
+       "Material",
+       "Fabric, Polyester"
+      ],
+      [
+       "Product main colour",
+       "Grey"
+      ],
+      [
+       "Integrated compartment(s)",
+       "Yes"
+      ],
+      [
+       "Brand compatibility",
+       "Dell"
+      ],
+      [
+       "Front pocket",
+       "Yes"
+      ],
+      [
+       "Exterior pockets",
+       "Side pocket"
+      ],
+      [
+       "Carrying handle(s)",
+       "Yes"
+      ],
+      [
+       "Shoulder strap",
+       "Yes"
+      ],
+      [
+       "Protection features",
+       "Dirt resistant, Water resistant"
+      ],
+      [
+       "Product made with recycled materials",
+       "Yes"
+      ],
+      [
+       "Overall recycled content",
+       "52%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "315 mm"
+      ],
+      [
+       "Depth",
+       "210 mm"
+      ],
+      [
+       "Height",
+       "480 mm"
+      ],
+      [
+       "Weight",
+       "550 g"
+      ],
+      [
+       "Volume",
+       "27 L"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "460-BFFY",
    "name": "Dell Pro 14 16 Plus EcoLoop Briefcase CC5626",
    "brand": "Dell",
@@ -8598,7 +8731,7 @@
    "category": "Cables, power & docks",
    "price": 735,
    "stock": "in",
-   "available": 67,
+   "available": 66,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.047,
@@ -8939,6 +9072,164 @@
       [
        "Weight",
        "4.06 kg"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "482-BBFP",
+   "name": "Dell Pro Slim All In One - OSS25",
+   "brand": "Dell",
+   "category": "Monitors & stands",
+   "price": 2994,
+   "stock": "low",
+   "available": 3,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 5.8,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/482-BBFP_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990703/482-BBFP_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/482-BBFP_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/482-BBFP_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990705/482-BBFP_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/482-BBFP_5.jpg"
+   ],
+   "description": "All-in-One monitor stand to secure a Slim desktop (Pro/Pro Plus/Pro Max) to a VESA-compatible monitor. Designed for a seamless setup and an optimised, clutter-free workspace.",
+   "strap": "5.8 kg, 48.3 cm (19\"), 68.6 cm (27\"), 100 x 100 mm, Height adjustment, Black, Silver",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Product colour",
+     "Black, Silver"
+    ],
+    [
+     "Weight",
+     "5.4 kg"
+    ],
+    [
+     "Maximum weight capacity",
+     "5.8 kg"
+    ],
+    [
+     "Minimum screen size",
+     "48.3 cm (19\")"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mounting",
+     [
+      [
+       "Maximum weight capacity",
+       "5.8 kg"
+      ],
+      [
+       "Minimum screen size",
+       "48.3 cm (19\")"
+      ],
+      [
+       "Number of displays supported",
+       "1"
+      ],
+      [
+       "Maximum screen size",
+       "68.6 cm (27\")"
+      ],
+      [
+       "Mounting type",
+       "Desk"
+      ],
+      [
+       "Minimum VESA mount",
+       "100 x 100 mm"
+      ],
+      [
+       "Maximum VESA mount",
+       "100 x 100 mm"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "Height adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt angle range",
+       "-5 - 21°"
+      ],
+      [
+       "Swivelling",
+       "Yes"
+      ],
+      [
+       "Pivot angle",
+       "-90 - 90°"
+      ],
+      [
+       "Cable management",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Product colour",
+       "Black, Silver"
+      ],
+      [
+       "Orientation",
+       "Portrait"
+      ],
+      [
+       "Accepts padlock",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "252 mm"
+      ],
+      [
+       "Depth",
+       "280 mm"
+      ],
+      [
+       "Height",
+       "434 mm"
+      ],
+      [
+       "Weight",
+       "5.4 kg"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compatibility",
+       "Dell Pro Slim QCS1250 Dell Pro Slim Plus QBS1250 Dell Pro Max Slim FCS1250 (up to 65W only) Dell Pro Slim QCS1255"
       ]
      ]
     ]
@@ -10291,6 +10582,32 @@
     "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990706/545-BBFS_0.jpg"
    ],
    "description": "Alienware Pro Wireless Gaming Headset - Dark Side of the Moon",
+   "strap": "",
+   "warranty": "",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
+  },
+  {
+   "sku": "545-BBFW",
+   "name": "Alienware Tri-Mode Wireless Gaming Headset AW725H - Dark Side of the Moon",
+   "brand": "Dell",
+   "category": "Headsets, audio & webcams",
+   "price": 3304,
+   "stock": "low",
+   "available": 2,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.348,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990707/545-BBFW_0.jpg"
+   ],
+   "description": "Alienware Tri-Mode Wireless Gaming Headset AW725H - Dark Side of the Moon",
    "strap": "",
    "warranty": "",
    "highlights": [],
@@ -11806,7 +12123,7 @@
    "category": "Keyboards & mice",
    "price": 340,
    "stock": "in",
-   "available": 127,
+   "available": 107,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.082,
@@ -12335,7 +12652,7 @@
    "category": "Keyboards & mice",
    "price": 494,
    "stock": "in",
-   "available": 263,
+   "available": 252,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.5,
@@ -15625,7 +15942,7 @@
    "category": "Laptops & desktops",
    "price": 28894,
    "stock": "in",
-   "available": 261,
+   "available": 260,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.16,
@@ -17621,6 +17938,717 @@
    "highlights": [],
    "specs": [],
    "specGroups": []
+  },
+  {
+   "sku": "BTO206_PA13250_EMEA",
+   "name": "Dell Pro 13 Premium|U7-266V|16GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|13.3” FHD+|Backlit Kb|3 Cell|vPro ProSupport Next Business Day Onsite Service after remote diagnosis with HW-SW Support, 36 Month(s)",
+   "brand": "Dell",
+   "category": "Laptops & desktops",
+   "price": 45994,
+   "stock": "low",
+   "available": 4,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 0.215,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990730/BTO206_PA13250_EMEA_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990730/BTO206_PA13250_EMEA_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990730/BTO206_PA13250_EMEA_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990737/BTO206_PA13250_EMEA_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990730/BTO206_PA13250_EMEA_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990730/BTO206_PA13250_EMEA_5.jpg"
+   ],
+   "description": "DELL Pro 13 Premium PA13250. Product type: Laptop, Form factor: Clamshell. Processor family: Intel Core Ultra 7, Processor model: 266V. Display diagonal: 33.8 cm (13.3\"), HD type: Full HD+, Display resolution: 1920 x 1200 pixels. Internal memory: 16 GB, Internal memory type: LPDDR5x-SDRAM. Total storage capacity: 512 GB, Storage media: SSD. On-board graphics card model: Intel Arc Graphics 140V. Operating system installed: Windows 11 Pro. Product colour: Grey. Weight: 1.07 kg",
+   "strap": "Intel Core Ultra 7, 33.8 cm (13.3\"), 1920 x 1200 pixels, 16 GB, 512 GB, Windows 11 Pro",
+   "warranty": "",
+   "highlights": [
+    [
+     "Display diagonal",
+     "33.8 cm (13.3\")"
+    ],
+    [
+     "Display resolution",
+     "1920 x 1200 pixels"
+    ],
+    [
+     "Maximum refresh rate",
+     "60 Hz"
+    ],
+    [
+     "Panel type",
+     "IPS WVA"
+    ],
+    [
+     "SSD capacity",
+     "512 GB"
+    ],
+    [
+     "Form factor",
+     "Clamshell"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Design",
+     [
+      [
+       "Product type",
+       "Laptop"
+      ],
+      [
+       "Product colour",
+       "Grey"
+      ],
+      [
+       "Form factor",
+       "Clamshell"
+      ],
+      [
+       "Housing material",
+       "Magnesium"
+      ],
+      [
+       "Intel® vPro™ Platform Eligibility",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "33.8 cm (13.3\")"
+      ],
+      [
+       "Display resolution",
+       "1920 x 1200 pixels"
+      ],
+      [
+       "HD type",
+       "Full HD+"
+      ],
+      [
+       "Panel type",
+       "IPS WVA"
+      ],
+      [
+       "Display technology marketing name",
+       "ComfortView Plus"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "Native aspect ratio",
+       "16:10"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ],
+      [
+       "Display brightness",
+       "400 cd/m²"
+      ],
+      [
+       "Pixel pitch",
+       "0.14 x 0.14 mm"
+      ],
+      [
+       "Pixel density",
+       "170 ppi"
+      ],
+      [
+       "RGB colour space",
+       "sRGB"
+      ],
+      [
+       "Colour gamut",
+       "100%"
+      ],
+      [
+       "Display response rise/fall",
+       "35 ms"
+      ],
+      [
+       "Maximum refresh rate",
+       "60 Hz"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "1500:1"
+      ]
+     ]
+    ],
+    [
+     "Processor",
+     [
+      [
+       "Processor manufacturer",
+       "Intel"
+      ],
+      [
+       "Processor family",
+       "Intel Core Ultra 7"
+      ],
+      [
+       "Processor generation",
+       "Intel Core Ultra (Series 2)"
+      ],
+      [
+       "Processor model",
+       "266V"
+      ],
+      [
+       "Processor cores",
+       "8"
+      ],
+      [
+       "Processor threads",
+       "8"
+      ],
+      [
+       "Processor boost frequency",
+       "5 GHz"
+      ],
+      [
+       "Performance cores",
+       "4"
+      ],
+      [
+       "Low Power Efficient-cores",
+       "4"
+      ],
+      [
+       "Performance-core Max Turbo Frequency",
+       "5 GHz"
+      ],
+      [
+       "Low Power Efficient-core Max Turbo Frequency",
+       "3.7 GHz"
+      ],
+      [
+       "Performance-core base frequency",
+       "2.2 GHz"
+      ],
+      [
+       "Low Power Efficient-core Base Frequency",
+       "2200 MHz"
+      ],
+      [
+       "Processor cache",
+       "12 MB"
+      ],
+      [
+       "Processor cache type",
+       "Smart Cache"
+      ],
+      [
+       "Processor base power",
+       "17 W"
+      ],
+      [
+       "Maximum turbo power",
+       "37 W"
+      ]
+     ]
+    ],
+    [
+     "Neural processor unit (NPU)",
+     [
+      [
+       "Copilot+ PC",
+       "Yes"
+      ],
+      [
+       "Neural processor unit (NPU)",
+       "Intel AI Boost"
+      ],
+      [
+       "Sparsity support",
+       "Yes"
+      ],
+      [
+       "Windows Studio effects support",
+       "Yes"
+      ],
+      [
+       "AI software frameworks supported by NPU",
+       "DirectML, OpenVINO, Windows ML, ONNX RT, WebNN"
+      ],
+      [
+       "Total processor performance up to",
+       "118 TOPs"
+      ],
+      [
+       "NPU performance up to",
+       "48 TOPs"
+      ],
+      [
+       "GPU performance up to",
+       "66 TOPs"
+      ]
+     ]
+    ],
+    [
+     "Memory",
+     [
+      [
+       "Internal memory",
+       "16 GB"
+      ],
+      [
+       "Internal memory type",
+       "LPDDR5x-SDRAM"
+      ],
+      [
+       "Memory form factor",
+       "On-board"
+      ],
+      [
+       "Maximum internal memory",
+       "16 GB"
+      ],
+      [
+       "Memory data transfer rate",
+       "8533 MT/s"
+      ]
+     ]
+    ],
+    [
+     "Storage",
+     [
+      [
+       "Total storage capacity",
+       "512 GB"
+      ],
+      [
+       "Storage media",
+       "SSD"
+      ],
+      [
+       "Total SSDs capacity",
+       "512 GB"
+      ],
+      [
+       "Number of SSDs installed",
+       "1"
+      ],
+      [
+       "SSD capacity",
+       "512 GB"
+      ],
+      [
+       "SSD interface",
+       "PCI Express 4.0"
+      ],
+      [
+       "NVMe",
+       "Yes"
+      ],
+      [
+       "SSD form factor",
+       "M.2"
+      ],
+      [
+       "Optical drive type",
+       "No"
+      ],
+      [
+       "Card reader integrated",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Graphics",
+     [
+      [
+       "Discrete graphics card model",
+       "Not available"
+      ],
+      [
+       "On-board graphics card",
+       "Yes"
+      ],
+      [
+       "On-board GPU manufacturer",
+       "Intel"
+      ],
+      [
+       "Discrete graphics card",
+       "No"
+      ],
+      [
+       "On-board graphics card family",
+       "Intel Arc Graphics"
+      ],
+      [
+       "On-board graphics card model",
+       "Intel Arc Graphics 140V"
+      ]
+     ]
+    ],
+    [
+     "Audio",
+     [
+      [
+       "Audio chip",
+       "Cirrus CS42L43 / Cirrus CS35L56"
+      ],
+      [
+       "Number of built-in speakers",
+       "4"
+      ],
+      [
+       "Speaker power",
+       "2 W"
+      ],
+      [
+       "Built-in microphone",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Camera",
+     [
+      [
+       "Front camera",
+       "Yes"
+      ],
+      [
+       "Front camera resolution (numeric)",
+       "8 MP"
+      ],
+      [
+       "Front camera resolution",
+       "2560 x 1440 pixels"
+      ],
+      [
+       "Video capturing speed",
+       "30 fps"
+      ],
+      [
+       "Infrared (IR) camera",
+       "Yes"
+      ],
+      [
+       "Privacy camera",
+       "Yes"
+      ],
+      [
+       "Privacy type",
+       "Privacy shutter"
+      ]
+     ]
+    ],
+    [
+     "Network",
+     [
+      [
+       "Top Wi-Fi standard",
+       "Wi-Fi 7 (802.11be)"
+      ],
+      [
+       "Wi-Fi standards",
+       "802.11a, Wi-Fi 5 (802.11ac), Wi-Fi 7 (802.11be), 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 6E (802.11ax)"
+      ],
+      [
+       "Mobile network connection",
+       "No"
+      ],
+      [
+       "Wi-Fi band",
+       "Tri-band (2.4 GHz / 5 GHz / 6 GHz)"
+      ],
+      [
+       "Wi-Fi data rate (max)",
+       "5670 Mbit/s"
+      ],
+      [
+       "WLAN controller model",
+       "Intel Wi-Fi 7 BE201"
+      ],
+      [
+       "WLAN controller manufacturer",
+       "Intel"
+      ],
+      [
+       "Ethernet LAN",
+       "No"
+      ],
+      [
+       "Bluetooth",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "USB 3.2 Gen 1 (3.1 Gen 1) Type-A ports quantity",
+       "1"
+      ],
+      [
+       "HDMI ports quantity",
+       "1"
+      ],
+      [
+       "HDMI version",
+       "2.1"
+      ],
+      [
+       "Thunderbolt 4 ports quantity",
+       "2"
+      ],
+      [
+       "Combo headphone/mic port",
+       "Yes"
+      ],
+      [
+       "USB Type-C DisplayPort Alternate Mode",
+       "Yes"
+      ],
+      [
+       "PowerShare",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "Motherboard chipset",
+       "Intel SoC"
+      ],
+      [
+       "Accelerometer",
+       "Yes"
+      ],
+      [
+       "Hall sensor",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Keyboard",
+     [
+      [
+       "Pointing device",
+       "Touchpad"
+      ],
+      [
+       "Numeric keypad",
+       "No"
+      ],
+      [
+       "Keyboard backlit",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Software",
+     [
+      [
+       "Operating system architecture",
+       "64-bit"
+      ],
+      [
+       "Trial software",
+       "McAfee Business Protection 1-year,No Microsoft Office License included (Fed and Premier, Exception Only)"
+      ],
+      [
+       "Operating system installed",
+       "Windows 11 Pro"
+      ]
+     ]
+    ],
+    [
+     "Brand-specific features",
+     [
+      [
+       "Brand specific technologies",
+       "Express Charge Boost capable"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Lithium-Ion (Li-Ion)"
+      ],
+      [
+       "Number of battery cells",
+       "3"
+      ],
+      [
+       "Battery capacity",
+       "60 Wh"
+      ],
+      [
+       "Battery voltage",
+       "11.7 V"
+      ],
+      [
+       "Battery recharge time",
+       "4 h"
+      ],
+      [
+       "Fast charging",
+       "Yes"
+      ],
+      [
+       "Battery weight",
+       "215 g"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "AC adapter power",
+       "65 W"
+      ],
+      [
+       "AC adapter frequency",
+       "50/60 Hz"
+      ],
+      [
+       "AC adapter input voltage",
+       "100 - 240 V"
+      ],
+      [
+       "USB Type-C charging port",
+       "Yes"
+      ],
+      [
+       "USB Type-C required charging power (min)",
+       "27 W"
+      ],
+      [
+       "USB Type-C required charging power (max)",
+       "100 W"
+      ],
+      [
+       "USB Power Delivery (USB PD)",
+       "Yes"
+      ],
+      [
+       "USB charging voltage",
+       "20,5,9,15 V"
+      ]
+     ]
+    ],
+    [
+     "Security",
+     [
+      [
+       "Cable lock slot",
+       "Yes"
+      ],
+      [
+       "Cable lock slot type",
+       "Wedge"
+      ],
+      [
+       "Fingerprint reader",
+       "Yes"
+      ],
+      [
+       "Trusted Platform Module (TPM)",
+       "Yes"
+      ],
+      [
+       "Trusted Platform Module (TPM) version",
+       "2.0"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 35 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 90%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ],
+      [
+       "Operating altitude",
+       "-15.2 - 3048 m"
+      ],
+      [
+       "Non-operating altitude",
+       "-15.2 - 10668 m"
+      ],
+      [
+       "Operating shock",
+       "110 G"
+      ],
+      [
+       "Non-operating shock",
+       "160 G"
+      ],
+      [
+       "Operating vibration",
+       "0.66 G"
+      ],
+      [
+       "Non-operating vibration",
+       "1.3 G"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "296 mm"
+      ],
+      [
+       "Depth",
+       "208.9 mm"
+      ],
+      [
+       "Height (front)",
+       "1.66 cm"
+      ],
+      [
+       "Height (rear)",
+       "1.72 cm"
+      ],
+      [
+       "Weight",
+       "1.07 kg"
+      ]
+     ]
+    ]
+   ]
   },
   {
    "sku": "BTO207_PB16250_EMEA",
@@ -19715,7 +20743,7 @@
    "category": "Laptops & desktops",
    "price": 42494,
    "stock": "in",
-   "available": 43,
+   "available": 41,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.39,
@@ -21621,7 +22649,7 @@
    "category": "Laptops & desktops",
    "price": 28794,
    "stock": "in",
-   "available": 131,
+   "available": 128,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.24,
