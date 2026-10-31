@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-29T19:35:07+00:00",
- "pricedAt": "2026-10-29T19:35:07+00:00",
- "priceValidUntil": "2026-10-29T21:35:07+00:00",
+ "generatedAt": "2026-10-31T07:35:04+00:00",
+ "pricedAt": "2026-10-31T07:35:04+00:00",
+ "priceValidUntil": "2026-10-31T09:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 88,
+ "count": 87,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -2166,7 +2166,7 @@
    "category": "Monitors & stands",
    "price": 7681,
    "stock": "in",
-   "available": 32,
+   "available": 31,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 6.2,
@@ -3709,7 +3709,7 @@
    "category": "Monitors & stands",
    "price": 5559,
    "stock": "in",
-   "available": 11,
+   "available": 10,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 6.15,
@@ -4208,7 +4208,7 @@
    "category": "Cables, power & docks",
    "price": 5987,
    "stock": "in",
-   "available": 61,
+   "available": 60,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.567,
@@ -4429,7 +4429,7 @@
    "category": "Monitors & stands",
    "price": 3594,
    "stock": "in",
-   "available": 29,
+   "available": 23,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.83,
@@ -7283,7 +7283,7 @@
    "category": "Accessories",
    "price": 754,
    "stock": "low",
-   "available": 4,
+   "available": 3,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 1,
@@ -8125,7 +8125,7 @@
    "category": "Bags & cases",
    "price": 515,
    "stock": "in",
-   "available": 328,
+   "available": 313,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.6,
@@ -8497,7 +8497,7 @@
    "category": "Cables, power & docks",
    "price": 585,
    "stock": "in",
-   "available": 71,
+   "available": 70,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.03,
@@ -8731,7 +8731,7 @@
    "category": "Cables, power & docks",
    "price": 735,
    "stock": "in",
-   "available": 66,
+   "available": 63,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.047,
@@ -9851,7 +9851,7 @@
    "category": "Keyboards & mice",
    "price": 1912,
    "stock": "in",
-   "available": 9,
+   "available": 8,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.787,
@@ -10386,7 +10386,7 @@
    "category": "Headsets, audio & webcams",
    "price": 4545,
    "stock": "low",
-   "available": 4,
+   "available": 3,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.315,
@@ -10438,7 +10438,7 @@
    "category": "Keyboards & mice",
    "price": 835,
    "stock": "in",
-   "available": 34,
+   "available": 94,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.084,
@@ -10643,217 +10643,6 @@
       [
        "Battery technology",
        "Alkaline"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "570-ABLO",
-   "name": "Dell Pro Premium Compact Mouse - MS7421W - Platinum Silver",
-   "brand": "Dell",
-   "category": "Keyboards & mice",
-   "price": 775,
-   "stock": "in",
-   "available": 53,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.08,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991066/570-ABLO_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991065/570-ABLO_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991065/570-ABLO_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991067/570-ABLO_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991067/570-ABLO_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991067/570-ABLO_5.jpg"
-   ],
-   "description": "Get uninterrupted productivity with a rechargeable mouse that offers up to six months battery life on a full charge. Connect up to three devices and recharge in just two minutes for a full day’s work.",
-   "strap": "Ambidextrous, Optical, RF Wireless + Bluetooth, 1600 DPI, Platinum, Silver",
-   "warranty": "3 Years NBD Advance Exchange",
-   "highlights": [
-    [
-     "Form factor",
-     "Ambidextrous"
-    ],
-    [
-     "Movement resolution",
-     "1600 DPI"
-    ],
-    [
-     "Buttons quantity",
-     "7"
-    ],
-    [
-     "Cable length",
-     "1 m"
-    ],
-    [
-     "Product colour",
-     "Platinum, Silver"
-    ],
-    [
-     "Weight",
-     "80 g"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Mouse",
-     [
-      [
-       "Number of scroll wheels",
-       "1"
-      ],
-      [
-       "Scrolling directions",
-       "Vertical"
-      ],
-      [
-       "Purpose",
-       "Office"
-      ],
-      [
-       "Device interface",
-       "RF Wireless + Bluetooth"
-      ],
-      [
-       "Movement detection technology",
-       "Optical"
-      ],
-      [
-       "Movement resolution",
-       "1600 DPI"
-      ],
-      [
-       "Buttons type",
-       "Pressed buttons"
-      ],
-      [
-       "Scroll type",
-       "Wheel"
-      ],
-      [
-       "Buttons quantity",
-       "7"
-      ],
-      [
-       "Frequency band",
-       "2.4 GHz"
-      ],
-      [
-       "Bluetooth version",
-       "5.0"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Form factor",
-       "Ambidextrous"
-      ],
-      [
-       "Product colour",
-       "Platinum, Silver"
-      ],
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ]
-     ]
-    ],
-    [
-     "Ergonomics",
-     [
-      [
-       "Cable length",
-       "1 m"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Power source",
-       "Batteries"
-      ],
-      [
-       "Rechargeable",
-       "Yes"
-      ],
-      [
-       "Battery type",
-       "Built-in battery"
-      ],
-      [
-       "Service life of battery",
-       "6 month(s)"
-      ],
-      [
-       "USB Type-C charging port",
-       "Yes"
-      ],
-      [
-       "USB Type-C required charging power (min)",
-       "0.7 W"
-      ],
-      [
-       "USB Type-C required charging power (max)",
-       "0.7 W"
-      ]
-     ]
-    ],
-    [
-     "System requirements",
-     [
-      [
-       "Windows operating systems supported",
-       "Yes"
-      ],
-      [
-       "Mac operating systems supported",
-       "Yes"
-      ],
-      [
-       "Linux operating systems supported",
-       "Yes"
-      ],
-      [
-       "Mobile operating systems supported",
-       "Android"
-      ],
-      [
-       "Other operating systems supported",
-       "ChromeOS"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "61.9 mm"
-      ],
-      [
-       "Depth",
-       "101.8 mm"
-      ],
-      [
-       "Height",
-       "35.4 mm"
-      ],
-      [
-       "Weight",
-       "80 g"
       ]
      ]
     ]
@@ -11940,7 +11729,7 @@
    "category": "Keyboards & mice",
    "price": 340,
    "stock": "in",
-   "available": 107,
+   "available": 92,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.082,
@@ -12469,7 +12258,7 @@
    "category": "Keyboards & mice",
    "price": 494,
    "stock": "in",
-   "available": 255,
+   "available": 254,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.5,
@@ -12684,232 +12473,6 @@
       [
        "Keyboard weight",
        "421 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "580-AKPT",
-   "name": "Dell Pro Plus Keyboard - KB700 - US International (QWERTY)",
-   "brand": "Dell",
-   "category": "Keyboards & mice",
-   "price": 1194,
-   "stock": "in",
-   "available": 13,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.56,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991082/580-AKPT_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991080/580-AKPT_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991085/580-AKPT_5.jpg"
-   ],
-   "description": "Experience superior multitasking features with a stylish and comfortable premium keyboard. Complete your tasks powered by one of the industry’s leading battery lives at up to 36 months.",
-   "strap": "Full-size (100%), Wireless, Bluetooth, Scissor key switch, QWERTY, Grey",
-   "warranty": "3 Years NBD Advance Exchange",
-   "highlights": [
-    [
-     "Connectivity technology",
-     "Wireless"
-    ],
-    [
-     "Keyboard layout",
-     "QWERTY"
-    ],
-    [
-     "Product colour",
-     "Grey"
-    ],
-    [
-     "Recommended usage",
-     "Office"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Keyboard",
-     [
-      [
-       "Recommended usage",
-       "Office"
-      ],
-      [
-       "Connectivity technology",
-       "Wireless"
-      ],
-      [
-       "Device interface",
-       "Bluetooth"
-      ],
-      [
-       "Keyboard key switch",
-       "Scissor key switch"
-      ],
-      [
-       "Keyboard layout",
-       "QWERTY"
-      ],
-      [
-       "Keyboard language",
-       "US International"
-      ],
-      [
-       "Pointing device",
-       "No"
-      ],
-      [
-       "Keyboard form factor",
-       "Full-size (100%)"
-      ],
-      [
-       "Numeric keypad",
-       "Yes"
-      ],
-      [
-       "Windows keys",
-       "Yes"
-      ],
-      [
-       "Hot keys",
-       "Yes"
-      ],
-      [
-       "Frequency band",
-       "2.4 GHz"
-      ],
-      [
-       "Bluetooth version",
-       "5.0"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Backlight",
-       "No"
-      ],
-      [
-       "Wrist rest",
-       "No"
-      ],
-      [
-       "Product colour",
-       "Grey"
-      ],
-      [
-       "LED indicators",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Features",
-     [
-      [
-       "Wireless range",
-       "10 m"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Power source type",
-       "Battery"
-      ],
-      [
-       "Keyboard battery type",
-       "AAA"
-      ],
-      [
-       "Number of batteries (keyboard)",
-       "2"
-      ]
-     ]
-    ],
-    [
-     "Battery",
-     [
-      [
-       "Battery technology",
-       "Alkaline"
-      ]
-     ]
-    ],
-    [
-     "Mouse",
-     [
-      [
-       "Mouse included",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "System requirements",
-     [
-      [
-       "Windows operating systems supported",
-       "Yes"
-      ],
-      [
-       "Mac operating systems supported",
-       "Yes"
-      ],
-      [
-       "Linux operating systems supported",
-       "Yes"
-      ],
-      [
-       "Mobile operating systems supported",
-       "Android"
-      ],
-      [
-       "Other operating systems supported",
-       "ChromeOS, DOS"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "0 - 40 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-40 - 65 °C"
-      ],
-      [
-       "Storage relative humidity (H-H)",
-       "0 - 95%"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Keyboard dimensions (WxDxH)",
-       "433.3 x 121.5 x 25.34 mm"
-      ],
-      [
-       "Keyboard weight",
-       "560 g"
       ]
      ]
     ]
@@ -13184,7 +12747,7 @@
    "category": "Keyboards & mice",
    "price": 905,
    "stock": "in",
-   "available": 87,
+   "available": 81,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
@@ -13447,7 +13010,7 @@
    "category": "Keyboards & mice",
    "price": 755,
    "stock": "in",
-   "available": 90,
+   "available": 190,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
@@ -15759,7 +15322,7 @@
    "category": "Laptops & desktops",
    "price": 28894,
    "stock": "in",
-   "available": 53,
+   "available": 52,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.16,
@@ -23114,13 +22677,154 @@
    ]
   },
   {
+   "sku": "SNV3S/1000G",
+   "name": "Kingston 1000G NV3 M.2 2280 PCIe 4.0 NVMe SSD",
+   "brand": "Kingston",
+   "category": "Accessories",
+   "price": 7934,
+   "stock": "in",
+   "available": 28,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 0.006,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990744/SNV3S-1000G_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990745/SNV3S-1000G_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990745/SNV3S-1000G_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990746/SNV3S-1000G_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990745/SNV3S-1000G_4.jpg"
+   ],
+   "description": "For high-speed, low-power storage needs Kingston’s NV3 PCIe 4.0 NVMe SSDs are next-gen storage solutions powered by a Gen 4x4 NVMe controller, delivering read/write speeds of up to 6,000/5,000MB/s*. They come in both compact, single-sided M.2 2280 (22x80mm) and 2230 (22x30mm) sizes to expand storage in small-form-factor systems like laptops and handheld gaming consoles*****. They offer lower power consumption and reduced heat, optimising your system's performance without compromising value. Available in capacities from 500GB– 4TB** to give you all the space you need for applications, documents, photos, videos, games and more. Gen 4x4 NVMe PCIe performance Upgrade your system with read/write speeds up to 6,000/5,000MB/s*. Small size, big performance NV3 2280 and 2230 easily integrate into thin laptops and ultra-small PCs with M.2 connectors and limited space. Increased storage space Available in a variety of high capacities up to 4TB**, providing ample space to store files, videos, documents, and games with room to spare. Store more, play more With NV3 2230 upgrade compatible handheld gaming systems to get in the game faster*****.",
+   "strap": "1 TB, M.2, 6000 MB/s",
+   "warranty": "Limited 5-year warranty with free technical support",
+   "highlights": [
+    [
+     "SSD capacity",
+     "1 TB"
+    ],
+    [
+     "SSD form factor",
+     "M.2"
+    ],
+    [
+     "Read speed",
+     "6000 MB/s"
+    ],
+    [
+     "Write speed",
+     "4000 MB/s"
+    ],
+    [
+     "Interface",
+     "PCI Express 4.0"
+    ],
+    [
+     "Weight",
+     "5.7 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "SSD capacity",
+       "1 TB"
+      ],
+      [
+       "SSD form factor",
+       "M.2"
+      ],
+      [
+       "Interface",
+       "PCI Express 4.0"
+      ],
+      [
+       "NVMe",
+       "Yes"
+      ],
+      [
+       "Memory type",
+       "3D NAND"
+      ],
+      [
+       "Component for",
+       "PC/Laptop"
+      ],
+      [
+       "M.2 SSD size",
+       "2280 (22 x 80 mm)"
+      ],
+      [
+       "Read speed",
+       "6000 MB/s"
+      ],
+      [
+       "Write speed",
+       "4000 MB/s"
+      ],
+      [
+       "Mean time between failures (MTBF)",
+       "2000000 h"
+      ],
+      [
+       "TBW rating",
+       "320"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "22 mm"
+      ],
+      [
+       "Depth",
+       "80 mm"
+      ],
+      [
+       "Height",
+       "2.3 mm"
+      ],
+      [
+       "Weight",
+       "5.7 g"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 70 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 85 °C"
+      ],
+      [
+       "Operating vibration",
+       "10 G"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "SNV3S/500G",
    "name": "Kingston 500G NV3 M.2 2280 PCIe 4.0 NVMe SSD",
    "brand": "Kingston",
    "category": "Storage & memory",
    "price": 2264,
    "stock": "in",
-   "available": 14,
+   "available": 16,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.006,
