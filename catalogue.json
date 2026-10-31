@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-31T08:05:05+00:00",
- "pricedAt": "2026-10-31T08:05:05+00:00",
- "priceValidUntil": "2026-10-31T10:05:05+00:00",
+ "generatedAt": "2026-10-31T08:35:04+00:00",
+ "pricedAt": "2026-10-31T08:35:04+00:00",
+ "priceValidUntil": "2026-10-31T10:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 87,
+ "count": 89,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -10649,6 +10649,217 @@
    ]
   },
   {
+   "sku": "570-ABLO",
+   "name": "Dell Pro Premium Compact Mouse - MS7421W - Platinum Silver",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 775,
+   "stock": "in",
+   "available": 53,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.08,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991066/570-ABLO_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991065/570-ABLO_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991065/570-ABLO_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991067/570-ABLO_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991067/570-ABLO_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991067/570-ABLO_5.jpg"
+   ],
+   "description": "Get uninterrupted productivity with a rechargeable mouse that offers up to six months battery life on a full charge. Connect up to three devices and recharge in just two minutes for a full day’s work.",
+   "strap": "Ambidextrous, Optical, RF Wireless + Bluetooth, 1600 DPI, Platinum, Silver",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Movement resolution",
+     "1600 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "7"
+    ],
+    [
+     "Cable length",
+     "1 m"
+    ],
+    [
+     "Product colour",
+     "Platinum, Silver"
+    ],
+    [
+     "Weight",
+     "80 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Scrolling directions",
+       "Vertical"
+      ],
+      [
+       "Purpose",
+       "Office"
+      ],
+      [
+       "Device interface",
+       "RF Wireless + Bluetooth"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "1600 DPI"
+      ],
+      [
+       "Buttons type",
+       "Pressed buttons"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Buttons quantity",
+       "7"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ],
+      [
+       "Bluetooth version",
+       "5.0"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Platinum, Silver"
+      ],
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "Cable length",
+       "1 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Batteries"
+      ],
+      [
+       "Rechargeable",
+       "Yes"
+      ],
+      [
+       "Battery type",
+       "Built-in battery"
+      ],
+      [
+       "Service life of battery",
+       "6 month(s)"
+      ],
+      [
+       "USB Type-C charging port",
+       "Yes"
+      ],
+      [
+       "USB Type-C required charging power (min)",
+       "0.7 W"
+      ],
+      [
+       "USB Type-C required charging power (max)",
+       "0.7 W"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "61.9 mm"
+      ],
+      [
+       "Depth",
+       "101.8 mm"
+      ],
+      [
+       "Height",
+       "35.4 mm"
+      ],
+      [
+       "Weight",
+       "80 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "570-ABQN",
    "name": "Dell Bluetooth Travel Mouse - MS700 - Black",
    "brand": "Dell",
@@ -12473,6 +12684,232 @@
       [
        "Keyboard weight",
        "421 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "580-AKPT",
+   "name": "Dell Pro Plus Keyboard - KB700 - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1194,
+   "stock": "in",
+   "available": 13,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.56,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991082/580-AKPT_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991080/580-AKPT_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991085/580-AKPT_5.jpg"
+   ],
+   "description": "Experience superior multitasking features with a stylish and comfortable premium keyboard. Complete your tasks powered by one of the industry’s leading battery lives at up to 36 months.",
+   "strap": "Full-size (100%), Wireless, Bluetooth, Scissor key switch, QWERTY, Grey",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Product colour",
+     "Grey"
+    ],
+    [
+     "Recommended usage",
+     "Office"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "Bluetooth"
+      ],
+      [
+       "Keyboard key switch",
+       "Scissor key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "Hot keys",
+       "Yes"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ],
+      [
+       "Bluetooth version",
+       "5.0"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "No"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Product colour",
+       "Grey"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "Battery"
+      ],
+      [
+       "Keyboard battery type",
+       "AAA"
+      ],
+      [
+       "Number of batteries (keyboard)",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Alkaline"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "433.3 x 121.5 x 25.34 mm"
+      ],
+      [
+       "Keyboard weight",
+       "560 g"
       ]
      ]
     ]
