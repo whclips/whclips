@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-01T08:05:05+00:00",
- "pricedAt": "2026-11-01T08:05:05+00:00",
- "priceValidUntil": "2026-11-01T10:05:05+00:00",
+ "generatedAt": "2026-11-01T08:35:05+00:00",
+ "pricedAt": "2026-11-01T08:35:05+00:00",
+ "priceValidUntil": "2026-11-01T10:35:05+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 86,
+ "count": 89,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -8390,6 +8390,107 @@
    ]
   },
   {
+   "sku": "470-ACFH",
+   "name": "Kit - Type C dongle (7.4mm)",
+   "brand": "Dell",
+   "category": "Cables, power & docks",
+   "price": 614,
+   "stock": "in",
+   "available": 24,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.023,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991043/470-ACFH_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991044/470-ACFH_1.jpg"
+   ],
+   "description": "DELL 7CY7K. Connector 1: Power DC jack 7.4 mm, Connector 2: 24 pin USB-C. Product colour: Black",
+   "strap": "Power DC jack 7.4 mm, 24 pin USB-C, Black",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Connector 1",
+     "Power DC jack 7.4 mm"
+    ],
+    [
+     "Connector 2",
+     "24 pin USB-C"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "23 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Ports & interfaces",
+     [
+      [
+       "Connector 1",
+       "Power DC jack 7.4 mm"
+      ],
+      [
+       "Connector 2",
+       "24 pin USB-C"
+      ],
+      [
+       "Connector 1 gender",
+       "Female"
+      ],
+      [
+       "Connector 2 gender",
+       "Male"
+      ]
+     ]
+    ],
+    [
+     "Performance",
+     [
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Compatible products",
+       "Latitude 7370 XPS 13 (9365) 2-in-1 Chromebook 13 3380 Latitude 5285 2-in-1 Latitude 5289 2-in-1 Latitude 7285 2-in-1 Latitude 7389 2-in-1 Latitude 12 Rugged 7212 Extreme XPS 13 (9370) Latitude 7390 2-in-1 Latitude 5290 2-in-1 Chromebook 11 5190 Chromebook 11 5190 2-In-1 XPS 13 (9380) Latitude 7200 2-In-1 XPS 13 (7390) 2-in-1 Latitude 5310 2-in-1 Latitude 7210 2-in-1 Latitude 9510 Latitude 7310 Latitude 7410 2-in-1 Latitude 7330 Latitude 7430 Latitude 7530"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Input voltage",
+       "5/20 V"
+      ],
+      [
+       "Output voltage",
+       "5/20 V"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Weight",
+       "23 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "470-BCFW",
    "name": "Dell Adapter - USB-C to HDMI 2.1",
    "brand": "Dell",
@@ -12191,6 +12292,177 @@
    ]
   },
   {
+   "sku": "580-18366",
+   "name": "Dell Pro Smartcard Keyboard - KB813 - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 784,
+   "stock": "in",
+   "available": 18,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.55,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991083/580-18366_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991083/580-18366_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991094/580-18366_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991078/580-18366_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991077/580-18366_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991077/580-18366_5.jpg"
+   ],
+   "description": "The KB813 Smartcard keyboard from Dell is designed to offer high security. It is one-stop solution to protect institutional data and intellectual property through a comfortable, stylish keyboard that has an integrated smartcard reader. This Smartcard keyboard provides durable typing solution through spill-resistant, low profile quiet keys with a removable palm rest that helps provide a comfortable typing experience. Its wired connection helps provide secure, fast data and authentication transfers. Moreover, the wired USB connection is easy to connect to virtually any Dell system.",
+   "strap": "Full-size (100%), Wired, USB, QWERTY, Black",
+   "warranty": "1 Year",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wired"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Recommended usage",
+     "Office"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wired"
+      ],
+      [
+       "Device interface",
+       "USB"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "USB hub",
+       "No"
+      ],
+      [
+       "Purpose",
+       "PC/Server"
+      ],
+      [
+       "Fingerprint reader",
+       "No"
+      ],
+      [
+       "Smart card reader",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Keyboard style",
+       "Straight"
+      ],
+      [
+       "Full-size keyboard",
+       "Yes"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Surface coloration",
+       "Monochromatic"
+      ],
+      [
+       "Protection features",
+       "Spill resistant"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "USB"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard weight",
+       "550 g"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compatibility",
+       "Dell: Inspiron 15 5000 Series (5567) Inspiron 17 5000 Series (5767) Latitude 6430u Latitude E5430 Latitude E5530 Latitude E6230 Latitude E6330 Latitude E6430 Latitude E6430 ATG Latitude E6430s Latitude E6530 OptiPlex 3010 OptiPlex 7010 DT OptiPlex 9010 OptiPlex XE2 MT Optiplex XE2 SFF Precision M4700 Precision M6700 Precision Workstation R5500 Precision WorkStation R7610 Precision Workstation T1650 Precision Workstation T1700 MT Precision Workstation T3600 Precision Workstation T5600 Precision Workstation T7600"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "580-AKOO",
    "name": "Dell Pro Keyboard - KB500 - US International (QWERTY)",
    "brand": "Dell",
@@ -12412,6 +12684,232 @@
       [
        "Keyboard weight",
        "421 g"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "580-AKPT",
+   "name": "Dell Pro Plus Keyboard - KB700 - US International (QWERTY)",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 1194,
+   "stock": "in",
+   "available": 13,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.56,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991082/580-AKPT_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991080/580-AKPT_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-AKPT_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991085/580-AKPT_5.jpg"
+   ],
+   "description": "Experience superior multitasking features with a stylish and comfortable premium keyboard. Complete your tasks powered by one of the industry’s leading battery lives at up to 36 months.",
+   "strap": "Full-size (100%), Wireless, Bluetooth, Scissor key switch, QWERTY, Grey",
+   "warranty": "3 Years NBD Advance Exchange",
+   "highlights": [
+    [
+     "Connectivity technology",
+     "Wireless"
+    ],
+    [
+     "Keyboard layout",
+     "QWERTY"
+    ],
+    [
+     "Product colour",
+     "Grey"
+    ],
+    [
+     "Recommended usage",
+     "Office"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Keyboard",
+     [
+      [
+       "Recommended usage",
+       "Office"
+      ],
+      [
+       "Connectivity technology",
+       "Wireless"
+      ],
+      [
+       "Device interface",
+       "Bluetooth"
+      ],
+      [
+       "Keyboard key switch",
+       "Scissor key switch"
+      ],
+      [
+       "Keyboard layout",
+       "QWERTY"
+      ],
+      [
+       "Keyboard language",
+       "US International"
+      ],
+      [
+       "Pointing device",
+       "No"
+      ],
+      [
+       "Keyboard form factor",
+       "Full-size (100%)"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Windows keys",
+       "Yes"
+      ],
+      [
+       "Hot keys",
+       "Yes"
+      ],
+      [
+       "Frequency band",
+       "2.4 GHz"
+      ],
+      [
+       "Bluetooth version",
+       "5.0"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Backlight",
+       "No"
+      ],
+      [
+       "Wrist rest",
+       "No"
+      ],
+      [
+       "Product colour",
+       "Grey"
+      ],
+      [
+       "LED indicators",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Features",
+     [
+      [
+       "Wireless range",
+       "10 m"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source type",
+       "Battery"
+      ],
+      [
+       "Keyboard battery type",
+       "AAA"
+      ],
+      [
+       "Number of batteries (keyboard)",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Alkaline"
+      ]
+     ]
+    ],
+    [
+     "Mouse",
+     [
+      [
+       "Mouse included",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mac operating systems supported",
+       "Yes"
+      ],
+      [
+       "Linux operating systems supported",
+       "Yes"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Android"
+      ],
+      [
+       "Other operating systems supported",
+       "ChromeOS, DOS"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Keyboard dimensions (WxDxH)",
+       "433.3 x 121.5 x 25.34 mm"
+      ],
+      [
+       "Keyboard weight",
+       "560 g"
       ]
      ]
     ]
