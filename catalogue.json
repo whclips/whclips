@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-02T06:05:04+00:00",
- "pricedAt": "2026-11-02T06:05:04+00:00",
- "priceValidUntil": "2026-11-02T08:05:04+00:00",
+ "generatedAt": "2026-11-02T06:35:04+00:00",
+ "pricedAt": "2026-11-02T06:35:04+00:00",
+ "priceValidUntil": "2026-11-02T08:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 89,
+ "count": 88,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -574,7 +574,7 @@
    "category": "Monitors & stands",
    "price": 2979,
    "stock": "in",
-   "available": 86,
+   "available": 85,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.04,
@@ -4456,7 +4456,7 @@
    "category": "Monitors & stands",
    "price": 4794,
    "stock": "in",
-   "available": 11,
+   "available": 10,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.92,
@@ -9686,165 +9686,6 @@
    ]
   },
   {
-   "sku": "545-BBDS",
-   "name": "Alienware Wired Gaming Mouse - AW320M",
-   "brand": "Dell",
-   "category": "Keyboards & mice",
-   "price": 923,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.08,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991059/545-BBDS_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991060/545-BBDS_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991060/545-BBDS_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991060/545-BBDS_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991059/545-BBDS_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991062/545-BBDS_5.jpg"
-   ],
-   "description": "Speed, comfort and firepower never lack on a slimmed-down, wired gaming mouse with 19,000 native DPI and tracking of up to 400 inches per second.",
-   "strap": "Ambidextrous, Optical, USB Type-A, 3200 DPI, Black",
-   "warranty": "2 Years",
-   "highlights": [
-    [
-     "Form factor",
-     "Ambidextrous"
-    ],
-    [
-     "Movement resolution",
-     "3200 DPI"
-    ],
-    [
-     "Buttons quantity",
-     "6"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "80 g"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Mouse",
-     [
-      [
-       "Number of scroll wheels",
-       "1"
-      ],
-      [
-       "Purpose",
-       "Gaming"
-      ],
-      [
-       "Device interface",
-       "USB Type-A"
-      ],
-      [
-       "Movement detection technology",
-       "Optical"
-      ],
-      [
-       "Movement resolution",
-       "3200 DPI"
-      ],
-      [
-       "Scroll type",
-       "Wheel"
-      ],
-      [
-       "Buttons quantity",
-       "6"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Form factor",
-       "Ambidextrous"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Power source",
-       "Cable"
-      ]
-     ]
-    ],
-    [
-     "System requirements",
-     [
-      [
-       "Windows operating systems supported",
-       "Windows 10, Windows 11, Windows 7, Windows 8, Windows 8.1"
-      ],
-      [
-       "Mobile operating systems supported",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "0 - 40 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-40 - 65 °C"
-      ],
-      [
-       "Storage relative humidity (H-H)",
-       "0 - 95%"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "62.5 mm"
-      ],
-      [
-       "Depth",
-       "125 mm"
-      ],
-      [
-       "Height",
-       "38.5 mm"
-      ],
-      [
-       "Weight",
-       "80 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
    "sku": "545-BBDY",
    "name": "Alienware Tenkeyless Gaming Keyboard - AW420K - US (QWERTY)",
    "brand": "Dell",
@@ -10177,7 +10018,7 @@
    "category": "Headsets, audio & webcams",
    "price": 1584,
    "stock": "low",
-   "available": 5,
+   "available": 4,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.337,
@@ -10438,7 +10279,7 @@
    "category": "Keyboards & mice",
    "price": 835,
    "stock": "in",
-   "available": 94,
+   "available": 93,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.084,
