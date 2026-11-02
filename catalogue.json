@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-02T08:05:04+00:00",
- "pricedAt": "2026-11-02T08:05:04+00:00",
- "priceValidUntil": "2026-11-02T10:05:04+00:00",
+ "generatedAt": "2026-11-02T08:35:04+00:00",
+ "pricedAt": "2026-11-02T08:35:04+00:00",
+ "priceValidUntil": "2026-11-02T10:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 88,
+ "count": 89,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -1628,529 +1628,6 @@
        "Heavy metals free",
        "Hg (mercury)"
       ],
-      [
-       "Compliance certificates",
-       "RoHS"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "210-BQMX",
-   "name": "Dell Pro 24 Plus QHD Monitor - P2425D",
-   "brand": "Dell",
-   "category": "Monitors & stands",
-   "price": 4994,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 4.67,
-   "badges": [
-    "On promotion",
-    "Deal ending soon",
-    "Bargain",
-    "Store opening special"
-   ],
-   "attributes": [],
-   "promo": true,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990702/210-BQMX_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990702/210-BQMX_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990699/210-BQMX_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990693/210-BQMX_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990693/210-BQMX_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990694/210-BQMX_5.jpg"
-   ],
-   "description": "Certified by TÜV Rheinland® for 4-star eye comfort, this 23.8-inch QHD monitor offers enhanced productivity with visual comfort.",
-   "strap": "61 cm (24\"), 2560 x 1440 pixels, Quad HD, LCD, 8 ms, Black, Silver",
-   "warranty": "3 Years Advance Exchange Service",
-   "highlights": [
-    [
-     "Display diagonal",
-     "61 cm (24\")"
-    ],
-    [
-     "Display resolution",
-     "2560 x 1440 pixels"
-    ],
-    [
-     "Maximum refresh rate",
-     "100 Hz"
-    ],
-    [
-     "Panel type",
-     "IPS"
-    ],
-    [
-     "Response time",
-     "8 ms"
-    ],
-    [
-     "Product colour",
-     "Black, Silver"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Display",
-     [
-      [
-       "Display diagonal",
-       "61 cm (24\")"
-      ],
-      [
-       "Display resolution",
-       "2560 x 1440 pixels"
-      ],
-      [
-       "HD type",
-       "Quad HD"
-      ],
-      [
-       "Native aspect ratio",
-       "16:9"
-      ],
-      [
-       "Display technology",
-       "LCD"
-      ],
-      [
-       "Panel type",
-       "IPS"
-      ],
-      [
-       "LED backlight",
-       "Yes"
-      ],
-      [
-       "Backlight type",
-       "Edge LED"
-      ],
-      [
-       "Touchscreen",
-       "No"
-      ],
-      [
-       "Display brightness (typical)",
-       "350 cd/m²"
-      ],
-      [
-       "Response time",
-       "8 ms"
-      ],
-      [
-       "Response time measurement type",
-       "GTG (Gray to Gray)"
-      ],
-      [
-       "Anti-glare screen",
-       "Yes"
-      ],
-      [
-       "Screen shape",
-       "Flat"
-      ],
-      [
-       "Supported video modes",
-       "480p, 576p, 720p, 1080i, 1080p, 1440p"
-      ],
-      [
-       "Contrast ratio (typical)",
-       "1500:1"
-      ],
-      [
-       "Maximum refresh rate",
-       "100 Hz"
-      ],
-      [
-       "Viewing angle, horizontal",
-       "178°"
-      ],
-      [
-       "Viewing angle, vertical",
-       "178°"
-      ],
-      [
-       "Display number of colours",
-       "16.7 million colours"
-      ],
-      [
-       "Response time (fast)",
-       "5 ms"
-      ],
-      [
-       "Pixel pitch",
-       "0.2058 x 0.2058 mm"
-      ],
-      [
-       "Pixel density",
-       "123 ppi"
-      ],
-      [
-       "Viewable size, horizontal",
-       "52.7 cm"
-      ],
-      [
-       "Viewable size, vertical",
-       "29.6 cm"
-      ],
-      [
-       "Digital horizontal frequency",
-       "30 - 150 kHz"
-      ],
-      [
-       "Digital vertical frequency",
-       "48 - 100 Hz"
-      ],
-      [
-       "High Dynamic Range (HDR) supported",
-       "No"
-      ],
-      [
-       "Surface hardness",
-       "3H"
-      ],
-      [
-       "sRGB coverage (typical)",
-       "99%"
-      ]
-     ]
-    ],
-    [
-     "Performance",
-     [
-      [
-       "NVIDIA G-SYNC",
-       "No"
-      ],
-      [
-       "AMD FreeSync",
-       "No"
-      ],
-      [
-       "Flicker-free technology",
-       "Yes"
-      ],
-      [
-       "Low Blue Light technology",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Multimedia",
-     [
-      [
-       "Built-in speaker(s)",
-       "No"
-      ],
-      [
-       "Built-in camera",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Market positioning",
-       "Office"
-      ],
-      [
-       "Product colour",
-       "Black, Silver"
-      ],
-      [
-       "Front bezel colour",
-       "Black"
-      ],
-      [
-       "Detachable stand",
-       "Yes"
-      ],
-      [
-       "Feet colour",
-       "Silver"
-      ]
-     ]
-    ],
-    [
-     "Ports & interfaces",
-     [
-      [
-       "Built-in USB hub",
-       "Yes"
-      ],
-      [
-       "USB hub version",
-       "3.2 Gen 1 (3.1 Gen 1)"
-      ],
-      [
-       "USB upstream port type",
-       "USB Type-B"
-      ],
-      [
-       "Number of USB Type-B upstream ports quantity",
-       "1"
-      ],
-      [
-       "USB Type-A downstream ports quantity",
-       "3"
-      ],
-      [
-       "USB Type-C downstream ports quantity",
-       "1"
-      ],
-      [
-       "USB Power Delivery (USB PD)",
-       "Yes"
-      ],
-      [
-       "USB Power Delivery up to",
-       "15 W"
-      ],
-      [
-       "HDMI",
-       "Yes"
-      ],
-      [
-       "HDMI ports quantity",
-       "1"
-      ],
-      [
-       "HDMI version",
-       "2.1"
-      ],
-      [
-       "DisplayPorts quantity",
-       "1"
-      ],
-      [
-       "DisplayPort version",
-       "1.4"
-      ],
-      [
-       "Headphone out",
-       "No"
-      ],
-      [
-       "HDCP",
-       "Yes"
-      ],
-      [
-       "HDCP version",
-       "1.4"
-      ]
-     ]
-    ],
-    [
-     "Network",
-     [
-      [
-       "Wi-Fi",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "Ergonomics",
-     [
-      [
-       "VESA mounting",
-       "Yes"
-      ],
-      [
-       "Panel mounting interface",
-       "100 x 100 mm"
-      ],
-      [
-       "Cable management",
-       "Yes"
-      ],
-      [
-       "Cable lock slot",
-       "Yes"
-      ],
-      [
-       "Height adjustment",
-       "Yes"
-      ],
-      [
-       "Adjustable height (max)",
-       "15 cm"
-      ],
-      [
-       "Pivot",
-       "Yes"
-      ],
-      [
-       "Pivot angle",
-       "-90 - 90°"
-      ],
-      [
-       "Swivelling",
-       "Yes"
-      ],
-      [
-       "Swivel angle range",
-       "-45 - 45°"
-      ],
-      [
-       "Tilt adjustment",
-       "Yes"
-      ],
-      [
-       "Tilt angle range",
-       "-5 - 21°"
-      ],
-      [
-       "On Screen Display (OSD)",
-       "Yes"
-      ],
-      [
-       "Plug and Play",
-       "Yes"
-      ],
-      [
-       "LED indicators",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Energy efficiency class (SDR)",
-       "E"
-      ],
-      [
-       "Energy efficiency class (HDR)",
-       "Not available"
-      ],
-      [
-       "Energy consumption (SDR) per 1000 hours",
-       "16 kWh"
-      ],
-      [
-       "Power consumption (typical)",
-       "15.6 W"
-      ],
-      [
-       "Power consumption (standby)",
-       "0.3 W"
-      ],
-      [
-       "Power consumption (max)",
-       "75 W"
-      ],
-      [
-       "Power consumption (off)",
-       "0.3 W"
-      ],
-      [
-       "AC input voltage",
-       "100 - 240 V"
-      ],
-      [
-       "AC input frequency",
-       "50/60 Hz"
-      ],
-      [
-       "Power supply type",
-       "Internal"
-      ],
-      [
-       "Energy efficiency scale",
-       "A to G"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "0 - 40 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-20 - 60 °C"
-      ],
-      [
-       "Operating relative humidity (H-H)",
-       "10 - 80%"
-      ],
-      [
-       "Storage relative humidity (H-H)",
-       "5 - 90%"
-      ],
-      [
-       "Operating altitude",
-       "0 - 5000 m"
-      ],
-      [
-       "Non-operating altitude",
-       "5000 - 12191 m"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width (with stand)",
-       "538.7 mm"
-      ],
-      [
-       "Depth (with stand)",
-       "181.5 mm"
-      ],
-      [
-       "Height (with stand)",
-       "496.6 mm"
-      ],
-      [
-       "Weight (with stand)",
-       "4.67 kg"
-      ],
-      [
-       "Width (without stand)",
-       "538.7 mm"
-      ],
-      [
-       "Depth (without stand)",
-       "49.7 mm"
-      ],
-      [
-       "Height (without stand)",
-       "315.2 mm"
-      ],
-      [
-       "Weight (without stand)",
-       "3.2 kg"
-      ],
-      [
-       "Bezel width (side)",
-       "5.93 mm"
-      ],
-      [
-       "Bezel width (top)",
-       "5.88 mm"
-      ],
-      [
-       "Bezel width (bottom)",
-       "1.3 cm"
-      ]
-     ]
-    ],
-    [
-     "Other features",
-     [
       [
        "Compliance certificates",
        "RoHS"
@@ -7531,7 +7008,7 @@
    "category": "Bags & cases",
    "price": 745,
    "stock": "in",
-   "available": 53,
+   "available": 52,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.8,
@@ -8125,7 +7602,7 @@
    "category": "Bags & cases",
    "price": 515,
    "stock": "in",
-   "available": 313,
+   "available": 323,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.6,
@@ -8396,7 +7873,7 @@
    "category": "Cables, power & docks",
    "price": 614,
    "stock": "in",
-   "available": 24,
+   "available": 23,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.023,
@@ -9680,6 +9157,165 @@
       [
        "Compatibility",
        "Alienware M15, M17, Area-51, Aurora, Aurora Ryzen Edition"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "545-BBDS",
+   "name": "Alienware Wired Gaming Mouse - AW320M",
+   "brand": "Dell",
+   "category": "Keyboards & mice",
+   "price": 923,
+   "stock": "low",
+   "available": 1,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 0.08,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991059/545-BBDS_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991060/545-BBDS_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991060/545-BBDS_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991060/545-BBDS_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991059/545-BBDS_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991062/545-BBDS_5.jpg"
+   ],
+   "description": "Speed, comfort and firepower never lack on a slimmed-down, wired gaming mouse with 19,000 native DPI and tracking of up to 400 inches per second.",
+   "strap": "Ambidextrous, Optical, USB Type-A, 3200 DPI, Black",
+   "warranty": "2 Years",
+   "highlights": [
+    [
+     "Form factor",
+     "Ambidextrous"
+    ],
+    [
+     "Movement resolution",
+     "3200 DPI"
+    ],
+    [
+     "Buttons quantity",
+     "6"
+    ],
+    [
+     "Product colour",
+     "Black"
+    ],
+    [
+     "Weight",
+     "80 g"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mouse",
+     [
+      [
+       "Number of scroll wheels",
+       "1"
+      ],
+      [
+       "Purpose",
+       "Gaming"
+      ],
+      [
+       "Device interface",
+       "USB Type-A"
+      ],
+      [
+       "Movement detection technology",
+       "Optical"
+      ],
+      [
+       "Movement resolution",
+       "3200 DPI"
+      ],
+      [
+       "Scroll type",
+       "Wheel"
+      ],
+      [
+       "Buttons quantity",
+       "6"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Form factor",
+       "Ambidextrous"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "Power source",
+       "Cable"
+      ]
+     ]
+    ],
+    [
+     "System requirements",
+     [
+      [
+       "Windows operating systems supported",
+       "Windows 10, Windows 11, Windows 7, Windows 8, Windows 8.1"
+      ],
+      [
+       "Mobile operating systems supported",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 40 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "62.5 mm"
+      ],
+      [
+       "Depth",
+       "125 mm"
+      ],
+      [
+       "Height",
+       "38.5 mm"
+      ],
+      [
+       "Weight",
+       "80 g"
       ]
      ]
     ]
@@ -16153,7 +15789,7 @@
    "category": "Laptops & desktops",
    "price": 43994,
    "stock": "in",
-   "available": 17,
+   "available": 16,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.36,
@@ -22301,13 +21937,667 @@
    ]
   },
   {
+   "sku": "PV15250_RPLU_005_P8L",
+   "name": "Dell Pro 15 Essential PV15250|I5-1334U|16GB|512GB SSD|Intel Graphics|FgrPr|W11 Pro|WLAN + BT|15.6” FHD|Kb|3 Cell|65W ProSupport and Next Business Day Onsite Service 36 Months",
+   "brand": "Dell",
+   "category": "Laptops & desktops",
+   "price": 23894,
+   "stock": "in",
+   "available": 16,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 0.19,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990741/PV15250_RPLU_005_P8L_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990741/PV15250_RPLU_005_P8L_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990741/PV15250_RPLU_005_P8L_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990741/PV15250_RPLU_005_P8L_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990741/PV15250_RPLU_005_P8L_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990742/PV15250_RPLU_005_P8L_5.jpg"
+   ],
+   "description": "DELL Pro 15 Essential PV15250. Product type: Laptop, Form factor: Clamshell. Processor family: Intel® Core™ i5, Processor model: i5-1334U. Display diagonal: 39.6 cm (15.6\"), HD type: Full HD, Display resolution: 1920 x 1080 pixels. Internal memory: 16 GB, Internal memory type: DDR5-SDRAM. Total storage capacity: 512 GB, Storage media: SSD. On-board graphics card model: Intel® UHD Graphics. Operating system installed: Windows 11 Pro. Product colour: Black. Weight: 1.94 kg",
+   "strap": "Intel® Core™ i5, 39.6 cm (15.6\"), 1920 x 1080 pixels, 16 GB, 512 GB, Windows 11 Pro",
+   "warranty": "",
+   "highlights": [
+    [
+     "Display diagonal",
+     "39.6 cm (15.6\")"
+    ],
+    [
+     "Display resolution",
+     "1920 x 1080 pixels"
+    ],
+    [
+     "Maximum refresh rate",
+     "120 Hz"
+    ],
+    [
+     "Panel type",
+     "IPS WVA"
+    ],
+    [
+     "SSD capacity",
+     "512 GB"
+    ],
+    [
+     "Form factor",
+     "Clamshell"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Design",
+     [
+      [
+       "Colour name",
+       "Carbon Black"
+      ],
+      [
+       "Product type",
+       "Laptop"
+      ],
+      [
+       "Product colour",
+       "Black"
+      ],
+      [
+       "Form factor",
+       "Clamshell"
+      ],
+      [
+       "Housing material",
+       "Plastic"
+      ],
+      [
+       "Certified refurbished",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Display",
+     [
+      [
+       "Display diagonal",
+       "39.6 cm (15.6\")"
+      ],
+      [
+       "Display resolution",
+       "1920 x 1080 pixels"
+      ],
+      [
+       "Touchscreen",
+       "No"
+      ],
+      [
+       "HD type",
+       "Full HD"
+      ],
+      [
+       "Panel type",
+       "IPS WVA"
+      ],
+      [
+       "LED backlight",
+       "Yes"
+      ],
+      [
+       "Native aspect ratio",
+       "16:9"
+      ],
+      [
+       "Anti-glare screen",
+       "Yes"
+      ],
+      [
+       "Display brightness",
+       "250 cd/m²"
+      ],
+      [
+       "Pixel density",
+       "141 ppi"
+      ],
+      [
+       "RGB colour space",
+       "NTSC"
+      ],
+      [
+       "Colour gamut",
+       "45%"
+      ],
+      [
+       "Display response rise/fall",
+       "35 ms"
+      ],
+      [
+       "Maximum refresh rate",
+       "120 Hz"
+      ],
+      [
+       "Contrast ratio (typical)",
+       "600:1"
+      ]
+     ]
+    ],
+    [
+     "Processor",
+     [
+      [
+       "Processor manufacturer",
+       "Intel"
+      ],
+      [
+       "Processor family",
+       "Intel® Core™ i5"
+      ],
+      [
+       "Processor generation",
+       "13th gen Intel® Core™ i5"
+      ],
+      [
+       "Processor model",
+       "i5-1334U"
+      ],
+      [
+       "Processor cores",
+       "10"
+      ],
+      [
+       "Processor threads",
+       "12"
+      ],
+      [
+       "Processor boost frequency",
+       "4.6 GHz"
+      ],
+      [
+       "Performance cores",
+       "2"
+      ],
+      [
+       "Efficient cores",
+       "8"
+      ],
+      [
+       "Performance-core Max Turbo Frequency",
+       "4.6 GHz"
+      ],
+      [
+       "Efficient-core Max Turbo Frequency",
+       "3.4 GHz"
+      ],
+      [
+       "Processor cache",
+       "12 MB"
+      ],
+      [
+       "Processor cache type",
+       "Smart Cache"
+      ],
+      [
+       "Processor base power",
+       "15 W"
+      ],
+      [
+       "Maximum turbo power",
+       "55 W"
+      ]
+     ]
+    ],
+    [
+     "Neural processor unit (NPU)",
+     [
+      [
+       "Copilot+ PC",
+       "No"
+      ]
+     ]
+    ],
+    [
+     "Memory",
+     [
+      [
+       "Internal memory",
+       "16 GB"
+      ],
+      [
+       "Internal memory type",
+       "DDR5-SDRAM"
+      ],
+      [
+       "Memory form factor",
+       "SO-DIMM"
+      ],
+      [
+       "Memory layout (slots x size)",
+       "1 x 16 GB"
+      ],
+      [
+       "Maximum internal memory",
+       "16 GB"
+      ],
+      [
+       "Memory data transfer rate",
+       "4400 MT/s"
+      ]
+     ]
+    ],
+    [
+     "Storage",
+     [
+      [
+       "Total storage capacity",
+       "512 GB"
+      ],
+      [
+       "Storage media",
+       "SSD"
+      ],
+      [
+       "Total SSDs capacity",
+       "512 GB"
+      ],
+      [
+       "Number of SSDs installed",
+       "1"
+      ],
+      [
+       "SSD capacity",
+       "512 GB"
+      ],
+      [
+       "SSD interface",
+       "PCI Express 4.0"
+      ],
+      [
+       "NVMe",
+       "Yes"
+      ],
+      [
+       "SSD form factor",
+       "M.2"
+      ],
+      [
+       "M.2 SSD size",
+       "2230 (22 x 30 mm)"
+      ],
+      [
+       "Optical drive type",
+       "No"
+      ],
+      [
+       "Card reader integrated",
+       "Yes"
+      ],
+      [
+       "Compatible memory cards",
+       "SD, SDHC, SDXC"
+      ]
+     ]
+    ],
+    [
+     "Graphics",
+     [
+      [
+       "Discrete graphics card model",
+       "Not available"
+      ],
+      [
+       "On-board graphics card",
+       "Yes"
+      ],
+      [
+       "On-board GPU manufacturer",
+       "Intel"
+      ],
+      [
+       "Discrete graphics card",
+       "No"
+      ],
+      [
+       "On-board graphics card model",
+       "Intel® UHD Graphics"
+      ]
+     ]
+    ],
+    [
+     "Audio",
+     [
+      [
+       "Audio system",
+       "High Definition Audio"
+      ],
+      [
+       "Number of built-in speakers",
+       "2"
+      ],
+      [
+       "Speaker power",
+       "2.5 W"
+      ],
+      [
+       "Built-in microphone",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Camera",
+     [
+      [
+       "Front camera",
+       "Yes"
+      ],
+      [
+       "Front camera resolution (numeric)",
+       "2 MP"
+      ],
+      [
+       "Front camera resolution",
+       "1920 x 1080 pixels"
+      ],
+      [
+       "Front camera HD type",
+       "Full HD"
+      ],
+      [
+       "Video capturing speed",
+       "30 fps"
+      ]
+     ]
+    ],
+    [
+     "Network",
+     [
+      [
+       "Top Wi-Fi standard",
+       "Wi-Fi 6 (802.11ax)"
+      ],
+      [
+       "Wi-Fi standards",
+       "802.11a, Wi-Fi 5 (802.11ac), 802.11b, Wi-Fi 6 (802.11ax), 802.11g, Wi-Fi 4 (802.11n)"
+      ],
+      [
+       "Mobile network connection",
+       "No"
+      ],
+      [
+       "Wi-Fi band",
+       "Dual-band (2.4 GHz / 5 GHz)"
+      ],
+      [
+       "Antenna type",
+       "2x2"
+      ],
+      [
+       "WLAN controller model",
+       "Realtek RTL8852BE"
+      ],
+      [
+       "WLAN controller manufacturer",
+       "Realtek"
+      ],
+      [
+       "Bluetooth",
+       "Yes"
+      ],
+      [
+       "MIMO",
+       "Yes"
+      ],
+      [
+       "MIMO type",
+       "Multi User MIMO"
+      ]
+     ]
+    ],
+    [
+     "Ports & interfaces",
+     [
+      [
+       "USB 2.0 ports quantity",
+       "1"
+      ],
+      [
+       "USB 3.2 Gen 1 (3.1 Gen 1) Type-A ports quantity",
+       "1"
+      ],
+      [
+       "USB 3.2 Gen 1 (3.1 Gen 1) Type-C ports quantity",
+       "1"
+      ],
+      [
+       "HDMI ports quantity",
+       "1"
+      ],
+      [
+       "HDMI version",
+       "1.4"
+      ],
+      [
+       "Combo headphone/mic port",
+       "Yes"
+      ],
+      [
+       "Power adapter barrel connector",
+       "4.5 mm"
+      ],
+      [
+       "USB Type-C DisplayPort Alternate Mode",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Keyboard",
+     [
+      [
+       "Pointing device",
+       "Touchpad"
+      ],
+      [
+       "Numeric keypad",
+       "Yes"
+      ],
+      [
+       "Keyboard backlit",
+       "Yes"
+      ],
+      [
+       "Keyboard language",
+       "English"
+      ],
+      [
+       "Keyboard colour name",
+       "Apollo Black"
+      ]
+     ]
+    ],
+    [
+     "Software",
+     [
+      [
+       "Operating system architecture",
+       "64-bit"
+      ],
+      [
+       "Trial software",
+       "McAfee Business Protection 1-year,Activate Your Microsoft 365 For A 30 Day Trial"
+      ],
+      [
+       "Operating system installed",
+       "Windows 11 Pro"
+      ],
+      [
+       "Bundled software",
+       "Windows System Driver"
+      ]
+     ]
+    ],
+    [
+     "Brand-specific features",
+     [
+      [
+       "Brand specific technologies",
+       "Express Charge Boost capable"
+      ]
+     ]
+    ],
+    [
+     "Battery",
+     [
+      [
+       "Battery technology",
+       "Lithium Polymer (LiPo)"
+      ],
+      [
+       "Number of battery cells",
+       "3"
+      ],
+      [
+       "Battery capacity",
+       "41 Wh"
+      ],
+      [
+       "Battery voltage",
+       "11.25 V"
+      ],
+      [
+       "Battery recharge time",
+       "4 h"
+      ],
+      [
+       "Fast charging",
+       "Yes"
+      ],
+      [
+       "Battery charge indicator",
+       "Yes"
+      ],
+      [
+       "Battery weight",
+       "190 g"
+      ]
+     ]
+    ],
+    [
+     "Power",
+     [
+      [
+       "AC adapter power",
+       "65 W"
+      ],
+      [
+       "DC-in jack",
+       "Yes"
+      ],
+      [
+       "USB Type-C charging port",
+       "Yes"
+      ],
+      [
+       "USB Power Delivery (USB PD)",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Security",
+     [
+      [
+       "Trusted Platform Module (TPM)",
+       "Yes"
+      ],
+      [
+       "Trusted Platform Module (TPM) version",
+       "2.0"
+      ]
+     ]
+    ],
+    [
+     "Operational conditions",
+     [
+      [
+       "Operating temperature (T-T)",
+       "0 - 35 °C"
+      ],
+      [
+       "Storage temperature (T-T)",
+       "-40 - 65 °C"
+      ],
+      [
+       "Operating relative humidity (H-H)",
+       "10 - 90%"
+      ],
+      [
+       "Storage relative humidity (H-H)",
+       "0 - 95%"
+      ],
+      [
+       "Operating altitude",
+       "0 - 3048 m"
+      ],
+      [
+       "Non-operating altitude",
+       "0 - 10668 m"
+      ],
+      [
+       "Operating shock",
+       "110 G"
+      ],
+      [
+       "Non-operating shock",
+       "160 G"
+      ],
+      [
+       "Operating vibration",
+       "0.66 G"
+      ],
+      [
+       "Non-operating vibration",
+       "1.3 G"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "358.5 mm"
+      ],
+      [
+       "Depth",
+       "234.9 mm"
+      ],
+      [
+       "Height (front)",
+       "1.55 cm"
+      ],
+      [
+       "Height (rear)",
+       "1.75 cm"
+      ],
+      [
+       "Weight",
+       "1.94 kg"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
    "sku": "PV15250_RPLU_008_P8L",
    "name": "Dell Pro 15 Essential PV15250|i7-1355U|16GB|1TB SSD|Intel Graphics|FgrPr|W11 Pro|WLAN + BT|15.6” FHD|Kb|4 Cell|65W ProSupport and Next Business Day Onsite Service 36 Months",
    "brand": "Dell",
    "category": "Laptops & desktops",
    "price": 28794,
    "stock": "in",
-   "available": 127,
+   "available": 133,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.24,
