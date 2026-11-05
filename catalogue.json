@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-04T15:05:03+00:00",
- "pricedAt": "2026-11-04T15:05:03+00:00",
- "priceValidUntil": "2026-11-04T17:05:03+00:00",
+ "generatedAt": "2026-11-05T06:35:04+00:00",
+ "pricedAt": "2026-11-05T06:35:04+00:00",
+ "priceValidUntil": "2026-11-05T08:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 88,
+ "count": 86,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -7423,7 +7423,7 @@
    "category": "Bags & cases",
    "price": 665,
    "stock": "in",
-   "available": 55,
+   "available": 54,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.5,
@@ -8843,114 +8843,6 @@
    ]
   },
   {
-   "sku": "520-BBGN",
-   "name": "Dell Pro Plus Wireless Headset Charging Stand - HC524",
-   "brand": "Dell",
-   "category": "Accessories",
-   "price": 1094,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.205,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991053/520-BBGN_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991054/520-BBGN_1.jpg"
-   ],
-   "description": "Wirelessly charge your Dell Pro Wireless ANC Headset - WL5024 with the charging stand that supports convenient rapid charging.",
-   "strap": "Indoor, USB, 1.2 m, Black",
-   "warranty": "1 Year",
-   "highlights": [
-    [
-     "Cable length",
-     "1.2 m"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "205 g"
-    ],
-    [
-     "Charger compatibility",
-     "Headset"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Performance",
-     [
-      [
-       "Charger compatibility",
-       "Headset"
-      ],
-      [
-       "Power source type",
-       "USB"
-      ],
-      [
-       "Charger type",
-       "Indoor"
-      ],
-      [
-       "Number of simultaneously connected devices (max)",
-       "1"
-      ],
-      [
-       "Brand compatibility",
-       "Dell"
-      ],
-      [
-       "Compatibility",
-       "WL5024"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "Cable length",
-       "1.2 m"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "91.7 mm"
-      ],
-      [
-       "Depth",
-       "90.3 mm"
-      ],
-      [
-       "Height",
-       "111 mm"
-      ],
-      [
-       "Weight",
-       "205 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
    "sku": "545-BBCL",
    "name": "Alienware 510K Low-profile RGB Mechanical Gaming Keyboard - AW510K (Dark Side of the Moon)",
    "brand": "Dell",
@@ -10343,7 +10235,7 @@
    "category": "Keyboards & mice",
    "price": 1045,
    "stock": "in",
-   "available": 29,
+   "available": 24,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.057,
@@ -11946,7 +11838,7 @@
    "category": "Keyboards & mice",
    "price": 494,
    "stock": "in",
-   "available": 254,
+   "available": 253,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.5,
@@ -19388,40 +19280,13 @@
    ]
   },
   {
-   "sku": "CF8Q5EA",
-   "name": "HP EliteBook 8 G1i 14 inch Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 14WUXGAAGLED300UWVAf5MPIRISP+LP60HzbLCD Windows 11 Pro Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
-   "brand": "HP",
-   "category": "Laptops & desktops",
-   "price": 42494,
-   "stock": "in",
-   "available": 41,
-   "freeDelivery": true,
-   "digital": false,
-   "shipKg": 1.39,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014713/CF8Q5EA_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014716/CF8Q5EA_1.webp",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014718/CF8Q5EA_2.webp",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014719/CF8Q5EA_3.webp"
-   ],
-   "description": "HP EliteBook 8 G1i 14 inch Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 14WUXGAAGLED300UWVAf5MPIRISP+LP60HzbLCD Windows 11 Pro 64 Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
-   "strap": "",
-   "warranty": "3-year manufacturer warranty",
-   "highlights": [],
-   "specs": [],
-   "specGroups": []
-  },
-  {
    "sku": "CK8G4EA",
    "name": "HP EliteBook 6 G1i 16 inch LTE Notebook AI Ultra 7 255U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 16.0WUXGAAG300UWVAf5MPIR60HzbntLCD Windows 11 Pro Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
    "brand": "HP",
    "category": "Laptops & desktops",
    "price": 46594,
    "stock": "in",
-   "available": 95,
+   "available": 94,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.75,
