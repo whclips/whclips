@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-06T10:05:04+00:00",
- "pricedAt": "2026-11-06T10:05:04+00:00",
- "priceValidUntil": "2026-11-06T12:05:04+00:00",
+ "generatedAt": "2026-11-06T10:35:03+00:00",
+ "pricedAt": "2026-11-06T10:35:03+00:00",
+ "priceValidUntil": "2026-11-06T12:35:03+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 86,
+ "count": 85,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -7282,7 +7282,7 @@
    "category": "Bags & cases",
    "price": 1194,
    "stock": "in",
-   "available": 41,
+   "available": 40,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.92,
@@ -9807,7 +9807,7 @@
    "category": "Keyboards & mice",
    "price": 835,
    "stock": "in",
-   "available": 88,
+   "available": 82,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.084,
@@ -12553,7 +12553,7 @@
    "category": "Keyboards & mice",
    "price": 905,
    "stock": "in",
-   "available": 79,
+   "available": 78,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
@@ -14479,566 +14479,13 @@
    ]
   },
   {
-   "sku": "BTO106_QCM1250_EMEA",
-   "name": "Dell Pro Micro QCM1250|U5 235T|16GB|512GB SSD|W11 Pro|WLAN + BT|Kb|90W|TPM ProSupport and Next Business Day Onsite Service 36 Months",
-   "brand": "Dell",
-   "category": "Laptops & desktops",
-   "price": 28894,
-   "stock": "in",
-   "available": 18,
-   "freeDelivery": true,
-   "digital": false,
-   "shipKg": 1.16,
-   "badges": [
-    "On promotion"
-   ],
-   "attributes": [
-    "DeskPro"
-   ],
-   "promo": true,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990723/BTO106_QCM1250_EMEA_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990726/BTO106_QCM1250_EMEA_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990725/BTO106_QCM1250_EMEA_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990724/BTO106_QCM1250_EMEA_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990722/BTO106_QCM1250_EMEA_4.jpg"
-   ],
-   "description": "DELL Pro QCM1250. Processor family: Intel Core Ultra 5, Processor model: 235T. Internal memory: 16 GB, Internal memory type: DDR5-SDRAM. Total storage capacity: 512 GB, Storage media: SSD. On-board graphics card model: Intel® Graphics. Wi-Fi. Operating system installed: Windows 11 Pro, Operating system architecture: 64-bit. Power supply: 90 W. Chassis type: Micro PC. Product type: Mini PC. Weight: 1.16 kg. Product colour: Black",
-   "strap": "Intel Core Ultra 5, 235T, 16 GB, 512 GB, Windows 11 Pro, 64-bit",
-   "warranty": "",
-   "highlights": [
-    [
-     "SSD capacity",
-     "512 GB"
-    ],
-    [
-     "SSD form factor",
-     "M.2"
-    ],
-    [
-     "SSD interface",
-     "PCI Express 4.0"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "1.16 kg"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Processor",
-     [
-      [
-       "Processor manufacturer",
-       "Intel"
-      ],
-      [
-       "Processor family",
-       "Intel Core Ultra 5"
-      ],
-      [
-       "Processor generation",
-       "Intel Core Ultra (Series 2)"
-      ],
-      [
-       "Processor model",
-       "235T"
-      ],
-      [
-       "Processor cores",
-       "14"
-      ],
-      [
-       "Processor threads",
-       "14"
-      ],
-      [
-       "Processor boost frequency",
-       "5 GHz"
-      ],
-      [
-       "Performance cores",
-       "6"
-      ],
-      [
-       "Efficient cores",
-       "8"
-      ],
-      [
-       "Performance-core Max Turbo Frequency",
-       "5 GHz"
-      ],
-      [
-       "Efficient-core Max Turbo Frequency",
-       "4.4 GHz"
-      ],
-      [
-       "Performance-core base frequency",
-       "2.2 GHz"
-      ],
-      [
-       "Efficient-core base frequency",
-       "1.6 GHz"
-      ],
-      [
-       "Processor cache",
-       "24 MB"
-      ],
-      [
-       "Processor cache type",
-       "Smart Cache"
-      ],
-      [
-       "Number of processors installed",
-       "1"
-      ],
-      [
-       "Processor base power",
-       "35 W"
-      ],
-      [
-       "Maximum turbo power",
-       "114 W"
-      ]
-     ]
-    ],
-    [
-     "Neural processor unit (NPU)",
-     [
-      [
-       "Neural processor unit (NPU)",
-       "Intel AI Boost"
-      ],
-      [
-       "Sparsity support",
-       "Yes"
-      ],
-      [
-       "Windows Studio effects support",
-       "Yes"
-      ],
-      [
-       "AI software frameworks supported by NPU",
-       "DirectML, OpenVINO, Windows ML, ONNX RT, WebNN"
-      ],
-      [
-       "Total processor performance up to",
-       "27 TOPs"
-      ],
-      [
-       "NPU performance up to",
-       "13 TOPs"
-      ],
-      [
-       "GPU performance up to",
-       "6 TOPs"
-      ]
-     ]
-    ],
-    [
-     "Memory",
-     [
-      [
-       "Internal memory",
-       "16 GB"
-      ],
-      [
-       "Maximum internal memory",
-       "64 GB"
-      ],
-      [
-       "Internal memory type",
-       "DDR5-SDRAM"
-      ],
-      [
-       "Memory layout (slots x size)",
-       "1 x 16 GB"
-      ],
-      [
-       "Memory slots",
-       "2x SO-DIMM"
-      ],
-      [
-       "Non-ECC",
-       "Yes"
-      ],
-      [
-       "Memory channels",
-       "Single-channel"
-      ],
-      [
-       "Memory data transfer rate",
-       "5600 MT/s"
-      ]
-     ]
-    ],
-    [
-     "Storage",
-     [
-      [
-       "Total storage capacity",
-       "512 GB"
-      ],
-      [
-       "Storage media",
-       "SSD"
-      ],
-      [
-       "Optical drive type",
-       "No"
-      ],
-      [
-       "Number of storage drives installed",
-       "1"
-      ],
-      [
-       "Total SSDs capacity",
-       "512 GB"
-      ],
-      [
-       "Number of SSDs installed",
-       "1"
-      ],
-      [
-       "SSD capacity",
-       "512 GB"
-      ],
-      [
-       "SSD interface",
-       "PCI Express 4.0"
-      ],
-      [
-       "NVMe",
-       "Yes"
-      ],
-      [
-       "SSD form factor",
-       "M.2"
-      ]
-     ]
-    ],
-    [
-     "Graphics",
-     [
-      [
-       "Discrete graphics card",
-       "No"
-      ],
-      [
-       "On-board graphics card",
-       "Yes"
-      ],
-      [
-       "Discrete graphics card model",
-       "Not available"
-      ],
-      [
-       "On-board GPU manufacturer",
-       "Intel"
-      ],
-      [
-       "On-board graphics card family",
-       "Intel® Graphics"
-      ],
-      [
-       "On-board graphics card model",
-       "Intel® Graphics"
-      ]
-     ]
-    ],
-    [
-     "Performance",
-     [
-      [
-       "Market positioning",
-       "Business"
-      ],
-      [
-       "Motherboard chipset",
-       "Intel® Q870"
-      ],
-      [
-       "Trusted Platform Module (TPM)",
-       "Yes"
-      ],
-      [
-       "Product type",
-       "Mini PC"
-      ],
-      [
-       "Trusted Platform Module (TPM) version",
-       "2.0"
-      ]
-     ]
-    ],
-    [
-     "Network",
-     [
-      [
-       "Ethernet LAN",
-       "Yes"
-      ],
-      [
-       "Ethernet LAN data rates",
-       "10,100,1000 Mbit/s"
-      ],
-      [
-       "Cabling technology",
-       "10/100/1000Base-T(X)"
-      ],
-      [
-       "LAN controller",
-       "Intel WGI219LM"
-      ],
-      [
-       "Wi-Fi",
-       "Yes"
-      ],
-      [
-       "Top Wi-Fi standard",
-       "Wi-Fi 6E (802.11ax)"
-      ],
-      [
-       "Wi-Fi standards",
-       "802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac), Wi-Fi 6E (802.11ax)"
-      ],
-      [
-       "WLAN controller manufacturer",
-       "Intel"
-      ],
-      [
-       "WLAN controller model",
-       "Intel Wi-Fi 6E AX211"
-      ],
-      [
-       "Antenna type",
-       "2x2"
-      ],
-      [
-       "Bluetooth",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Ports & interfaces",
-     [
-      [
-       "USB 2.0 ports quantity",
-       "2"
-      ],
-      [
-       "USB 3.2 Gen 1 (3.1 Gen 1) Type-A ports quantity",
-       "3"
-      ],
-      [
-       "USB 3.2 Gen 2 (3.1 Gen 2) Type-C ports quantity",
-       "1"
-      ],
-      [
-       "DisplayPorts quantity",
-       "1"
-      ],
-      [
-       "DisplayPort version",
-       "1.4a"
-      ],
-      [
-       "HDMI ports quantity",
-       "1"
-      ],
-      [
-       "HDMI version",
-       "2.1"
-      ],
-      [
-       "Ethernet LAN (RJ-45) ports",
-       "1"
-      ],
-      [
-       "Combo headphone/mic port",
-       "Yes"
-      ],
-      [
-       "DC-in jack",
-       "Yes"
-      ],
-      [
-       "Number of rear USB ports",
-       "4"
-      ],
-      [
-       "Number of front USB ports",
-       "2"
-      ],
-      [
-       "Number of front audio ports",
-       "1"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Power supply",
-       "90 W"
-      ],
-      [
-       "Power supply input voltage",
-       "100 - 240 V"
-      ],
-      [
-       "Power supply input frequency",
-       "50 / 60 Hz"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Chassis type",
-       "Micro PC"
-      ],
-      [
-       "Placement supported",
-       "Horizontal/Vertical"
-      ],
-      [
-       "Cable lock slot",
-       "Yes"
-      ],
-      [
-       "Cable lock slot type",
-       "Kensington"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ]
-     ]
-    ],
-    [
-     "Software",
-     [
-      [
-       "Operating system architecture",
-       "64-bit"
-      ],
-      [
-       "Operating system installed",
-       "Windows 11 Pro"
-      ],
-      [
-       "Trial software",
-       "McAfee Business Protection 1-year,No Microsoft Office License included (Fed and Premier, Exception Only)"
-      ]
-     ]
-    ],
-    [
-     "Display",
-     [
-      [
-       "Display included",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "Audio",
-     [
-      [
-       "Audio chip",
-       "Realtek ALC3204"
-      ],
-      [
-       "Audio system",
-       "High Definition Audio"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "10 - 35 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-40 - 65 °C"
-      ],
-      [
-       "Operating relative humidity (H-H)",
-       "20 - 80%"
-      ],
-      [
-       "Storage relative humidity (H-H)",
-       "5 - 95%"
-      ],
-      [
-       "Operating altitude",
-       "-15.2 - 3048 m"
-      ],
-      [
-       "Non-operating altitude",
-       "-15.2 - 10668 m"
-      ],
-      [
-       "Operating vibration",
-       "0.26 G"
-      ],
-      [
-       "Non-operating vibration",
-       "1.37 G"
-      ],
-      [
-       "Operating shock",
-       "40 G"
-      ],
-      [
-       "Non-operating shock",
-       "105 G"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "36 mm"
-      ],
-      [
-       "Depth",
-       "178 mm"
-      ],
-      [
-       "Height",
-       "182 mm"
-      ],
-      [
-       "Weight",
-       "1.16 kg"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
    "sku": "BTO109_PC14250_EMEA",
    "name": "Dell Pro 14|U7-265U|16GB|512GB SSD|FgrPr|W11 Pro|IR Cam & Mic|WLAN + BT|14.0” FHD+|Backlit Kb|3 Cell ProSupport and Next Business Day Onsite Service 36 Months",
    "brand": "Dell",
    "category": "Laptops & desktops",
    "price": 43994,
    "stock": "in",
-   "available": 14,
+   "available": 15,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.36,
@@ -19313,7 +18760,7 @@
    "category": "Laptops & desktops",
    "price": 46594,
    "stock": "in",
-   "available": 94,
+   "available": 92,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.75,
@@ -21846,7 +21293,7 @@
    "category": "Accessories",
    "price": 7934,
    "stock": "in",
-   "available": 24,
+   "available": 23,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.006,
