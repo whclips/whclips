@@ -1,3 +1,12 @@
+// Cookie consent (consent.js sits beside this file): loads Statistics only after the visitor allows it
+(function () {
+  var cs = document.currentScript;
+  if (!cs || !cs.src) return;
+  var s = document.createElement('script');
+  s.src = cs.src.replace(/nav\.js(\?.*)?$/, 'consent.js$1');
+  document.head.appendChild(s);
+})();
+
 // Mobile menu toggle — shared across all pages
 document.addEventListener('DOMContentLoaded', function () {
   const menuBtn = document.getElementById('menuBtn');
