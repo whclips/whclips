@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-09T08:05:04+00:00",
- "pricedAt": "2026-11-09T08:05:04+00:00",
- "priceValidUntil": "2026-11-09T10:05:04+00:00",
+ "generatedAt": "2026-11-09T08:35:04+00:00",
+ "pricedAt": "2026-11-09T08:35:04+00:00",
+ "priceValidUntil": "2026-11-09T10:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 84,
+ "count": 85,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -2195,7 +2195,7 @@
    "category": "Monitors & stands",
    "price": 12994,
    "stock": "low",
-   "available": 2,
+   "available": 1,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 9.16,
@@ -8208,7 +8208,7 @@
    "category": "Cables, power & docks",
    "price": 735,
    "stock": "in",
-   "available": 63,
+   "available": 66,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.047,
@@ -8549,6 +8549,164 @@
       [
        "Weight",
        "4.06 kg"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "482-BBFP",
+   "name": "Dell Pro Slim All In One - OSS25",
+   "brand": "Dell",
+   "category": "Monitors & stands",
+   "price": 2994,
+   "stock": "low",
+   "available": 3,
+   "freeDelivery": false,
+   "digital": false,
+   "shipKg": 5.8,
+   "badges": [
+    "Bargain"
+   ],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/482-BBFP_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990703/482-BBFP_1.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/482-BBFP_2.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/482-BBFP_3.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990705/482-BBFP_4.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/482-BBFP_5.jpg"
+   ],
+   "description": "All-in-One monitor stand to secure a Slim desktop (Pro/Pro Plus/Pro Max) to a VESA-compatible monitor. Designed for a seamless setup and an optimised, clutter-free workspace.",
+   "strap": "5.8 kg, 48.3 cm (19\"), 68.6 cm (27\"), 100 x 100 mm, Height adjustment, Black, Silver",
+   "warranty": "3 Years",
+   "highlights": [
+    [
+     "Product colour",
+     "Black, Silver"
+    ],
+    [
+     "Weight",
+     "5.4 kg"
+    ],
+    [
+     "Maximum weight capacity",
+     "5.8 kg"
+    ],
+    [
+     "Minimum screen size",
+     "48.3 cm (19\")"
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Mounting",
+     [
+      [
+       "Maximum weight capacity",
+       "5.8 kg"
+      ],
+      [
+       "Minimum screen size",
+       "48.3 cm (19\")"
+      ],
+      [
+       "Number of displays supported",
+       "1"
+      ],
+      [
+       "Maximum screen size",
+       "68.6 cm (27\")"
+      ],
+      [
+       "Mounting type",
+       "Desk"
+      ],
+      [
+       "Minimum VESA mount",
+       "100 x 100 mm"
+      ],
+      [
+       "Maximum VESA mount",
+       "100 x 100 mm"
+      ]
+     ]
+    ],
+    [
+     "Ergonomics",
+     [
+      [
+       "Height adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt adjustment",
+       "Yes"
+      ],
+      [
+       "Tilt angle range",
+       "-5 - 21°"
+      ],
+      [
+       "Swivelling",
+       "Yes"
+      ],
+      [
+       "Pivot angle",
+       "-90 - 90°"
+      ],
+      [
+       "Cable management",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Design",
+     [
+      [
+       "Product colour",
+       "Black, Silver"
+      ],
+      [
+       "Orientation",
+       "Portrait"
+      ],
+      [
+       "Accepts padlock",
+       "Yes"
+      ]
+     ]
+    ],
+    [
+     "Weight & dimensions",
+     [
+      [
+       "Width",
+       "252 mm"
+      ],
+      [
+       "Depth",
+       "280 mm"
+      ],
+      [
+       "Height",
+       "434 mm"
+      ],
+      [
+       "Weight",
+       "5.4 kg"
+      ]
+     ]
+    ],
+    [
+     "Other features",
+     [
+      [
+       "Compatibility",
+       "Dell Pro Slim QCS1250 Dell Pro Slim Plus QBS1250 Dell Pro Max Slim FCS1250 (up to 65W only) Dell Pro Slim QCS1255"
       ]
      ]
     ]
@@ -9062,7 +9220,7 @@
    "category": "Keyboards & mice",
    "price": 1912,
    "stock": "in",
-   "available": 7,
+   "available": 6,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.787,
@@ -9649,7 +9807,7 @@
    "category": "Keyboards & mice",
    "price": 835,
    "stock": "in",
-   "available": 82,
+   "available": 83,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.084,
@@ -10743,7 +10901,7 @@
    "category": "Keyboards & mice",
    "price": 1094,
    "stock": "in",
-   "available": 8,
+   "available": 7,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.057,
@@ -11151,7 +11309,7 @@
    "category": "Keyboards & mice",
    "price": 340,
    "stock": "in",
-   "available": 84,
+   "available": 83,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.082,
@@ -12395,7 +12553,7 @@
    "category": "Keyboards & mice",
    "price": 905,
    "stock": "in",
-   "available": 78,
+   "available": 88,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
@@ -21135,7 +21293,7 @@
    "category": "Accessories",
    "price": 7934,
    "stock": "in",
-   "available": 24,
+   "available": 23,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.006,
