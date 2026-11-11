@@ -56,8 +56,20 @@
     return fetch(W + path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
       .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, status: r.status, j: j }; }); });
   }
+  // Every page gets a brand-new frame with its content set before it joins the page (11 Nov 2026). Reusing one frame showed a
+  // blank white page on the first visit in Chrome until F5: the browser could keep or restore the old frame instead of drawing the
+  // new content. The frame also reports in when it has loaded; if it has not after 2.5 s, it is rebuilt once.
+  var shown = 0, ready = 0;
+  function frame(html, retry) {
+    var f = document.createElement('iframe');
+    f.id = 'view'; f.title = 'Members area'; f.setAttribute('sandbox', 'allow-scripts');
+    if (html === null) f.hidden = true; else f.srcdoc = html;
+    $('view').replaceWith(f);
+    var n = ++shown; ready = 0;
+    if (html !== null && !retry) setTimeout(function () { if (n === shown && !ready) frame(html, true); }, 2500);
+  }
   function showLogin(note, err) {
-    $('view').hidden = true; $('view').srcdoc = ''; $('login').hidden = false; document.title = 'Members | White Horse Clips';
+    frame(null); $('login').hidden = false; document.title = 'Members | White Horse Clips';
     if (note) say(note, err);
   }
   function page() { return (location.hash || '#home').slice(1) || 'home'; }
@@ -76,17 +88,20 @@
       if (!r.ok) { history.replaceState(null, '', location.pathname + '#home'); load(); return; }
       var t = /<title>([^<]*)<\/title>/i.exec(r.j.html);
       document.title = t ? t[1] : 'Members | White Horse Clips';
-      $('login').hidden = true; $('view').hidden = false; $('view').srcdoc = r.j.html.replace(/<\/body>/i, LINKS + '</body>');
+      $('login').hidden = true; frame(r.j.html.replace(/<\/body>/i, LINKS + '</body>'));
     }).catch(function () { showLogin('Could not reach the server. Try again.', true); });
   }
   // Links inside the frame (#home, #logout, #<page>) are passed up as a message; this page then changes its own address.
   // The frame can only ask for a page name; anything else is ignored.
-  var LINKS = '<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href^=\'#\']");if(!a)return;e.preventDefault();parent.postMessage({whcGo:a.getAttribute("href").slice(1)},"*");});<\/script>';
+  var LINKS = '<script>parent.postMessage({whcReady:1},"*");document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href^=\'#\']");if(!a)return;e.preventDefault();parent.postMessage({whcGo:a.getAttribute("href").slice(1)},"*");});<\/script>';
   window.addEventListener('message', function (e) {
-    if (e.source !== $('view').contentWindow || !e.data || typeof e.data.whcGo !== 'string' || !/^[a-z-]{1,40}$/.test(e.data.whcGo)) return;
+    if (e.source !== $('view').contentWindow || !e.data) return;
+    if (e.data.whcReady === 1) { ready = 1; return; }
+    if (typeof e.data.whcGo !== 'string' || !/^[a-z-]{1,40}$/.test(e.data.whcGo)) return;
     if (location.hash === '#' + e.data.whcGo) load(); else location.hash = e.data.whcGo;
   });
   window.addEventListener('hashchange', load);
+  window.addEventListener('pageshow', function (e) { if (e.persisted) load(); });   // back to this page from the browser's memory: redraw
   $('f1').addEventListener('submit', function (e) {
     e.preventDefault(); $('b1').disabled = true; say('Sending…');
     post('/api/members/request', { email: $('email').value }).then(function (r) {
