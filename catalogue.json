@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-11T12:05:04+00:00",
- "pricedAt": "2026-11-11T12:05:04+00:00",
- "priceValidUntil": "2026-11-11T14:05:04+00:00",
+ "generatedAt": "2026-11-11T12:35:04+00:00",
+ "pricedAt": "2026-11-11T12:35:04+00:00",
+ "priceValidUntil": "2026-11-11T14:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 81,
+ "count": 80,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -2195,7 +2195,7 @@
    "category": "Monitors & stands",
    "price": 2794,
    "stock": "in",
-   "available": 292,
+   "available": 291,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 4.6,
@@ -11352,275 +11352,13 @@
    ]
   },
   {
-   "sku": "580-BBDH",
-   "name": "Dell Pro Premium Collaboration Keyboard - KB900 - US International (QWERTY)",
-   "brand": "Dell",
-   "category": "Keyboards & mice",
-   "price": 2614,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.73,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991083/580-BBDH_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991082/580-BBDH_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991083/580-BBDH_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-BBDH_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991089/580-BBDH_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791991081/580-BBDH_5.jpg"
-   ],
-   "description": "This is the World's first Zoom-certified rechargeable keyboard, built to transform collaboration, enhance productivity and provide all-day comfort.",
-   "strap": "Full-size (100%), Wireless, RF Wireless + Bluetooth, Scissor key switch, QWERTY, Graphite",
-   "warranty": "3 Years NBD Advance Exchange",
-   "highlights": [
-    [
-     "Connectivity technology",
-     "Wireless"
-    ],
-    [
-     "Keyboard layout",
-     "QWERTY"
-    ],
-    [
-     "Product colour",
-     "Graphite"
-    ],
-    [
-     "Recommended usage",
-     "Office"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Keyboard",
-     [
-      [
-       "Recommended usage",
-       "Office"
-      ],
-      [
-       "Connectivity technology",
-       "Wireless"
-      ],
-      [
-       "Device interface",
-       "RF Wireless + Bluetooth"
-      ],
-      [
-       "Keyboard key switch",
-       "Scissor key switch"
-      ],
-      [
-       "Keyboard layout",
-       "QWERTY"
-      ],
-      [
-       "Keyboard language",
-       "US International"
-      ],
-      [
-       "Pointing device",
-       "No"
-      ],
-      [
-       "Keyboard form factor",
-       "Full-size (100%)"
-      ],
-      [
-       "Numeric keypad",
-       "Yes"
-      ],
-      [
-       "Multi-device support",
-       "Yes"
-      ],
-      [
-       "Windows keys",
-       "Yes"
-      ],
-      [
-       "Hot keys",
-       "Yes"
-      ],
-      [
-       "Number of hot keys",
-       "15"
-      ],
-      [
-       "Frequency band",
-       "2.4 GHz"
-      ],
-      [
-       "Bluetooth version",
-       "5.1"
-      ],
-      [
-       "Security algorithms",
-       "128-bit AES"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Backlight",
-       "Yes"
-      ],
-      [
-       "Wrist rest",
-       "No"
-      ],
-      [
-       "Adjustable keyboard height",
-       "Yes"
-      ],
-      [
-       "Product colour",
-       "Graphite"
-      ],
-      [
-       "Surface coloration",
-       "Monochromatic"
-      ],
-      [
-       "LED indicators",
-       "Keyboard low battery"
-      ]
-     ]
-    ],
-    [
-     "Features",
-     [
-      [
-       "Wireless range",
-       "10 m"
-      ]
-     ]
-    ],
-    [
-     "Power",
-     [
-      [
-       "Power source type",
-       "Battery"
-      ],
-      [
-       "Keyboard battery type",
-       "Built-in battery"
-      ],
-      [
-       "Service life of battery",
-       "20 month(s)"
-      ],
-      [
-       "Charging source",
-       "USB Type-C"
-      ],
-      [
-       "USB Type-C charging port",
-       "Yes"
-      ],
-      [
-       "USB Type-C required charging power (min)",
-       "3.25 W"
-      ],
-      [
-       "USB Type-C required charging power (max)",
-       "15 W"
-      ]
-     ]
-    ],
-    [
-     "Battery",
-     [
-      [
-       "Battery technology",
-       "Lithium-Ion (Li-Ion)"
-      ],
-      [
-       "Battery capacity",
-       "3000 mAh"
-      ]
-     ]
-    ],
-    [
-     "Mouse",
-     [
-      [
-       "Mouse included",
-       "No"
-      ]
-     ]
-    ],
-    [
-     "System requirements",
-     [
-      [
-       "Windows operating systems supported",
-       "Yes"
-      ],
-      [
-       "Mac operating systems supported",
-       "Yes"
-      ],
-      [
-       "Linux operating systems supported",
-       "Yes"
-      ],
-      [
-       "Mobile operating systems supported",
-       "Android, iOS"
-      ]
-     ]
-    ],
-    [
-     "Operational conditions",
-     [
-      [
-       "Operating temperature (T-T)",
-       "0 - 40 °C"
-      ],
-      [
-       "Storage temperature (T-T)",
-       "-40 - 65 °C"
-      ],
-      [
-       "Storage relative humidity (H-H)",
-       "20 - 90%"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Keyboard dimensions (WxDxH)",
-       "121.5 x 439.55 x 20.7 mm"
-      ],
-      [
-       "Keyboard weight",
-       "730 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
    "sku": "580-BBVV",
    "name": "Dell Pro Compact Silent Keyboard and Mouse - KM555 - US International (QWERTY)",
    "brand": "Dell",
    "category": "Keyboards & mice",
    "price": 905,
    "stock": "in",
-   "available": 81,
+   "available": 79,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
