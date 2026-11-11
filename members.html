@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
 <title>Members | White Horse Clips</title>
 <link rel="icon" href="favicon.ico">
 <style>
@@ -21,13 +22,14 @@
   .msg{ min-height:1.4em; margin-top:1rem; font-size:.95rem; }
   .err{ color:#fca5a5; }
   .small{ font-size:.85rem; color:#888; }
+  #view{ position:fixed; inset:0; width:100%; height:100%; border:0; background:#fafaf9; }
   [hidden]{ display:none !important; }
 </style>
 </head>
 <body>
-<main>
+<main id="login" hidden>
   <h1>Members</h1>
-  <p id="intro">Log in with the email address White Horse Clips has on its members list. We email you a six-digit code; there is no password.</p>
+  <p>Log in with the email address White Horse Clips has on its members list. We email you a six-digit code; there is no password.</p>
   <form id="f1">
     <label for="email">Email address</label>
     <input id="email" type="email" autocomplete="email" required>
@@ -42,18 +44,49 @@
   <p class="msg" id="msg" aria-live="polite"></p>
   <p class="small">Not a member? <a href="contact.html">Contact us</a>. <a href="/">Back to whclips.co.za</a></p>
 </main>
+<iframe id="view" title="Members area" sandbox="allow-scripts" hidden></iframe>
 <script>
-  // The members pages are served by the access gate, not by this public site: only this form lives here.
+  // Only this form lives on the public site. The members pages are handed over by the access gate for a valid login and shown in the
+  // sealed frame above, so the address bar stays on whclips.co.za. The frame cannot reach this page's storage (no allow-same-origin).
   var W = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:8787' : 'https://whclips-access-gate.green-mouse-5a6e.workers.dev';
+  var KEY = 'whc_member';
   var $ = function (id) { return document.getElementById(id); };
   function say(t, err) { $('msg').textContent = t; $('msg').className = 'msg' + (err ? ' err' : ''); }
-  var q = new URLSearchParams(location.search);
-  if (q.get('out')) say('You are logged out.');
-  if (q.get('expired')) say('That login link expired. Ask for a new code.', true);
   function post(path, body) {
     return fetch(W + path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
-      .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); });
+      .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, status: r.status, j: j }; }); });
   }
+  function showLogin(note, err) {
+    $('view').hidden = true; $('view').srcdoc = ''; $('login').hidden = false; document.title = 'Members | White Horse Clips';
+    if (note) say(note, err);
+  }
+  function page() { return (location.hash || '#home').slice(1) || 'home'; }
+  function load() {
+    var token = localStorage.getItem(KEY);
+    if (!token) { showLogin(); return; }
+    if (page() === 'logout') {
+      localStorage.removeItem(KEY);
+      post('/api/members/logout', { token: token }).catch(function () {});
+      history.replaceState(null, '', location.pathname);
+      showLogin('You are logged out.');
+      return;
+    }
+    post('/api/members/page', { token: token, page: page() }).then(function (r) {
+      if (r.status === 401) { localStorage.removeItem(KEY); showLogin('Your login has expired. Ask for a new code.', true); return; }
+      if (!r.ok) { history.replaceState(null, '', location.pathname + '#home'); load(); return; }
+      var t = /<title>([^<]*)<\/title>/i.exec(r.j.html);
+      document.title = t ? t[1] : 'Members | White Horse Clips';
+      $('login').hidden = true; $('view').hidden = false; $('view').srcdoc = r.j.html.replace(/<\/body>/i, LINKS + '</body>');
+    }).catch(function () { showLogin('Could not reach the server. Try again.', true); });
+  }
+  // Links inside the frame (#home, #logout, #<page>) are passed up as a message; this page then changes its own address.
+  // The frame can only ask for a page name; anything else is ignored.
+  var LINKS = '<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href^=\'#\']");if(!a)return;e.preventDefault();parent.postMessage({whcGo:a.getAttribute("href").slice(1)},"*");});<\/script>';
+  window.addEventListener('message', function (e) {
+    if (e.source !== $('view').contentWindow || !e.data || typeof e.data.whcGo !== 'string' || !/^[a-z-]{1,40}$/.test(e.data.whcGo)) return;
+    if (location.hash === '#' + e.data.whcGo) load(); else location.hash = e.data.whcGo;
+  });
+  window.addEventListener('hashchange', load);
   $('f1').addEventListener('submit', function (e) {
     e.preventDefault(); $('b1').disabled = true; say('Sending…');
     post('/api/members/request', { email: $('email').value }).then(function (r) {
@@ -65,13 +98,17 @@
   $('f2').addEventListener('submit', function (e) {
     e.preventDefault(); $('b2').disabled = true; say('Checking…');
     post('/api/members/verify', { email: $('email').value, code: $('code').value.trim() }).then(function (r) {
-      if (!r.ok || !r.j.enter) { $('b2').disabled = false; say(r.j.error || 'That code did not work.', true); return; }
-      say('Logging you in…'); location.href = W + r.j.enter;
+      $('b2').disabled = false;
+      if (!r.ok || !r.j.token) { say(r.j.error || 'That code did not work.', true); return; }
+      localStorage.setItem(KEY, r.j.token);
+      $('f2').hidden = true; $('f1').hidden = false; $('code').value = ''; say('');
+      history.replaceState(null, '', location.pathname + '#home'); load();
     }).catch(function () { $('b2').disabled = false; say('Could not reach the server. Try again.', true); });
   });
   $('again').addEventListener('click', function (e) {
     e.preventDefault(); $('f2').hidden = true; $('f1').hidden = false; $('code').value = ''; say(''); $('email').focus();
   });
+  load();
 </script>
 </body>
 </html>
