@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-23T10:05:04+00:00",
- "pricedAt": "2026-11-23T10:05:04+00:00",
- "priceValidUntil": "2026-11-23T12:05:04+00:00",
+ "generatedAt": "2026-11-23T10:35:05+00:00",
+ "pricedAt": "2026-11-23T10:35:05+00:00",
+ "priceValidUntil": "2026-11-23T12:35:05+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 80,
+ "count": 81,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -6012,6 +6012,78 @@
       [
        "Compatible products",
        "- PowerEdge C6420 - BSN Recorder Node - PowerEdge R740 - PowerEdge R7515 - PowerEdge R740XD - PowerEdge R6515 - PowerEdge R640 - PowerEdge R440 - PowerEdge R740xd2 - PowerEdge R240 - PowerEdge R7415 - PowerEdge R6415 - PowerEdge R7425 - PowerEdge R540"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "sku": "400-BGED",
+   "name": "4TB 5.4K RPM SATA 6Gbps 512n 3.5in Cabled Hard Drive CK",
+   "brand": "Dell",
+   "category": "Storage & memory",
+   "price": 4994,
+   "stock": "in",
+   "available": 8,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 0.669,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990696/400-BGED_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990697/400-BGED_1.jpg"
+   ],
+   "description": "Increase the storage capacity of your system with the 4TB Hard Drive from Dell. Offering a rotational speed of 5400 RPM, this drive provides fast disk access.",
+   "strap": "4 TB, 5400 RPM, 3.5\", Serial ATA",
+   "warranty": "Inherit the warranty of the Dell system OR one year hardware warranty",
+   "highlights": [
+    [
+     "Interface",
+     "Serial ATA"
+    ],
+    [
+     "HDD capacity",
+     "4 TB"
+    ],
+    [
+     "HDD speed",
+     "5400 RPM"
+    ],
+    [
+     "HDD size",
+     "3.5\""
+    ]
+   ],
+   "specs": [],
+   "specGroups": [
+    [
+     "Features",
+     [
+      [
+       "HDD capacity",
+       "4 TB"
+      ],
+      [
+       "HDD speed",
+       "5400 RPM"
+      ],
+      [
+       "HDD size",
+       "3.5\""
+      ],
+      [
+       "Interface",
+       "Serial ATA"
+      ],
+      [
+       "Type",
+       "HDD"
+      ],
+      [
+       "HDD interface transfer rate",
+       "6 Gbit/s"
       ]
      ]
     ]
@@ -13831,8 +13903,8 @@
    "brand": "Dell",
    "category": "Laptops & desktops",
    "price": 43994,
-   "stock": "in",
-   "available": 9,
+   "stock": "low",
+   "available": 5,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.36,
@@ -19273,7 +19345,7 @@
    "category": "Laptops & desktops",
    "price": 23894,
    "stock": "in",
-   "available": 126,
+   "available": 125,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.19,
@@ -20581,7 +20653,7 @@
    "category": "Accessories",
    "price": 7934,
    "stock": "in",
-   "available": 62,
+   "available": 61,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.006,
