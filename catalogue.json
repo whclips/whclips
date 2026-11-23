@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-23T09:05:04+00:00",
- "pricedAt": "2026-11-23T09:05:04+00:00",
- "priceValidUntil": "2026-11-23T11:05:04+00:00",
+ "generatedAt": "2026-11-23T09:35:05+00:00",
+ "pricedAt": "2026-11-23T09:35:05+00:00",
+ "priceValidUntil": "2026-11-23T11:35:05+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 82,
+ "count": 80,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -3372,33 +3372,6 @@
     "https://cdn.shopify.com/s/files/1/0569/0307/3947/files/3093632B-D539-41FC-8229-835A6C99F654_382988.jpg?v=1775670608"
    ],
    "description": "Dell Pro 27 Adjustable Stand Monitor",
-   "strap": "",
-   "warranty": "",
-   "highlights": [],
-   "specs": [],
-   "specGroups": []
-  },
-  {
-   "sku": "210-BTQB",
-   "name": "Dell Pro 27 QHD Monitor",
-   "brand": "Dell",
-   "category": "Monitors & stands",
-   "price": 4794,
-   "stock": "low",
-   "available": 3,
-   "freeDelivery": true,
-   "digital": false,
-   "shipKg": 4.92,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://cdn.shopify.com/s/files/1/0569/0307/3947/files/22d5f105-fe25-465c-979a-68b302f1dc12-2.jpg?v=1773898471",
-    "https://cdn.shopify.com/s/files/1/0569/0307/3947/files/22D5F105-FE25-465C-979A-68B302F1DC12_378566.jpg?v=1773898476"
-   ],
-   "description": "Dell Pro 27 QHD Monitor",
    "strap": "",
    "warranty": "",
    "highlights": [],
@@ -7820,7 +7793,7 @@
    "category": "Monitors & stands",
    "price": 3194,
    "stock": "low",
-   "available": 4,
+   "available": 3,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 10,
@@ -8099,7 +8072,7 @@
    "category": "Cables, power & docks",
    "price": 1694,
    "stock": "in",
-   "available": 38,
+   "available": 36,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 1,
@@ -8441,7 +8414,7 @@
    "category": "Keyboards & mice",
    "price": 1912,
    "stock": "low",
-   "available": 5,
+   "available": 4,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.787,
@@ -8572,180 +8545,6 @@
       [
        "OS Required",
        "Windows 11 or later"
-      ]
-     ]
-    ],
-    [
-     "Manufacturer Warranty",
-     [
-      [
-       "Service & Support",
-       "Limited warranty - 2 years"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "545-BBFB",
-   "name": "Alienware Wireless Gaming Mouse - AW620M (Dark Side of the Moon)",
-   "brand": "Dell",
-   "category": "Keyboards & mice",
-   "price": 1644,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": false,
-   "digital": false,
-   "shipKg": 0.091,
-   "badges": [
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990704/545-BBFB_0.jpg"
-   ],
-   "description": "Alienware Wireless Gaming Mouse - AW620M (Dark Side of the Moon)",
-   "strap": "",
-   "warranty": "Limited warranty - 2 years",
-   "highlights": [
-    [
-     "Interface",
-     "USB, 2.4 GHz"
-    ],
-    [
-     "Connectivity Technology",
-     "Wireless, wired"
-    ],
-    [
-     "Movement Resolution",
-     "26000 dpi"
-    ],
-    [
-     "Buttons Qty",
-     "7"
-    ],
-    [
-     "Cable Length",
-     "2 m"
-    ],
-    [
-     "Weight",
-     "91 g"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "General",
-     [
-      [
-       "Device Type",
-       "Mouse"
-      ],
-      [
-       "Orientation",
-       "Right-handed"
-      ],
-      [
-       "Gaming",
-       "Yes"
-      ],
-      [
-       "Width",
-       "7.78 cm"
-      ],
-      [
-       "Depth",
-       "13.15 cm"
-      ],
-      [
-       "Height",
-       "4.15 cm"
-      ],
-      [
-       "Weight",
-       "91 g"
-      ],
-      [
-       "Colour",
-       "Dark Side of the Moon"
-      ],
-      [
-       "Available Colours",
-       "Lunar light, dark side of the moon"
-      ]
-     ]
-    ],
-    [
-     "Input Device",
-     [
-      [
-       "Connectivity Technology",
-       "Wireless, wired"
-      ],
-      [
-       "Interface",
-       "USB, 2.4 GHz"
-      ],
-      [
-       "Movement Detection Technology",
-       "Optical"
-      ],
-      [
-       "Buttons Qty",
-       "7"
-      ],
-      [
-       "Movement Resolution",
-       "26000 dpi"
-      ],
-      [
-       "Performance",
-       "50 G maximum acceleration, polling rate: 1000 Hz, 650 inches per second"
-      ],
-      [
-       "Cable Length",
-       "2 m"
-      ],
-      [
-       "Features",
-       "Auto-calibration, braided cable, 7 programmable buttons, magnetic snap, 5 on-the-fly DPI settings, detachable cable, 16.8 million AlienFX lighting, fast charging, 70 million clicks"
-      ]
-     ]
-    ],
-    [
-     "Expansion / Connectivity",
-     [
-      [
-       "Interfaces",
-       "1 x USB - 4 pin USB Type A"
-      ]
-     ]
-    ],
-    [
-     "Battery",
-     [
-      [
-       "Technology",
-       "Lithium polymer"
-      ],
-      [
-       "Run Time (Up To)",
-       "140 hour(s)"
-      ]
-     ]
-    ],
-    [
-     "Software / System Requirements",
-     [
-      [
-       "Software Included",
-       "Alienware Command Center"
-      ],
-      [
-       "OS Required",
-       "Windows 10 or later"
       ]
      ]
     ],
@@ -11059,7 +10858,7 @@
    "category": "Keyboards & mice",
    "price": 494,
    "stock": "in",
-   "available": 250,
+   "available": 249,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.5,
@@ -12285,7 +12084,7 @@
    "category": "Headsets, audio & webcams",
    "price": 2745,
    "stock": "low",
-   "available": 3,
+   "available": 2,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.299,
@@ -19474,7 +19273,7 @@
    "category": "Laptops & desktops",
    "price": 23894,
    "stock": "in",
-   "available": 129,
+   "available": 126,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.19,
@@ -20128,7 +19927,7 @@
    "category": "Laptops & desktops",
    "price": 28794,
    "stock": "in",
-   "available": 195,
+   "available": 196,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.24,
