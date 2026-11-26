@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-26T06:05:03+00:00",
- "pricedAt": "2026-11-26T06:05:03+00:00",
- "priceValidUntil": "2026-11-26T08:05:03+00:00",
+ "generatedAt": "2026-11-26T06:35:04+00:00",
+ "pricedAt": "2026-11-26T06:35:04+00:00",
+ "priceValidUntil": "2026-11-26T08:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 80,
+ "count": 79,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -17593,33 +17593,6 @@
    ]
   },
   {
-   "sku": "CF8Q5EA",
-   "name": "HP EliteBook 8 G1i 14 inch Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 14WUXGAAGLED300UWVAf5MPIRISP+LP60HzbLCD Windows 11 Pro Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
-   "brand": "HP",
-   "category": "Laptops & desktops",
-   "price": 42494,
-   "stock": "in",
-   "available": 76,
-   "freeDelivery": true,
-   "digital": false,
-   "shipKg": 1.39,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014713/CF8Q5EA_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014716/CF8Q5EA_1.webp",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014718/CF8Q5EA_2.webp",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014719/CF8Q5EA_3.webp"
-   ],
-   "description": "HP EliteBook 8 G1i 14 inch Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 14WUXGAAGLED300UWVAf5MPIRISP+LP60HzbLCD Windows 11 Pro 64 Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
-   "strap": "",
-   "warranty": "3-year manufacturer warranty",
-   "highlights": [],
-   "specs": [],
-   "specGroups": []
-  },
-  {
    "sku": "CK8G4EA",
    "name": "HP EliteBook 6 G1i 16 inch LTE Notebook AI Ultra 7 255U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 16.0WUXGAAG300UWVAf5MPIR60HzbntLCD Windows 11 Pro Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
    "brand": "HP",
@@ -18792,7 +18765,7 @@
    "category": "Laptops & desktops",
    "price": 23894,
    "stock": "in",
-   "available": 99,
+   "available": 29,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.19,
