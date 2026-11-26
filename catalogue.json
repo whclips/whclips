@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-26T08:05:04+00:00",
- "pricedAt": "2026-11-26T08:05:04+00:00",
- "priceValidUntil": "2026-11-26T10:05:04+00:00",
+ "generatedAt": "2026-11-26T08:35:04+00:00",
+ "pricedAt": "2026-11-26T08:35:04+00:00",
+ "priceValidUntil": "2026-11-26T10:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
@@ -7027,7 +7027,7 @@
    "category": "Bags & cases",
    "price": 515,
    "stock": "in",
-   "available": 225,
+   "available": 213,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.6,
@@ -7659,7 +7659,7 @@
    "category": "Cables, power & docks",
    "price": 1614,
    "stock": "in",
-   "available": 77,
+   "available": 76,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.094,
@@ -10573,7 +10573,7 @@
    "category": "Keyboards & mice",
    "price": 565,
    "stock": "in",
-   "available": 307,
+   "available": 302,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.6,
@@ -10930,7 +10930,7 @@
    "category": "Keyboards & mice",
    "price": 494,
    "stock": "in",
-   "available": 236,
+   "available": 235,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.5,
@@ -11418,8 +11418,8 @@
    "brand": "Dell",
    "category": "Keyboards & mice",
    "price": 905,
-   "stock": "in",
-   "available": 6,
+   "stock": "low",
+   "available": 5,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.406,
@@ -12144,144 +12144,6 @@
       [
        "64-bit computing",
        "Yes"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
-   "sku": "722-BBBI",
-   "name": "Dell UltraSharp Webcam - WB7022",
-   "brand": "Dell",
-   "category": "Headsets, audio & webcams",
-   "price": 2745,
-   "stock": "low",
-   "available": 1,
-   "freeDelivery": true,
-   "digital": false,
-   "shipKg": 0.299,
-   "badges": [
-    "Best seller",
-    "Bargain"
-   ],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990718/722-BBBI_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990721/722-BBBI_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990718/722-BBBI_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990722/722-BBBI_3.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990722/722-BBBI_4.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1791990721/722-BBBI_5.jpg"
-   ],
-   "description": "Dell UltraSharp Webcam Experience best image quality in its class with the world’s most intelligent 4K webcam.",
-   "strap": "8.3 MP, 3840 x 2160 pixels, Full HD, 60 fps, 5x, USB",
-   "warranty": "3 Years",
-   "highlights": [
-    [
-     "Interface",
-     "USB"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Megapixel (approx.)",
-     "8.3 MP"
-    ],
-    [
-     "Maximum video resolution",
-     "3840 x 2160 pixels"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Performance",
-     [
-      [
-       "Megapixel (approx.)",
-       "8.3 MP"
-      ],
-      [
-       "Maximum video resolution",
-       "3840 x 2160 pixels"
-      ],
-      [
-       "Maximum frame rate",
-       "60 fps"
-      ],
-      [
-       "Camera HD type",
-       "Full HD"
-      ],
-      [
-       "Auto focus",
-       "Yes"
-      ],
-      [
-       "Zoom capability",
-       "Yes"
-      ],
-      [
-       "Digital zoom",
-       "5x"
-      ],
-      [
-       "Noise reduction",
-       "Yes"
-      ],
-      [
-       "Automatic light correction",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Design",
-     [
-      [
-       "Interface",
-       "USB"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "Housing material",
-       "Aluminium"
-      ],
-      [
-       "Mounting type",
-       "Clip"
-      ],
-      [
-       "Sensor type",
-       "CMOS"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Width",
-       "42 mm"
-      ],
-      [
-       "Depth",
-       "90 mm"
-      ]
-     ]
-    ],
-    [
-     "Microphone",
-     [
-      [
-       "Built-in microphone",
-       "No"
       ]
      ]
     ]
@@ -16905,7 +16767,7 @@
    "category": "Laptops & desktops",
    "price": 58994,
    "stock": "in",
-   "available": 32,
+   "available": 30,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 1.53,
@@ -17591,6 +17453,33 @@
      ]
     ]
    ]
+  },
+  {
+   "sku": "CF8Q5EA",
+   "name": "HP EliteBook 8 G1i 14 inch Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 14WUXGAAGLED300UWVAf5MPIRISP+LP60HzbLCD Windows 11 Pro Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
+   "brand": "HP",
+   "category": "Laptops & desktops",
+   "price": 42494,
+   "stock": "in",
+   "available": 76,
+   "freeDelivery": true,
+   "digital": false,
+   "shipKg": 1.39,
+   "badges": [],
+   "attributes": [],
+   "promo": false,
+   "images": [
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014713/CF8Q5EA_0.jpg",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014716/CF8Q5EA_1.webp",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014718/CF8Q5EA_2.webp",
+    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1792014719/CF8Q5EA_3.webp"
+   ],
+   "description": "HP EliteBook 8 G1i 14 inch Notebook AI Ultra 5 225U 16GB (1x16GB) DDR5 5600 512GB PCIe NVMe SSD 14WUXGAAGLED300UWVAf5MPIRISP+LP60HzbLCD Windows 11 Pro 64 Wi Fi 7 +BT 5.4 Fingerprint Sensor HP Tamper Lock HP 3y NBD Onsite Travel NB Bdl HW Supp",
+   "strap": "",
+   "warranty": "3-year manufacturer warranty",
+   "highlights": [],
+   "specs": [],
+   "specGroups": []
   },
   {
    "sku": "CK8G4EA",
