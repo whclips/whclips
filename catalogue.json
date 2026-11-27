@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-27T12:05:04+00:00",
- "pricedAt": "2026-11-27T12:05:04+00:00",
- "priceValidUntil": "2026-11-27T14:05:04+00:00",
+ "generatedAt": "2026-11-27T12:35:04+00:00",
+ "pricedAt": "2026-11-27T12:35:04+00:00",
+ "priceValidUntil": "2026-11-27T14:35:04+00:00",
  "refreshHours": 1,
  "currency": "ZAR",
  "pricesIncludeVat": false,
  "vatNote": "Prices are in South African Rand. White Horse Clips (Pty) Ltd is not registered for VAT; no VAT is charged.",
- "count": 78,
+ "count": 77,
  "items": [
   {
    "sku": "210-ASMT-16675907",
@@ -3137,7 +3137,7 @@
    "category": "Cables, power & docks",
    "price": 5987,
    "stock": "in",
-   "available": 46,
+   "available": 44,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.567,
@@ -3358,7 +3358,7 @@
    "category": "Monitors & stands",
    "price": 3594,
    "stock": "in",
-   "available": 16,
+   "available": 15,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 4.83,
@@ -7512,121 +7512,6 @@
    ]
   },
   {
-   "sku": "470-BDNL",
-   "name": "Dell DisplayPort 1.4 Cable - CB325D",
-   "brand": "Dell",
-   "category": "Cables, power & docks",
-   "price": 804,
-   "stock": "in",
-   "available": 72,
-   "freeDelivery": true,
-   "digital": false,
-   "shipKg": 0.091,
-   "badges": [],
-   "attributes": [],
-   "promo": false,
-   "images": [
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNL_0.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNL_1.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566265/470-BDNL_2.jpg",
-    "https://res.cloudinary.com/imwhaonu/image/upload/w_1200,c_limit,q_auto,f_auto/v1789566266/470-BDNL_3.jpg"
-   ],
-   "description": "DELL CB325D. Cable length: 1.8 m, Connector 1: DisplayPort, Connector 2: DisplayPort. Weight: 91 g",
-   "strap": "1.8 m, DisplayPort, DisplayPort, Male, Male, 7680 x 4320 pixels",
-   "warranty": "1 Year",
-   "highlights": [
-    [
-     "Maximum refresh rate",
-     "120 Hz"
-    ],
-    [
-     "Cable length",
-     "1.8 m"
-    ],
-    [
-     "Connector 1",
-     "DisplayPort"
-    ],
-    [
-     "Connector 2",
-     "DisplayPort"
-    ],
-    [
-     "Product colour",
-     "Black"
-    ],
-    [
-     "Weight",
-     "91 g"
-    ]
-   ],
-   "specs": [],
-   "specGroups": [
-    [
-     "Features",
-     [
-      [
-       "Connector 1 form factor",
-       "Straight"
-      ],
-      [
-       "Connector 2 form factor",
-       "Straight"
-      ],
-      [
-       "DisplayPort version",
-       "1.4"
-      ],
-      [
-       "Maximum resolution",
-       "7680 x 4320 pixels"
-      ],
-      [
-       "Maximum refresh rate",
-       "120 Hz"
-      ],
-      [
-       "Cable length",
-       "1.8 m"
-      ],
-      [
-       "Connector 1",
-       "DisplayPort"
-      ],
-      [
-       "Connector 2",
-       "DisplayPort"
-      ],
-      [
-       "Connector 1 gender",
-       "Male"
-      ],
-      [
-       "Connector 2 gender",
-       "Male"
-      ],
-      [
-       "Product colour",
-       "Black"
-      ],
-      [
-       "Plug and Play",
-       "Yes"
-      ]
-     ]
-    ],
-    [
-     "Weight & dimensions",
-     [
-      [
-       "Weight",
-       "91 g"
-      ]
-     ]
-    ]
-   ]
-  },
-  {
    "sku": "470-BFBN",
    "name": "Dell Pro 4-in-1 USB-C Travel Hub-DA225",
    "brand": "Dell",
@@ -10930,7 +10815,7 @@
    "category": "Keyboards & mice",
    "price": 494,
    "stock": "in",
-   "available": 235,
+   "available": 234,
    "freeDelivery": false,
    "digital": false,
    "shipKg": 0.5,
@@ -17948,7 +17833,7 @@
    "category": "Laptops & desktops",
    "price": 23894,
    "stock": "in",
-   "available": 26,
+   "available": 25,
    "freeDelivery": true,
    "digital": false,
    "shipKg": 0.19,
